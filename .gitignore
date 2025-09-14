@@ -1,0 +1,40 @@
+# Build results
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.tlog
+*.log
+*.pch
+
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Backup and temporary files
+*.tmp
+*.bak
+*.cache
+*.ilk
+
+# Output folders
+Debug/
+Release/
+x64/
+x86/
+ipch/
