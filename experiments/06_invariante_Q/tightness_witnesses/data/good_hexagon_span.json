@@ -1,0 +1,56 @@
+[
+  {
+    "n": 8,
+    "dim_Z_bulk": 101,
+    "hexagons_scanned": 164,
+    "good": 137,
+    "bad": 27,
+    "rank_good_span": 101,
+    "good_hexagons_span_Zbulk": true,
+    "spanned_after_n_good": 137,
+    "params": {
+      "max_hex": 4000,
+      "max_internal": 4,
+      "max_w": 20,
+      "budget": 400000,
+      "seed": 0
+    },
+    "elapsed_s": 113.4
+  },
+  {
+    "n": 10,
+    "dim_Z_bulk": 185,
+    "hexagons_scanned": 521,
+    "good": 501,
+    "bad": 20,
+    "rank_good_span": 185,
+    "good_hexagons_span_Zbulk": true,
+    "spanned_after_n_good": 501,
+    "params": {
+      "max_hex": 4000,
+      "max_internal": 4,
+      "max_w": 20,
+      "budget": 400000,
+      "seed": 0
+    },
+    "elapsed_s": 71.5
+  },
+  {
+    "n": 12,
+    "dim_Z_bulk": 293,
+    "hexagons_scanned": 1161,
+    "good": 1141,
+    "bad": 20,
+    "rank_good_span": 293,
+    "good_hexagons_span_Zbulk": true,
+    "spanned_after_n_good": 1141,
+    "params": {
+      "max_hex": 4000,
+      "max_internal": 4,
+      "max_w": 20,
+      "budget": 400000,
+      "seed": 0
+    },
+    "elapsed_s": 94.7
+  }
+]

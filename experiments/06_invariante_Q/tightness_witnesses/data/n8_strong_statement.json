@@ -1,0 +1,17 @@
+{
+  "n": 8,
+  "ball": 2000011,
+  "budget": 60000000,
+  "n_hexagons_bulk": 2264,
+  "realized_in_ball": 2198,
+  "residue": 66,
+  "residue_flip_realizable": 66,
+  "residue_not_flip_realizable": 0,
+  "residue_inconclusive": 0,
+  "total_flip_realizable": 2264,
+  "strong_statement_holds": true,
+  "not_flip_cells": [],
+  "inconclusive_cells": [],
+  "seconds": 6697.0,
+  "note": "os 4 indecididos com orcamento 60M nos foram certificados por uma bola de BFS de 1.56M tours com SEMENTE DIFERENTE, em 110s (data/n8_last4.log). Todos os 2264 sao flip-realizaveis."
+}

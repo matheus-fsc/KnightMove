@@ -1,0 +1,554 @@
+{
+  "scan": [
+    {
+      "board": "3x3",
+      "V": 9,
+      "E": 8,
+      "beta1": 0,
+      "c_Punc": 9,
+      "bulk_connected": false,
+      "rank_y_pred": 0,
+      "Q_paper": 0
+    },
+    {
+      "board": "3x4",
+      "V": 12,
+      "E": 14,
+      "beta1": 3,
+      "c_Punc": 7,
+      "bulk_connected": false,
+      "rank_y_pred": 2,
+      "Q_paper": 1
+    },
+    {
+      "board": "3x5",
+      "V": 15,
+      "E": 20,
+      "beta1": 6,
+      "c_Punc": 6,
+      "bulk_connected": false,
+      "rank_y_pred": 3,
+      "Q_paper": 2
+    },
+    {
+      "board": "3x6",
+      "V": 18,
+      "E": 26,
+      "beta1": 9,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "3x7",
+      "V": 21,
+      "E": 32,
+      "beta1": 12,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "3x8",
+      "V": 24,
+      "E": 38,
+      "beta1": 15,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "3x9",
+      "V": 27,
+      "E": 44,
+      "beta1": 18,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "3x10",
+      "V": 30,
+      "E": 50,
+      "beta1": 21,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "3x11",
+      "V": 33,
+      "E": 56,
+      "beta1": 24,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "3x12",
+      "V": 36,
+      "E": 62,
+      "beta1": 27,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x4",
+      "V": 16,
+      "E": 24,
+      "beta1": 9,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x5",
+      "V": 20,
+      "E": 34,
+      "beta1": 15,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x6",
+      "V": 24,
+      "E": 44,
+      "beta1": 21,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x7",
+      "V": 28,
+      "E": 54,
+      "beta1": 27,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x8",
+      "V": 32,
+      "E": 64,
+      "beta1": 33,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x9",
+      "V": 36,
+      "E": 74,
+      "beta1": 39,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x10",
+      "V": 40,
+      "E": 84,
+      "beta1": 45,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x11",
+      "V": 44,
+      "E": 94,
+      "beta1": 51,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "4x12",
+      "V": 48,
+      "E": 104,
+      "beta1": 57,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "5x5",
+      "V": 25,
+      "E": 48,
+      "beta1": 24,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "5x6",
+      "V": 30,
+      "E": 62,
+      "beta1": 33,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "5x7",
+      "V": 35,
+      "E": 76,
+      "beta1": 42,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "5x8",
+      "V": 40,
+      "E": 90,
+      "beta1": 51,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "5x9",
+      "V": 45,
+      "E": 104,
+      "beta1": 60,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "5x10",
+      "V": 50,
+      "E": 118,
+      "beta1": 69,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "5x11",
+      "V": 55,
+      "E": 132,
+      "beta1": 78,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "5x12",
+      "V": 60,
+      "E": 146,
+      "beta1": 87,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "6x6",
+      "V": 36,
+      "E": 80,
+      "beta1": 45,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "6x7",
+      "V": 42,
+      "E": 98,
+      "beta1": 57,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "6x8",
+      "V": 48,
+      "E": 116,
+      "beta1": 69,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "6x9",
+      "V": 54,
+      "E": 134,
+      "beta1": 81,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "6x10",
+      "V": 60,
+      "E": 152,
+      "beta1": 93,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "6x11",
+      "V": 66,
+      "E": 170,
+      "beta1": 105,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "6x12",
+      "V": 72,
+      "E": 188,
+      "beta1": 117,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "7x7",
+      "V": 49,
+      "E": 120,
+      "beta1": 72,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "7x8",
+      "V": 56,
+      "E": 142,
+      "beta1": 87,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "7x9",
+      "V": 63,
+      "E": 164,
+      "beta1": 102,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "7x10",
+      "V": 70,
+      "E": 186,
+      "beta1": 117,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "7x11",
+      "V": 77,
+      "E": 208,
+      "beta1": 132,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "7x12",
+      "V": 84,
+      "E": 230,
+      "beta1": 147,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "8x8",
+      "V": 64,
+      "E": 168,
+      "beta1": 105,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "8x9",
+      "V": 72,
+      "E": 194,
+      "beta1": 123,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "8x10",
+      "V": 80,
+      "E": 220,
+      "beta1": 141,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "8x11",
+      "V": 88,
+      "E": 246,
+      "beta1": 159,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "8x12",
+      "V": 96,
+      "E": 272,
+      "beta1": 177,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "9x9",
+      "V": 81,
+      "E": 224,
+      "beta1": 144,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "9x10",
+      "V": 90,
+      "E": 254,
+      "beta1": 165,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "9x11",
+      "V": 99,
+      "E": 284,
+      "beta1": 186,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "9x12",
+      "V": 108,
+      "E": 314,
+      "beta1": 207,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "10x10",
+      "V": 100,
+      "E": 288,
+      "beta1": 189,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "10x11",
+      "V": 110,
+      "E": 322,
+      "beta1": 213,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "10x12",
+      "V": 120,
+      "E": 356,
+      "beta1": 237,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "11x11",
+      "V": 121,
+      "E": 360,
+      "beta1": 240,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "11x12",
+      "V": 132,
+      "E": 398,
+      "beta1": 267,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    },
+    {
+      "board": "12x12",
+      "V": 144,
+      "E": 440,
+      "beta1": 297,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "rank_y_pred": 4,
+      "Q_paper": 3
+    }
+  ]
+}

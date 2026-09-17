@@ -1,0 +1,210 @@
+{
+  "n": 8,
+  "V": 64,
+  "E": 168,
+  "beta1": 105,
+  "n_tours": 4000,
+  "tour_mode": "amostrado (K=4000)",
+  "rank_ham": 102,
+  "deficit": 3,
+  "dim_cut_space": 63,
+  "dim_cnperp": 66,
+  "quotient_dim": 3,
+  "max_weight_searched": 4,
+  "n_low_weight_vectors": 126,
+  "weight_histogram": {
+    "2": {
+      "0": 4,
+      "r1+r2": 4,
+      "r1+r3": 4,
+      "r1+r4": 4,
+      "r2+r3": 4,
+      "r2+r4": 4,
+      "r3+r4": 4
+    },
+    "3": {
+      "0": 8
+    },
+    "4": {
+      "0": 26,
+      "r2+r3": 8,
+      "r2+r4": 8,
+      "r3+r4": 8,
+      "r1+r3": 8,
+      "r1+r4": 8,
+      "r1+r2+r3+r4": 16,
+      "r1+r2": 8
+    }
+  },
+  "minimal_witnesses": {
+    "r1+r2": {
+      "min_weight": 2,
+      "n_minimal": 4,
+      "n_minimal_bulk": 0,
+      "example": [
+        "A8-C7",
+        "H8-F7"
+      ],
+      "example_levels": [
+        0,
+        0
+      ],
+      "bulk_example": null
+    },
+    "r1+r2+r3+r4": {
+      "min_weight": 4,
+      "n_minimal": 16,
+      "n_minimal_bulk": 0,
+      "example": [
+        "A8-C7",
+        "H8-F7",
+        "B3-A1",
+        "G3-H1"
+      ],
+      "example_levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bulk_example": null
+    },
+    "r1+r3": {
+      "min_weight": 2,
+      "n_minimal": 4,
+      "n_minimal_bulk": 0,
+      "example": [
+        "A8-C7",
+        "B3-A1"
+      ],
+      "example_levels": [
+        0,
+        0
+      ],
+      "bulk_example": null
+    },
+    "r1+r4": {
+      "min_weight": 2,
+      "n_minimal": 4,
+      "n_minimal_bulk": 0,
+      "example": [
+        "A8-C7",
+        "G3-H1"
+      ],
+      "example_levels": [
+        0,
+        0
+      ],
+      "bulk_example": null
+    },
+    "r2+r3": {
+      "min_weight": 2,
+      "n_minimal": 4,
+      "n_minimal_bulk": 0,
+      "example": [
+        "H8-F7",
+        "B3-A1"
+      ],
+      "example_levels": [
+        0,
+        0
+      ],
+      "bulk_example": null
+    },
+    "r2+r4": {
+      "min_weight": 2,
+      "n_minimal": 4,
+      "n_minimal_bulk": 0,
+      "example": [
+        "H8-F7",
+        "G3-H1"
+      ],
+      "example_levels": [
+        0,
+        0
+      ],
+      "bulk_example": null
+    },
+    "r3+r4": {
+      "min_weight": 2,
+      "n_minimal": 4,
+      "n_minimal_bulk": 0,
+      "example": [
+        "B3-A1",
+        "G3-H1"
+      ],
+      "example_levels": [
+        0,
+        0
+      ],
+      "bulk_example": null
+    }
+  },
+  "maximal_representatives": {
+    "r1+r2": {
+      "max_weight": 166,
+      "equals_complement_of_min": true,
+      "local_search_best": 166,
+      "fraction_of_E": 0.9881,
+      "c3_min_ratio_single_vertex": 0.5,
+      "c3_violating_vertices": 0,
+      "certified_optimal": true
+    },
+    "r1+r2+r3+r4": {
+      "max_weight": 164,
+      "equals_complement_of_min": true,
+      "local_search_best": 164,
+      "fraction_of_E": 0.9762,
+      "c3_min_ratio_single_vertex": 0.5,
+      "c3_violating_vertices": 0,
+      "certified_optimal": true
+    },
+    "r1+r3": {
+      "max_weight": 166,
+      "equals_complement_of_min": true,
+      "local_search_best": 166,
+      "fraction_of_E": 0.9881,
+      "c3_min_ratio_single_vertex": 0.5,
+      "c3_violating_vertices": 0,
+      "certified_optimal": true
+    },
+    "r1+r4": {
+      "max_weight": 166,
+      "equals_complement_of_min": true,
+      "local_search_best": 166,
+      "fraction_of_E": 0.9881,
+      "c3_min_ratio_single_vertex": 0.5,
+      "c3_violating_vertices": 0,
+      "certified_optimal": true
+    },
+    "r2+r3": {
+      "max_weight": 166,
+      "equals_complement_of_min": true,
+      "local_search_best": 166,
+      "fraction_of_E": 0.9881,
+      "c3_min_ratio_single_vertex": 0.5,
+      "c3_violating_vertices": 0,
+      "certified_optimal": true
+    },
+    "r2+r4": {
+      "max_weight": 166,
+      "equals_complement_of_min": true,
+      "local_search_best": 166,
+      "fraction_of_E": 0.9881,
+      "c3_min_ratio_single_vertex": 0.5,
+      "c3_violating_vertices": 0,
+      "certified_optimal": true
+    },
+    "r3+r4": {
+      "max_weight": 166,
+      "equals_complement_of_min": true,
+      "local_search_best": 166,
+      "fraction_of_E": 0.9881,
+      "c3_min_ratio_single_vertex": 0.5,
+      "c3_violating_vertices": 0,
+      "certified_optimal": true
+    }
+  },
+  "unknown_witnesses": [],
+  "elapsed_s": 8.3
+}

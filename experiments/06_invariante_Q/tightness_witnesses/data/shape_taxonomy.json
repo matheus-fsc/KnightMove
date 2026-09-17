@@ -1,0 +1,4875 @@
+{
+  "n_tours": 9862,
+  "n_shapes": 128,
+  "base_components": 1,
+  "n_nao_realizadas": 0,
+  "n_essenciais": 0,
+  "n_redundantes": 128,
+  "greedy_min_shapes": 39,
+  "shapes": [
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "bbox": "3x4",
+      "n_hex": 10,
+      "orbit_size": 1,
+      "matching_ok": 5576,
+      "n_flips": 900,
+      "tours_touched": 1682,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "bbox": "3x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1188,
+      "n_flips": 430,
+      "tours_touched": 860,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "bbox": "4x3",
+      "n_hex": 10,
+      "orbit_size": 1,
+      "matching_ok": 5576,
+      "n_flips": 900,
+      "tours_touched": 1682,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1703,
+      "n_flips": 408,
+      "tours_touched": 815,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "bbox": "4x4",
+      "n_hex": 8,
+      "orbit_size": 1,
+      "matching_ok": 2533,
+      "n_flips": 400,
+      "tours_touched": 777,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "bbox": "3x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 2242,
+      "n_flips": 770,
+      "tours_touched": 1412,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1798,
+      "n_flips": 528,
+      "tours_touched": 1052,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1270,
+      "n_flips": 460,
+      "tours_touched": 920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "bbox": "3x6",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 2968,
+      "n_flips": 394,
+      "tours_touched": 764,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x4",
+      "n_hex": 8,
+      "orbit_size": 1,
+      "matching_ok": 2533,
+      "n_flips": 400,
+      "tours_touched": 777,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1966,
+      "n_flips": 406,
+      "tours_touched": 802,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1398,
+      "n_flips": 623,
+      "tours_touched": 1242,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "bbox": "5x3",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1188,
+      "n_flips": 430,
+      "tours_touched": 860,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1703,
+      "n_flips": 408,
+      "tours_touched": 815,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1966,
+      "n_flips": 406,
+      "tours_touched": 802,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1798,
+      "n_flips": 528,
+      "tours_touched": 1052,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1398,
+      "n_flips": 623,
+      "tours_touched": 1242,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x3",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 2242,
+      "n_flips": 770,
+      "tours_touched": 1412,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "bbox": "6x3",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 2968,
+      "n_flips": 394,
+      "tours_touched": 764,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1270,
+      "n_flips": 460,
+      "tours_touched": 920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "bbox": "3x4",
+      "n_hex": 12,
+      "orbit_size": 1,
+      "matching_ok": 5952,
+      "n_flips": 1004,
+      "tours_touched": 1920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x4",
+      "n_hex": 8,
+      "orbit_size": 1,
+      "matching_ok": 2533,
+      "n_flips": 400,
+      "tours_touched": 777,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "bbox": "3x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1188,
+      "n_flips": 430,
+      "tours_touched": 860,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1028,
+      "n_flips": 438,
+      "tours_touched": 860,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "bbox": "3x6",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 2968,
+      "n_flips": 394,
+      "tours_touched": 764,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "bbox": "3x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 2242,
+      "n_flips": 770,
+      "tours_touched": 1412,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1270,
+      "n_flips": 460,
+      "tours_touched": 920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "bbox": "4x3",
+      "n_hex": 12,
+      "orbit_size": 1,
+      "matching_ok": 5952,
+      "n_flips": 1004,
+      "tours_touched": 1920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x4",
+      "n_hex": 8,
+      "orbit_size": 1,
+      "matching_ok": 2533,
+      "n_flips": 400,
+      "tours_touched": 777,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x3",
+      "n_hex": 10,
+      "orbit_size": 1,
+      "matching_ok": 5576,
+      "n_flips": 900,
+      "tours_touched": 1682,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x4",
+      "n_hex": 8,
+      "orbit_size": 1,
+      "matching_ok": 2533,
+      "n_flips": 400,
+      "tours_touched": 777,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1643,
+      "n_flips": 650,
+      "tours_touched": 1296,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 1285,
+      "n_flips": 265,
+      "tours_touched": 522,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1236,
+      "n_flips": 266,
+      "tours_touched": 527,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 721,
+      "n_flips": 176,
+      "tours_touched": 352,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1966,
+      "n_flips": 406,
+      "tours_touched": 802,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1643,
+      "n_flips": 650,
+      "tours_touched": 1296,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1703,
+      "n_flips": 408,
+      "tours_touched": 815,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1028,
+      "n_flips": 438,
+      "tours_touched": 860,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1703,
+      "n_flips": 408,
+      "tours_touched": 815,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1643,
+      "n_flips": 650,
+      "tours_touched": 1296,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 980,
+      "n_flips": 232,
+      "tours_touched": 464,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 2244,
+      "n_flips": 382,
+      "tours_touched": 738,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 946,
+      "n_flips": 400,
+      "tours_touched": 800,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 520,
+      "n_flips": 164,
+      "tours_touched": 324,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1270,
+      "n_flips": 460,
+      "tours_touched": 920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 570,
+      "n_flips": 174,
+      "tours_touched": 344,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1236,
+      "n_flips": 266,
+      "tours_touched": 527,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 1285,
+      "n_flips": 265,
+      "tours_touched": 522,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 980,
+      "n_flips": 232,
+      "tours_touched": 464,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 980,
+      "n_flips": 232,
+      "tours_touched": 464,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 721,
+      "n_flips": 176,
+      "tours_touched": 352,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x3",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 1656,
+      "n_flips": 316,
+      "tours_touched": 624,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 528,
+      "n_flips": 174,
+      "tours_touched": 344,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1398,
+      "n_flips": 623,
+      "tours_touched": 1242,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 1285,
+      "n_flips": 265,
+      "tours_touched": 522,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 520,
+      "n_flips": 164,
+      "tours_touched": 324,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "bbox": "3x4",
+      "n_hex": 10,
+      "orbit_size": 1,
+      "matching_ok": 5576,
+      "n_flips": 900,
+      "tours_touched": 1682,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "bbox": "3x6",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 1656,
+      "n_flips": 316,
+      "tours_touched": 624,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1703,
+      "n_flips": 408,
+      "tours_touched": 815,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "bbox": "4x4",
+      "n_hex": 8,
+      "orbit_size": 1,
+      "matching_ok": 2533,
+      "n_flips": 400,
+      "tours_touched": 777,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1028,
+      "n_flips": 438,
+      "tours_touched": 860,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x4",
+      "n_hex": 8,
+      "orbit_size": 1,
+      "matching_ok": 2533,
+      "n_flips": 400,
+      "tours_touched": 777,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1966,
+      "n_flips": 406,
+      "tours_touched": 802,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1643,
+      "n_flips": 650,
+      "tours_touched": 1296,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1643,
+      "n_flips": 650,
+      "tours_touched": 1296,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1398,
+      "n_flips": 623,
+      "tours_touched": 1242,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 980,
+      "n_flips": 232,
+      "tours_touched": 464,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 980,
+      "n_flips": 232,
+      "tours_touched": 464,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 520,
+      "n_flips": 164,
+      "tours_touched": 324,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1270,
+      "n_flips": 460,
+      "tours_touched": 920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 946,
+      "n_flips": 400,
+      "tours_touched": 800,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 570,
+      "n_flips": 174,
+      "tours_touched": 344,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 1285,
+      "n_flips": 265,
+      "tours_touched": 522,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x3",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1188,
+      "n_flips": 430,
+      "tours_touched": 860,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1236,
+      "n_flips": 266,
+      "tours_touched": 527,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 721,
+      "n_flips": 176,
+      "tours_touched": 352,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1643,
+      "n_flips": 650,
+      "tours_touched": 1296,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 1285,
+      "n_flips": 265,
+      "tours_touched": 522,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x3",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 2968,
+      "n_flips": 394,
+      "tours_touched": 764,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "bbox": "6x3",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 2242,
+      "n_flips": 770,
+      "tours_touched": 1412,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1028,
+      "n_flips": 438,
+      "tours_touched": 860,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1703,
+      "n_flips": 408,
+      "tours_touched": 815,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 721,
+      "n_flips": 176,
+      "tours_touched": 352,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 528,
+      "n_flips": 174,
+      "tours_touched": 344,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 520,
+      "n_flips": 164,
+      "tours_touched": 324,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1270,
+      "n_flips": 460,
+      "tours_touched": 920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 2244,
+      "n_flips": 382,
+      "tours_touched": 738,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1966,
+      "n_flips": 406,
+      "tours_touched": 802,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1643,
+      "n_flips": 650,
+      "tours_touched": 1296,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1966,
+      "n_flips": 406,
+      "tours_touched": 802,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 721,
+      "n_flips": 176,
+      "tours_touched": 352,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 2244,
+      "n_flips": 382,
+      "tours_touched": 738,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 721,
+      "n_flips": 176,
+      "tours_touched": 352,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 1285,
+      "n_flips": 265,
+      "tours_touched": 522,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1398,
+      "n_flips": 623,
+      "tours_touched": 1242,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1798,
+      "n_flips": 528,
+      "tours_touched": 1052,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 946,
+      "n_flips": 400,
+      "tours_touched": 800,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "bbox": "4x4",
+      "n_hex": 8,
+      "orbit_size": 1,
+      "matching_ok": 2533,
+      "n_flips": 400,
+      "tours_touched": 777,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1236,
+      "n_flips": 266,
+      "tours_touched": 527,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 1285,
+      "n_flips": 265,
+      "tours_touched": 522,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 980,
+      "n_flips": 232,
+      "tours_touched": 464,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 6,
+      "orbit_size": 1,
+      "matching_ok": 1643,
+      "n_flips": 650,
+      "tours_touched": 1296,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1398,
+      "n_flips": 623,
+      "tours_touched": 1242,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1270,
+      "n_flips": 460,
+      "tours_touched": 920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 520,
+      "n_flips": 164,
+      "tours_touched": 324,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 570,
+      "n_flips": 174,
+      "tours_touched": 344,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1966,
+      "n_flips": 406,
+      "tours_touched": 802,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x4",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1703,
+      "n_flips": 408,
+      "tours_touched": 815,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1703,
+      "n_flips": 408,
+      "tours_touched": 815,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 980,
+      "n_flips": 232,
+      "tours_touched": 464,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1398,
+      "n_flips": 623,
+      "tours_touched": 1242,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 980,
+      "n_flips": 232,
+      "tours_touched": 464,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x4",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1270,
+      "n_flips": 460,
+      "tours_touched": 920,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 520,
+      "n_flips": 164,
+      "tours_touched": 324,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 570,
+      "n_flips": 174,
+      "tours_touched": 344,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 721,
+      "n_flips": 176,
+      "tours_touched": 352,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 528,
+      "n_flips": 174,
+      "tours_touched": 344,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 520,
+      "n_flips": 164,
+      "tours_touched": 324,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 4,
+      "orbit_size": 1,
+      "matching_ok": 721,
+      "n_flips": 176,
+      "tours_touched": 352,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 528,
+      "n_flips": 174,
+      "tours_touched": 344,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "bbox": "6x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 520,
+      "n_flips": 164,
+      "tours_touched": 324,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x5",
+      "n_hex": 5,
+      "orbit_size": 1,
+      "matching_ok": 1966,
+      "n_flips": 406,
+      "tours_touched": 802,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 3,
+      "orbit_size": 1,
+      "matching_ok": 1285,
+      "n_flips": 265,
+      "tours_touched": 522,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "bbox": "5x5",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1798,
+      "n_flips": 528,
+      "tours_touched": 1052,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 946,
+      "n_flips": 400,
+      "tours_touched": 800,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "bbox": "5x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 2244,
+      "n_flips": 382,
+      "tours_touched": 738,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    },
+    {
+      "shape": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": "4x6",
+      "n_hex": 2,
+      "orbit_size": 1,
+      "matching_ok": 1398,
+      "n_flips": 623,
+      "tours_touched": 1242,
+      "realized": true,
+      "comps_without": 1,
+      "biggest_without": 9862,
+      "essential": false
+    }
+  ]
+}

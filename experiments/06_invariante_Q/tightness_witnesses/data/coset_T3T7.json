@@ -1,0 +1,236 @@
+{
+  "T3": {
+    "6x6": {
+      "board": "6x6",
+      "beta1": 45,
+      "rank_y": 4,
+      "Q_paper_def": 3,
+      "bound_beta1_minus_3": 42,
+      "coset_bound": 42,
+      "n_tours": 9862,
+      "rank_Ham": 42,
+      "deficit": 3,
+      "bound_respected": true,
+      "Q_equals_rank_y_minus_1": true,
+      "verdict": "PASS"
+    },
+    "5x8": {
+      "board": "5x8",
+      "beta1": 51,
+      "rank_y": 4,
+      "Q_paper_def": 3,
+      "bound_beta1_minus_3": 48,
+      "coset_bound": 48,
+      "n_tours": 44202,
+      "rank_Ham": 42,
+      "deficit": 9,
+      "bound_respected": true,
+      "Q_equals_rank_y_minus_1": true,
+      "verdict": "PASS"
+    },
+    "5x6": {
+      "board": "5x6",
+      "beta1": 33,
+      "rank_y": 4,
+      "Q_paper_def": 3,
+      "bound_beta1_minus_3": 30,
+      "coset_bound": 30,
+      "n_tours": 8,
+      "rank_Ham": 6,
+      "deficit": 27,
+      "bound_respected": true,
+      "Q_equals_rank_y_minus_1": true,
+      "verdict": "PASS"
+    }
+  },
+  "T4": {
+    "6x6": {
+      "board": "6x6",
+      "n_tours": 9862,
+      "enum_seconds": 5.5,
+      "tours_not_in_fiber_one": 0,
+      "tours_y_illdefined": 0,
+      "verdict": "PASS"
+    },
+    "5x8": {
+      "board": "5x8",
+      "n_tours": 44202,
+      "enum_seconds": 54.6,
+      "tours_not_in_fiber_one": 0,
+      "tours_y_illdefined": 0,
+      "verdict": "PASS"
+    },
+    "5x6": {
+      "board": "5x6",
+      "n_tours": 8,
+      "enum_seconds": 0.1,
+      "tours_not_in_fiber_one": 0,
+      "tours_y_illdefined": 0,
+      "verdict": "PASS"
+    }
+  },
+  "T5": {
+    "6x6": {
+      "board": "6x6",
+      "beta1": 45,
+      "rank_Ham": 42,
+      "deficit": 3,
+      "dim_span_diffs": 41,
+      "dim_ZBulk": 41,
+      "diffs_subset_ZBulk": true,
+      "diffs_equal_ZBulk": true,
+      "lhs_rank_eq_beta1_minus_3": true,
+      "equivalence_holds": true,
+      "verdict": "PASS"
+    },
+    "5x8": {
+      "board": "5x8",
+      "beta1": 51,
+      "rank_Ham": 42,
+      "deficit": 9,
+      "dim_span_diffs": 41,
+      "dim_ZBulk": 47,
+      "diffs_subset_ZBulk": true,
+      "diffs_equal_ZBulk": false,
+      "lhs_rank_eq_beta1_minus_3": false,
+      "equivalence_holds": true,
+      "verdict": "PASS"
+    },
+    "5x6": {
+      "board": "5x6",
+      "beta1": 33,
+      "rank_Ham": 6,
+      "deficit": 27,
+      "dim_span_diffs": 5,
+      "dim_ZBulk": 29,
+      "diffs_subset_ZBulk": true,
+      "diffs_equal_ZBulk": false,
+      "lhs_rank_eq_beta1_minus_3": false,
+      "equivalence_holds": true,
+      "verdict": "PASS"
+    }
+  },
+  "T6": {
+    "6x6": {
+      "board": "6x6",
+      "dim_Z1": 45,
+      "rank_Ham": 42,
+      "dim_quotient": 3,
+      "y_of_Ham_span": [
+        "0000",
+        "1111"
+      ],
+      "y_induced_welldefined": true,
+      "rank_image_y": 4,
+      "dim_target_F2_4_mod_one": 3,
+      "dim_preimage_of_{0,1}": 42,
+      "Ham_inside_preimage": true,
+      "dim_kernel_of_induced_y": 0,
+      "is_isomorphism": true,
+      "forbidden_cycles": {
+        "B6-D5": {
+          "y": "1000",
+          "is_cycle": true
+        },
+        "F6-D5": {
+          "y": "1100",
+          "is_cycle": true
+        },
+        "E3-F1": {
+          "y": "1001",
+          "is_cycle": true
+        }
+      },
+      "forbidden_y_rank_with_one": 4,
+      "forbidden_independent_mod_one": true,
+      "forbidden_independent_in_quotient": true,
+      "verdict": "PASS"
+    },
+    "5x8": {
+      "board": "5x8",
+      "dim_Z1": 51,
+      "rank_Ham": 42,
+      "dim_quotient": 9,
+      "y_of_Ham_span": [
+        "0000",
+        "1111"
+      ],
+      "y_induced_welldefined": true,
+      "rank_image_y": 4,
+      "dim_target_F2_4_mod_one": 3,
+      "dim_preimage_of_{0,1}": 48,
+      "Ham_inside_preimage": true,
+      "dim_kernel_of_induced_y": 6,
+      "is_isomorphism": false,
+      "extra_dims": 6,
+      "n_witnesses": 6,
+      "extra_all_in_ZBulk": true,
+      "extra_y_patterns": [
+        "0000"
+      ],
+      "verdict": "PASS"
+    },
+    "5x6": {
+      "board": "5x6",
+      "dim_Z1": 33,
+      "rank_Ham": 6,
+      "dim_quotient": 27,
+      "y_of_Ham_span": [
+        "0000",
+        "1111"
+      ],
+      "y_induced_welldefined": true,
+      "rank_image_y": 4,
+      "dim_target_F2_4_mod_one": 3,
+      "dim_preimage_of_{0,1}": 30,
+      "Ham_inside_preimage": true,
+      "dim_kernel_of_induced_y": 24,
+      "is_isomorphism": false,
+      "extra_dims": 24,
+      "n_witnesses": 24,
+      "extra_all_in_ZBulk": true,
+      "extra_y_patterns": [
+        "0000"
+      ],
+      "verdict": "PASS"
+    }
+  },
+  "T7": {
+    "6x6": {
+      "board": "6x6",
+      "Q_paper_def": 3,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "n_tours": 9862,
+      "rank_Ham": 42,
+      "beta1": 45,
+      "deficit": 3,
+      "tight": true,
+      "verdict": "PASS"
+    },
+    "5x8": {
+      "board": "5x8",
+      "Q_paper_def": 3,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "n_tours": 44202,
+      "rank_Ham": 42,
+      "beta1": 51,
+      "deficit": 9,
+      "tight": false,
+      "verdict": "PASS"
+    },
+    "5x6": {
+      "board": "5x6",
+      "Q_paper_def": 3,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "n_tours": 8,
+      "rank_Ham": 6,
+      "beta1": 33,
+      "deficit": 27,
+      "tight": false,
+      "verdict": "PASS"
+    }
+  }
+}

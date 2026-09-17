@@ -1,0 +1,82 @@
+{
+  "n": 12,
+  "V": 144,
+  "E": 440,
+  "beta1": 297,
+  "rank_boundary_gf2": 143,
+  "corners_labels": [
+    "A12",
+    "L12",
+    "A1",
+    "L1"
+  ],
+  "mand_indices": [
+    0,
+    1,
+    40,
+    41,
+    381,
+    417,
+    422,
+    437
+  ],
+  "mand_per_corner": {
+    "A12": [
+      0,
+      1
+    ],
+    "L12": [
+      40,
+      41
+    ],
+    "A1": [
+      381,
+      422
+    ],
+    "L1": [
+      417,
+      437
+    ]
+  },
+  "rank_xor_raw": 7,
+  "Q_n": 3,
+  "rank_mand_raw": 8,
+  "rank_mand_mod_boundary": 4,
+  "tours": {
+    "K_obtained": 1000,
+    "rank_T": 294,
+    "deficit": 3,
+    "stats": {
+      "K_requested": 1000,
+      "K_obtained": 1000,
+      "n_attempts": 10815,
+      "n_rejected_subtours": 9815,
+      "n_unsat_local": 0,
+      "elapsed_s": 1672.617,
+      "connected": true
+    }
+  },
+  "two_factors": {
+    "K_obtained": 1000,
+    "rank_F": 293,
+    "deficit": 4,
+    "matches_tour_rank": false,
+    "stats": {
+      "K_requested": 1000,
+      "K_obtained": 1000,
+      "n_attempts": 1000,
+      "n_rejected_subtours": 0,
+      "n_unsat_local": 0,
+      "elapsed_s": 23.125,
+      "connected": false
+    }
+  },
+  "predictions": {
+    "Q_n_predicted": 3,
+    "deficit_predicted": 3
+  },
+  "verdict": {
+    "Q_matches": true,
+    "deficit_matches": true
+  }
+}

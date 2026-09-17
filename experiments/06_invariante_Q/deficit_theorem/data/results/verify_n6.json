@@ -1,0 +1,82 @@
+{
+  "n": 6,
+  "V": 36,
+  "E": 80,
+  "beta1": 45,
+  "rank_boundary_gf2": 35,
+  "corners_labels": [
+    "A6",
+    "F6",
+    "A1",
+    "F1"
+  ],
+  "mand_indices": [
+    0,
+    1,
+    16,
+    17,
+    57,
+    69,
+    74,
+    77
+  ],
+  "mand_per_corner": {
+    "A6": [
+      0,
+      1
+    ],
+    "F6": [
+      16,
+      17
+    ],
+    "A1": [
+      57,
+      74
+    ],
+    "F1": [
+      69,
+      77
+    ]
+  },
+  "rank_xor_raw": 7,
+  "Q_n": 3,
+  "rank_mand_raw": 8,
+  "rank_mand_mod_boundary": 4,
+  "tours": {
+    "K_obtained": 500,
+    "rank_T": 42,
+    "deficit": 3,
+    "stats": {
+      "K_requested": 500,
+      "K_obtained": 500,
+      "n_attempts": 1792,
+      "n_rejected_subtours": 1292,
+      "n_unsat_local": 0,
+      "elapsed_s": 6.738,
+      "connected": true
+    }
+  },
+  "two_factors": {
+    "K_obtained": 200,
+    "rank_F": 42,
+    "deficit": 3,
+    "matches_tour_rank": true,
+    "stats": {
+      "K_requested": 200,
+      "K_obtained": 200,
+      "n_attempts": 200,
+      "n_rejected_subtours": 0,
+      "n_unsat_local": 0,
+      "elapsed_s": 0.591,
+      "connected": false
+    }
+  },
+  "predictions": {
+    "Q_n_predicted": 3,
+    "deficit_predicted": 3
+  },
+  "verdict": {
+    "Q_matches": true,
+    "deficit_matches": true
+  }
+}

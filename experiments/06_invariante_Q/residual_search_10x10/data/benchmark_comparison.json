@@ -1,0 +1,36 @@
+{
+  "alvo": 50,
+  "timeout": 600.0,
+  "A_z3_puro": {
+    "alvo": 50,
+    "tours_encontrados": 50,
+    "t_first": 0.48151048900035676,
+    "t_total": 3.3281274430046324,
+    "tempo_z3_check_total_s": 1.1409953849797603,
+    "tentativas": 165,
+    "com_mandatory": false
+  },
+  "B_z3_mandatory": {
+    "alvo": 50,
+    "tours_encontrados": 50,
+    "t_first": 0.2280646080034785,
+    "t_total": 3.3610617209924385,
+    "tempo_z3_check_total_s": 1.3458763689850457,
+    "tentativas": 158,
+    "com_mandatory": true
+  },
+  "C_backtracking": {
+    "alvo": 50,
+    "tours_encontrados": 50,
+    "t_first": 0.11276687300414778,
+    "t_total": 1.6277910600038012,
+    "nos_explorados": 1908,
+    "nos_por_tour": 38.16,
+    "podas": {
+      "R2": 5,
+      "R3": 0,
+      "R6": 0,
+      "outras": 0
+    }
+  }
+}

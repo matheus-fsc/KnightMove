@@ -1,0 +1,82 @@
+{
+  "n": 6,
+  "V": 36,
+  "n_hexagons_bulk": 532,
+  "n_sampled": 400,
+  "hexagons_with_W": 299,
+  "hexagons_with_complete_switcher": 14,
+  "hexagons_without_complete_switcher": 285,
+  "W_tested": 299,
+  "s3_ok": 14,
+  "s3_fail_proved": 42,
+  "s3_fail_budget": 0,
+  "rejected_color": 0,
+  "rejected_corner": 431,
+  "examples": [
+    {
+      "cycle": [
+        "B1",
+        "A3",
+        "C4",
+        "B2",
+        "A4",
+        "C3"
+      ],
+      "P2_internal": [
+        "B5"
+      ],
+      "P3_internal": [
+        "B6"
+      ],
+      "VW": 8,
+      "nodes": 31,
+      "ham_path_len": 30
+    },
+    {
+      "cycle": [
+        "E2",
+        "C1",
+        "D3",
+        "F2",
+        "D1",
+        "C3"
+      ],
+      "P2_internal": [
+        "A2"
+      ],
+      "P3_internal": [
+        "B2"
+      ],
+      "VW": 8,
+      "nodes": 59,
+      "ham_path_len": 30
+    },
+    {
+      "cycle": [
+        "A2",
+        "C1",
+        "D3",
+        "B2",
+        "D1",
+        "C3"
+      ],
+      "P2_internal": [
+        "E2"
+      ],
+      "P3_internal": [
+        "F2"
+      ],
+      "VW": 8,
+      "nodes": 30,
+      "ham_path_len": 30
+    }
+  ],
+  "params": {
+    "limit": 400,
+    "max_internal": 3,
+    "max_w": 6,
+    "budget": 400000,
+    "seed": 0
+  },
+  "elapsed_s": 0.1
+}

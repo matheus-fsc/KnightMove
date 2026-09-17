@@ -1,0 +1,26 @@
+[
+  {
+    "n": 12,
+    "dim_Z_bulk": 293,
+    "by_length": {
+      "6": {
+        "n_cycles": 9000,
+        "rank_alone": 293,
+        "rank_cumulative": 293,
+        "spans_Z_bulk": true
+      }
+    }
+  },
+  {
+    "n": 14,
+    "dim_Z_bulk": 425,
+    "by_length": {
+      "6": {
+        "n_cycles": 14000,
+        "rank_alone": 425,
+        "rank_cumulative": 425,
+        "spans_Z_bulk": true
+      }
+    }
+  }
+]

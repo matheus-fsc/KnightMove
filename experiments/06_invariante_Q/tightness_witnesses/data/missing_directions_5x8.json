@@ -1,0 +1,537 @@
+{
+  "R": 5,
+  "C": 8,
+  "V": 40,
+  "E": 90,
+  "beta1": 51,
+  "n_tours": 44202,
+  "n_hexagons_bulk": 588,
+  "dim_ZBulk": 47,
+  "rank_realized": 41,
+  "rank_all_hexagons": 47,
+  "codim_missing": 6,
+  "dim_span_diffs": 41,
+  "span_diffs_eq_span_realized": true,
+  "rank_Ham": 42,
+  "deficit": 9,
+  "deficit_minus_3": 6,
+  "counts": {
+    "realized": 435,
+    "no_match": 151,
+    "disconnect": 2
+  },
+  "n_nonzero_in_quotient": 151,
+  "filtration": {
+    "by_bbox_rows_le": {
+      "2": 0,
+      "3": 6,
+      "4": 6,
+      "5": 6
+    },
+    "by_bbox_cols_le": {
+      "2": 0,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6
+    },
+    "by_max_side_le": {
+      "2": 0,
+      "3": 0,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6
+    },
+    "interior_only": 2,
+    "no_row_border": 2,
+    "no_col_border": 6,
+    "all_unrealized": 6
+  },
+  "stats_realized": {
+    "n": 435,
+    "bbox_hist": {
+      "4x5": 88,
+      "5x5": 56,
+      "4x6": 52,
+      "4x4": 52,
+      "5x4": 48,
+      "5x6": 34,
+      "3x6": 28,
+      "3x4": 27,
+      "4x3": 24,
+      "3x5": 16,
+      "5x3": 6,
+      "4x7": 4
+    },
+    "max_side_hist": {
+      "4": 103,
+      "5": 214,
+      "6": 114,
+      "7": 4
+    },
+    "n_shapes": 103,
+    "touch_both_rows": 144,
+    "touch_both_cols": 0
+  },
+  "stats_unrealized": {
+    "n": 153,
+    "bbox_hist": {
+      "4x5": 32,
+      "5x4": 24,
+      "4x4": 20,
+      "5x5": 18,
+      "3x4": 14,
+      "4x6": 12,
+      "3x6": 9,
+      "4x3": 8,
+      "5x3": 4,
+      "4x7": 4,
+      "5x6": 4,
+      "3x5": 4
+    },
+    "max_side_hist": {
+      "4": 42,
+      "5": 82,
+      "6": 25,
+      "7": 4
+    },
+    "n_shapes": 87,
+    "touch_both_rows": 50,
+    "touch_both_cols": 0
+  },
+  "stats_nonzero_in_quotient": {
+    "n": 151,
+    "bbox_hist": {
+      "4x5": 32,
+      "5x4": 24,
+      "4x4": 20,
+      "5x5": 18,
+      "3x4": 14,
+      "4x6": 12,
+      "4x3": 8,
+      "3x6": 7,
+      "5x3": 4,
+      "4x7": 4,
+      "5x6": 4,
+      "3x5": 4
+    },
+    "max_side_hist": {
+      "4": 42,
+      "5": 82,
+      "6": 23,
+      "7": 4
+    },
+    "n_shapes": 87,
+    "touch_both_rows": 50,
+    "touch_both_cols": 0
+  },
+  "generators": [
+    {
+      "cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": [
+        3,
+        4
+      ],
+      "mode": "no_match",
+      "touches": {
+        "top": false,
+        "bottom": false,
+        "left": false,
+        "right": false
+      },
+      "n_borders": 0,
+      "interior": true,
+      "shape": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "cells": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "bbox": [
+        3,
+        6
+      ],
+      "mode": "no_match",
+      "touches": {
+        "top": false,
+        "bottom": false,
+        "left": false,
+        "right": false
+      },
+      "n_borders": 0,
+      "interior": true,
+      "shape": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "bbox": [
+        3,
+        6
+      ],
+      "mode": "no_match",
+      "touches": {
+        "top": true,
+        "bottom": false,
+        "left": false,
+        "right": false
+      },
+      "n_borders": 1,
+      "interior": false,
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "bbox": [
+        3,
+        4
+      ],
+      "mode": "no_match",
+      "touches": {
+        "top": true,
+        "bottom": false,
+        "left": false,
+        "right": false
+      },
+      "n_borders": 1,
+      "interior": false,
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "cells": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox": [
+        4,
+        3
+      ],
+      "mode": "no_match",
+      "touches": {
+        "top": false,
+        "bottom": true,
+        "left": false,
+        "right": false
+      },
+      "n_borders": 1,
+      "interior": false,
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox": [
+        4,
+        5
+      ],
+      "mode": "no_match",
+      "touches": {
+        "top": false,
+        "bottom": true,
+        "left": false,
+        "right": false
+      },
+      "n_borders": 1,
+      "interior": false,
+      "shape": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  ],
+  "seconds": 58.6
+}

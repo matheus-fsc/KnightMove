@@ -1,0 +1,88 @@
+{
+  "n": 12,
+  "V": 144,
+  "n_hexagons_bulk": 9000,
+  "n_sampled": 100,
+  "hexagons_with_W": 100,
+  "hexagons_with_complete_switcher": 100,
+  "hexagons_without_complete_switcher": 0,
+  "W_tested": 100,
+  "s3_ok": 100,
+  "s3_fail_proved": 3,
+  "s3_fail_budget": 2,
+  "rejected_color": 0,
+  "rejected_corner": 269,
+  "examples": [
+    {
+      "cycle": [
+        "H7",
+        "J6",
+        "H5",
+        "J4",
+        "H3",
+        "G5"
+      ],
+      "P2_internal": [
+        "I4"
+      ],
+      "P3_internal": [
+        "F4"
+      ],
+      "VW": 8,
+      "nodes": 143,
+      "ham_path_len": 138
+    },
+    {
+      "cycle": [
+        "D6",
+        "F5",
+        "H4",
+        "G2",
+        "E3",
+        "C4"
+      ],
+      "P2_internal": [
+        "E7",
+        "C8",
+        "B6"
+      ],
+      "P3_internal": [
+        "G6",
+        "E5",
+        "G4"
+      ],
+      "VW": 12,
+      "nodes": 140,
+      "ham_path_len": 134
+    },
+    {
+      "cycle": [
+        "G12",
+        "F10",
+        "D11",
+        "E9",
+        "F11",
+        "H10"
+      ],
+      "P2_internal": [
+        "G8"
+      ],
+      "P3_internal": [
+        "B12",
+        "C10",
+        "D12"
+      ],
+      "VW": 10,
+      "nodes": 148,
+      "ham_path_len": 136
+    }
+  ],
+  "params": {
+    "limit": 100,
+    "max_internal": 4,
+    "max_w": 20,
+    "budget": 400000,
+    "seed": 0
+  },
+  "elapsed_s": 7.1
+}

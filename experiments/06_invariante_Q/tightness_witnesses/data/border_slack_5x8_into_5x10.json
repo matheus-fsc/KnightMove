@@ -1,0 +1,817 @@
+{
+  "src": "5x8",
+  "dst": "5x10",
+  "budget": 20000000,
+  "generators": [
+    {
+      "generator": 0,
+      "cells_src": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox_rows": 3,
+      "interior_in_src": true,
+      "placements": [
+        {
+          "mode": "not_found_in_budget",
+          "nodes": 40000002,
+          "saturated": false,
+          "n_compatible": 0,
+          "dr": 0,
+          "dc": 0,
+          "cells": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 10451,
+          "saturated": true,
+          "n_compatible": 1,
+          "dr": 0,
+          "dc": 1,
+          "cells": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 6987,
+          "saturated": true,
+          "n_compatible": 2,
+          "dr": 0,
+          "dc": 2,
+          "cells": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "generator": 1,
+      "cells_src": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "bbox_rows": 3,
+      "interior_in_src": true,
+      "placements": [
+        {
+          "mode": "not_found_in_budget",
+          "nodes": 40000002,
+          "saturated": false,
+          "n_compatible": 0,
+          "dr": 0,
+          "dc": 0,
+          "cells": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 196,
+          "saturated": true,
+          "n_compatible": 1,
+          "dr": 0,
+          "dc": 1,
+          "cells": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ]
+          ]
+        },
+        {
+          "mode": "not_found_in_budget",
+          "nodes": 40000002,
+          "saturated": false,
+          "n_compatible": 0,
+          "dr": 0,
+          "dc": 2,
+          "cells": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "generator": 2,
+      "cells_src": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "bbox_rows": 3,
+      "interior_in_src": false,
+      "placements": [
+        {
+          "mode": "realized",
+          "nodes": 3061,
+          "saturated": true,
+          "n_compatible": 1,
+          "dr": 0,
+          "dc": 0,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 3314,
+          "saturated": true,
+          "n_compatible": 7,
+          "dr": 0,
+          "dc": 1,
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "mode": "not_found_in_budget",
+          "nodes": 40000002,
+          "saturated": false,
+          "n_compatible": 0,
+          "dr": 0,
+          "dc": 2,
+          "cells": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "generator": 3,
+      "cells_src": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "bbox_rows": 3,
+      "interior_in_src": false,
+      "placements": [
+        {
+          "mode": "not_found_in_budget",
+          "nodes": 40000002,
+          "saturated": false,
+          "n_compatible": 0,
+          "dr": 0,
+          "dc": 0,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 3500,
+          "saturated": true,
+          "n_compatible": 4,
+          "dr": 0,
+          "dc": 1,
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 402,
+          "saturated": true,
+          "n_compatible": 1,
+          "dr": 0,
+          "dc": 2,
+          "cells": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "generator": 4,
+      "cells_src": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "bbox_rows": 4,
+      "interior_in_src": false,
+      "placements": [
+        {
+          "mode": "not_found_in_budget",
+          "nodes": 40000002,
+          "saturated": false,
+          "n_compatible": 0,
+          "dr": 0,
+          "dc": 0,
+          "cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 92851,
+          "saturated": true,
+          "n_compatible": 99,
+          "dr": 0,
+          "dc": 1,
+          "cells": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 639,
+          "saturated": true,
+          "n_compatible": 1,
+          "dr": 0,
+          "dc": 2,
+          "cells": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "generator": 5,
+      "cells_src": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "bbox_rows": 4,
+      "interior_in_src": false,
+      "placements": [
+        {
+          "mode": "realized",
+          "nodes": 8719,
+          "saturated": true,
+          "n_compatible": 1,
+          "dr": 0,
+          "dc": 0,
+          "cells": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              3
+            ]
+          ]
+        },
+        {
+          "mode": "realized",
+          "nodes": 16598,
+          "saturated": true,
+          "n_compatible": 1,
+          "dr": 0,
+          "dc": 1,
+          "cells": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "mode": "not_found_in_budget",
+          "nodes": 40000002,
+          "saturated": false,
+          "n_compatible": 0,
+          "dr": 0,
+          "dc": 2,
+          "cells": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              3,
+              5
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

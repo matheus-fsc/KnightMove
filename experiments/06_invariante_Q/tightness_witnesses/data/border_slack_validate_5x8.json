@@ -1,0 +1,13 @@
+{
+  "R": 5,
+  "C": 8,
+  "n_hexagons": 588,
+  "modes": {
+    "realized": 435,
+    "no_match": 151,
+    "disconnect": 2
+  },
+  "n_unsaturated": 0,
+  "budget": 1000000000000000000,
+  "seconds": 991.2
+}

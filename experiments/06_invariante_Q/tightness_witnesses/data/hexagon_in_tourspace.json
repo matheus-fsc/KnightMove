@@ -1,0 +1,71 @@
+[
+  {
+    "n": 8,
+    "beta1": 105,
+    "dim_Z_bulk": 101,
+    "hexagons_total_bulk": 2264,
+    "hexagons_scanned": 2264,
+    "complete_enumeration": true,
+    "certified": 1966,
+    "uncertified": 298,
+    "audit_failures": 0,
+    "rank_certified_span": 101,
+    "spans_Z_bulk": true,
+    "implies_rank_Ham_at_least": 101,
+    "gap_to_tightness": 1,
+    "params": {
+      "max_hex": null,
+      "max_internal": 4,
+      "max_w": 20,
+      "budget": 400000,
+      "seed": 0
+    },
+    "elapsed_s": 475.3
+  },
+  {
+    "n": 10,
+    "beta1": 189,
+    "dim_Z_bulk": 185,
+    "hexagons_total_bulk": 5088,
+    "hexagons_scanned": 5088,
+    "complete_enumeration": true,
+    "certified": 4888,
+    "uncertified": 200,
+    "audit_failures": 0,
+    "rank_certified_span": 185,
+    "spans_Z_bulk": true,
+    "implies_rank_Ham_at_least": 185,
+    "gap_to_tightness": 1,
+    "params": {
+      "max_hex": null,
+      "max_internal": 4,
+      "max_w": 20,
+      "budget": 400000,
+      "seed": 0
+    },
+    "elapsed_s": 37802.9
+  },
+  {
+    "n": 12,
+    "beta1": 297,
+    "dim_Z_bulk": 293,
+    "hexagons_total_bulk": 9000,
+    "hexagons_scanned": 9000,
+    "complete_enumeration": true,
+    "certified": 8848,
+    "uncertified": 152,
+    "audit_failures": 0,
+    "rank_certified_span": 293,
+    "spans_Z_bulk": true,
+    "implies_rank_Ham_at_least": 293,
+    "gap_to_tightness": 1,
+    "params": {
+      "max_hex": null,
+      "max_internal": 4,
+      "max_w": 20,
+      "budget": 400000,
+      "seed": 0
+    },
+    "elapsed_s": 2328.6
+  }
+]

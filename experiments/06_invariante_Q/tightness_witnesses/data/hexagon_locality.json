@@ -1,0 +1,139 @@
+{
+  "uniform": [
+    {
+      "m": 5,
+      "V": 25,
+      "E": 48,
+      "components": 1,
+      "dim_Z1": 24,
+      "rank_hex": 24,
+      "spans": true
+    },
+    {
+      "m": 6,
+      "V": 36,
+      "E": 80,
+      "components": 1,
+      "dim_Z1": 45,
+      "rank_hex": 45,
+      "spans": true
+    },
+    {
+      "m": 7,
+      "V": 49,
+      "E": 120,
+      "components": 1,
+      "dim_Z1": 72,
+      "rank_hex": 72,
+      "spans": true
+    },
+    {
+      "m": 8,
+      "V": 64,
+      "E": 168,
+      "components": 1,
+      "dim_Z1": 105,
+      "rank_hex": 105,
+      "spans": true
+    },
+    {
+      "m": 9,
+      "V": 81,
+      "E": 224,
+      "components": 1,
+      "dim_Z1": 144,
+      "rank_hex": 144,
+      "spans": true
+    },
+    {
+      "m": 10,
+      "V": 100,
+      "E": 288,
+      "components": 1,
+      "dim_Z1": 189,
+      "rank_hex": 189,
+      "spans": true
+    },
+    {
+      "m": 11,
+      "V": 121,
+      "E": 360,
+      "components": 1,
+      "dim_Z1": 240,
+      "rank_hex": 240,
+      "spans": true
+    },
+    {
+      "m": 12,
+      "V": 144,
+      "E": 440,
+      "components": 1,
+      "dim_Z1": 297,
+      "rank_hex": 297,
+      "spans": true
+    }
+  ],
+  "locality": {
+    "n": 10,
+    "n_quads": 292,
+    "n_hex": 5176,
+    "by_radius": {
+      "0": {
+        "resolved": 292,
+        "total": 292
+      }
+    },
+    "min_radius_all": 0
+  },
+  "induction": [
+    {
+      "n": 6,
+      "N": 8,
+      "dim_Z1_N": 105,
+      "dim_Z1_inner": 45,
+      "n_hex_inner": 616,
+      "rank_hex_inner": 45,
+      "rank_hex_all": 105,
+      "inner_spans": true,
+      "all_spans": true,
+      "jump": 60
+    },
+    {
+      "n": 8,
+      "N": 10,
+      "dim_Z1_N": 189,
+      "dim_Z1_inner": 105,
+      "n_hex_inner": 2352,
+      "rank_hex_inner": 105,
+      "rank_hex_all": 189,
+      "inner_spans": true,
+      "all_spans": true,
+      "jump": 84
+    },
+    {
+      "n": 10,
+      "N": 12,
+      "dim_Z1_N": 297,
+      "dim_Z1_inner": 189,
+      "n_hex_inner": 5176,
+      "rank_hex_inner": 189,
+      "rank_hex_all": 297,
+      "inner_spans": true,
+      "all_spans": true,
+      "jump": 108
+    },
+    {
+      "n": 12,
+      "N": 14,
+      "dim_Z1_N": 429,
+      "dim_Z1_inner": 297,
+      "n_hex_inner": 9088,
+      "rank_hex_inner": 297,
+      "rank_hex_all": 429,
+      "inner_spans": true,
+      "all_spans": true,
+      "jump": 132
+    }
+  ],
+  "elapsed_s": 4.3
+}

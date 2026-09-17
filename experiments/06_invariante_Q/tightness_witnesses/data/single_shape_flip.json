@@ -1,0 +1,17 @@
+[
+  {
+    "nivel": "forma",
+    "melhor_comps": 8868,
+    "melhor_maior": 4,
+    "n_grupos": 128
+  },
+  {
+    "nivel": "orbitaD4",
+    "melhor_comps": 5440,
+    "melhor_maior": 16,
+    "n_grupos": 23
+  },
+  {
+    "formas_para_conexo": 101
+  }
+]

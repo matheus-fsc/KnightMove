@@ -1,0 +1,155 @@
+[
+  {
+    "n": 4,
+    "V": 16,
+    "E": 24,
+    "beta1": 9,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  },
+  {
+    "n": 5,
+    "V": 25,
+    "E": 48,
+    "beta1": 24,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  },
+  {
+    "n": 6,
+    "V": 36,
+    "E": 80,
+    "beta1": 45,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  },
+  {
+    "n": 7,
+    "V": 49,
+    "E": 120,
+    "beta1": 72,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  },
+  {
+    "n": 8,
+    "V": 64,
+    "E": 168,
+    "beta1": 105,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  },
+  {
+    "n": 9,
+    "V": 81,
+    "E": 224,
+    "beta1": 144,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  },
+  {
+    "n": 10,
+    "V": 100,
+    "E": 288,
+    "beta1": 189,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  },
+  {
+    "n": 11,
+    "V": 121,
+    "E": 360,
+    "beta1": 240,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  },
+  {
+    "n": 12,
+    "V": 144,
+    "E": 440,
+    "beta1": 297,
+    "L1_corners_deg2": true,
+    "L2_corner_chain": true,
+    "L3_reps_independent": true,
+    "L4_span_equals_diffs": true,
+    "L4_dims": {
+      "Q(28 XORs)": 3,
+      "Q(6 diffs)": 3,
+      "Q(combined)": 3
+    },
+    "Theorem_Q_equals_3": true,
+    "all_passed": true
+  }
+]

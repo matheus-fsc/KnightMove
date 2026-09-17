@@ -1,0 +1,332 @@
+[
+  {
+    "n": 4,
+    "V": 16,
+    "E": 24,
+    "beta1": 9,
+    "rank_boundary": 15,
+    "corners": [
+      "A4",
+      "D4",
+      "A1",
+      "D1"
+    ],
+    "corner_degrees": {
+      "A4": 2,
+      "D4": 2,
+      "A1": 2,
+      "D1": 2
+    },
+    "step_2_1": {
+      "rank_8_raw": 8,
+      "rank_8_mod_boundary": 4,
+      "matches_4": true
+    },
+    "step_2_2": {
+      "corner_chain_works": {
+        "A4": true,
+        "D4": true,
+        "A1": true,
+        "D1": true
+      },
+      "all_ok": true
+    },
+    "step_2_3": {
+      "rank_4_reps_raw": 4,
+      "rank_4_reps_mod_boundary": 4,
+      "reps_independent_mod_boundary": true,
+      "sum_of_4_reps_in_row_boundary": false,
+      "alpha_support_size": null,
+      "alpha_support_labels": null,
+      "dim_pairwise_differences_mod_boundary": 3,
+      "matches_Q": true
+    },
+    "Q_n": 3,
+    "step_2_4": {
+      "corner_pair_distances": {
+        "A4\u2194D4": 5,
+        "A4\u2194A1": 5,
+        "A4\u2194D1": 2,
+        "D4\u2194A1": 2,
+        "D4\u2194D1": 5,
+        "A1\u2194D1": 5
+      },
+      "any_vertex_overlap_between_corner_neighborhoods": true
+    }
+  },
+  {
+    "n": 5,
+    "V": 25,
+    "E": 48,
+    "beta1": 24,
+    "rank_boundary": 24,
+    "corners": [
+      "A5",
+      "E5",
+      "A1",
+      "E1"
+    ],
+    "corner_degrees": {
+      "A5": 2,
+      "E5": 2,
+      "A1": 2,
+      "E1": 2
+    },
+    "step_2_1": {
+      "rank_8_raw": 8,
+      "rank_8_mod_boundary": 4,
+      "matches_4": true
+    },
+    "step_2_2": {
+      "corner_chain_works": {
+        "A5": true,
+        "E5": true,
+        "A1": true,
+        "E1": true
+      },
+      "all_ok": true
+    },
+    "step_2_3": {
+      "rank_4_reps_raw": 4,
+      "rank_4_reps_mod_boundary": 4,
+      "reps_independent_mod_boundary": true,
+      "sum_of_4_reps_in_row_boundary": false,
+      "alpha_support_size": null,
+      "alpha_support_labels": null,
+      "dim_pairwise_differences_mod_boundary": 3,
+      "matches_Q": true
+    },
+    "Q_n": 3,
+    "step_2_4": {
+      "corner_pair_distances": {
+        "A5\u2194E5": 2,
+        "A5\u2194A1": 2,
+        "A5\u2194E1": 4,
+        "E5\u2194A1": 4,
+        "E5\u2194E1": 2,
+        "A1\u2194E1": 2
+      },
+      "any_vertex_overlap_between_corner_neighborhoods": true
+    }
+  },
+  {
+    "n": 6,
+    "V": 36,
+    "E": 80,
+    "beta1": 45,
+    "rank_boundary": 35,
+    "corners": [
+      "A6",
+      "F6",
+      "A1",
+      "F1"
+    ],
+    "corner_degrees": {
+      "A6": 2,
+      "F6": 2,
+      "A1": 2,
+      "F1": 2
+    },
+    "step_2_1": {
+      "rank_8_raw": 8,
+      "rank_8_mod_boundary": 4,
+      "matches_4": true
+    },
+    "step_2_2": {
+      "corner_chain_works": {
+        "A6": true,
+        "F6": true,
+        "A1": true,
+        "F1": true
+      },
+      "all_ok": true
+    },
+    "step_2_3": {
+      "rank_4_reps_raw": 4,
+      "rank_4_reps_mod_boundary": 4,
+      "reps_independent_mod_boundary": true,
+      "sum_of_4_reps_in_row_boundary": false,
+      "alpha_support_size": null,
+      "alpha_support_labels": null,
+      "dim_pairwise_differences_mod_boundary": 3,
+      "matches_Q": true
+    },
+    "Q_n": 3,
+    "step_2_4": {
+      "corner_pair_distances": {
+        "A6\u2194F6": 3,
+        "A6\u2194A1": 3,
+        "A6\u2194F1": 4,
+        "F6\u2194A1": 4,
+        "F6\u2194F1": 3,
+        "A1\u2194F1": 3
+      },
+      "any_vertex_overlap_between_corner_neighborhoods": false
+    }
+  },
+  {
+    "n": 8,
+    "V": 64,
+    "E": 168,
+    "beta1": 105,
+    "rank_boundary": 63,
+    "corners": [
+      "A8",
+      "H8",
+      "A1",
+      "H1"
+    ],
+    "corner_degrees": {
+      "A8": 2,
+      "H8": 2,
+      "A1": 2,
+      "H1": 2
+    },
+    "step_2_1": {
+      "rank_8_raw": 8,
+      "rank_8_mod_boundary": 4,
+      "matches_4": true
+    },
+    "step_2_2": {
+      "corner_chain_works": {
+        "A8": true,
+        "H8": true,
+        "A1": true,
+        "H1": true
+      },
+      "all_ok": true
+    },
+    "step_2_3": {
+      "rank_4_reps_raw": 4,
+      "rank_4_reps_mod_boundary": 4,
+      "reps_independent_mod_boundary": true,
+      "sum_of_4_reps_in_row_boundary": false,
+      "alpha_support_size": null,
+      "alpha_support_labels": null,
+      "dim_pairwise_differences_mod_boundary": 3,
+      "matches_Q": true
+    },
+    "Q_n": 3,
+    "step_2_4": {
+      "corner_pair_distances": {
+        "A8\u2194H8": 5,
+        "A8\u2194A1": 5,
+        "A8\u2194H1": 6,
+        "H8\u2194A1": 6,
+        "H8\u2194H1": 5,
+        "A1\u2194H1": 5
+      },
+      "any_vertex_overlap_between_corner_neighborhoods": false
+    }
+  },
+  {
+    "n": 10,
+    "V": 100,
+    "E": 288,
+    "beta1": 189,
+    "rank_boundary": 99,
+    "corners": [
+      "A10",
+      "J10",
+      "A1",
+      "J1"
+    ],
+    "corner_degrees": {
+      "A10": 2,
+      "J10": 2,
+      "A1": 2,
+      "J1": 2
+    },
+    "step_2_1": {
+      "rank_8_raw": 8,
+      "rank_8_mod_boundary": 4,
+      "matches_4": true
+    },
+    "step_2_2": {
+      "corner_chain_works": {
+        "A10": true,
+        "J10": true,
+        "A1": true,
+        "J1": true
+      },
+      "all_ok": true
+    },
+    "step_2_3": {
+      "rank_4_reps_raw": 4,
+      "rank_4_reps_mod_boundary": 4,
+      "reps_independent_mod_boundary": true,
+      "sum_of_4_reps_in_row_boundary": false,
+      "alpha_support_size": null,
+      "alpha_support_labels": null,
+      "dim_pairwise_differences_mod_boundary": 3,
+      "matches_Q": true
+    },
+    "Q_n": 3,
+    "step_2_4": {
+      "corner_pair_distances": {
+        "A10\u2194J10": 5,
+        "A10\u2194A1": 5,
+        "A10\u2194J1": 6,
+        "J10\u2194A1": 6,
+        "J10\u2194J1": 5,
+        "A1\u2194J1": 5
+      },
+      "any_vertex_overlap_between_corner_neighborhoods": false
+    }
+  },
+  {
+    "n": 12,
+    "V": 144,
+    "E": 440,
+    "beta1": 297,
+    "rank_boundary": 143,
+    "corners": [
+      "A12",
+      "L12",
+      "A1",
+      "L1"
+    ],
+    "corner_degrees": {
+      "A12": 2,
+      "L12": 2,
+      "A1": 2,
+      "L1": 2
+    },
+    "step_2_1": {
+      "rank_8_raw": 8,
+      "rank_8_mod_boundary": 4,
+      "matches_4": true
+    },
+    "step_2_2": {
+      "corner_chain_works": {
+        "A12": true,
+        "L12": true,
+        "A1": true,
+        "L1": true
+      },
+      "all_ok": true
+    },
+    "step_2_3": {
+      "rank_4_reps_raw": 4,
+      "rank_4_reps_mod_boundary": 4,
+      "reps_independent_mod_boundary": true,
+      "sum_of_4_reps_in_row_boundary": false,
+      "alpha_support_size": null,
+      "alpha_support_labels": null,
+      "dim_pairwise_differences_mod_boundary": 3,
+      "matches_Q": true
+    },
+    "Q_n": 3,
+    "step_2_4": {
+      "corner_pair_distances": {
+        "A12\u2194L12": 7,
+        "A12\u2194A1": 7,
+        "A12\u2194L1": 8,
+        "L12\u2194A1": 8,
+        "L12\u2194L1": 7,
+        "A1\u2194L1": 7
+      },
+      "any_vertex_overlap_between_corner_neighborhoods": false
+    }
+  }
+]

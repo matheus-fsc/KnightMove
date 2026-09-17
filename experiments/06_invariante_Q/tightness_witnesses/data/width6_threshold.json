@@ -1,0 +1,400 @@
+{
+  "6x8": {
+    "R": 6,
+    "C": 8,
+    "min_side": 6,
+    "n_hexagons_bulk": 1126,
+    "n_targets": 36,
+    "n_targets_corner_anchored": 12,
+    "targets_certified": 32,
+    "targets_missing": 4,
+    "targets_missing_corner_anchored": 4,
+    "hexagons_realized": 1122,
+    "rank_realized": 65,
+    "dim_ZBulk": 65,
+    "ball_cap": 400000,
+    "seeds_used": 3,
+    "tours_seen_total": 1200013,
+    "missing_cells": [
+      [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    ],
+    "seconds": 76.5
+  },
+  "6x10": {
+    "R": 6,
+    "C": 10,
+    "min_side": 6,
+    "n_hexagons_bulk": 1722,
+    "n_targets": 52,
+    "n_targets_corner_anchored": 12,
+    "targets_certified": 48,
+    "targets_missing": 4,
+    "targets_missing_corner_anchored": 4,
+    "hexagons_realized": 1713,
+    "rank_realized": 89,
+    "dim_ZBulk": 89,
+    "ball_cap": 400000,
+    "seeds_used": 3,
+    "tours_seen_total": 1200024,
+    "missing_cells": [
+      [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    ],
+    "seconds": 70.0
+  },
+  "6x12": {
+    "R": 6,
+    "C": 12,
+    "min_side": 6,
+    "n_hexagons_bulk": 2318,
+    "n_targets": 68,
+    "n_targets_corner_anchored": 12,
+    "targets_certified": 63,
+    "targets_missing": 5,
+    "targets_missing_corner_anchored": 4,
+    "hexagons_realized": 2237,
+    "rank_realized": 113,
+    "dim_ZBulk": 113,
+    "ball_cap": 400000,
+    "seeds_used": 3,
+    "tours_seen_total": 1200070,
+    "missing_cells": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    ],
+    "seconds": 75.5
+  }
+}

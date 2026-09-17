@@ -1,0 +1,16 @@
+{
+  "R": 6,
+  "C": 8,
+  "n_hexagons": 1126,
+  "dim_ZBulk": 65,
+  "rank_certified": 65,
+  "certified_span_ZBulk": true,
+  "deficit_proved_3": true,
+  "modes": {
+    "realized": 65,
+    "skipped_in_span": 361,
+    "not_found_in_budget": 1
+  },
+  "budget": 3000000,
+  "seconds": 241.3
+}

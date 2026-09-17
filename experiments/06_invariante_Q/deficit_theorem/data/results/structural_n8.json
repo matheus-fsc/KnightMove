@@ -1,0 +1,55 @@
+{
+  "n": 8,
+  "V": 64,
+  "E": 168,
+  "beta1": 105,
+  "rank_boundary": 63,
+  "corners": [
+    "A8",
+    "H8",
+    "A1",
+    "H1"
+  ],
+  "corner_degrees": {
+    "A8": 2,
+    "H8": 2,
+    "A1": 2,
+    "H1": 2
+  },
+  "step_2_1": {
+    "rank_8_raw": 8,
+    "rank_8_mod_boundary": 4,
+    "matches_4": true
+  },
+  "step_2_2": {
+    "corner_chain_works": {
+      "A8": true,
+      "H8": true,
+      "A1": true,
+      "H1": true
+    },
+    "all_ok": true
+  },
+  "step_2_3": {
+    "rank_4_reps_raw": 4,
+    "rank_4_reps_mod_boundary": 4,
+    "reps_independent_mod_boundary": true,
+    "sum_of_4_reps_in_row_boundary": false,
+    "alpha_support_size": null,
+    "alpha_support_labels": null,
+    "dim_pairwise_differences_mod_boundary": 3,
+    "matches_Q": true
+  },
+  "Q_n": 3,
+  "step_2_4": {
+    "corner_pair_distances": {
+      "A8\u2194H8": 5,
+      "A8\u2194A1": 5,
+      "A8\u2194H1": 6,
+      "H8\u2194A1": 6,
+      "H8\u2194H1": 5,
+      "A1\u2194H1": 5
+    },
+    "any_vertex_overlap_between_corner_neighborhoods": false
+  }
+}

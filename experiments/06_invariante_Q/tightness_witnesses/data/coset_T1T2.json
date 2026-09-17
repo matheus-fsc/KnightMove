@@ -1,0 +1,258 @@
+{
+  "T1": {
+    "6x6": {
+      "board": "6x6",
+      "dim_Z1": 45,
+      "beta1": 45,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    },
+    "8x8": {
+      "board": "8x8",
+      "dim_Z1": 105,
+      "beta1": 105,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    },
+    "6x7": {
+      "board": "6x7",
+      "dim_Z1": 57,
+      "beta1": 57,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    },
+    "5x8": {
+      "board": "5x8",
+      "dim_Z1": 51,
+      "beta1": 51,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    },
+    "5x6": {
+      "board": "5x6",
+      "dim_Z1": 33,
+      "beta1": 33,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    },
+    "10x10": {
+      "board": "10x10",
+      "dim_Z1": 189,
+      "beta1": 189,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    },
+    "3x3": {
+      "board": "3x3",
+      "dim_Z1": 1,
+      "beta1": 0,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    },
+    "3x4": {
+      "board": "3x4",
+      "dim_Z1": 3,
+      "beta1": 3,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    },
+    "3x5": {
+      "board": "3x5",
+      "dim_Z1": 6,
+      "beta1": 6,
+      "corner_degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "mand_edges_distinct": true,
+      "basis_violations": 0,
+      "verdict": "PASS"
+    }
+  },
+  "T2": {
+    "6x6": {
+      "board": "6x6",
+      "beta1": 45,
+      "c_G": 1,
+      "rank_y": 4,
+      "c_Punc": 5,
+      "predicted_rank_9_minus_cPunc": 4,
+      "dim_fiber_y0": 41,
+      "dim_ZBulk_formula": 41,
+      "beta1_minus_4": 41,
+      "bulk_connected": true,
+      "identity_holds": true,
+      "verdict": "PASS"
+    },
+    "8x8": {
+      "board": "8x8",
+      "beta1": 105,
+      "c_G": 1,
+      "rank_y": 4,
+      "c_Punc": 5,
+      "predicted_rank_9_minus_cPunc": 4,
+      "dim_fiber_y0": 101,
+      "dim_ZBulk_formula": 101,
+      "beta1_minus_4": 101,
+      "bulk_connected": true,
+      "identity_holds": true,
+      "verdict": "PASS"
+    },
+    "6x7": {
+      "board": "6x7",
+      "beta1": 57,
+      "c_G": 1,
+      "rank_y": 4,
+      "c_Punc": 5,
+      "predicted_rank_9_minus_cPunc": 4,
+      "dim_fiber_y0": 53,
+      "dim_ZBulk_formula": 53,
+      "beta1_minus_4": 53,
+      "bulk_connected": true,
+      "identity_holds": true,
+      "verdict": "PASS"
+    },
+    "5x8": {
+      "board": "5x8",
+      "beta1": 51,
+      "c_G": 1,
+      "rank_y": 4,
+      "c_Punc": 5,
+      "predicted_rank_9_minus_cPunc": 4,
+      "dim_fiber_y0": 47,
+      "dim_ZBulk_formula": 47,
+      "beta1_minus_4": 47,
+      "bulk_connected": true,
+      "identity_holds": true,
+      "verdict": "PASS"
+    },
+    "5x6": {
+      "board": "5x6",
+      "beta1": 33,
+      "c_G": 1,
+      "rank_y": 4,
+      "c_Punc": 5,
+      "predicted_rank_9_minus_cPunc": 4,
+      "dim_fiber_y0": 29,
+      "dim_ZBulk_formula": 29,
+      "beta1_minus_4": 29,
+      "bulk_connected": true,
+      "identity_holds": true,
+      "verdict": "PASS"
+    },
+    "10x10": {
+      "board": "10x10",
+      "beta1": 189,
+      "c_G": 1,
+      "rank_y": 4,
+      "c_Punc": 5,
+      "predicted_rank_9_minus_cPunc": 4,
+      "dim_fiber_y0": 185,
+      "dim_ZBulk_formula": 185,
+      "beta1_minus_4": 185,
+      "bulk_connected": true,
+      "identity_holds": true,
+      "verdict": "PASS"
+    },
+    "3x3": {
+      "board": "3x3",
+      "beta1": 0,
+      "c_G": 2,
+      "rank_y": 1,
+      "c_Punc": 9,
+      "predicted_rank_9_minus_cPunc": 1,
+      "dim_fiber_y0": 0,
+      "dim_ZBulk_formula": 0,
+      "beta1_minus_4": -4,
+      "bulk_connected": false,
+      "identity_holds": true,
+      "verdict": "PASS"
+    },
+    "3x4": {
+      "board": "3x4",
+      "beta1": 3,
+      "c_G": 1,
+      "rank_y": 2,
+      "c_Punc": 7,
+      "predicted_rank_9_minus_cPunc": 2,
+      "dim_fiber_y0": 1,
+      "dim_ZBulk_formula": 1,
+      "beta1_minus_4": -1,
+      "bulk_connected": false,
+      "identity_holds": true,
+      "verdict": "PASS"
+    },
+    "3x5": {
+      "board": "3x5",
+      "beta1": 6,
+      "c_G": 1,
+      "rank_y": 3,
+      "c_Punc": 6,
+      "predicted_rank_9_minus_cPunc": 3,
+      "dim_fiber_y0": 3,
+      "dim_ZBulk_formula": 3,
+      "beta1_minus_4": 2,
+      "bulk_connected": false,
+      "identity_holds": true,
+      "verdict": "PASS"
+    }
+  }
+}

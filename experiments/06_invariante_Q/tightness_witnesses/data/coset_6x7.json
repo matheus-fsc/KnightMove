@@ -1,0 +1,77 @@
+{
+  "T3": {
+    "6x7": {
+      "board": "6x7",
+      "beta1": 57,
+      "rank_y": 4,
+      "Q_paper_def": 3,
+      "bound_beta1_minus_3": 54,
+      "coset_bound": 54,
+      "n_tours": 1067638,
+      "rank_Ham": 54,
+      "deficit": 3,
+      "bound_respected": true,
+      "Q_equals_rank_y_minus_1": true,
+      "verdict": "PASS"
+    }
+  },
+  "T4": {
+    "6x7": {
+      "board": "6x7",
+      "n_tours": 1067638,
+      "enum_seconds": 677.4,
+      "tours_not_in_fiber_one": 0,
+      "tours_y_illdefined": 0,
+      "verdict": "PASS"
+    }
+  },
+  "T5": {
+    "6x7": {
+      "board": "6x7",
+      "beta1": 57,
+      "rank_Ham": 54,
+      "deficit": 3,
+      "dim_span_diffs": 53,
+      "dim_ZBulk": 53,
+      "diffs_subset_ZBulk": true,
+      "diffs_equal_ZBulk": true,
+      "lhs_rank_eq_beta1_minus_3": true,
+      "equivalence_holds": true,
+      "verdict": "PASS"
+    }
+  },
+  "T6": {
+    "6x7": {
+      "board": "6x7",
+      "dim_Z1": 57,
+      "rank_Ham": 54,
+      "dim_quotient": 3,
+      "y_of_Ham_span": [
+        "0000",
+        "1111"
+      ],
+      "y_induced_welldefined": true,
+      "rank_image_y": 4,
+      "dim_target_F2_4_mod_one": 3,
+      "dim_preimage_of_{0,1}": 54,
+      "Ham_inside_preimage": true,
+      "dim_kernel_of_induced_y": 0,
+      "is_isomorphism": true,
+      "verdict": "PASS"
+    }
+  },
+  "T7": {
+    "6x7": {
+      "board": "6x7",
+      "Q_paper_def": 3,
+      "c_Punc": 5,
+      "bulk_connected": true,
+      "n_tours": 1067638,
+      "rank_Ham": 54,
+      "beta1": 57,
+      "deficit": 3,
+      "tight": true,
+      "verdict": "PASS"
+    }
+  }
+}

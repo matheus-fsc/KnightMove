@@ -1,0 +1,22 @@
+{
+ "12": {
+  "dim_Z_bulk": 293,
+  "rank": 293,
+  "spans": true,
+  "T5_cert": [
+   78,
+   78
+  ],
+  "T5_fail_sigs": []
+ },
+ "14": {
+  "dim_Z_bulk": 425,
+  "rank": 425,
+  "spans": true,
+  "T5_cert": [
+   118,
+   118
+  ],
+  "T5_fail_sigs": []
+ }
+}

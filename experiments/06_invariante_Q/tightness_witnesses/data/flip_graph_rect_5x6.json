@@ -1,0 +1,38 @@
+{
+  "R": 5,
+  "C": 6,
+  "V": 30,
+  "E": 62,
+  "beta1": 33,
+  "dim_ZBulk": 29,
+  "n_hexagons_bulk": 264,
+  "n_tours": 8,
+  "enum_seconds": 0.1,
+  "pairs_matching_ok": 48,
+  "pairs_disconnected": 48,
+  "pairs_external": 0,
+  "flip_degree_min": 0,
+  "flip_degree_max": 0,
+  "flip_degree_mean": 0.0,
+  "flip_degree_hist": {
+    "0": 8
+  },
+  "n_isolated": 8,
+  "n_components": 8,
+  "component_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "n_hexagons_realized": 0,
+  "rank_realized": 0,
+  "rank_all_bulk_hexagons": 29,
+  "realized_span_ZBulk": false,
+  "all_hex_span_ZBulk": true,
+  "seconds": 0.1
+}
