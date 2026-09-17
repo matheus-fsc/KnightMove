@@ -1,0 +1,51 @@
+{
+  "config": {
+    "board": 8,
+    "samples_per_batch": 50,
+    "n_batches_per_pair": 2,
+    "max_attempts_factor": 5,
+    "timeout_s_per_batch": 600,
+    "break_symmetry": true,
+    "pairs": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          6,
+          4
+        ]
+      ]
+    ]
+  },
+  "started_at": "2026-05-09T21:05:15+00:00",
+  "updated_at": "2026-05-09T21:12:22+00:00",
+  "completed_batches": [
+    "p00_b000",
+    "p00_b001",
+    "p00_b002",
+    "p00_b003",
+    "p00_b004",
+    "p01_b000",
+    "p01_b001",
+    "p01_b002",
+    "p01_b003",
+    "p01_b004"
+  ],
+  "totals": {
+    "n_attempts": 1296,
+    "n_found": 800,
+    "elapsed_s": 176.58
+  }
+}

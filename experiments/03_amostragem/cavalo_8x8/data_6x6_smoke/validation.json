@@ -1,0 +1,97 @@
+{
+  "data_dir": "data_6x6_smoke",
+  "gt_path": "../analysis_6x6.json",
+  "n_pools": 6,
+  "gt_n_orbits": 7,
+  "z3_n_orbits_aggregated": 6,
+  "orbits_recovered": 4,
+  "ranking_correlation": 0.9999999999999998,
+  "r_mae": 0.068125,
+  "matched_orbits": [
+    {
+      "representative": [
+        "B6-D5",
+        "B6-C4"
+      ],
+      "r_gt": -0.7714,
+      "r_z3": -0.8296,
+      "delta_r": -0.05820000000000003
+    },
+    {
+      "representative": [
+        "B6-D5",
+        "D5-F4"
+      ],
+      "r_gt": -0.6089,
+      "r_z3": -0.6186,
+      "delta_r": -0.009700000000000042
+    },
+    {
+      "representative": [
+        "C6-E5",
+        "C6-B4"
+      ],
+      "r_gt": -0.4768,
+      "r_z3": -0.608,
+      "delta_r": -0.13119999999999998
+    },
+    {
+      "representative": [
+        "C6-E5",
+        "E5-C4"
+      ],
+      "r_gt": -0.4339,
+      "r_z3": -0.5073,
+      "delta_r": -0.07339999999999997
+    }
+  ],
+  "missing_orbits": [
+    {
+      "representative": [
+        "C6-E5",
+        "C6-D4"
+      ],
+      "r_gt": -0.4926
+    },
+    {
+      "representative": [
+        "B6-A4",
+        "B6-C4"
+      ],
+      "r_gt": -0.3822
+    },
+    {
+      "representative": [
+        "B6-C4",
+        "C4-B2"
+      ],
+      "r_gt": -0.3574
+    }
+  ],
+  "mandatory": {
+    "gt": [
+      "A6-B4",
+      "A6-C5",
+      "B3-A1",
+      "C2-A1",
+      "D2-F1",
+      "E3-F1",
+      "F6-D5",
+      "F6-E4"
+    ],
+    "z3_intersection": [],
+    "z3_union": [
+      "A6-B4",
+      "A6-C5",
+      "B3-A1",
+      "C2-A1",
+      "D2-F1",
+      "E3-F1",
+      "F6-D5",
+      "F6-E4"
+    ],
+    "exact_match": false,
+    "subset_match": true
+  },
+  "verdict": "BIASED"
+}

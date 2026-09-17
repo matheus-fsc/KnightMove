@@ -1,0 +1,21 @@
+{
+  "board": 10,
+  "samples_per_batch": 100,
+  "n_batches_per_pair": 500,
+  "max_attempts_factor": 8,
+  "timeout_s_per_batch": 7200,
+  "break_symmetry": false,
+  "_comment": "Fase C: 10×10. 50k amostras/par (500 lotes × 100). Pares paridade-validados, 2 center-start nos índices 0/1.",
+  "pairs": [
+    [[4, 4], [0, 1]],
+    [[5, 5], [0, 1]],
+    [[0, 0], [0, 9]],
+    [[0, 0], [9, 8]],
+    [[0, 0], [4, 5]],
+    [[0, 0], [3, 2]],
+    [[0, 1], [6, 4]],
+    [[0, 1], [9, 5]],
+    [[0, 1], [4, 4]],
+    [[1, 2], [7, 5]]
+  ]
+}
