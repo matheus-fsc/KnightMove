@@ -1,4 +1,4 @@
-# knight_tours_optimized — flagship solver
+# knight_tours_optimized: flagship solver
 
 ## Purpose
 The flagship Knight's-Tour enumeration/counting engine: cycle-space + union-find

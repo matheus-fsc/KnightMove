@@ -1,4 +1,4 @@
-# 10×10 — Higher-order exclusões e benchmark NOT(A∧B∧C)
+# 10×10: Higher-order exclusões e benchmark NOT(A∧B∧C)
 
 Teste da hipótese motivada pelo achado do 6×6 (96% dos geradores até
 ordem 4 são triplas/quadras): se `NOT(A∧B)` não acelera o 10×10,
@@ -10,14 +10,14 @@ pelo grau-2). Speedup com `NOT(A∧B∧C)` é negativo (0.70×).
 
 ## 1. Pipeline
 
-### Tarefa 0 — Reconstrução de T
+### Tarefa 0: Reconstrução de T
 - 50 batches × 100 = 5.000 amostras carregadas de `board_10x10/data/samples/`
 - T ∈ {0,1}^{5000×288}, dtype uint8
 - Cada linha soma 100 arestas (Hamiltoniano fechado) ✓
 - `rank(T) GF(2) = 186` (confirmando achado anterior, ≤ β₁ = 189)
 - freq média 0.347 = 100/288 (o brief mencionava 0.694 mas é 2×100/288 contando duplas)
 
-### Tarefa 1 — Busca dirigida de triplas
+### Tarefa 1: Busca dirigida de triplas
 
 Estratégia híbrida (não força bruta dos 3,9M):
 
@@ -38,20 +38,20 @@ sub-pares vivos `> 0.02`):
 | [0.005, 0.01) | 656 |
 | [0.01, 0.02) | 1.226 |
 
-### Tarefa 2 — Verificação Z3
+### Tarefa 2: Verificação Z3
 
 Verificou todas as 118 com P=0 + amostra de 50 com P>0:
 
 | Veredicto | Total |
 |---|---:|
 | **proven** (UNSAT confirmado) | **118** |
-| false_pos (SAT — tour existe) | 46 |
+| false_pos (SAT, tour existe) | 46 |
 | unverified (timeout/max-iters) | 4 |
 
 Tempo total: 24s (0.14 s/cand). Todas as 118 com P=0 nas amostras se
 confirmaram como exclusões formais.
 
-### Tarefa 3 — Benchmark (K=200)
+### Tarefa 3: Benchmark (K=200)
 
 | Config | t_total | t_first | sol/s | speedup |
 |---|---:|---:|---:|---:|
@@ -78,7 +78,7 @@ Distribuição estrutural por grau do vértice pivô:
 |---:|---:|---:|---:|
 | 3 | 8 | 1 | 8 |
 | 4 | 28 | 4 | 110 |
-| 5+ | 64 | 10–56 | 0 (filtro freq>0.05) |
+| 5+ | 64 | 10-56 | 0 (filtro freq>0.05) |
 
 Esperado teórico de estruturais (somando todos os vértices grau≥3 com
 `C(grau, 3)`): **2.616**. Encontradas **118**. As ~2.500 perdidas são
@@ -104,14 +104,14 @@ solver com cláusulas redundantes** sem ganho funcional.
 | Speedup NOT(A∧B) | 3.8× | ~1.0× |
 | Speedup NOT(A∧B∧C) | n/a (não testado) | 0.71× (slowdown) |
 
-No 6×6 a estrutura combinatória pequena cria correlações fortes — as 8
+No 6×6 a estrutura combinatória pequena cria correlações fortes, as 8
 bifurcações `r ≈ -0.77` excluem ~30% dos tours, e *cláusulas explícitas
 ajudam o solver a podar agressivamente*. No 10×10 o espaço de busca é
 ~10¹¹× maior; cláusulas extras adicionam custo de propagação por SAT
 check sem aproximadamente reduzir o tamanho do espaço de busca.
 
 **Os geradores genuínos (não estruturais) do ideal de infactibilidade
-do 10×10 — se existem — não são detectáveis com 5.000 amostras
+do 10×10 (se existem) não são detectáveis com 5.000 amostras
 heurísticas, e mesmo se fossem detectáveis, podem não estar
 codificáveis como cláusulas locais NOT(A∧…∧X).**
 

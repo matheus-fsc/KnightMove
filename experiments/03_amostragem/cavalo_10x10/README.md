@@ -1,4 +1,4 @@
-# cavalo_10x10 — 10×10 sampling engine + datasets
+# cavalo_10x10: 10×10 sampling engine + datasets
 
 ## Purpose
 The 10×10 counterpart of `../cavalo_8x8/`: a self-contained Phase-C sampling /
@@ -20,7 +20,7 @@ directory so the relative `data_parallel/` paths resolve.
 
 ## Key findings (see project memory)
 - Phase C complete: 500k samples × 8 D₄ = 4M; 9 pools, mean 18.6 orbits,
-  7.94× compaction; universal top-1 B10-D9 ↔ B10-C8 — hypothesis confirmed.
+  7.94× compaction; universal top-1 B10-D9 ↔ B10-C8, hypothesis confirmed.
 
 ## Note
 The ~5k JSON files are kept in place (read by sibling scripts via relative

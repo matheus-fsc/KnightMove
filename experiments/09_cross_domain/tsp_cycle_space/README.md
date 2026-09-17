@@ -1,7 +1,7 @@
 # TSP Cycle-Space vs 2-opt
 
-Experimento de pesquisa que conecta a **estrutura do espaço de ciclos GF(2)**
-— o mesmo arcabouço `H₁(G; F₂)` usado no projeto do passeio do cavalo — com
+Experimento de pesquisa que conecta a **estrutura do espaço de ciclos GF(2)**,
+o mesmo arcabouço `H₁(G; F₂)` usado no projeto do passeio do cavalo, à
 **busca local para o TSP Euclidiano**.
 
 ## Hipótese
@@ -26,14 +26,14 @@ O relatório é **honesto**: se o 2-opt vencer, dizemos por quanto.
 
 ## Pipeline (`tsp_cycle_experiment.py`)
 
-1. **Instâncias** — pontos uniformes em `[0,100]²`, grafo completo com pesos
+1. **Instâncias**: pontos uniformes em `[0,100]²`, grafo completo com pesos
    Euclidianos. Seed mestre = 42.
-2. **Tour inicial** — vizinho mais próximo (nearest neighbor) a partir do
+2. **Tour inicial**: vizinho mais próximo (nearest neighbor) a partir do
    vértice 0.
-3. **Base do espaço de ciclos** — MST (Kruskal/networkx); cada aresta não-árvore
+3. **Base do espaço de ciclos**: MST (Kruskal/networkx); cada aresta não-árvore
    gera um ciclo fundamental `C_e = caminho(u→v na MST) + (u,v)`, representado
    como vetor binário em `F₂^|E|`. Total = `|E| - |V| + 1`.
-4. **Melhoria guiada por ciclos** — para cada `C_e`, calcula
+4. **Melhoria guiada por ciclos**: para cada `C_e`, calcula
    `delta = custo(tour ⊕ C_e) - custo(tour)`; valida (grau 2 + conexo); aplica
    se `delta < 0`. Quatro ordenações testadas:
    - (a) aleatória
@@ -41,8 +41,8 @@ O relatório é **honesto**: se o 2-opt vencer, dizemos por quanto.
    - (c) por menor peso de aresta no ciclo (mais barato primeiro)
    - (d) por delta estimado (guloso)
    Repete até a convergência.
-5. **Baseline 2-opt** — implementação padrão, mesma condição de parada.
-6. **Benchmark** — `product([15,20,25], range(10))`, ambos os métodos a partir
+5. **Baseline 2-opt**: implementação padrão, mesma condição de parada.
+6. **Benchmark**: `product([15,20,25], range(10))`, ambos os métodos a partir
    do **mesmo** tour NN. Registra custos, gap, iterações e tempos.
 
 ## Como rodar

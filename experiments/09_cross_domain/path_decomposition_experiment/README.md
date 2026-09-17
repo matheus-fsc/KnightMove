@@ -23,7 +23,7 @@ parcialmente conhecido (6×6 é enumerável exaustivamente).
 
 | Arquivo | Descrição |
 |---|---|
-| `path_decomposition.py` | Script principal do experimento (Passos 1–6). |
+| `path_decomposition.py` | Script principal do experimento (Passos 1-6). |
 | `RESULTS.md` | Análise dos resultados + respostas às 3 perguntas-chave. |
 | `results/path_decomposition_experiment.json` | Resultados quantitativos (gerado pelo script). |
 
@@ -31,7 +31,7 @@ parcialmente conhecido (6×6 é enumerável exaustivamente).
 
 O XOR de ciclos fundamentais **falha como enumerador**: cobre **0,0086 %** dos
 46 666 caminhos `(0,0)→(0,1)` do 6×6, satura em ~10 caminhos no 8×8, e os
-encontra **menos diversos** que Warnsdorff e que a população real. 73–84 % das
+encontra **menos diversos** que Warnsdorff e que a população real. 73-84 % das
 combinações XOR sequer têm `V−1` arestas (ciclos da base não *alternam* com o
 caminho-base). Detalhes em [`RESULTS.md`](RESULTS.md).
 
@@ -49,7 +49,7 @@ Num tabuleiro `n×n` **par**, `(0,0)` e `(n-1,n-1)` têm a **mesma cor**, mas um
 caminho hamiltoniano tem `n²-1` arestas (número **ímpar**), exigindo extremos de
 **cores opostas**. Logo `s=(0,0) → t=(n-1,n-1)` é **impossível** em 6×6 e 8×8.
 O script detecta isso e usa o par viável `s=(0,0) → t=(0,1)` (open tour),
-documentando a troca — conforme previsto no enunciado.
+documentando a troca, conforme previsto no enunciado.
 
 ## Perguntas-chave (respondidas honestamente no output)
 

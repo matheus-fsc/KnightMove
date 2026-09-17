@@ -1,4 +1,4 @@
-# xor_clauses_benchmark — cláusulas XOR de paridade derivadas de H₁ no Z3
+# xor_clauses_benchmark: cláusulas XOR de paridade derivadas de H₁ no Z3
 
 Testa empiricamente se as obstruções F₂-lineares descobertas em
 `forbidden_cycles_6x6/` (e replicadas estruturalmente no 10×10)
@@ -27,10 +27,10 @@ Para cada φᵢ ∈ (F₂⁸⁰)\* válido em todo tour (verificado: zera em
 Como cláusula Z3 (Σ x_e ≡ 0 mod 2):
 
 ```python
-# suporte 2 — equivalência direta (mais rápida)
+# suporte 2: equivalência direta (mais rápida)
 solver.add(x_a == x_b)
 
-# suporte > 2 — soma inteira % 2
+# suporte > 2: soma inteira % 2
 solver.add(Sum([If(x_e, 1, 0) for e in supp]) % 2 == 0)
 ```
 
@@ -48,17 +48,17 @@ sem viés:
 | **E** | B + 3 XOR + NOT(A∧B) top-8 | 7.64 s | 0.85× | 65.5 | 3.87 |
 
 Observações:
-- **A ≈ B** — adicionar as 8 obrigatórias como fatos não muda nada
+- **A ≈ B**: adicionar as 8 obrigatórias como fatos não muda nada
   perceptível. O Z3 já infere `x_e=1` em 1 passo de propagação grau-2
   (cada canto tem 2 vizinhos, soma 2 ⇒ ambas saturadas).
-- **C levemente pior que B** — as 3 cláusulas XOR (uma com soma de 22
+- **C levemente pior que B**: as 3 cláusulas XOR (uma com soma de 22
   variáveis, outra com 20) custam mais para avaliar do que poupam.
-- **D ≈ B** — usar as 28 cláusulas XOR (todas pares de obrigatórias)
+- **D ≈ B**: usar as 28 cláusulas XOR (todas pares de obrigatórias)
   é redundante mas barato porque cada uma é `x_a == x_b` (suporte 2).
-- **E pior** — adicionar `NOT(A∧B)` para top-8 pares minimal-excluded
+- **E pior**: adicionar `NOT(A∧B)` para top-8 pares minimal-excluded
   duplica restrição que o Z3 já vai descobrir via sub-tour cuts.
 
-KL Bernoulli vs ground-truth: 0.45-0.60 em todas as configs — nenhuma
+KL Bernoulli vs ground-truth: 0.45-0.60 em todas as configs, nenhuma
 introduz viés mensurável.
 
 Dados: `data/benchmark_6x6_xor.json`.
@@ -119,10 +119,10 @@ Dados: `data/xor_10x10_clauses.json`.
 | **D** | B + 28 XOR pares | 16.16 s | 1.00× | 12.38 | 5.82 |
 | **E** | B + 3 XOR + 1 NOT(A∧B) | 22.66 s | 0.71× | 8.82 | 7.46 |
 
-- **A ≈ B ≈ C ≈ D** — ruído dentro de 2 %. O Z3 não tira proveito
+- **A ≈ B ≈ C ≈ D**: ruído dentro de 2 %. O Z3 não tira proveito
   prático das obstruções F₂-lineares no nosso pipeline. As 3 XOR
   mínimas dão uma leve melhora (1.02×) mas dentro da margem.
-- **E pior** — só **1 par** com `p_coexist = 0` existe em
+- **E pior**: só **1 par** com `p_coexist = 0` existe em
   `edge_pair_correlations.json` do 10×10 (o resto tem `p_coexist > 0`,
   i.e., não são exclusões estritas). Esse 1 par força UNSAT em alguns
   ramos cedo, gerando mais retries (7.46 vs 5.82 attempts/sol).
@@ -140,14 +140,14 @@ matam o ganho prático:
    `Or([x_i != sig[i] for all i])` após cada tour encontrado para
    evitar duplicatas. Esse corte é forte e domina o tempo total
    bem mais que as 3 XOR.
-2. **Sub-tour elimination iterativo é caro** mas converge rápido —
+2. **Sub-tour elimination iterativo é caro**, mas converge rápido:
    ele já implicitamente força paridade local (cada vértice tem grau
    par no subgrafo). Nada nas XOR é mais profundo do que isso para
    o Z3 inferir via propagação.
 3. **As obrigatórias dos cantos** são triviais para o Z3:
    `PbEq(2,2)` em vértices de grau 2 implica saturação em 1 passo de
    simplificação. Logo a "barreira" que a teoria descreve não existe
-   para o solver — ela só é visível em formulações puramente
+   para o solver, ela só é visível em formulações puramente
    simbólicas/algébricas.
 
 Onde **as XOR teriam mais chance de ajudar**:
@@ -156,7 +156,7 @@ Onde **as XOR teriam mais chance de ajudar**:
   sem o overhead de geração K-completa
 - formulações **sem sub-tour elimination iterativa** (e.g., só grau-2)
 - variantes **constrangidas**, e.g., "tour com k arestas vetadas e
-  3 mandatórias removidas" — aí o quociente pode realmente importar
+  3 mandatórias removidas", aí o quociente pode realmente importar
 
 ## 6. Conclusão prática
 
@@ -208,16 +208,16 @@ xor_clauses_benchmark/
 ## 9. Como reproduzir
 
 ```bash
-# T0 + T1 — benchmark 6×6 (~30 s)
+# T0 + T1: benchmark 6×6 (~30 s)
 python3 xor_clauses_benchmark/xor_6x6.py --K 500
 
-# T2 — identifica as 3 XOR mínimas do 10×10 (~10 s)
+# T2: identifica as 3 XOR mínimas do 10×10 (~10 s)
 python3 xor_clauses_benchmark/find_xor_10x10.py
 
-# T3 — benchmark 10×10 (~2 min)
+# T3: benchmark 10×10 (~2 min)
 python3 xor_clauses_benchmark/xor_10x10.py --K 200
 
-# T4 — gerar plot comparativo
+# T4: gerar plot comparativo
 python3 xor_clauses_benchmark/plot_speedup.py
 ```
 

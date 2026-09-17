@@ -1,10 +1,10 @@
 # Teorema do *Deficit* 3 no Passeio do Cavalo
 
-> **Status:** T0–T4 concluídos + bônus n=12.
+> **Status:** T0-T4 concluídos + bônus n=12.
 > Parte estrutural `Q(n) = 3` (todo `n ≥ 4`, ímpar ou par): **PROVADA**
 > (`conjecture_proof.md`, verificada em `n = 4..12`).
 > Parte de tightness `deficit(n) = 3` (n par ≥ 6): verificada
-> computacionalmente em `n ∈ {6, 8, 10, 12}` — algebricamente em aberto.
+> computacionalmente em `n ∈ {6, 8, 10, 12}`, algebricamente em aberto.
 > Novos pontos desta fase: `n = 8` (V=64, E=168, β₁=105, rank=102) e
 > `n = 12` (V=144, E=440, β₁=297, rank=294), ambos com deficit=3, Q=3.
 
@@ -61,7 +61,7 @@ Mand(n) = ⋃_{c ∈ Corners(n)} mand(c),     |Mand(n)| = 8   (n ≥ 4)
 
 (São oito arestas distintas porque, para `n ≥ 4`, dois cantos quaisquer estão
 a distância de Manhattan `≥ 3`, e suas vizinhanças de cavalo são disjuntas.
-Para `n = 4` há sobreposição parcial — discutida na Tarefa 2.4.)
+Para `n = 4` há sobreposição parcial, discutida na Tarefa 2.4.)
 
 ### 1.3 Pares XOR
 
@@ -113,7 +113,7 @@ deficit(n) := β₁(n) − rank_{GF(2)}(Ham(n)).
 ```
 (i)   Q(n) = 3.
 ```
-Decorre da combinatória do grau-2 dos 4 cantos (Lema 1–4, ver
+Decorre da combinatória do grau-2 dos 4 cantos (Lema 1-4, ver
 `conjecture_proof.md`). Em particular, vale para `n` ímpar mesmo
 que tours fechados não existam.
 
@@ -162,7 +162,7 @@ contradisser a conjectura, **paramos e documentamos**:
 
 ---
 
-## 3. Evidência computacional — resultados
+## 3. Evidência computacional: resultados
 
 > Script: `verify_small_cases.py`. Saída: `data/results/verify_n{n}.json`.
 
@@ -187,12 +187,12 @@ contradisser a conjectura, **paramos e documentamos**:
 | Q(8) (28 XORs mod ∂)  | **3**                                |
 | rank(T), deficit      | **102, 3**                           |
 | rank(F) (2-fat), def  | **102, 3**                           |
-| rank(F) == rank(T)?   | **True** — obstrução já vive nos 2-fat |
+| rank(F) == rank(T)?   | **True**. obstrução já vive nos 2-fat |
 | dim(8 mand mod ∂)     | 4                                    |
 
 Tempo total: ~12 min (3000 tours via Z3 com cortes acumulando).
 
-**Verdict: `deficit(8) = 3` ✓ — preenche o ponto faltante entre n=6 e n=10.**
+**Verdict: `deficit(8) = 3` ✓, preenche o ponto faltante entre n=6 e n=10.**
 
 ### 3.3 Bônus: n=12 (1000 tours, ~28 min)
 
@@ -218,7 +218,7 @@ Ver tabela no §1.6. A conjectura passa em `n = 6, 8, 10, 12`.
 
 ---
 
-## 4. Análise estrutural — resultados
+## 4. Análise estrutural: resultados
 
 > Script: `structural_analysis.py`. Saída: `data/results/structural_n{n}.json`.
 
@@ -238,8 +238,8 @@ e mesmo quando as vizinhanças dos cantos se sobrepõem (n = 4, 5).
 
 ### 4.2 Mecanismo (corrigido em relação ao brief inicial)
 
-A predição original do brief — *"os 4 representantes-por-canto têm dim 3
-porque sua soma seria 0 mod ∂"* — **não se verifica computacionalmente**.
+A predição original do brief, *"os 4 representantes-por-canto têm dim 3
+porque sua soma seria 0 mod ∂"*, **não se verifica computacionalmente**.
 Na prática:
 
 - os 4 representantes `r_{c_1}, r_{c_2}, r_{c_3}, r_{c_4}` são
@@ -298,7 +298,7 @@ diferenças de representantes.)
 **Teorema.** `Q(n) = 3` para todo `n ≥ 4`.
 *Prova.* O espaço `W = Span(r_{c_1}, ..., r_{c_4})` é isomorfo a
 `GF(2)^4` (Lema 3). As diferenças `r_{c_i} + r_{c_j}` pertencem ao
-núcleo do funcional `σ: W → GF(2)` que soma coordenadas — núcleo de
+núcleo do funcional `σ: W → GF(2)` que soma coordenadas, núcleo de
 dimensão `4 − 1 = 3`. As três diferenças `r_{c_1}+r_{c_2}`,
 `r_{c_1}+r_{c_3}`, `r_{c_1}+r_{c_4}` geram esse núcleo. ∎
 

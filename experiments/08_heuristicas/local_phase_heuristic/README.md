@@ -1,8 +1,8 @@
-# local_phase_heuristic — heurística teórica f∞(L) sem amostragem
+# local_phase_heuristic: heurística teórica f∞(L) sem amostragem
 
 Pergunta central:
 
-> Seis números — `f∞(L)` para `L = 0..5` — são suficientes para substituir
+> Seis números (`f∞(L)` para `L = 0..5`) são suficientes para substituir
 > toda a etapa de amostragem de calibração do backtracking, mantendo a
 > eficiência do algoritmo?
 
@@ -30,7 +30,7 @@ Para uma aresta `e = (u, v)` do grafo do cavalo:
 
     L(e) = min(L(u), L(v))
 
-(o nível da aresta é o do vértice **menos** interior — convenção conservadora).
+(o nível da aresta é o do vértice **menos** interior, convenção conservadora).
 
 ### 1.3 Distribuição de arestas por nível
 
@@ -79,16 +79,16 @@ Sem amostragem prévia, sem dados externos. Apenas o grafo e os 6 números.
 
 ## 2. Arquivos
 
-- `theory_heuristic.py` — backtracking com `f∞(L(e))`.
-- `calibration_study.py` — sensibilidade de nós/tour a perturbações de `f∞`.
-- `benchmark_theory.py` — comparação A/B/C/D no 10×10 com `t_setup`.
-- `plot_scaling.py` — gera o painel de escalonamento theory vs v2.
-- `data/benchmark_theory.json` — escalonamento n∈{6..14}, K=500.
-- `data/calibration_results.json` — resultados de sensibilidade.
-- `data/benchmark_comparison.json` — A/B/C/D no 10×10.
-- `data/plots/sensitivity_heatmap.png` — heatmap de sensibilidade.
-- `data/plots/nodes_per_tour_comparison.png` — barras A/B/C/D.
-- `data/plots/scaling_theory.png` — comparação theory vs v2 em n∈{6..14}.
+- `theory_heuristic.py`: backtracking com `f∞(L(e))`.
+- `calibration_study.py`: sensibilidade de nós/tour a perturbações de `f∞`.
+- `benchmark_theory.py`: comparação A/B/C/D no 10×10 com `t_setup`.
+- `plot_scaling.py`: gera o painel de escalonamento theory vs v2.
+- `data/benchmark_theory.json`: escalonamento n∈{6..14}, K=500.
+- `data/calibration_results.json`: resultados de sensibilidade.
+- `data/benchmark_comparison.json`: A/B/C/D no 10×10.
+- `data/plots/sensitivity_heatmap.png`: heatmap de sensibilidade.
+- `data/plots/nodes_per_tour_comparison.png`: barras A/B/C/D.
+- `data/plots/scaling_theory.png`: comparação theory vs v2 em n∈{6..14}.
 
 ---
 
@@ -141,7 +141,7 @@ Speedups da heurística teórica:
 | H_aleatoria    | 5.38     | f ~ U(0, 1) sorteado por aresta         |
 | H_invertida    | 3.88     | f → 1 − f                               |
 
-**H_uniforme é 20.3 % pior que H_teoria** — quantifica o ganho da fase
+**H_uniforme é 20.3 % pior que H_teoria**, quantifica o ganho da fase
 local sobre a pressão de vértice sozinha.
 
 H_invertida ficou levemente **melhor** que H_teoria. Isso não é
@@ -156,7 +156,7 @@ sensível do que o esperado nesta amostra. Resultado merece K maior.
 
 | L | max │Δ nós/tour│ | f∞(L) | nota                                  |
 |---|------------------|-------|----------------------------------------|
-| 0 | 1.88             | 0.528 | inverte o lado de 0.5 — muda ordem    |
+| 0 | 1.88             | 0.528 | inverte o lado de 0.5, muda ordem    |
 | 1 | 0.22             | 0.193 | δ não cruza 0.5                       |
 | 2 | 1.90             | 0.198 | +0.10 não cruza 0.5; ainda assim moveu |
 | 3 | 1.90             | 0.294 | −0.10 cruza interpretação relativa    |
@@ -180,7 +180,7 @@ a ordem (1, 0) → (0, 1) das tentativas. Veja
 
 `δ ≥ 0` não muda nada (todos `f∞ + δ` mantêm o mesmo sinal vs 0.5).
 `δ ≤ −0.05` empurra `f∞(0) = 0.528` para baixo de 0.5, invertendo a
-polaridade da borda — sobe para 6.28. Isso confirma que **a polaridade
+polaridade da borda, sobe para 6.28. Isso confirma que **a polaridade
 de L = 0 é o sinal dominante** no 10×10.
 
 ---
@@ -189,7 +189,7 @@ de L = 0 é o sinal dominante** no 10×10.
 
 `H_teoria ≈ H_v2` (≤ 1.14× em todos os n testados; melhor em três deles).
 
-**O algoritmo é completamente autônomo** — não requer dados de
+**O algoritmo é completamente autônomo**, não requer dados de
 calibração para nenhum `n`. Apenas a tabela `f∞` de 6 valores é
 suficiente. O custo de adaptar a um `n` novo cai de ~7 minutos
 (amostragem Z3 prévia) para **zero**.
@@ -213,7 +213,7 @@ A existência empírica de `f∞(L)` independente de `n` (para `n ≥ 10`)
 sugere que o ensemble uniforme de tours sobre o grafo do cavalo possui
 uma **medida de Gibbs local bem-definida** no limite `n → ∞` (grafo
 `G_∞` no plano inteiro). A fase local apenas depende da distância à
-borda — é invariante por translação para vértices suficientemente
+borda, é invariante por translação para vértices suficientemente
 interiores.
 
 Isso motiva:
@@ -233,7 +233,7 @@ Isso motiva:
 - Refinar `f∞(L)` com amostras Z3 uniformes (sem viés de heurística
   de busca), e medir convergência em `n` maior.
 - Estender a tabela para `L > 5` rodando `n ≥ 16`.
-- Investigar `H_invertida ≈ H_teoria` em K = 200 — possivelmente o
+- Investigar `H_invertida ≈ H_teoria` em K = 200, possivelmente o
   filtro `|f − 0.5|` "esconde" a polaridade quando a estrutura por
   nível é preservada. Reproduzir com K = 1000.
 - Tentar **prova** da existência de `f∞` via:

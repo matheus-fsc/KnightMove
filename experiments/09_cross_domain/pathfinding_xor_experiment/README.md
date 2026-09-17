@@ -36,7 +36,7 @@ e o XOR do caminho-base com um ciclo quase sempre daria um caminho válido.
 
 | Arquivo | Descrição |
 |---|---|
-| `pathfinding_xor.py` | Script principal (Passos 1–9). |
+| `pathfinding_xor.py` | Script principal (Passos 1-9). |
 | `results/pathfinding_xor_experiment.json` | Métricas completas por instância. |
 | `results/pathfinding_xor_per_instance.csv` | Mesmas métricas em CSV. |
 | `RESULTADOS.md` | Relatório e respostas às perguntas-chave. |
@@ -44,6 +44,6 @@ e o XOR do caminho-base com um ciclo quase sempre daria um caminho válido.
 ## Nota sobre o tempo (honestidade)
 
 `time_xor_ms` cobre **DFS + todas as verificações XOR** (single + 500 pares),
-enumerando dezenas a >100 caminhos — não apenas 10. `time_astar_repeated_ms`
+enumerando dezenas a >100 caminhos, não apenas 10. `time_astar_repeated_ms`
 cobre achar **até 10** caminhos. Logo o "speedup" reportado **não** é
 caminho-a-caminho; veja `RESULTADOS.md` para a leitura correta.

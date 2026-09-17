@@ -1,4 +1,4 @@
-# cavalo_8x8 — 8×8 sampling engine + datasets
+# cavalo_8x8: 8×8 sampling engine + datasets
 
 ## Purpose
 The 8×8 (and 6×6 control) **tour-sampling and correlation** pipeline. This is a
@@ -23,10 +23,10 @@ Each dataset directory follows the same internal structure:
 | `destruction/` | destruction-catalogue outputs (parallel runs) |
 
 Dataset variants present:
-- `data/`, `data_parallel/` — main 8×8 runs
-- `data_6x6_sampled/`, `data_6x6_sym/`, `data_6x6_smoke/` — 6×6 controls (incl. symmetry & smoke-test)
-- `data_8x8_phase_b/`, `data_8x8_phase_b_smoke/` — Phase B 8×8 re-collection
-- `configs/` — run configurations
+- `data/`, `data_parallel/`, main 8×8 runs
+- `data_6x6_sampled/`, `data_6x6_sym/`, `data_6x6_smoke/`, 6×6 controls (incl. symmetry & smoke-test)
+- `data_8x8_phase_b/`, `data_8x8_phase_b_smoke/`, Phase B 8×8 re-collection
+- `configs/`: run configurations
 
 ## Key findings (see project memory)
 - Phase A: Z3 sym=False VALID (ρ=0.96, 7/7 orbits); sym=True PARTIAL (ρ=0.89).

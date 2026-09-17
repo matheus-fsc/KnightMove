@@ -1,4 +1,4 @@
-# Knight Tour 10×10 — Pipeline GF(2) e descoberta de invariantes
+# Knight Tour 10×10: Pipeline GF(2) e descoberta de invariantes
 
 Replica no tabuleiro 10×10 a metodologia validada no 6×6:
 amostragem SAT não-viesada (`break_symmetry=False`), descoberta de
@@ -38,7 +38,7 @@ Formulação:
 - Grau-2 em cada vértice via `PbEq(... , 2)`
 - Quebra de simetria aleatória por amostra (`x_e ← {0,1}` para aresta sorteada)
 - Pós-filtro BFS de conectividade (rejeita uniões de sub-tours)
-- `break_symmetry=False` global — sem viés de amostragem
+- `break_symmetry=False` global, sem viés de amostragem
 
 Protocolo:
 - `n_batches=50`, `batch_size=100` ⇒ **5.000 amostras válidas**
@@ -70,7 +70,7 @@ B   = row-reduction(T)
 rank(T) = 186  /  β₁ = 189   →  cobertura 98.4%
 ```
 
-Faltam 3 dimensões — o espaço de ciclos é quase-totalmente capturado
+Faltam 3 dimensões, o espaço de ciclos é quase-totalmente capturado
 pelas 5.000 amostras.
 
 ### 3.2 Coordenadas e invariantes não-triviais
@@ -78,11 +78,11 @@ pelas 5.000 amostras.
 `coords ∈ GF(2)^{5000×186}` é a projeção de cada amostra na base `B`.
 
 Todas as 186 dimensões têm `var > 0.01 × var_max` (i.e., são
-não-degeneradas) e `p(1) ∈ [0.48, 0.53]` — distribuição muito próxima
+não-degeneradas) e `p(1) ∈ [0.48, 0.53]`, distribuição muito próxima
 de 50/50 em todas as direções, consistente com base aleatória de
 eliminação gaussiana.
 
-### 3.3 Correlação aresta×invariante — **não produziu candidatos**
+### 3.3 Correlação aresta×invariante: **não produziu candidatos**
 
 Filtro `r(coord_k, x_e) > 0.6` ∧ `P(x_a=1 ∧ x_b=1) < 0.01`
 para pares de arestas correlatas ao mesmo invariante:
@@ -124,7 +124,7 @@ Top-5 bifurcações (`data/invariants/candidate_clauses.json`):
 **Padrão observado**: todos os top-8 pares compartilham um vértice.
 São bifurcações em vértices de grau 3 (em A9, I1, B10, A2, J9, B1, I10,
 J2): das três arestas incidentes, duas se excluem mutuamente em vez
-das outras combinações. A exclusão **não é estrita** — `P(A∧B) ≈ 0.10`,
+das outras combinações. A exclusão **não é estrita**, `P(A∧B) ≈ 0.10`,
 contra `1/3 ≈ 0.33` que seria esperado em sampling uniforme sem
 restrição. Há atração negativa forte, mas coexistência ainda ocorre.
 
@@ -156,15 +156,15 @@ aleatória. Comparação:
 
 | Config | t_total (s) | t_first (s) | sol/s | attempts/sol | reject | speedup |
 |---|---:|---:|---:|---:|---:|---:|
-| A — Z3 puro | 17.17 | 0.846 | 11.6 | 5.89 | 81.8% | 1.00× |
-| B — + 8 mandatory | 15.96 | **0.050** | 12.5 | 5.54 | 80.7% | **1.08×** |
-| C — + mandatory + 17 NOT(A∧B) | 22.26 | **0.018** | 9.0 | 7.10 | 83.1% | 0.77× |
-| C′ — + mandatory + 8 NOT(A∧B) (só r<-0.7) | 17.89 | 0.024 | 11.2 | 6.17 | 80.9% | 0.97× |
+| A, Z3 puro | 17.17 | 0.846 | 11.6 | 5.89 | 81.8% | 1.00× |
+| B, + 8 mandatory | 15.96 | **0.050** | 12.5 | 5.54 | 80.7% | **1.08×** |
+| C, + mandatory + 17 NOT(A∧B) | 22.26 | **0.018** | 9.0 | 7.10 | 83.1% | 0.77× |
+| C′, + mandatory + 8 NOT(A∧B) (só r<-0.7) | 17.89 | 0.024 | 11.2 | 6.17 | 80.9% | 0.97× |
 
 **Achados:**
 
 1. **Mandatory edges** dão speedup pequeno mas real (~8%) e **47× speedup**
-   no time-to-first. Custo zero — provas Z3 instantâneas.
+   no time-to-first. Custo zero, provas Z3 instantâneas.
 
 2. **NOT(A∧B)** com todos os 17 pares **desacelera** a amostragem total
    em 23%, apesar de acelerar o time-to-first 47×. Limitar aos top-8
@@ -172,7 +172,7 @@ aleatória. Comparação:
 
 3. **Diferença crítica vs 6×6**: em 6×6 as 8 bifurcações têm `P(A∧B) ≈ 0`
    na ground truth (estritas) e adicionar NOT(A∧B) deu speedup de 3.8×.
-   Em 10×10 as bifurcações têm `P(A∧B) ≈ 0.10` (não estritas) — adicionar
+   Em 10×10 as bifurcações têm `P(A∧B) ≈ 0.10` (não estritas), adicionar
    NOT(A∧B) **exclui amostras válidas** e endurece o SAT.
 
 ## 6. Questões em aberto
@@ -181,13 +181,13 @@ aleatória. Comparação:
   pequeno mundo do grafo do cavalo força bifurcações verdadeiras
   (`P(A∧B) = 0`); em 10×10 há mais flexibilidade local e a estrutura
   é apenas correlacional.
-- **3 dimensões faltantes (rank 186/189)** — rodar mais amostras
+- **3 dimensões faltantes (rank 186/189)**: rodar mais amostras
   (15-20k) provavelmente fecha a base, mas custo é não-trivial.
 - **MTZ ou flow-based subtour elimination** poderia reduzir rejeição
-  de 83% para <5% — não foi implementado por economia, mas viraria
+  de 83% para <5%, não foi implementado por economia, mas viraria
   útil para 12×12+.
 - **Variantes do C′** que respeitem `P(A∧B) > 0`: implementar como
-  *soft constraints* / pesos no Z3 (em vez de Not(And)) — pode
+  *soft constraints* / pesos no Z3 (em vez de Not(And)), pode
   combinar speedup do time-to-first sem o slowdown total.
 - **Comparação direta de KL** Z3 10×10 vs ground truth de paths: o
   ground truth é estimado em ~10¹⁵ tours, enumeração exaustiva

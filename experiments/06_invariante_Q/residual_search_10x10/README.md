@@ -1,4 +1,4 @@
-# residual_search_10x10/ — propagação em cascata e busca residual no 10×10
+# residual_search_10x10/: propagação em cascata e busca residual no 10×10
 
 Replica em 10×10 o experimento de [`residual_search/`](../residual_search/)
 do 6×6. A pergunta a responder:
@@ -35,7 +35,7 @@ qualitativa já observada em ordens superiores).
 | R3 | par excluído (e₁,e₂) e x_{e₁}=1                               | x_{e₂} := 0                     |
 | R6 | XOR de suporte S com apenas uma livre em S                    | valor determinado pela paridade |
 
-(R4/R5 omitidas — vide acima.)
+(R4/R5 omitidas, vide acima.)
 
 ## Resultado da cascata por nível
 
@@ -116,7 +116,7 @@ vértice de grau-3 ou grau-4: se a aresta a é tomada, a vizinha b
 costuma não ser (e vice-versa).
 
 → Comparado ao 6×6: o residual é **mais esparso em correlação**
-(6,2% > 0,10 vs 23,5% no 6×6) — coerente com o n_free 4× maior.
+(6,2% > 0,10 vs 23,5% no 6×6), coerente com o n_free 4× maior.
 As correlações fortes seguem locais (pares de arestas no mesmo
 vértice de baixo grau).
 
@@ -128,7 +128,7 @@ Estratégia (chave para fazer funcionar em 10×10):
 
 - **Ordenação dinâmica por pressão de vértice**: a cada nó escolhe-se
   a aresta livre incidente ao vértice de maior `n_um*100 + (deg-n_zero-2)`
-  — i.e., vértice mais perto de saturar grau-2.
+, i.e., vértice mais perto de saturar grau-2.
 - Entre as livres desse vértice, escolhe a com freq mais distante de 0,5
   e testa primeiro o valor mais provável.
 - Esse heurístico **concentra** o branching onde a R2 cascateia,
@@ -159,9 +159,9 @@ de componente (Z3) ou por filtro de folha (backtracking).
 
 | método                           | t_first | t_total | tentativas | nós explorados |
 |----------------------------------|--------:|--------:|-----------:|---------------:|
-| A) Z3 puro (grau-2 + no-subtour) |  0,48 s |  3,33 s |       165 |  — |
-| B) Z3 + R1 (8 mandatory)         |  0,23 s |  3,36 s |       158 |  — |
-| **C) Backtracking + R1..R6**     | **0,11 s** | **1,63 s** | — | 1.908 |
+| A) Z3 puro (grau-2 + no-subtour) |  0,48 s |  3,33 s |       165 | n/d |
+| B) Z3 + R1 (8 mandatory)         |  0,23 s |  3,36 s |       158 | n/d |
+| **C) Backtracking + R1..R6**     | **0,11 s** | **1,63 s** | n/d | 1.908 |
 
 Speedups vs Z3 puro:
 
@@ -183,7 +183,7 @@ Visualização: [`data/plots/benchmark_10x10.png`](data/plots/benchmark_10x10.pn
 ## Resposta às hipóteses
 
 1. **O ideal local captura os 2-fatores no 10×10?**
-   Captura-os como conjunto-superset, igual ao 6×6 — o motor encontra
+   Captura-os como conjunto-superset, igual ao 6×6, o motor encontra
    872 2-fatores em 1908 nós com 5 podas. Mas a captura **não é
    restritiva**: as constraints locais conhecidas (mandatory + 84
    pares + 3 XORs) não eliminam praticamente nenhuma das ramificações,
@@ -193,12 +193,12 @@ Visualização: [`data/plots/benchmark_10x10.png`](data/plots/benchmark_10x10.pn
 2. **Conectividade é o obstáculo residual? Em qual razão?**
    Sim. Razão 2-fatores/tours observada em 50 amostras = **17,4×**
    (vs 1,36× no 6×6). A propagação local não consegue ver
-   sub-tours de comprimento ≪ 100 — coerente com a impossibilidade
+   sub-tours de comprimento ≪ 100, coerente com a impossibilidade
    teórica de expressar conexão como combinação local fixa de
    arestas.
 
 3. **Backtracking + R1..R6 é competitivo com Z3?**
-   Sim — vence em ~2× no total e ~4× no 1º tour. A vantagem vem
+   Sim, vence em ~2× no total e ~4× no 1º tour. A vantagem vem
    inteiramente da heurística de pressão de vértice + custo baixo
    da propagação NumPy-vetorizada, não do poder discriminativo
    das constraints (que é fraco no 10×10).
@@ -214,7 +214,7 @@ Extrapolação grosseira (apenas para orientar trabalho futuro):
   mais caro proporcionalmente
 - backtracking + pressão deve continuar funcionando, mas
   speedup vs Z3 pode encolher por aumento de gargalo de
-  conectividade — caminho mais promissor é integrar
+  conectividade, caminho mais promissor é integrar
   no-subtour incremental (estilo MTZ ou eliminação de ciclos
   por DFS dentro do solver)
 
@@ -228,13 +228,13 @@ ou (ii) uma constraint de fluxo/no-subtour incorporada à propagação.
 
 ## Arquivos
 
-- `propagation_engine_10x10.py` — motor R1..R6 vetorizado, carrega
+- `propagation_engine_10x10.py`: motor R1..R6 vetorizado, carrega
   amostras de `board_10x10/data/samples/`, gera
   `data/propagation_log.json`
-- `residual_analysis_10x10.py` — estrutura espacial, componentes,
+- `residual_analysis_10x10.py`: estrutura espacial, componentes,
   correlações; gera `data/residual_variables.json`
-- `backtracking_10x10.py` — DPLL com ordenação por pressão; gera
+- `backtracking_10x10.py`: DPLL com ordenação por pressão; gera
   `data/backtracking_results.json`
-- `benchmark_vs_z3.py` — comparação Z3 puro / Z3+R1 / backtracking;
+- `benchmark_vs_z3.py`: comparação Z3 puro / Z3+R1 / backtracking;
   gera `data/benchmark_comparison.json`
-- `plots_10x10.py` — gera `data/plots/{propagation_cascade,residual_structure,benchmark}_10x10.png`
+- `plots_10x10.py`: gera `data/plots/{propagation_cascade,residual_structure,benchmark}_10x10.png`

@@ -6,12 +6,12 @@ empiricamente, uma sequência de Bernoulli i.i.d. com parâmetro `μ`
 independente do tamanho do tabuleiro.
 
 > Origem: `incremental_subtour/scaling_minimal_v2.py` mostrou que
-> `nós/tour ≈ 4–5` é **constante** em n ∈ {6,8,10,12}. Se a probabilidade
+> `nós/tour ≈ 4-5` é **constante** em n ∈ {6,8,10,12}. Se a probabilidade
 > de o próximo nó da busca terminar em TOUR é `≈ μ` independentemente do
 > estado e de `n`, então o processo é um martingale com incremento médio
 > `μ`, e `E[nós/tour] = 1/μ = O(1)` segue trivialmente.
 >
-> Este diretório verifica a hipótese empiricamente (T1–T4) e produz a
+> Este diretório verifica a hipótese empiricamente (T1-T4) e produz a
 > base para uma prova formal via análise de G∞ (T5).
 
 ---
@@ -36,7 +36,7 @@ onde cada `e_t` é o desfecho do nó `t` na ordem DFS:
 | `SUBTOUR_EARLY`     | detector incremental fechou um ciclo de tamanho < V        |
 | `CONTRADICTION_DET` | tentativa de fixar uma aresta cujo vértice já tem grau 2   |
 | `R2`                | propagação R2 detectou `n_um > 2` ou grau efetivo < 2      |
-| `RECURSE_INTERNAL`  | nó não terminal — propagação OK, há aresta livre, recursão |
+| `RECURSE_INTERNAL`  | nó não terminal, propagação OK, há aresta livre, recursão |
 
 ### 0.2 Variável de Bernoulli e processo de soma
 
@@ -50,7 +50,7 @@ A taxa global de sucesso é:
     μ(n) = E[X_t] = (nº de TOUR) / (nº total de eventos)
 
 Para a base `scaling_minimal_v2.json` (K=500 tours, n=10): 500 tours em
-1927 nós ⇒ `μ(10) ≈ 0.26`, e `1/μ ≈ 3.85 ≈ nós/tour` — consistência
+1927 nós ⇒ `μ(10) ≈ 0.26`, e `1/μ ≈ 3.85 ≈ nós/tour`, consistência
 trivial pela definição.
 
 ### 0.3 Estado do processo
@@ -108,10 +108,10 @@ O conteúdo empírico que este diretório precisa estabelecer:
 
 Se TODOS passarem, a hipótese está sustentada empiricamente e o
 trabalho formal restante é provar `μ(n) ≥ μ_min` analiticamente
-(via análise de G∞ — frequência estacionária por anel).
+(via análise de G∞, frequência estacionária por anel).
 
 Se algum FALHAR, a variável de estado que quebra a hipótese aponta
-onde o processo carrega memória — informação direta sobre o que a
+onde o processo carrega memória, informação direta sobre o que a
 prova formal precisaria modelar.
 
 ---
@@ -136,7 +136,7 @@ martingale_analysis/
 
 ## 2. Resultados
 
-### 2.1 T1 — taxa μ(n) por tabuleiro
+### 2.1 T1: taxa μ(n) por tabuleiro
 
 K=500 tours, timeout 600s, todos os logs em `data/event_log_n{n}.json`:
 
@@ -151,7 +151,7 @@ K=500 tours, timeout 600s, todos os logs em `data/event_log_n{n}.json`:
 Spread global = 27.9%; para n ≥ 8, spread = 13.0%.
 Forma forte de H_MART (μ constante) **REFUTADA**.
 
-### 2.2 T2 — análise condicional dupla
+### 2.2 T2: análise condicional dupla
 
 **(A) p(b, n) por variável de estado** (target = X_{t+1} = é o próximo evento TOUR?):
 - depth: bins iniciais com p≈0 (tour só aparece em depth>0.95)
@@ -160,14 +160,14 @@ Forma forte de H_MART (μ constante) **REFUTADA**.
 
 **(B) μ por região do PAI** (L_parent ≥ 2 vs < 2):
 ```
-n=6: μ_int=0.158  μ_bor=0.229   (n=6 INVERTE — borda > interior!)
+n=6: μ_int=0.158  μ_bor=0.229   (n=6 INVERTE, borda > interior!)
 n=8: μ_int=0.253  μ_bor=0.154
 n=10: μ_int=0.266  μ_bor=0.178
 n=12: μ_int=0.252  μ_bor=0.147
 n=14: μ_int=0.246  μ_bor=0.246
 ```
 - spread μ_interior = 40.5% (PIOR que μ_total)
-- n=6 mostra **inversão qualitativa** — efeito de borda não explica divergência
+- n=6 mostra **inversão qualitativa**, efeito de borda não explica divergência
 
 **(C) μ padronizado** (composição n=10 como referência):
 | padronização | spread |
@@ -181,7 +181,7 @@ Nenhuma padronização reduz spread ⇒ **variação é genuinamente intrínseca
 
 **(D) χ² de homogeneidade**: rejeita H₀ em múltiplos bins mesmo restringindo a n ≥ 8 (depth alto, L_parent=2/3, nc=2/4-5/6-10, pressure Q3).
 
-### 2.3 T3 — testes formais de convergência
+### 2.3 T3: testes formais de convergência
 
 | critério | resultado | detalhe |
 |----------|-----------|---------|
@@ -191,7 +191,7 @@ Nenhuma padronização reduz spread ⇒ **variação é genuinamente intrínseca
 | **μ_min ≥ 0.10 (95% conf.)** | ✓ SIM | min LB Wilson = 0.173 ⇒ E[nós/tour] ≤ 5.79 |
 | **TCL martingale** | ✓ SIM | Shapiro p médio = 0.28, KS p médio = 0.57 |
 
-`σ²_estimated / σ²_iid` por n: 7.74, 2.08, 1.18, 2.49, 4.32 — variância empírica
+`σ²_estimated / σ²_iid` por n: 7.74, 2.08, 1.18, 2.49, 4.32, variância empírica
 SUPERA o predito i.i.d. ⇒ incrementos têm **dependência positiva fraca**
 (eventos próximos na sequência DFS estão na mesma subárvore e tendem a ter
 outcomes correlacionados).
@@ -200,7 +200,7 @@ outcomes correlacionados).
 
 ### 3.1 Veredito sobre H_MART
 
-**H_MART forte (X_t i.i.d., μ constante em n) — REFUTADA**:
+**H_MART forte (X_t i.i.d., μ constante em n), REFUTADA**:
 - spread μ(n) = 28% globalmente
 - χ² rejeita homogeneidade em múltiplos bins
 - α=1.38 indica correlação positiva nos incrementos
@@ -253,9 +253,9 @@ ponderada por anel:
     μ_∞ = Σ_L f∞(L) · P(TOUR | L_parent = L, n=∞)
 
 Os números desta análise dão estimativas para P(TOUR | L_parent = L):
-- L=0: ≈ 0.10–0.18
-- L=1: ≈ 0.04–0.30 (alta variância em n=6)
-- L=2: ≈ 0.20–0.29
+- L=0: ≈ 0.10-0.18
+- L=1: ≈ 0.04-0.30 (alta variância em n=6)
+- L=2: ≈ 0.20-0.29
 - L=3: ≈ 0.36 (n=8), 0.36 (n=10), 0.40 (n=12), 0.40 (n=14)
 
 A ESTABILIDADE em L grande (3, 4) é a base candidata para a prova
@@ -264,14 +264,14 @@ formal: se `P(TOUR | L)` é constante para L ≥ 2 quando n → ∞, então
 
 ## 4. Plots gerados
 
-- `data/plots/p_distribution_by_n.png` — grid p(b) × n com IC Wilson
+- `data/plots/p_distribution_by_n.png`: grid p(b) × n com IC Wilson
   e marcadores `*` onde χ² rejeita homogeneidade.
-- `data/plots/mu_decomposition.png` — μ_total, μ_interior/μ_borda,
+- `data/plots/mu_decomposition.png`: μ_total, μ_interior/μ_borda,
   μ_padronizado lado a lado.
-- `data/plots/chi2_heatmap.png` — -log₁₀(p) por bin para todos n
+- `data/plots/chi2_heatmap.png`: -log₁₀(p) por bin para todos n
   e só n≥8.
-- `data/plots/convergence_evidence.png` — resumo dos 4 testes.
-- `data/plots/martingale_process.png` — X_t, M_t, Var[M_t]×t e
+- `data/plots/convergence_evidence.png`: resumo dos 4 testes.
+- `data/plots/martingale_process.png`: X_t, M_t, Var[M_t]×t e
   QQ-plot para n=10.
 
 ## 5. Como reproduzir

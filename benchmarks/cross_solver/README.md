@@ -1,4 +1,4 @@
-# benchmark — cross-solver comparison
+# benchmark: cross-solver comparison
 
 ## Purpose
 Cross-solver comparison harness: runs the baseline backtracking and Z3 solvers

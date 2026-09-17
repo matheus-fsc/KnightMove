@@ -1,4 +1,4 @@
-# residual_search/ — propagação em cascata e busca residual no 6×6
+# residual_search/: propagação em cascata e busca residual no 6×6
 
 Quantas variáveis de aresta restam realmente livres depois de propagar
 **todas** as restrições conhecidas (obrigatórias, pares, triplas, quadras
@@ -49,7 +49,7 @@ obrigatórias dos cantos. A razão é estrutural:
 - Nenhum dos 88 pares excluídos contém uma obrigatória; idem para
   triplas (precisariam de 2 obrigatórias) e quadras (precisariam de 3).
   Verificado por contagem direta (`grep` por interseção).
-- Apenas φ₁ ({F6-D5, B3-A1}) tem suporte contido nas obrigatórias —
+- Apenas φ₁ ({F6-D5, B3-A1}) tem suporte contido nas obrigatórias:
   consistente, mas sem livres para fixar.
 
 Visualização: [`data/plots/propagation_cascade.png`](data/plots/propagation_cascade.png)
@@ -104,7 +104,7 @@ valor mais provável.
 
 A contagem coincide exatamente com o ground truth. Diferença
 13.422 − 9.862 = **3.560 2-fatores multi-ciclo** que satisfazem todas
-as restrições locais R1..R6 mas **não são conexos** — ou seja, são
+as restrições locais R1..R6 mas **não são conexos**, ou seja, são
 uniões de ciclos curtos no grafo do cavalo. Nenhuma constraint local
 do ideal de grau ≤ 4 (nem as XOR duais) elimina esses pseudo-tours.
 
@@ -124,7 +124,7 @@ desconexos.
 A **conectividade** (= ser um único ciclo de 36 vértices) é o
 obstáculo restante. Ela é uma propriedade global do subgrafo de
 arestas em 1 e não admite expressão como combinação local fixa de
-arestas — explica a diferença `2-fatores_locais − tours = 3.560`.
+arestas, explica a diferença `2-fatores_locais − tours = 3.560`.
 
 Para o algoritmo proposto "borda fixada + interior combinatório":
 
@@ -133,7 +133,7 @@ Para o algoritmo proposto "borda fixada + interior combinatório":
   e borda (a única propagação que funcionaria seria a partir de uma
   escolha de borda específica, mas isso já é busca, não propagação).
 - **Mas funciona com branching guiado**: o backtracking acima é
-  precisamente "decidir uma livre, propagar, repetir" — chega a
+  precisamente "decidir uma livre, propagar, repetir", chega a
   9.862 em 53 s sem invocar Z3, com 29.189 nós explorados, todos
   podados por R1..R6 + viabilidade de R2.
 
@@ -147,7 +147,7 @@ a conta com 9.862 tours, ou:
    filtro de folha aqui, mas idealmente como constraint global tipo
    "no-subtour" de TSP); ou
 2. caracterizar os 3.560 2-fatores extras com novas
-   constraints — provavelmente associadas aos **3 ciclos proibidos**
+   constraints, provavelmente associadas aos **3 ciclos proibidos**
    já identificados em `forbidden_cycles_6x6/` mas que aqui só apareceram
    como φ₀, φ₁, φ₂ duais sobre H¹ (cláusulas XOR de paridade).
 
@@ -156,10 +156,10 @@ conectividade chega exatamente a 9.862 em ~minuto, sem solver SAT.
 
 ## Arquivos
 
-- `propagation_engine.py` — motor R1..R6 (NumPy vetorizado), gera
+- `propagation_engine.py`: motor R1..R6 (NumPy vetorizado), gera
   `data/propagation_log.json`
-- `residual_analysis.py` — estrutura do residual e correlações,
+- `residual_analysis.py`: estrutura do residual e correlações,
   gera `data/residual_variables.json`
-- `enumeration_test.py` — backtracking com propagação, gera
+- `enumeration_test.py`: backtracking com propagação, gera
   `data/residual_enumeration.json`
-- `plots.py` — gera `data/plots/{propagation_cascade,residual_structure}.png`
+- `plots.py`: gera `data/plots/{propagation_cascade,residual_structure}.png`

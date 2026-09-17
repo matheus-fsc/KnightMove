@@ -1,4 +1,4 @@
-# results — cross-solver 8×8 benchmark
+# results: cross-solver 8×8 benchmark
 
 ## Contents
 One JSON per solver strategy, all run on the same 8×8 setup by the root-level
@@ -14,8 +14,8 @@ One JSON per solver strategy, all run on the same 8×8 setup by the root-level
 | `theory.json` | theory | f∞ local-phase theoretical ordering |
 | `z3_puro.json` | Z3 pure | Z3 with no extra clauses |
 | `z3_mandatory.json` | Z3 + mandatory | Z3 with mandatory-edge clauses |
-| `summary.json` | — | aggregated comparison across all strategies |
-| `run.log` | — | run log |
+| `summary.json` | n/d | aggregated comparison across all strategies |
+| `run.log` | n/d | run log |
 
 ## How to regenerate
 ```bash

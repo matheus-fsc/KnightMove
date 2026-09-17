@@ -1,4 +1,4 @@
-# Forbidden cycles 6×6 — caracterização das 3 dimensões de H₁ não atingidas por tours
+# Forbidden cycles 6×6: caracterização das 3 dimensões de H₁ não atingidas por tours
 
 Pipeline para identificar e explicar geometricamente as **três dimensões
 do espaço de ciclos `H₁(G, F₂)` do grafo do cavalo 6×6** que **nenhum
@@ -26,7 +26,7 @@ Plots: `data/plots/forbidden_cycle_{0,1,2}.png`. Dados:
 `data/results/forbidden_cycles.{npy,json}`.
 
 Propriedades comuns: cada f_i é um **ciclo simples** (componente única,
-todos os vértices de grau exatamente 2 no subgrafo) — não uma união de
+todos os vértices de grau exatamente 2 no subgrafo), não uma união de
 ciclos disjuntos. Todos passam pelos dois cantos superiores A6 e B6/F6.
 
 ## 2. Por que esses ciclos são proibidos?
@@ -37,9 +37,9 @@ O caderno do prompt sugeria quatro hipóteses. Os testes em
 | H | descrição | status | nota |
 |---|---|---|---|
 | H1 | paridade bipartida | **REFUTADA** | cavalo é bipartido pela cor xadrez → toda aresta cruza cores; nenhuma das 5 outras colorações testadas (paridade de linha, de coluna, half-board) distingue f_i de tours |
-| H2 | corte impar | **INCONCLUSIVA** | 7 825 cortes testados (`\|S\|≤3` e estruturais); todos os que zeram para tours também zeram para f_i — não exclui H2 mas torna improvável que exista um corte "natural" obstruindo |
-| H3 | f_i não cobre 36 vértices | tautológico | os 3 representantes cobrem 6, 6, 8 vértices — mas **qualquer** vetor de H₁ que não seja exatamente um tour deixa vértices descobertos, então este teste não distingue proibidos de outros elementos do quociente |
-| H4 | 2-fatores expandem para 45 dim | **REFUTADA** | enumerei **36 236 2-fatores** (uniões disjuntas de ciclos cobrindo V); `rank_{F₂}(2-fatores) = 42`, **idêntico ao rank dos tours**. A obstrução não vem da conectividade — vem da exigência local "grau exatamente 2 em todo vértice". |
+| H2 | corte impar | **INCONCLUSIVA** | 7 825 cortes testados (`\|S\|≤3` e estruturais); todos os que zeram para tours também zeram para f_i, não exclui H2 mas torna improvável que exista um corte "natural" obstruindo |
+| H3 | f_i não cobre 36 vértices | tautológico | os 3 representantes cobrem 6, 6, 8 vértices, mas **qualquer** vetor de H₁ que não seja exatamente um tour deixa vértices descobertos, então este teste não distingue proibidos de outros elementos do quociente |
+| H4 | 2-fatores expandem para 45 dim | **REFUTADA** | enumerei **36 236 2-fatores** (uniões disjuntas de ciclos cobrindo V); `rank_{F₂}(2-fatores) = 42`, **idêntico ao rank dos tours**. A obstrução não vem da conectividade, vem da exigência local "grau exatamente 2 em todo vértice". |
 
 ### O que realmente explica: as arestas obrigatórias
 
@@ -69,12 +69,12 @@ A6, F1, F6, grau 2 no grafo do cavalo) força suas 2 arestas a estarem
 em todo 2-fator. Isso dá 8 arestas obrigatórias e impõe **7 igualdades
 F₂-lineares** `x_{e_i} = x_{e_j}` entre elas. Dessas 7, descontando o
 que já é redundante com a estrutura local de grau-2 nos vizinhos dos
-cantos, **sobram 3 restrições genuínas** — e essas 3 restrições são
+cantos, **sobram 3 restrições genuínas**, e essas 3 restrições são
 precisamente as três dimensões "proibidas".
 
 Os outros dois detectores têm suporte 22 e 20 arestas; seus padrões
 incluem o **anel intermediário do tabuleiro** (linhas 4-5, colunas
-B-E) e vários pares de obrigatórias — confirmam que as 3 obstruções
+B-E) e vários pares de obrigatórias, confirmam que as 3 obstruções
 estão ligadas à interação dos cantos com o miolo.
 
 Arquivos: `data/results/dual_detectors.{npy,json}`,
@@ -83,7 +83,7 @@ Arquivos: `data/results/dual_detectors.{npy,json}`,
 ### Simetria D₄
 
 O subespaço `Forbidden` (dim 3) é **invariante** sob a ação canônica do
-grupo diédrico D₄ no quociente — cada uma das 7 simetrias não-triviais
+grupo diédrico D₄ no quociente, cada uma das 7 simetrias não-triviais
 realiza um automorfismo F₂-linear de `F₂³` (matriz 3×3 com det = 1
 sobre F₂ em todos os 7 casos). f₂ é **fixo coset-a-coset por toda D₄**:
 para qualquer g ∈ D₄, `g·f₂ ≡ f₂ (mod Ham)`. f₀ e f₁ se trocam por
@@ -124,7 +124,7 @@ xor_sum(x_e for e in supp(φ_i)) == 0
 
 Em particular `x_{F6-D5} ⊕ x_{B3-A1} = 0` (φ₁) é uma cláusula **de
 duas variáveis** que nenhuma propagação grau-2 + sub-tour elimination
-infere diretamente — o Z3 só descobre essa relação depois de ramificar
+infere diretamente, o Z3 só descobre essa relação depois de ramificar
 profundamente. Adicioná-la a priori pode ser barato e útil para
 acelerar a busca em tamanhos maiores.
 
@@ -142,7 +142,7 @@ obrigatórias e adicionar `x_{e_i} ⊕ x_{e_j} = 0` para todos eles dá
 Ou seja, ao agir como funcionais em H₁, as 28 cláusulas binárias entre
 obrigatórias **geram exatamente o quociente dual** `ker(T)/row(∂)` de
 dim 3. **Bastam 3 cláusulas binárias bem escolhidas para fechar o
-quociente** — qualquer base do espaço {x_{e_i}⊕x_{e_j} : i,j ∈ mand}
+quociente**, qualquer base do espaço {x_{e_i}⊕x_{e_j} : i,j ∈ mand}
 modulo row(∂) serve. Esta é a versão mais econômica das obstruções:
 três XORs entre arestas obrigatórias bastam.
 
@@ -190,5 +190,5 @@ python3 forbidden_cycles_6x6/obstruction_theorem.py   # ~30 s
 - **C(8,2) = 28 cláusulas binárias** entre obrigatórias geram, como
   funcionais em H₁, um quociente de dim **exatamente 3** mod o anulador
   de H₁ (verificado numericamente). **3 dessas cláusulas bastam para
-  fechar o quociente** — 3 XORs entre obrigatórias substituem qualquer
+  fechar o quociente**, 3 XORs entre obrigatórias substituem qualquer
   outra família de obstruções.

@@ -1,4 +1,4 @@
-# transfer_matrix/ — espectro do passeio do cavalo (2-fatores)
+# transfer_matrix/: espectro do passeio do cavalo (2-fatores)
 
 ## Hipoteses a testar
 
@@ -113,17 +113,17 @@ onde:
 
 ## Arquivos
 
-  - `transfer_build.py`            — versao recursiva (n<=6 testada)
-  - `transfer_build_fast.py`       — versao com precompute (~2x mais rapida em n=6)
-  - `verify_2factor_count.py`      — backtracking aresta independente
-  - `spectral_analysis.py`         — eigs direito e esquerdo
-  - `compare_finf.py`              — marginais autovetor vs f_inf
-  - `exact_2factor_marginals.py`   — marginais EXATAS via DP forward/backward
-  - `tour_count_estimate.py`       — 3 modelos de calibracao
-  - `make_plots.py`                — gera os 3 plots
-  - `data/transfer_n6_*.npz`       — T_bulk, T_nocp2
+  - `transfer_build.py`: versao recursiva (n<=6 testada)
+  - `transfer_build_fast.py`: versao com precompute (~2x mais rapida em n=6)
+  - `verify_2factor_count.py`: backtracking aresta independente
+  - `spectral_analysis.py`: eigs direito e esquerdo
+  - `compare_finf.py`: marginais autovetor vs f_inf
+  - `exact_2factor_marginals.py`: marginais EXATAS via DP forward/backward
+  - `tour_count_estimate.py`: 3 modelos de calibracao
+  - `make_plots.py`: gera os 3 plots
+  - `data/transfer_n6_*.npz`: T_bulk, T_nocp2
   - `data/eigenvalues_n6.json`
-  - `data/eigenvector_dominant_n6.npz`  — v (direita) e w (esquerda)
+  - `data/eigenvector_dominant_n6.npz`: v (direita) e w (esquerda)
   - `data/eigenvector_marginals_n6.json`
   - `data/exact_2factor_marginals_n6.json`
   - `data/state_count.json`

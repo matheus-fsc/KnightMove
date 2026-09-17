@@ -3,7 +3,7 @@
 Detecção incremental de sub-ciclos via Union-Find durante o backtracking
 do passeio fechado do cavalo.
 
-> Status: **T0–T6 concluídos.** No 10×10 com K=200:
+> Status: **T0-T6 concluídos.** No 10×10 com K=200:
 > v2 alcança **5.47× speedup sobre v1** e **25.2× sobre Z3 puro**;
 > razão 2-fatores/tours cai de **18.1× → 1.00×** (zero 2-fatores
 > desconexos chegam à folha). Escala mantida em n ∈ {6, 8, 10, 12}.
@@ -12,7 +12,7 @@ do passeio fechado do cavalo.
 
 ## 1. Problema
 
-O `backtracking_10x10` (v1) usa propagação R1–R6 (grau-2, pares
+O `backtracking_10x10` (v1) usa propagação R1-R6 (grau-2, pares
 estritos, cláusulas XOR) para podar a árvore de busca, mas **só
 detecta sub-ciclos na folha** via uma verificação BFS final.
 
@@ -36,14 +36,14 @@ absorvendo ~94% do trabalho.
 A cada aresta `e=(u,v)` que vira `1` durante a busca,
 mantemos um Union-Find com:
 
-- `degree[v]`  — grau atual de `v` no subgrafo de arestas `=1`
-- `size[root]` — tamanho da componente conexa
-- `n_deg2_of_root[root]` — quantos vértices da componente já têm grau 2
+- `degree[v]`: grau atual de `v` no subgrafo de arestas `=1`
+- `size[root]`: tamanho da componente conexa
+- `n_deg2_of_root[root]`: quantos vértices da componente já têm grau 2
 
 A regra de detecção é exata:
 
 > Uma componente com `size = k < V` em que **todos os `k` vértices
-> têm grau 2** é um ciclo de comprimento `k < V` — um **sub-ciclo
+> têm grau 2** é um ciclo de comprimento `k < V`, um **sub-ciclo
 > definitivo**: nenhuma extensão pode evoluí-lo para um tour
 > hamiltoniano.
 
@@ -61,9 +61,9 @@ O detector retorna um de quatro status em cada `fix(e)`:
 Backtracking requer reverter o detector ao desfazer um branch.
 Implementamos duas variantes (`subtour_detector.py`):
 
-- **`SubtourDetectorRollback`** — pilha de operações; `rollback(cp)`
+- **`SubtourDetectorRollback`**: pilha de operações; `rollback(cp)`
   desfaz em ordem reversa. Não usa path compression.
-- **`SubtourDetectorCopy`** — `checkpoint()` retorna tupla de cópias
+- **`SubtourDetectorCopy`**: `checkpoint()` retorna tupla de cópias
   dos arrays internos; `rollback(cp)` restaura.
 
 Micro-bench (2000 nós × 60 fixes cada):
@@ -75,7 +75,7 @@ Micro-bench (2000 nós × 60 fixes cada):
 
 No backtracking real `K=200` os tempos finais ficam empatados
 (Copy: 1.31s, Rollback: 1.28s); ambos visitam exatamente os
-mesmos 1385 nós e disparam os mesmos 413 sub-ciclos —
+mesmos 1385 nós e disparam os mesmos 413 sub-ciclos:
 prova cruzada de correção.
 
 ## 3. Testes unitários (`test_detector.py`)
@@ -119,7 +119,7 @@ Cada `SUBTOUR_EARLY` é registrado em `subtour_log.json` com
 | nós/tour                 | 37.2   | 6.9     | 6.9         |
 | 2-fatores na folha       | 3623   | 200     | 200         |
 | **razão 2-fat/tour**     | **18.1×** | **1.00×** | **1.00×** |
-| `SUBTOUR_EARLY`          | —      | 413     | 413         |
+| `SUBTOUR_EARLY`          | n/d | 413     | 413         |
 | podas R2                 | 23     | 5       | 5           |
 
 ### 5.2 Speedups vs Z3 puro
@@ -132,7 +132,7 @@ Cada `SUBTOUR_EARLY` é registrado em `subtour_log.json` com
 | BT v2 (Copy)        | 1.31   | **25.24×** |
 | BT v2 (Rollback)    | 1.28   | **25.89×** |
 
-(Z3 + mandatory PIORA por adicionar restrições redundantes — observação
+(Z3 + mandatory PIORA por adicionar restrições redundantes, observação
 consistente com `xor_clauses_benchmark`.)
 
 ### 5.3 Análise dos sub-ciclos detectados (`subtour_analysis.json`)
@@ -141,7 +141,7 @@ consistente com `xor_clauses_benchmark`.)
 - **Tamanho dos sub-ciclos**: mediana 18 vértices, média 32, distribuição
   bimodal (cluster pequeno 5-20 + cluster grande 60-100)
 - **Profundidade do disparo**: mediana `n_fixed=288/288` (i.e. quase
-  todas as detecções ocorrem nos últimos passos da árvore — sub-ciclos
+  todas as detecções ocorrem nos últimos passos da árvore, sub-ciclos
   fecham TARDE na maioria dos ramos)
 
 Implicação: o ganho de v2 **não vem de cortar profundidade**, vem de
@@ -152,16 +152,16 @@ um sub-ciclo se forma e abandona a propagação restante.
 
 ### 5.4 Plots
 
-- `data/plots/speedup_v2.png` — barras de `t_total` e `t_first`
+- `data/plots/speedup_v2.png`: barras de `t_total` e `t_first`
   para os 5 métodos (escala log)
-- `data/plots/poda_breakdown.png` — categorias de evento em v1 vs v2
-- `data/plots/subtour_size_hist.png` — histograma de tamanhos
-- `data/plots/subtour_depth_hist.png` — histograma de profundidades
+- `data/plots/poda_breakdown.png`: categorias de evento em v1 vs v2
+- `data/plots/subtour_size_hist.png`: histograma de tamanhos
+- `data/plots/subtour_depth_hist.png`: histograma de profundidades
 
-## 6. Escalonamento — n ∈ {6, 8, 10, 12} (`scaling_minimal_v2.py`)
+## 6. Escalonamento: n ∈ {6, 8, 10, 12} (`scaling_minimal_v2.py`)
 
 Variante mínima: grafo do cavalo + 8 mandatórias dos cantos + R2 +
-detector incremental, **sem R3/R6**. Constrói tudo do zero — não
+detector incremental, **sem R3/R6**. Constrói tudo do zero, não
 depende de amostras pré-computadas.
 
 K=500 tours alvo, timeout 300s:
@@ -175,23 +175,23 @@ K=500 tours alvo, timeout 300s:
 
 Observações:
 
-1. **`nós/tour` é praticamente constante em `n`** (≈ 4–5).
-   Comparar com v1 @ 10×10 (37.2) — ganho de **~8–9×** em estrutura
+1. **`nós/tour` é praticamente constante em `n`** (≈ 4-5).
+   Comparar com v1 @ 10×10 (37.2), ganho de **~8-9×** em estrutura
    de busca apenas pela troca R3/R6 → detector.
-2. **`razão = 1.00×` em todos os tamanhos** — a hipótese inicial
+2. **`razão = 1.00×` em todos os tamanhos**: a hipótese inicial
    ("razão cairá de 17.4× para próximo de 1×") foi conservadora.
-3. Tempo cresce moderadamente (~3.7× indo de 6 → 12) — dominado por
+3. Tempo cresce moderadamente (~3.7× indo de 6 → 12), dominado por
    custo de propagação R2 (∝ V).
 4. **Sem R3/R6, o detector sozinho já supera o pipeline v1 completo
    no 10×10**: 1.65s @ K=500 minimal vs 7.18s @ K=200 v1.
 
-## 7. Cobertura do detector — por que não há resíduo
+## 7. Cobertura do detector: por que não há resíduo
 
 O detector dispara `SUBTOUR` no momento exato em que uma aresta fecha
 um ciclo dentro de uma componente onde todos os vértices têm grau 2.
 
 Caso teoricamente possível em que escaparia: ciclo "inevitável" mas
-ainda não fechado — ex. cadeia A-B-C-D com A-B, B-C, C-D fixadas,
+ainda não fechado, ex. cadeia A-B-C-D com A-B, B-C, C-D fixadas,
 sendo D-A a única livre incidente a D. R2 fixa D-A em 1 → próximo
 sync detector fecha o ciclo → `SUBTOUR`. R2 já força esse fechamento
 na propagação seguinte.
@@ -212,7 +212,7 @@ implementar look-ahead.
   perdem valor quando o detector está ativo. v2 (full) preserva por
   conservadorismo; v2 minimal mostra que podem ser removidos sem perda.
 - **Não testamos n > 12**. Custos da propagação R2 crescem com V e E;
-  para n=14 (V=196, E=624) o tempo extrapolado seria ~4–6s para K=500.
+  para n=14 (V=196, E=624) o tempo extrapolado seria ~4-6s para K=500.
 
 ## 9. Arquivos
 

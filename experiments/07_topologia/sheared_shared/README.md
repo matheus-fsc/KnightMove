@@ -1,4 +1,4 @@
-# kinight_tours_shared — sheared-torus utilities
+# kinight_tours_shared: sheared-torus utilities
 
 > Note: directory name keeps the original (mis)spelling "kinight" to avoid
 > breaking imports/paths that reference it.
