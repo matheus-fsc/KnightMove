@@ -1,0 +1,46 @@
+# ---- ambientes ----
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- build Lean ----
+.lake/
+formalization/lean/.lake/
+lake-packages/
+*.olean
+
+# ---- artefatos LaTeX (os artigos vivem FORA do repo) ----
+paper/
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ---- saídas de execução ----
+*_output.txt
+*.run.log
+data/**/run.log
+data/**/*_run.log
+
+# ---- dados brutos regeneráveis (ver data/README.md) ----
+destruction_catalogue.json
+data/raw/
+
+# ---- sistema ----
+.DS_Store
+
+# ---- amostras brutas Fase A/B/C: arquivadas em data/archives/*.tar.gz (LFS) ----
+cavalo_8x8/data_parallel/
+cavalo_8x8/data_8x8_phase_b/
+cavalo_8x8/data_6x6_sym/
+cavalo_8x8/data_6x6_sampled/
+cavalo_10x10/data_parallel/
+
+# ---- saidas geradas por testes na raiz ----
+/assinaturas_6x6.json
