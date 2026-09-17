@@ -1,0 +1,78 @@
+{
+  "grids": {
+    "buckets": {
+      "overlap_0": {
+        "n_cycles": 14325,
+        "compat": 0.0,
+        "mean_len": 14.566561954624781,
+        "corr_valid_len": NaN
+      },
+      "overlap_1": {
+        "n_cycles": 1299,
+        "compat": 0.8036951501154734,
+        "mean_len": 12.92994611239415,
+        "corr_valid_len": -0.31082039959063507
+      },
+      "overlap_2": {
+        "n_cycles": 896,
+        "compat": 0.7165178571428571,
+        "mean_len": 18.348214285714285,
+        "corr_valid_len": -0.4064328265691604
+      },
+      "overlap_3": {
+        "n_cycles": 599,
+        "compat": 0.6193656093489148,
+        "mean_len": 36.02003338898164,
+        "corr_valid_len": -0.30157299072425053
+      },
+      "overlap_4+": {
+        "n_cycles": 2459,
+        "compat": 0.27409516063440426,
+        "mean_len": 108.22041480276535,
+        "corr_valid_len": -0.33880059790109013
+      }
+    },
+    "bucket_order": [
+      "overlap_0",
+      "overlap_1",
+      "overlap_2",
+      "overlap_3",
+      "overlap_4+"
+    ],
+    "monotone": false,
+    "crosstab": {
+      "a_contig_valid": 2299,
+      "b_noncontig_valid": 432,
+      "c_contig_invalid": 511,
+      "d_noncontig_invalid": 16336,
+      "p_valid_given_contiguous": 0.8181494661921708,
+      "p_valid_given_noncontiguous": 0.025763358778625955,
+      "ratio": 31.7563200210887
+    },
+    "auc": {
+      "m1_overlap": 0.8807055517231059,
+      "m2_overlap_length": 0.8624385250092715,
+      "m3_overlap_contiguous": 0.9685770704296973,
+      "m4_full": 0.9726159403442234,
+      "delta_m2_m1": -0.0182670267138344,
+      "delta_m3_m1": 0.08787151870659138
+    },
+    "n_total": 19578,
+    "verdicts": {
+      "weak_monotone_increasing": false,
+      "independent_of_cycle_length": true,
+      "strong_contiguity": true
+    }
+  },
+  "knight_tour": {
+    "n_tours": 250,
+    "n_pairs": 8000,
+    "overlap_equals_half_cycle": true,
+    "corr_overlap_cyclelength": 1.0,
+    "corr_contiguous_cyclelength": NaN,
+    "frac_contiguous": 0.0,
+    "mean_cycle_length": 17.688,
+    "min_cycle_length": 4.0,
+    "max_cycle_length": 30.0
+  }
+}

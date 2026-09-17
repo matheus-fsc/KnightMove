@@ -1,0 +1,25 @@
+{
+  "board": "6x6",
+  "node_limit": 500000,
+  "round_a_classical": {
+    "time_s": 85.15603400399777,
+    "nodes": 500000,
+    "tours": 221663,
+    "topo_prunes": 115144,
+    "predictive_prunes": 0,
+    "subtour_prunes": 109240,
+    "contradictions": 53938,
+    "tour_rate": 2603.0216483495897
+  },
+  "round_b_optimized": {
+    "time_s": 91.80003225700057,
+    "nodes": 500000,
+    "tours": 223169,
+    "topo_prunes": 111691,
+    "predictive_prunes": 0,
+    "subtour_prunes": 108932,
+    "contradictions": 56190,
+    "tour_rate": 2431.034004162688
+  },
+  "heuristic_efficiency": 0.9339276934957693
+}

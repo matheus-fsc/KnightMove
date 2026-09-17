@@ -1,0 +1,70 @@
+[
+  {
+    "metodo": "A_z3_puro",
+    "K_alvo": 200,
+    "n_tours": 200,
+    "t_first": 0.5417898380001134,
+    "t_total": 32.315349125001376,
+    "tempo_z3_check_total_s": 22.592146498045622,
+    "tentativas": 622,
+    "t_setup": 0.0,
+    "t_total_justo": 32.315349125001376,
+    "nos_por_tour": null,
+    "razao_2fat_tour": null
+  },
+  {
+    "metodo": "B_v2_amostrado",
+    "K_alvo": 200,
+    "n_tours": 200,
+    "t_first": 0.05329045299959034,
+    "t_total": 1.3115956499996173,
+    "n_nos": 1385,
+    "nos_por_tour": 6.925,
+    "razao_2fat_tour": 1.0,
+    "podas": {
+      "R2": 5,
+      "R3": 0,
+      "R6": 0,
+      "SUBTOUR_EARLY": 413,
+      "CONTRADICTION_DET": 0,
+      "outras": 0
+    },
+    "t_setup": 417.0,
+    "t_setup_obs": "5000 amostras Z3 no 10\u00d710 (~7 min, refer\u00eancia documentada)",
+    "t_total_justo": 418.3115956499996
+  },
+  {
+    "metodo": "C_BT_theory",
+    "K_alvo": 200,
+    "n_tours": 200,
+    "t_first": null,
+    "t_total": 0.6725954369976535,
+    "n_nos": 879,
+    "nos_por_tour": 4.395,
+    "razao_2fat_tour": 1.0,
+    "podas": {
+      "R2": 6,
+      "SUBTOUR_EARLY": 159,
+      "CONTRADICTION_DET": 0
+    },
+    "t_setup": 0.0,
+    "t_total_justo": 0.6725954369976535
+  },
+  {
+    "metodo": "D_BT_uniforme",
+    "K_alvo": 200,
+    "n_tours": 200,
+    "t_first": null,
+    "t_total": 0.7366633870005899,
+    "n_nos": 1055,
+    "nos_por_tour": 5.275,
+    "razao_2fat_tour": 1.0,
+    "podas": {
+      "R2": 16,
+      "SUBTOUR_EARLY": 233,
+      "CONTRADICTION_DET": 0
+    },
+    "t_setup": 0.0,
+    "t_total_justo": 0.7366633870005899
+  }
+]

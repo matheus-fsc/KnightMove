@@ -1,0 +1,550 @@
+{
+  "rank_T_gf2": 42,
+  "n_cells_total": 36,
+  "n_cells_int_R_linear_in_T": 12,
+  "n_cells_int_R_linear_in_Tdir": 36,
+  "n_cells_mod2_GF2_linear_in_T": 36,
+  "n_cells_mod2_GF2_linear_in_Tdir": 36,
+  "cells": [
+    {
+      "cell_rc": [
+        0,
+        0
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 1.4988010832439613e-13,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 2.1449508835758024e-13,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        0,
+        1
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.656040223042125,
+      "R2_T": 0.14538439916794554,
+      "R_max_residual_Tdir": 2.0894397323445446e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        0,
+        2
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.922797975391735,
+      "R2_T": 0.05123959900327957,
+      "R_max_residual_Tdir": 8.748557434046234e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        0,
+        3
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 1.6165175651861607,
+      "R2_T": 0.20813262061330684,
+      "R_max_residual_Tdir": 1.1295131496780186e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        0,
+        4
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 1.940704960504911,
+      "R2_T": 0.20888726510882683,
+      "R_max_residual_Tdir": 6.694644838489694e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        0,
+        5
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        1,
+        0
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.6560402230421065,
+      "R2_T": 0.14538439916794543,
+      "R_max_residual_Tdir": 1.7175150190951172e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        1,
+        1
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 4.1231314409945625,
+      "R2_T": 0.06800403656466558,
+      "R_max_residual_Tdir": 1.1501910535116622e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        1,
+        2
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 3.6390096286441116,
+      "R2_T": 0.12214300517934751,
+      "R_max_residual_Tdir": 1.7474910407599964e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        1,
+        3
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 4.672719864937031,
+      "R2_T": 0.18682661850933857,
+      "R_max_residual_Tdir": 1.3024303857633868e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        1,
+        4
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.560059002110087,
+      "R2_T": 0.23924641155034065,
+      "R_max_residual_Tdir": 1.0400014183176154e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        1,
+        5
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        2,
+        0
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.92279797539172,
+      "R2_T": 0.05123959900327968,
+      "R_max_residual_Tdir": 7.560618797697316e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        2,
+        1
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 3.6390096286441045,
+      "R2_T": 0.1221430051793474,
+      "R_max_residual_Tdir": 1.4077627952246985e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        2,
+        2
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 4.239096120954048,
+      "R2_T": 0.11507266223196944,
+      "R_max_residual_Tdir": 1.1379786002407855e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        2,
+        3
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 4.546880440322981,
+      "R2_T": 0.16416057416009944,
+      "R_max_residual_Tdir": 1.1191048088221578e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        2,
+        4
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.7499217100734334,
+      "R2_T": 0.20325751171386996,
+      "R_max_residual_Tdir": 9.15795217437676e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        2,
+        5
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        3,
+        0
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 1.6165175651861663,
+      "R2_T": 0.20813262061330684,
+      "R_max_residual_Tdir": 7.882583474838611e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        3,
+        1
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 4.672719864936947,
+      "R2_T": 0.1868266185093388,
+      "R_max_residual_Tdir": 9.85878045867139e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        3,
+        2
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 4.546880440323033,
+      "R2_T": 0.16416057416009955,
+      "R_max_residual_Tdir": 1.0080825063596421e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        3,
+        3
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 4.7664666022494515,
+      "R2_T": 0.08603134495858655,
+      "R_max_residual_Tdir": 1.1890488593735427e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        3,
+        4
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.939516672367402,
+      "R2_T": 0.10766930503994865,
+      "R_max_residual_Tdir": 3.708144902248023e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        3,
+        5
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        4,
+        0
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 1.9407049605049513,
+      "R2_T": 0.20888726510882671,
+      "R_max_residual_Tdir": 3.3639757646142243e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        4,
+        1
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.560059002110053,
+      "R2_T": 0.23924641155034077,
+      "R_max_residual_Tdir": 8.215650382226158e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        4,
+        2
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.7499217100734223,
+      "R2_T": 0.20325751171386985,
+      "R_max_residual_Tdir": 1.1013412404281553e-13,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        4,
+        3
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 2.9395166723674233,
+      "R2_T": 0.10766930503994865,
+      "R_max_residual_Tdir": 5.012656956182582e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        4,
+        4
+      ],
+      "trivial_zero": false,
+      "int_R_linear_in_T": false,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 1.4100534981405872,
+      "R2_T": 0.01512359618372272,
+      "R_max_residual_Tdir": 3.697042672001771e-14,
+      "R2_Tdir": 1.0
+    },
+    {
+      "cell_rc": [
+        4,
+        5
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        5,
+        0
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        5,
+        1
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        5,
+        2
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        5,
+        3
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        5,
+        4
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    },
+    {
+      "cell_rc": [
+        5,
+        5
+      ],
+      "trivial_zero": true,
+      "int_R_linear_in_T": true,
+      "int_R_linear_in_Tdir": true,
+      "mod2_GF2_linear_in_T": true,
+      "mod2_GF2_linear_in_Tdir": true,
+      "R_max_residual_T": 0.0,
+      "R2_T": NaN,
+      "R_max_residual_Tdir": 0.0,
+      "R2_Tdir": NaN
+    }
+  ]
+}

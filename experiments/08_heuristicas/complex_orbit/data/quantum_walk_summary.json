@@ -1,0 +1,14 @@
+{
+  "n_vertices": 36,
+  "start_vertex_label": "A6",
+  "spectral_radius": 4.986465588637632,
+  "tau": 1.0,
+  "n_steps": 100,
+  "unitarity_max_norm_error": 1.1102230246251565e-15,
+  "tv_to_uniform_at_t36": 0.5683745447059421,
+  "tv_to_uniform_at_t100": 0.5349576272131322,
+  "min_tv_to_uniform": 0.3620368505599039,
+  "argmin_tv_step": 96,
+  "max_prob_at_t36": 0.3233928708292718,
+  "argmax_prob_at_t36_label": "A6"
+}

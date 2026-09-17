@@ -1,0 +1,763 @@
+{
+  "n_invariants": 42,
+  "n_tours": 9862,
+  "geometric_threshold_mod2": 0.3,
+  "invariants": [
+    {
+      "basis_vector_0": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.033062816469971515,
+        "argmax_winding_int_cell": [
+          4,
+          1
+        ],
+        "max_r_winding_mod2": 0.03530067136920702,
+        "argmax_winding_mod2_cell": [
+          4,
+          1
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 5084,
+        "n_tours_bit1": 4778
+      }
+    },
+    {
+      "basis_vector_1": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.02339417113877753,
+        "argmax_winding_int_cell": [
+          1,
+          4
+        ],
+        "max_r_winding_mod2": 0.030966890968231752,
+        "argmax_winding_mod2_cell": [
+          0,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4737,
+        "n_tours_bit1": 5125
+      }
+    },
+    {
+      "basis_vector_2": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.028373001845630613,
+        "argmax_winding_int_cell": [
+          4,
+          1
+        ],
+        "max_r_winding_mod2": 0.03875537299660271,
+        "argmax_winding_mod2_cell": [
+          2,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4773,
+        "n_tours_bit1": 5089
+      }
+    },
+    {
+      "basis_vector_3": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.026946802394122827,
+        "argmax_winding_int_cell": [
+          4,
+          1
+        ],
+        "max_r_winding_mod2": 0.03611705888214911,
+        "argmax_winding_mod2_cell": [
+          3,
+          4
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4978,
+        "n_tours_bit1": 4884
+      }
+    },
+    {
+      "basis_vector_4": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.022027924097332147,
+        "argmax_winding_int_cell": [
+          1,
+          3
+        ],
+        "max_r_winding_mod2": 0.04073865244068736,
+        "argmax_winding_mod2_cell": [
+          3,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4927,
+        "n_tours_bit1": 4935
+      }
+    },
+    {
+      "basis_vector_5": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.03139525298648744,
+        "argmax_winding_int_cell": [
+          3,
+          0
+        ],
+        "max_r_winding_mod2": 0.04350678660814437,
+        "argmax_winding_mod2_cell": [
+          3,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4957,
+        "n_tours_bit1": 4905
+      }
+    },
+    {
+      "basis_vector_6": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.025061781377597743,
+        "argmax_winding_int_cell": [
+          2,
+          3
+        ],
+        "max_r_winding_mod2": 0.03204817525554835,
+        "argmax_winding_mod2_cell": [
+          2,
+          2
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 5070,
+        "n_tours_bit1": 4792
+      }
+    },
+    {
+      "basis_vector_7": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.03631841985540387,
+        "argmax_winding_int_cell": [
+          3,
+          4
+        ],
+        "max_r_winding_mod2": 0.037017360490194495,
+        "argmax_winding_mod2_cell": [
+          1,
+          1
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4985,
+        "n_tours_bit1": 4877
+      }
+    },
+    {
+      "basis_vector_8": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.025748940395878914,
+        "argmax_winding_int_cell": [
+          4,
+          1
+        ],
+        "max_r_winding_mod2": 0.027496317743588763,
+        "argmax_winding_mod2_cell": [
+          1,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4858,
+        "n_tours_bit1": 5004
+      }
+    },
+    {
+      "basis_vector_9": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.0212838663428514,
+        "argmax_winding_int_cell": [
+          4,
+          2
+        ],
+        "max_r_winding_mod2": 0.03220913522193466,
+        "argmax_winding_mod2_cell": [
+          4,
+          2
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4946,
+        "n_tours_bit1": 4916
+      }
+    },
+    {
+      "basis_vector_10": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.022684147272153232,
+        "argmax_winding_int_cell": [
+          4,
+          1
+        ],
+        "max_r_winding_mod2": 0.03300338841852214,
+        "argmax_winding_mod2_cell": [
+          1,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4770,
+        "n_tours_bit1": 5092
+      }
+    },
+    {
+      "basis_vector_11": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.015858793871965874,
+        "argmax_winding_int_cell": [
+          1,
+          3
+        ],
+        "max_r_winding_mod2": 0.029490900613653424,
+        "argmax_winding_mod2_cell": [
+          3,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4886,
+        "n_tours_bit1": 4976
+      }
+    },
+    {
+      "basis_vector_12": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.04276209767780229,
+        "argmax_winding_int_cell": [
+          3,
+          1
+        ],
+        "max_r_winding_mod2": 0.052261639896509386,
+        "argmax_winding_mod2_cell": [
+          3,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4800,
+        "n_tours_bit1": 5062
+      }
+    },
+    {
+      "basis_vector_13": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.021522557481729362,
+        "argmax_winding_int_cell": [
+          1,
+          4
+        ],
+        "max_r_winding_mod2": 0.015528076118180805,
+        "argmax_winding_mod2_cell": [
+          1,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4929,
+        "n_tours_bit1": 4933
+      }
+    },
+    {
+      "basis_vector_14": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.02115275306921919,
+        "argmax_winding_int_cell": [
+          3,
+          3
+        ],
+        "max_r_winding_mod2": 0.0469122172775925,
+        "argmax_winding_mod2_cell": [
+          3,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4925,
+        "n_tours_bit1": 4937
+      }
+    },
+    {
+      "basis_vector_15": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.049093928602161455,
+        "argmax_winding_int_cell": [
+          4,
+          0
+        ],
+        "max_r_winding_mod2": 0.024085764321665478,
+        "argmax_winding_mod2_cell": [
+          4,
+          2
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4925,
+        "n_tours_bit1": 4937
+      }
+    },
+    {
+      "basis_vector_16": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.022708446533276826,
+        "argmax_winding_int_cell": [
+          2,
+          0
+        ],
+        "max_r_winding_mod2": 0.021351774508475644,
+        "argmax_winding_mod2_cell": [
+          3,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 5018,
+        "n_tours_bit1": 4844
+      }
+    },
+    {
+      "basis_vector_17": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.028613067825544188,
+        "argmax_winding_int_cell": [
+          3,
+          1
+        ],
+        "max_r_winding_mod2": 0.02929186307108734,
+        "argmax_winding_mod2_cell": [
+          3,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4939,
+        "n_tours_bit1": 4923
+      }
+    },
+    {
+      "basis_vector_18": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.024285368790863685,
+        "argmax_winding_int_cell": [
+          2,
+          4
+        ],
+        "max_r_winding_mod2": 0.023682196740395203,
+        "argmax_winding_mod2_cell": [
+          1,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4934,
+        "n_tours_bit1": 4928
+      }
+    },
+    {
+      "basis_vector_19": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.03934903763600891,
+        "argmax_winding_int_cell": [
+          4,
+          0
+        ],
+        "max_r_winding_mod2": 0.02961571472324724,
+        "argmax_winding_mod2_cell": [
+          2,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4840,
+        "n_tours_bit1": 5022
+      }
+    },
+    {
+      "basis_vector_20": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.027368588377384546,
+        "argmax_winding_int_cell": [
+          0,
+          1
+        ],
+        "max_r_winding_mod2": 0.046051055755874315,
+        "argmax_winding_mod2_cell": [
+          1,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4794,
+        "n_tours_bit1": 5068
+      }
+    },
+    {
+      "basis_vector_21": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.03204899028687196,
+        "argmax_winding_int_cell": [
+          4,
+          2
+        ],
+        "max_r_winding_mod2": 0.019389074994052312,
+        "argmax_winding_mod2_cell": [
+          2,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4953,
+        "n_tours_bit1": 4909
+      }
+    },
+    {
+      "basis_vector_22": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.013681573628044072,
+        "argmax_winding_int_cell": [
+          4,
+          4
+        ],
+        "max_r_winding_mod2": 0.016582866890175556,
+        "argmax_winding_mod2_cell": [
+          3,
+          4
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4890,
+        "n_tours_bit1": 4972
+      }
+    },
+    {
+      "basis_vector_23": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.032346115702640066,
+        "argmax_winding_int_cell": [
+          3,
+          3
+        ],
+        "max_r_winding_mod2": 0.01898290034094075,
+        "argmax_winding_mod2_cell": [
+          0,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4974,
+        "n_tours_bit1": 4888
+      }
+    },
+    {
+      "basis_vector_24": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.012834805125022527,
+        "argmax_winding_int_cell": [
+          2,
+          1
+        ],
+        "max_r_winding_mod2": 0.0245374015338596,
+        "argmax_winding_mod2_cell": [
+          3,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4926,
+        "n_tours_bit1": 4936
+      }
+    },
+    {
+      "basis_vector_25": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.019222633068257406,
+        "argmax_winding_int_cell": [
+          0,
+          2
+        ],
+        "max_r_winding_mod2": 0.04961493569156387,
+        "argmax_winding_mod2_cell": [
+          1,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4830,
+        "n_tours_bit1": 5032
+      }
+    },
+    {
+      "basis_vector_26": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.01988405732774792,
+        "argmax_winding_int_cell": [
+          4,
+          2
+        ],
+        "max_r_winding_mod2": 0.03550635980450721,
+        "argmax_winding_mod2_cell": [
+          3,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 5035,
+        "n_tours_bit1": 4827
+      }
+    },
+    {
+      "basis_vector_27": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.025836066412194394,
+        "argmax_winding_int_cell": [
+          2,
+          4
+        ],
+        "max_r_winding_mod2": 0.03611705888214377,
+        "argmax_winding_mod2_cell": [
+          0,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4978,
+        "n_tours_bit1": 4884
+      }
+    },
+    {
+      "basis_vector_28": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.015050349726158497,
+        "argmax_winding_int_cell": [
+          0,
+          2
+        ],
+        "max_r_winding_mod2": 0.034196625550283785,
+        "argmax_winding_mod2_cell": [
+          3,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4983,
+        "n_tours_bit1": 4879
+      }
+    },
+    {
+      "basis_vector_29": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.015692134135566513,
+        "argmax_winding_int_cell": [
+          4,
+          2
+        ],
+        "max_r_winding_mod2": 0.022875752435873874,
+        "argmax_winding_mod2_cell": [
+          4,
+          1
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4881,
+        "n_tours_bit1": 4981
+      }
+    },
+    {
+      "basis_vector_30": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.018417475642304598,
+        "argmax_winding_int_cell": [
+          4,
+          0
+        ],
+        "max_r_winding_mod2": 0.044129778608373,
+        "argmax_winding_mod2_cell": [
+          0,
+          2
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4914,
+        "n_tours_bit1": 4948
+      }
+    },
+    {
+      "basis_vector_31": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.03074690304421225,
+        "argmax_winding_int_cell": [
+          1,
+          1
+        ],
+        "max_r_winding_mod2": 0.03709981400433244,
+        "argmax_winding_mod2_cell": [
+          2,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4967,
+        "n_tours_bit1": 4895
+      }
+    },
+    {
+      "basis_vector_32": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.029568300035185242,
+        "argmax_winding_int_cell": [
+          4,
+          1
+        ],
+        "max_r_winding_mod2": 0.028225566709155634,
+        "argmax_winding_mod2_cell": [
+          4,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 5027,
+        "n_tours_bit1": 4835
+      }
+    },
+    {
+      "basis_vector_33": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.032204245106993955,
+        "argmax_winding_int_cell": [
+          4,
+          0
+        ],
+        "max_r_winding_mod2": 0.036953010682617325,
+        "argmax_winding_mod2_cell": [
+          1,
+          4
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4950,
+        "n_tours_bit1": 4912
+      }
+    },
+    {
+      "basis_vector_34": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.015975074676603803,
+        "argmax_winding_int_cell": [
+          0,
+          1
+        ],
+        "max_r_winding_mod2": 0.03419662555028416,
+        "argmax_winding_mod2_cell": [
+          3,
+          1
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4983,
+        "n_tours_bit1": 4879
+      }
+    },
+    {
+      "basis_vector_35": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.027241650124067273,
+        "argmax_winding_int_cell": [
+          4,
+          1
+        ],
+        "max_r_winding_mod2": 0.03550635980450719,
+        "argmax_winding_mod2_cell": [
+          3,
+          1
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 5035,
+        "n_tours_bit1": 4827
+      }
+    },
+    {
+      "basis_vector_36": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.022324501584257434,
+        "argmax_winding_int_cell": [
+          4,
+          1
+        ],
+        "max_r_winding_mod2": 0.01960719772086764,
+        "argmax_winding_mod2_cell": [
+          0,
+          2
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4938,
+        "n_tours_bit1": 4924
+      }
+    },
+    {
+      "basis_vector_37": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.015226693123599866,
+        "argmax_winding_int_cell": [
+          4,
+          4
+        ],
+        "max_r_winding_mod2": 0.019607197720865985,
+        "argmax_winding_mod2_cell": [
+          2,
+          4
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4938,
+        "n_tours_bit1": 4924
+      }
+    },
+    {
+      "basis_vector_38": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.013121849318889168,
+        "argmax_winding_int_cell": [
+          4,
+          0
+        ],
+        "max_r_winding_mod2": 0.012524766499018819,
+        "argmax_winding_mod2_cell": [
+          1,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4904,
+        "n_tours_bit1": 4958
+      }
+    },
+    {
+      "basis_vector_39": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.01791150095305153,
+        "argmax_winding_int_cell": [
+          1,
+          1
+        ],
+        "max_r_winding_mod2": 0.11606337486273947,
+        "argmax_winding_mod2_cell": [
+          3,
+          2
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4962,
+        "n_tours_bit1": 4900
+      }
+    },
+    {
+      "basis_vector_40": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.025598510641647115,
+        "argmax_winding_int_cell": [
+          4,
+          2
+        ],
+        "max_r_winding_mod2": 0.01586112761905164,
+        "argmax_winding_mod2_cell": [
+          1,
+          0
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4993,
+        "n_tours_bit1": 4869
+      }
+    },
+    {
+      "basis_vector_41": {
+        "type": "algebraic",
+        "max_r_winding_int": 0.024332459184600287,
+        "argmax_winding_int_cell": [
+          1,
+          4
+        ],
+        "max_r_winding_mod2": 0.0345745560038525,
+        "argmax_winding_mod2_cell": [
+          4,
+          3
+        ],
+        "witness_cell": null,
+        "n_tours_bit0": 4848,
+        "n_tours_bit1": 5014
+      }
+    }
+  ]
+}

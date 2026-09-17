@@ -1,0 +1,142 @@
+[
+  {
+    "n": 6,
+    "V": 36,
+    "E": 80,
+    "beta1": 45,
+    "n_mand": 8,
+    "alvo": 500,
+    "tempo_s": 3.5115912039982504,
+    "n_nos": 2673,
+    "n_tours": 500,
+    "n_2fatores": 500,
+    "n_folhas": 500,
+    "nos_por_tour": 5.346,
+    "podas": {
+      "R2": 17,
+      "SUBTOUR_EARLY": 817,
+      "CONTRADICTION_DET": 0
+    },
+    "n_eventos": 2673,
+    "outcome_count": {
+      "RECURSE_INTERNAL": 1339,
+      "SUBTOUR_EARLY": 817,
+      "R2": 17,
+      "TOUR": 500
+    },
+    "mu": 0.18705574261129818,
+    "parou_por_timeout": false
+  },
+  {
+    "n": 8,
+    "V": 64,
+    "E": 168,
+    "beta1": 105,
+    "n_mand": 8,
+    "alvo": 500,
+    "tempo_s": 4.06501795299846,
+    "n_nos": 2214,
+    "n_tours": 500,
+    "n_2fatores": 500,
+    "n_folhas": 500,
+    "nos_por_tour": 4.428,
+    "podas": {
+      "R2": 77,
+      "SUBTOUR_EARLY": 520,
+      "CONTRADICTION_DET": 0
+    },
+    "n_eventos": 2214,
+    "outcome_count": {
+      "RECURSE_INTERNAL": 1117,
+      "TOUR": 500,
+      "SUBTOUR_EARLY": 520,
+      "R2": 77
+    },
+    "mu": 0.22583559168925021,
+    "parou_por_timeout": false
+  },
+  {
+    "n": 10,
+    "V": 100,
+    "E": 288,
+    "beta1": 189,
+    "n_mand": 8,
+    "alvo": 500,
+    "tempo_s": 5.9712857069971506,
+    "n_nos": 1927,
+    "n_tours": 500,
+    "n_2fatores": 500,
+    "n_folhas": 500,
+    "nos_por_tour": 3.854,
+    "podas": {
+      "R2": 9,
+      "SUBTOUR_EARLY": 435,
+      "CONTRADICTION_DET": 0
+    },
+    "n_eventos": 1927,
+    "outcome_count": {
+      "RECURSE_INTERNAL": 983,
+      "SUBTOUR_EARLY": 435,
+      "TOUR": 500,
+      "R2": 9
+    },
+    "mu": 0.2594706798131811,
+    "parou_por_timeout": false
+  },
+  {
+    "n": 12,
+    "V": 144,
+    "E": 440,
+    "beta1": 297,
+    "n_mand": 8,
+    "alvo": 500,
+    "tempo_s": 9.400842877999821,
+    "n_nos": 2124,
+    "n_tours": 500,
+    "n_2fatores": 500,
+    "n_folhas": 500,
+    "nos_por_tour": 4.248,
+    "podas": {
+      "R2": 8,
+      "SUBTOUR_EARLY": 526,
+      "CONTRADICTION_DET": 0
+    },
+    "n_eventos": 2124,
+    "outcome_count": {
+      "RECURSE_INTERNAL": 1090,
+      "SUBTOUR_EARLY": 526,
+      "R2": 8,
+      "TOUR": 500
+    },
+    "mu": 0.23540489642184556,
+    "parou_por_timeout": false
+  },
+  {
+    "n": 14,
+    "V": 196,
+    "E": 624,
+    "beta1": 429,
+    "n_mand": 8,
+    "alvo": 500,
+    "tempo_s": 12.233210170998063,
+    "n_nos": 2036,
+    "n_tours": 500,
+    "n_2fatores": 500,
+    "n_folhas": 500,
+    "nos_por_tour": 4.072,
+    "podas": {
+      "R2": 27,
+      "SUBTOUR_EARLY": 443,
+      "CONTRADICTION_DET": 0
+    },
+    "n_eventos": 2036,
+    "outcome_count": {
+      "RECURSE_INTERNAL": 1066,
+      "SUBTOUR_EARLY": 443,
+      "TOUR": 500,
+      "R2": 27
+    },
+    "mu": 0.2455795677799607,
+    "parou_por_timeout": false
+  }
+]

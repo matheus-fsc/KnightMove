@@ -1,0 +1,19 @@
+{
+  "board": "6x6",
+  "node_limit": 500000,
+  "round_a_topo_on": {
+    "time_s": 69.76669606499854,
+    "nodes": 500000,
+    "tours": 221663,
+    "topo_prunes": 115144,
+    "subtour_prunes": 109240
+  },
+  "round_b_topo_off": {
+    "time_s": 68.24550350799836,
+    "nodes": 500000,
+    "tours": 221663,
+    "topo_prunes": 0,
+    "subtour_prunes": 224384
+  },
+  "speedup": 0.9781960069374226
+}

@@ -1,0 +1,9 @@
+{
+  "feature": "mean_cycle_length",
+  "n_heldout": 80,
+  "mae": 0.10429900215827344,
+  "rmse": 0.1264221511831959,
+  "max_error": 0.32852848357937847,
+  "r2_heldout": 0.3505215016074221,
+  "mean_eta_heldout": 0.6261251578977568
+}

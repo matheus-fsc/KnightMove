@@ -1,0 +1,1112 @@
+[
+  {
+    "n": 15,
+    "seed_index": 0,
+    "instance_seed": 191664963,
+    "n_cycles": 91,
+    "initial_cost": 377.12370127827006,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 377.12370127827,
+        "iterations": 0,
+        "time_ms": 0.190260999943348
+      },
+      "length": {
+        "final_cost": 377.12370127827,
+        "iterations": 0,
+        "time_ms": 0.1531540000314635
+      },
+      "min_edge": {
+        "final_cost": 377.12370127827,
+        "iterations": 0,
+        "time_ms": 0.23356099995908153
+      },
+      "delta": {
+        "final_cost": 377.12370127827,
+        "iterations": 0,
+        "time_ms": 0.16611099999863654
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 377.12370127827,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.190260999943348,
+    "final_cost_2opt": 361.10284091696775,
+    "iterations_2opt": 1,
+    "time_2opt_ms": 0.07377800000085699,
+    "gap_to_2opt": 4.436647554646656
+  },
+  {
+    "n": 15,
+    "seed_index": 1,
+    "instance_seed": 1662057957,
+    "n_cycles": 91,
+    "initial_cost": 286.1097485296835,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 286.10974852968343,
+        "iterations": 0,
+        "time_ms": 0.10656500001005043
+      },
+      "length": {
+        "final_cost": 286.10974852968343,
+        "iterations": 0,
+        "time_ms": 0.10363100000176928
+      },
+      "min_edge": {
+        "final_cost": 286.10974852968343,
+        "iterations": 0,
+        "time_ms": 0.1570359999050197
+      },
+      "delta": {
+        "final_cost": 286.10974852968343,
+        "iterations": 0,
+        "time_ms": 0.09315599993442447
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 286.10974852968343,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.10656500001005043,
+    "final_cost_2opt": 264.4698016456676,
+    "iterations_2opt": 2,
+    "time_2opt_ms": 0.07148599991069204,
+    "gap_to_2opt": 8.182388593843578
+  },
+  {
+    "n": 15,
+    "seed_index": 2,
+    "instance_seed": 1405681631,
+    "n_cycles": 91,
+    "initial_cost": 392.1393830428253,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 392.13938304282533,
+        "iterations": 0,
+        "time_ms": 0.11239500008741743
+      },
+      "length": {
+        "final_cost": 392.13938304282533,
+        "iterations": 0,
+        "time_ms": 0.10233800003334181
+      },
+      "min_edge": {
+        "final_cost": 392.13938304282533,
+        "iterations": 0,
+        "time_ms": 0.17201200000727113
+      },
+      "delta": {
+        "final_cost": 392.13938304282533,
+        "iterations": 0,
+        "time_ms": 0.10255500001221662
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 392.13938304282533,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.11239500008741743,
+    "final_cost_2opt": 304.3589225241379,
+    "iterations_2opt": 2,
+    "time_2opt_ms": 0.0677650000397989,
+    "gap_to_2opt": 28.84109977479823
+  },
+  {
+    "n": 15,
+    "seed_index": 3,
+    "instance_seed": 942484272,
+    "n_cycles": 91,
+    "initial_cost": 394.0774070922207,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 394.0774070922208,
+        "iterations": 0,
+        "time_ms": 0.08135299992773071
+      },
+      "length": {
+        "final_cost": 394.0774070922208,
+        "iterations": 0,
+        "time_ms": 0.07718799997746828
+      },
+      "min_edge": {
+        "final_cost": 394.0774070922208,
+        "iterations": 0,
+        "time_ms": 0.13569099996857403
+      },
+      "delta": {
+        "final_cost": 394.0774070922208,
+        "iterations": 0,
+        "time_ms": 0.07919499989839096
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 394.0774070922208,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.08135299992773071,
+    "final_cost_2opt": 360.01164865918133,
+    "iterations_2opt": 3,
+    "time_2opt_ms": 0.10007499997755076,
+    "gap_to_2opt": 9.462404497163684
+  },
+  {
+    "n": 15,
+    "seed_index": 4,
+    "instance_seed": 929893137,
+    "n_cycles": 91,
+    "initial_cost": 333.52736754559186,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 333.52736754559186,
+        "iterations": 0,
+        "time_ms": 0.09871200006728031
+      },
+      "length": {
+        "final_cost": 333.52736754559186,
+        "iterations": 0,
+        "time_ms": 0.08968600002390303
+      },
+      "min_edge": {
+        "final_cost": 333.52736754559186,
+        "iterations": 0,
+        "time_ms": 0.14825400000972877
+      },
+      "delta": {
+        "final_cost": 333.52736754559186,
+        "iterations": 0,
+        "time_ms": 0.08959199999480916
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 333.52736754559186,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.09871200006728031,
+    "final_cost_2opt": 309.9977771108804,
+    "iterations_2opt": 1,
+    "time_2opt_ms": 0.07118500002434303,
+    "gap_to_2opt": 7.590244889496532
+  },
+  {
+    "n": 15,
+    "seed_index": 5,
+    "instance_seed": 1843824992,
+    "n_cycles": 91,
+    "initial_cost": 408.77403208970003,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 408.77403208970014,
+        "iterations": 0,
+        "time_ms": 0.10612799997034017
+      },
+      "length": {
+        "final_cost": 408.77403208970014,
+        "iterations": 0,
+        "time_ms": 0.09199499993428617
+      },
+      "min_edge": {
+        "final_cost": 408.77403208970014,
+        "iterations": 0,
+        "time_ms": 0.15588000007937808
+      },
+      "delta": {
+        "final_cost": 408.77403208970014,
+        "iterations": 0,
+        "time_ms": 0.09316500006661954
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 408.77403208970014,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.10612799997034017,
+    "final_cost_2opt": 307.9702655318768,
+    "iterations_2opt": 13,
+    "time_2opt_ms": 0.16692699989562243,
+    "gap_to_2opt": 32.73165556542651
+  },
+  {
+    "n": 15,
+    "seed_index": 6,
+    "instance_seed": 184566854,
+    "n_cycles": 91,
+    "initial_cost": 409.432230236781,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 409.43223023678104,
+        "iterations": 0,
+        "time_ms": 0.09906800005410332
+      },
+      "length": {
+        "final_cost": 409.43223023678104,
+        "iterations": 0,
+        "time_ms": 0.09166999996068625
+      },
+      "min_edge": {
+        "final_cost": 409.43223023678104,
+        "iterations": 0,
+        "time_ms": 0.15587200005029445
+      },
+      "delta": {
+        "final_cost": 409.43223023678104,
+        "iterations": 0,
+        "time_ms": 0.09217699994223949
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 409.43223023678104,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.09906800005410332,
+    "final_cost_2opt": 363.7832560972329,
+    "iterations_2opt": 5,
+    "time_2opt_ms": 0.10142700000415061,
+    "gap_to_2opt": 12.5483989090875
+  },
+  {
+    "n": 15,
+    "seed_index": 7,
+    "instance_seed": 1497586438,
+    "n_cycles": 91,
+    "initial_cost": 367.37574818521864,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 367.3757481852187,
+        "iterations": 0,
+        "time_ms": 0.10492199999134755
+      },
+      "length": {
+        "final_cost": 367.3757481852187,
+        "iterations": 0,
+        "time_ms": 0.09771000009095587
+      },
+      "min_edge": {
+        "final_cost": 367.3757481852187,
+        "iterations": 0,
+        "time_ms": 0.18059300009554136
+      },
+      "delta": {
+        "final_cost": 367.3757481852187,
+        "iterations": 0,
+        "time_ms": 0.1031460000149309
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 367.3757481852187,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.10492199999134755,
+    "final_cost_2opt": 362.4500882895257,
+    "iterations_2opt": 2,
+    "time_2opt_ms": 0.07027799995285022,
+    "gap_to_2opt": 1.3589898457297043
+  },
+  {
+    "n": 15,
+    "seed_index": 8,
+    "instance_seed": 432652533,
+    "n_cycles": 91,
+    "initial_cost": 399.5738481759558,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 399.57384817595585,
+        "iterations": 0,
+        "time_ms": 0.10124899995389569
+      },
+      "length": {
+        "final_cost": 399.57384817595585,
+        "iterations": 0,
+        "time_ms": 0.09631299997181486
+      },
+      "min_edge": {
+        "final_cost": 399.57384817595585,
+        "iterations": 0,
+        "time_ms": 0.15507699993122515
+      },
+      "delta": {
+        "final_cost": 399.57384817595585,
+        "iterations": 0,
+        "time_ms": 0.09575100000347447
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 399.57384817595585,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.10124899995389569,
+    "final_cost_2opt": 378.7537050187219,
+    "iterations_2opt": 3,
+    "time_2opt_ms": 0.06947499991838413,
+    "gap_to_2opt": 5.497013727220116
+  },
+  {
+    "n": 15,
+    "seed_index": 9,
+    "instance_seed": 202244314,
+    "n_cycles": 91,
+    "initial_cost": 338.12089559020944,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 337.5774923161848,
+        "iterations": 1,
+        "time_ms": 0.22051100006592605
+      },
+      "length": {
+        "final_cost": 337.5774923161848,
+        "iterations": 1,
+        "time_ms": 0.13696600001367187
+      },
+      "min_edge": {
+        "final_cost": 337.5774923161848,
+        "iterations": 1,
+        "time_ms": 0.323120999951243
+      },
+      "delta": {
+        "final_cost": 337.5774923161848,
+        "iterations": 1,
+        "time_ms": 0.21453399995152722
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 337.5774923161848,
+    "iterations_cycle": 1,
+    "time_cycle_ms": 0.22051100006592605,
+    "final_cost_2opt": 325.24014169458343,
+    "iterations_2opt": 3,
+    "time_2opt_ms": 0.07639700004347105,
+    "gap_to_2opt": 3.7933050198910476
+  },
+  {
+    "n": 20,
+    "seed_index": 0,
+    "instance_seed": 1130604997,
+    "n_cycles": 171,
+    "initial_cost": 447.6871077879264,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 447.6871077879264,
+        "iterations": 0,
+        "time_ms": 0.2659809999840945
+      },
+      "length": {
+        "final_cost": 447.6871077879264,
+        "iterations": 0,
+        "time_ms": 0.2429740000025049
+      },
+      "min_edge": {
+        "final_cost": 447.6871077879264,
+        "iterations": 0,
+        "time_ms": 0.3827709999768558
+      },
+      "delta": {
+        "final_cost": 447.6871077879264,
+        "iterations": 0,
+        "time_ms": 0.24379399997087603
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 447.6871077879264,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.2659809999840945,
+    "final_cost_2opt": 398.6642205553319,
+    "iterations_2opt": 4,
+    "time_2opt_ms": 0.12707899998076755,
+    "gap_to_2opt": 12.296786294066347
+  },
+  {
+    "n": 20,
+    "seed_index": 1,
+    "instance_seed": 2095133045,
+    "n_cycles": 171,
+    "initial_cost": 370.5988643177608,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 370.5988643177608,
+        "iterations": 0,
+        "time_ms": 0.253212999950847
+      },
+      "length": {
+        "final_cost": 370.5988643177608,
+        "iterations": 0,
+        "time_ms": 0.24654100002408086
+      },
+      "min_edge": {
+        "final_cost": 370.5988643177608,
+        "iterations": 0,
+        "time_ms": 0.37663599994175456
+      },
+      "delta": {
+        "final_cost": 370.5988643177608,
+        "iterations": 0,
+        "time_ms": 0.22980200003530626
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 370.5988643177608,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.253212999950847,
+    "final_cost_2opt": 339.4882278190542,
+    "iterations_2opt": 5,
+    "time_2opt_ms": 0.18275399997946806,
+    "gap_to_2opt": 9.163980942304844
+  },
+  {
+    "n": 20,
+    "seed_index": 2,
+    "instance_seed": 1580016183,
+    "n_cycles": 171,
+    "initial_cost": 420.76512942019934,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 420.76512942019934,
+        "iterations": 0,
+        "time_ms": 0.21672200000466546
+      },
+      "length": {
+        "final_cost": 420.76512942019934,
+        "iterations": 0,
+        "time_ms": 0.20951799990598374
+      },
+      "min_edge": {
+        "final_cost": 420.76512942019934,
+        "iterations": 0,
+        "time_ms": 0.36068800000066403
+      },
+      "delta": {
+        "final_cost": 420.76512942019934,
+        "iterations": 0,
+        "time_ms": 0.20655200000874174
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 420.76512942019934,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.21672200000466546,
+    "final_cost_2opt": 361.9813002310335,
+    "iterations_2opt": 4,
+    "time_2opt_ms": 0.12980700000753131,
+    "gap_to_2opt": 16.239465726999494
+  },
+  {
+    "n": 20,
+    "seed_index": 3,
+    "instance_seed": 1634535062,
+    "n_cycles": 171,
+    "initial_cost": 468.020757629405,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 468.02075762940495,
+        "iterations": 0,
+        "time_ms": 0.18604199999572302
+      },
+      "length": {
+        "final_cost": 468.02075762940495,
+        "iterations": 0,
+        "time_ms": 0.18749799994566274
+      },
+      "min_edge": {
+        "final_cost": 468.02075762940495,
+        "iterations": 0,
+        "time_ms": 0.30909100007647794
+      },
+      "delta": {
+        "final_cost": 468.02075762940495,
+        "iterations": 0,
+        "time_ms": 0.1821779999318096
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 468.02075762940495,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.18604199999572302,
+    "final_cost_2opt": 351.7337434534533,
+    "iterations_2opt": 11,
+    "time_2opt_ms": 0.18689199998789263,
+    "gap_to_2opt": 33.06109133408762
+  },
+  {
+    "n": 20,
+    "seed_index": 4,
+    "instance_seed": 1540770719,
+    "n_cycles": 171,
+    "initial_cost": 662.3037982684274,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 662.3037982684274,
+        "iterations": 0,
+        "time_ms": 0.2182829999810565
+      },
+      "length": {
+        "final_cost": 662.3037982684274,
+        "iterations": 0,
+        "time_ms": 0.20721800001410884
+      },
+      "min_edge": {
+        "final_cost": 662.3037982684274,
+        "iterations": 0,
+        "time_ms": 0.3342890000794796
+      },
+      "delta": {
+        "final_cost": 662.3037982684274,
+        "iterations": 0,
+        "time_ms": 0.21596600004158972
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 662.3037982684274,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.2182829999810565,
+    "final_cost_2opt": 448.4385149690337,
+    "iterations_2opt": 14,
+    "time_2opt_ms": 0.1900849999856291,
+    "gap_to_2opt": 47.6911050591098
+  },
+  {
+    "n": 20,
+    "seed_index": 5,
+    "instance_seed": 1688060240,
+    "n_cycles": 171,
+    "initial_cost": 500.77019405018314,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 500.77019405018314,
+        "iterations": 0,
+        "time_ms": 0.25349800000640244
+      },
+      "length": {
+        "final_cost": 500.77019405018314,
+        "iterations": 0,
+        "time_ms": 0.2433949999840479
+      },
+      "min_edge": {
+        "final_cost": 500.77019405018314,
+        "iterations": 0,
+        "time_ms": 0.7475639999938721
+      },
+      "delta": {
+        "final_cost": 500.77019405018314,
+        "iterations": 0,
+        "time_ms": 0.35904100002426276
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 500.77019405018314,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.25349800000640244,
+    "final_cost_2opt": 416.47215717584226,
+    "iterations_2opt": 7,
+    "time_2opt_ms": 0.18623299990849773,
+    "gap_to_2opt": 20.240977799327094
+  },
+  {
+    "n": 20,
+    "seed_index": 6,
+    "instance_seed": 1102145672,
+    "n_cycles": 171,
+    "initial_cost": 500.53683281068004,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 500.53683281068,
+        "iterations": 0,
+        "time_ms": 0.17242400008399272
+      },
+      "length": {
+        "final_cost": 500.53683281068,
+        "iterations": 0,
+        "time_ms": 0.1754520000076809
+      },
+      "min_edge": {
+        "final_cost": 500.53683281068,
+        "iterations": 0,
+        "time_ms": 0.3180850000035207
+      },
+      "delta": {
+        "final_cost": 500.53683281068,
+        "iterations": 0,
+        "time_ms": 0.18696899996939464
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 500.53683281068,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.17242400008399272,
+    "final_cost_2opt": 421.36694543148803,
+    "iterations_2opt": 10,
+    "time_2opt_ms": 0.18918799992206914,
+    "gap_to_2opt": 18.788822483007163
+  },
+  {
+    "n": 20,
+    "seed_index": 7,
+    "instance_seed": 275121930,
+    "n_cycles": 171,
+    "initial_cost": 413.86209876004693,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 413.86209876004705,
+        "iterations": 0,
+        "time_ms": 0.18070300006911566
+      },
+      "length": {
+        "final_cost": 413.86209876004705,
+        "iterations": 0,
+        "time_ms": 0.1761450000685727
+      },
+      "min_edge": {
+        "final_cost": 413.86209876004705,
+        "iterations": 0,
+        "time_ms": 0.295965999953296
+      },
+      "delta": {
+        "final_cost": 413.86209876004705,
+        "iterations": 0,
+        "time_ms": 0.1747090000208118
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 413.86209876004705,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.18070300006911566,
+    "final_cost_2opt": 387.47959673040776,
+    "iterations_2opt": 4,
+    "time_2opt_ms": 0.1267139999754363,
+    "gap_to_2opt": 6.808746125539904
+  },
+  {
+    "n": 20,
+    "seed_index": 8,
+    "instance_seed": 1803345590,
+    "n_cycles": 171,
+    "initial_cost": 441.7339295690111,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 441.73392956901114,
+        "iterations": 0,
+        "time_ms": 0.2506449999373217
+      },
+      "length": {
+        "final_cost": 441.73392956901114,
+        "iterations": 0,
+        "time_ms": 0.23964700005763007
+      },
+      "min_edge": {
+        "final_cost": 441.73392956901114,
+        "iterations": 0,
+        "time_ms": 0.3579059999765377
+      },
+      "delta": {
+        "final_cost": 441.73392956901114,
+        "iterations": 0,
+        "time_ms": 0.22209799999473034
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 441.73392956901114,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.2506449999373217,
+    "final_cost_2opt": 415.2690362197784,
+    "iterations_2opt": 4,
+    "time_2opt_ms": 0.18383100007213216,
+    "gap_to_2opt": 6.3729512775969095
+  },
+  {
+    "n": 20,
+    "seed_index": 9,
+    "instance_seed": 967196436,
+    "n_cycles": 171,
+    "initial_cost": 512.3270243988343,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 512.3270243988344,
+        "iterations": 0,
+        "time_ms": 0.21403699997790682
+      },
+      "length": {
+        "final_cost": 512.3270243988344,
+        "iterations": 0,
+        "time_ms": 0.1757890000817497
+      },
+      "min_edge": {
+        "final_cost": 512.3270243988344,
+        "iterations": 0,
+        "time_ms": 0.30002100004367094
+      },
+      "delta": {
+        "final_cost": 512.3270243988344,
+        "iterations": 0,
+        "time_ms": 0.17708200005017716
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 512.3270243988344,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.21403699997790682,
+    "final_cost_2opt": 473.4263775875025,
+    "iterations_2opt": 4,
+    "time_2opt_ms": 0.12786699994649098,
+    "gap_to_2opt": 8.21683130744906
+  },
+  {
+    "n": 25,
+    "seed_index": 0,
+    "instance_seed": 1074497555,
+    "n_cycles": 276,
+    "initial_cost": 516.5415064130381,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 516.5415064130381,
+        "iterations": 0,
+        "time_ms": 0.39487699996243464
+      },
+      "length": {
+        "final_cost": 516.5415064130381,
+        "iterations": 0,
+        "time_ms": 0.363571999969281
+      },
+      "min_edge": {
+        "final_cost": 516.5415064130381,
+        "iterations": 0,
+        "time_ms": 0.5705940000098053
+      },
+      "delta": {
+        "final_cost": 516.5415064130381,
+        "iterations": 0,
+        "time_ms": 0.3606369999715753
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 516.5415064130381,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.39487699996243464,
+    "final_cost_2opt": 449.02541792807864,
+    "iterations_2opt": 10,
+    "time_2opt_ms": 0.4029809999792633,
+    "gap_to_2opt": 15.036139556753024
+  },
+  {
+    "n": 25,
+    "seed_index": 1,
+    "instance_seed": 796282693,
+    "n_cycles": 276,
+    "initial_cost": 584.6479213956213,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 584.6479213956214,
+        "iterations": 0,
+        "time_ms": 0.40754399992692925
+      },
+      "length": {
+        "final_cost": 584.6479213956214,
+        "iterations": 0,
+        "time_ms": 0.37036200001239195
+      },
+      "min_edge": {
+        "final_cost": 584.6479213956214,
+        "iterations": 0,
+        "time_ms": 0.6232729999737785
+      },
+      "delta": {
+        "final_cost": 584.6479213956214,
+        "iterations": 0,
+        "time_ms": 0.38403600001402083
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 584.6479213956214,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.40754399992692925,
+    "final_cost_2opt": 469.8168562539274,
+    "iterations_2opt": 17,
+    "time_2opt_ms": 0.39855400007127173,
+    "gap_to_2opt": 24.441665643352295
+  },
+  {
+    "n": 25,
+    "seed_index": 2,
+    "instance_seed": 392022359,
+    "n_cycles": 276,
+    "initial_cost": 529.3175513494606,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 529.3175513494607,
+        "iterations": 0,
+        "time_ms": 0.33170999995491
+      },
+      "length": {
+        "final_cost": 529.3175513494607,
+        "iterations": 0,
+        "time_ms": 0.3090929999416403
+      },
+      "min_edge": {
+        "final_cost": 529.3175513494607,
+        "iterations": 0,
+        "time_ms": 0.5362640000612373
+      },
+      "delta": {
+        "final_cost": 529.3175513494607,
+        "iterations": 0,
+        "time_ms": 0.319120999961342
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 529.3175513494607,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.33170999995491,
+    "final_cost_2opt": 450.04050008999,
+    "iterations_2opt": 8,
+    "time_2opt_ms": 0.27333299999554583,
+    "gap_to_2opt": 17.615537100242857
+  },
+  {
+    "n": 25,
+    "seed_index": 3,
+    "instance_seed": 1990212658,
+    "n_cycles": 276,
+    "initial_cost": 462.9024626816421,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 422.9521540556405,
+        "iterations": 1,
+        "time_ms": 0.39396399995439424
+      },
+      "length": {
+        "final_cost": 422.9521540556405,
+        "iterations": 1,
+        "time_ms": 0.45427400004882657
+      },
+      "min_edge": {
+        "final_cost": 422.9521540556405,
+        "iterations": 1,
+        "time_ms": 1.146615999914502
+      },
+      "delta": {
+        "final_cost": 422.9521540556405,
+        "iterations": 1,
+        "time_ms": 0.7030860000440953
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 422.9521540556405,
+    "iterations_cycle": 1,
+    "time_cycle_ms": 0.39396399995439424,
+    "final_cost_2opt": 377.2918358063755,
+    "iterations_2opt": 6,
+    "time_2opt_ms": 0.30248100006247114,
+    "gap_to_2opt": 12.102121995742754
+  },
+  {
+    "n": 25,
+    "seed_index": 4,
+    "instance_seed": 1678403330,
+    "n_cycles": 276,
+    "initial_cost": 546.7121465985197,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 546.7121465985198,
+        "iterations": 0,
+        "time_ms": 0.6146330000547096
+      },
+      "length": {
+        "final_cost": 546.7121465985198,
+        "iterations": 0,
+        "time_ms": 0.6152830000019094
+      },
+      "min_edge": {
+        "final_cost": 546.7121465985198,
+        "iterations": 0,
+        "time_ms": 0.9528710000950014
+      },
+      "delta": {
+        "final_cost": 546.7121465985198,
+        "iterations": 0,
+        "time_ms": 0.37193300011040265
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 546.7121465985198,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.6146330000547096,
+    "final_cost_2opt": 488.95989978451365,
+    "iterations_2opt": 7,
+    "time_2opt_ms": 0.1968999999917287,
+    "gap_to_2opt": 11.811243997607523
+  },
+  {
+    "n": 25,
+    "seed_index": 5,
+    "instance_seed": 1382689815,
+    "n_cycles": 276,
+    "initial_cost": 445.3351266882869,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 445.3351266882868,
+        "iterations": 0,
+        "time_ms": 0.33842000004824513
+      },
+      "length": {
+        "final_cost": 445.3351266882868,
+        "iterations": 0,
+        "time_ms": 0.32812999995712744
+      },
+      "min_edge": {
+        "final_cost": 445.3351266882868,
+        "iterations": 0,
+        "time_ms": 0.5706470000177433
+      },
+      "delta": {
+        "final_cost": 445.3351266882868,
+        "iterations": 0,
+        "time_ms": 0.3386540000747118
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 445.3351266882868,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.33842000004824513,
+    "final_cost_2opt": 397.87142217839926,
+    "iterations_2opt": 3,
+    "time_2opt_ms": 0.2904860000398912,
+    "gap_to_2opt": 11.92940780969324
+  },
+  {
+    "n": 25,
+    "seed_index": 6,
+    "instance_seed": 864178266,
+    "n_cycles": 276,
+    "initial_cost": 563.5045990144813,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 563.5045990144811,
+        "iterations": 0,
+        "time_ms": 0.3694009999435366
+      },
+      "length": {
+        "final_cost": 563.5045990144811,
+        "iterations": 0,
+        "time_ms": 0.3429860000778717
+      },
+      "min_edge": {
+        "final_cost": 563.5045990144811,
+        "iterations": 0,
+        "time_ms": 0.5713970000442714
+      },
+      "delta": {
+        "final_cost": 563.5045990144811,
+        "iterations": 0,
+        "time_ms": 0.35032699997827876
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 563.5045990144811,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.3694009999435366,
+    "final_cost_2opt": 498.23438465171114,
+    "iterations_2opt": 6,
+    "time_2opt_ms": 0.2931870000111303,
+    "gap_to_2opt": 13.10030306487113
+  },
+  {
+    "n": 25,
+    "seed_index": 7,
+    "instance_seed": 1766867109,
+    "n_cycles": 276,
+    "initial_cost": 518.3195474971526,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 518.3195474971528,
+        "iterations": 0,
+        "time_ms": 0.3839580000430942
+      },
+      "length": {
+        "final_cost": 518.3195474971528,
+        "iterations": 0,
+        "time_ms": 0.4136350000862876
+      },
+      "min_edge": {
+        "final_cost": 518.3195474971528,
+        "iterations": 0,
+        "time_ms": 1.054897000017263
+      },
+      "delta": {
+        "final_cost": 518.3195474971528,
+        "iterations": 0,
+        "time_ms": 0.630003999958717
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 518.3195474971528,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.3839580000430942,
+    "final_cost_2opt": 432.4244932846124,
+    "iterations_2opt": 8,
+    "time_2opt_ms": 0.477223999951093,
+    "gap_to_2opt": 19.86359596795692
+  },
+  {
+    "n": 25,
+    "seed_index": 8,
+    "instance_seed": 1171300112,
+    "n_cycles": 276,
+    "initial_cost": 588.5222629850396,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 588.5222629850396,
+        "iterations": 0,
+        "time_ms": 0.5014309999751276
+      },
+      "length": {
+        "final_cost": 588.5222629850396,
+        "iterations": 0,
+        "time_ms": 0.4988819999880434
+      },
+      "min_edge": {
+        "final_cost": 588.5222629850396,
+        "iterations": 0,
+        "time_ms": 0.7308699999839519
+      },
+      "delta": {
+        "final_cost": 588.5222629850396,
+        "iterations": 0,
+        "time_ms": 0.47203799999806506
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 588.5222629850396,
+    "iterations_cycle": 0,
+    "time_cycle_ms": 0.5014309999751276,
+    "final_cost_2opt": 493.7833028052363,
+    "iterations_2opt": 7,
+    "time_2opt_ms": 0.29124499997124076,
+    "gap_to_2opt": 19.18634341047601
+  },
+  {
+    "n": 25,
+    "seed_index": 9,
+    "instance_seed": 952224740,
+    "n_cycles": 276,
+    "initial_cost": 462.550883612645,
+    "cycle_strategies": {
+      "random": {
+        "final_cost": 451.1354120359511,
+        "iterations": 1,
+        "time_ms": 0.7527929999469052
+      },
+      "length": {
+        "final_cost": 451.1354120359511,
+        "iterations": 1,
+        "time_ms": 0.4495050000059564
+      },
+      "min_edge": {
+        "final_cost": 451.1354120359511,
+        "iterations": 1,
+        "time_ms": 1.1770860000979155
+      },
+      "delta": {
+        "final_cost": 451.1354120359511,
+        "iterations": 1,
+        "time_ms": 0.6951550000167117
+      }
+    },
+    "best_cycle_strategy": "random",
+    "final_cost_cycle_method": 451.1354120359511,
+    "iterations_cycle": 1,
+    "time_cycle_ms": 0.7527929999469052,
+    "final_cost_2opt": 369.38961474066514,
+    "iterations_2opt": 10,
+    "time_2opt_ms": 0.294488999998066,
+    "gap_to_2opt": 22.12996631014564
+  }
+]

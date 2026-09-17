@@ -1,0 +1,26 @@
+{
+    "config": {
+        "n": 6,
+        "m": 6,
+        "s": 3,
+        "node_limit": 20000
+    },
+    "without_heuristic": {
+        "nodes": 20000,
+        "tours": 8734,
+        "canonical": 8734,
+        "topo_prunes": 501,
+        "subtours": 8229,
+        "contradictions": 2517,
+        "time": 12.255032622000726
+    },
+    "with_heuristic": {
+        "nodes": 20000,
+        "tours": 9404,
+        "canonical": 9404,
+        "topo_prunes": 478,
+        "subtours": 7980,
+        "contradictions": 2116,
+        "time": 12.436995963998925
+    }
+}

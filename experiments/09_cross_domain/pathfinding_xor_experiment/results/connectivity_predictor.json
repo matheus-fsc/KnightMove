@@ -1,0 +1,25 @@
+{
+  "n_candidates": 19578,
+  "n_valid": 2731,
+  "base_rate_valid": 0.13949330881601799,
+  "auc_roc": 0.9772025707838985,
+  "precision_at_0.5": 0.6148232611174458,
+  "recall_at_0.5": 0.9871841816184548,
+  "coefficients_standardized": {
+    "cycle_length": 0.1325457701068633,
+    "is_local": 0.5600236572578189,
+    "shares_edges": 5.272880388872887,
+    "n_shared_edges": -0.5856431001581315,
+    "path_length_ratio": -0.5182765773596689
+  },
+  "most_predictive_feature": "shares_edges",
+  "most_predictive_coef": 5.272880388872887,
+  "useful_pre_filter_auc_gt_0.75": true,
+  "feature_order": [
+    "cycle_length",
+    "is_local",
+    "shares_edges",
+    "n_shared_edges",
+    "path_length_ratio"
+  ]
+}
