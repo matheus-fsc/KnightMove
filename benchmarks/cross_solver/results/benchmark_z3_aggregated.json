@@ -1,0 +1,170 @@
+{
+  "source": "cavalo_8x8/data_6x6_sampled/samples",
+  "method": "z3_gf2_sym_false",
+  "board": 6,
+  "totals": {
+    "n_files": 400,
+    "n_samples": 80000,
+    "n_attempts": 107256,
+    "elapsed_s": 4808.170000000003,
+    "failed_attempts": 27256,
+    "attempts_per_solution": 1.3407,
+    "failed_per_solution": 0.3407,
+    "s_per_solution": 0.0601,
+    "solutions_per_second": 16.6383
+  },
+  "by_pair": {
+    "((0, 0), (0, 5))": {
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        0,
+        5
+      ],
+      "n_batches": 50,
+      "n_samples": 10000,
+      "n_attempts": 13935,
+      "elapsed_s": 654.2500000000001,
+      "failed_attempts": 3935,
+      "attempts_per_solution": 1.3935,
+      "failed_per_solution": 0.3935,
+      "s_per_solution": 0.0654,
+      "solutions_per_second": 15.2847
+    },
+    "((0, 0), (5, 4))": {
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        5,
+        4
+      ],
+      "n_batches": 50,
+      "n_samples": 10000,
+      "n_attempts": 13880,
+      "elapsed_s": 620.3800000000002,
+      "failed_attempts": 3880,
+      "attempts_per_solution": 1.388,
+      "failed_per_solution": 0.388,
+      "s_per_solution": 0.062,
+      "solutions_per_second": 16.1192
+    },
+    "((0, 0), (3, 2))": {
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        3,
+        2
+      ],
+      "n_batches": 50,
+      "n_samples": 10000,
+      "n_attempts": 13426,
+      "elapsed_s": 577.6999999999999,
+      "failed_attempts": 3426,
+      "attempts_per_solution": 1.3426,
+      "failed_per_solution": 0.3426,
+      "s_per_solution": 0.0578,
+      "solutions_per_second": 17.31
+    },
+    "((0, 0), (2, 3))": {
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        2,
+        3
+      ],
+      "n_batches": 50,
+      "n_samples": 10000,
+      "n_attempts": 13458,
+      "elapsed_s": 610.96,
+      "failed_attempts": 3458,
+      "attempts_per_solution": 1.3458,
+      "failed_per_solution": 0.3458,
+      "s_per_solution": 0.0611,
+      "solutions_per_second": 16.3677
+    },
+    "((0, 1), (4, 4))": {
+      "start": [
+        0,
+        1
+      ],
+      "end": [
+        4,
+        4
+      ],
+      "n_batches": 50,
+      "n_samples": 10000,
+      "n_attempts": 13342,
+      "elapsed_s": 587.31,
+      "failed_attempts": 3342,
+      "attempts_per_solution": 1.3342,
+      "failed_per_solution": 0.3342,
+      "s_per_solution": 0.0587,
+      "solutions_per_second": 17.0268
+    },
+    "((0, 1), (5, 3))": {
+      "start": [
+        0,
+        1
+      ],
+      "end": [
+        5,
+        3
+      ],
+      "n_batches": 50,
+      "n_samples": 10000,
+      "n_attempts": 13127,
+      "elapsed_s": 595.1499999999997,
+      "failed_attempts": 3127,
+      "attempts_per_solution": 1.3127,
+      "failed_per_solution": 0.3127,
+      "s_per_solution": 0.0595,
+      "solutions_per_second": 16.8025
+    },
+    "((0, 1), (2, 2))": {
+      "start": [
+        0,
+        1
+      ],
+      "end": [
+        2,
+        2
+      ],
+      "n_batches": 50,
+      "n_samples": 10000,
+      "n_attempts": 13232,
+      "elapsed_s": 590.0399999999998,
+      "failed_attempts": 3232,
+      "attempts_per_solution": 1.3232,
+      "failed_per_solution": 0.3232,
+      "s_per_solution": 0.059,
+      "solutions_per_second": 16.948
+    },
+    "((1, 2), (5, 3))": {
+      "start": [
+        1,
+        2
+      ],
+      "end": [
+        5,
+        3
+      ],
+      "n_batches": 50,
+      "n_samples": 10000,
+      "n_attempts": 12856,
+      "elapsed_s": 572.38,
+      "failed_attempts": 2856,
+      "attempts_per_solution": 1.2856,
+      "failed_per_solution": 0.2856,
+      "s_per_solution": 0.0572,
+      "solutions_per_second": 17.4709
+    }
+  }
+}

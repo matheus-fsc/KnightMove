@@ -1,0 +1,89 @@
+{
+  "board": 6,
+  "total_directed_cycles_at_v0": 16850,
+  "total_solutions_with_rotation": 606600,
+  "h1_initial": 45,
+  "notes": "r3 \u00e9 o run exaustivo a partir de v=0 (com Warnsdorff). Para comparar com o sum\u00e1rio original (710.064 solu\u00e7\u00f5es com rota\u00e7\u00e3o) multiplique r3.n_solutions por 36.",
+  "runs": [
+    {
+      "method": "bt_warnsdorff",
+      "board": 6,
+      "start_vertex": 0,
+      "start_label": "A6",
+      "target_k": 1000,
+      "timeout_s": null,
+      "aborted_timeout": false,
+      "n_solutions": 1000,
+      "elapsed_s": 46.045,
+      "dead_ends": 5471748,
+      "nodes_visited": 15429026,
+      "peak_memory_mb": 13.805,
+      "time_to_first_s": 33.564809,
+      "dead_ends_per_solution": 5471.748,
+      "nodes_per_solution": 15429.026,
+      "solutions_per_second": 21.7179,
+      "stopped_at_target": true,
+      "time_to_k_s": {
+        "1": 33.564806,
+        "10": 33.566574,
+        "100": 33.749294,
+        "1000": 46.044989,
+        "10000": null
+      }
+    },
+    {
+      "method": "bt_no_heuristic",
+      "board": 6,
+      "start_vertex": 0,
+      "start_label": "A6",
+      "target_k": 1000,
+      "timeout_s": 120,
+      "aborted_timeout": true,
+      "n_solutions": 0,
+      "elapsed_s": 122.5109,
+      "dead_ends": 24417179,
+      "nodes_visited": 68000000,
+      "peak_memory_mb": 13.805,
+      "time_to_first_s": null,
+      "dead_ends_per_solution": null,
+      "nodes_per_solution": null,
+      "solutions_per_second": 0.0,
+      "stopped_at_target": false,
+      "time_to_k_s": {
+        "1": null,
+        "10": null,
+        "100": null,
+        "1000": null,
+        "10000": null
+      }
+    },
+    {
+      "method": "bt_warnsdorff",
+      "board": 6,
+      "start_vertex": 0,
+      "start_label": "A6",
+      "target_k": null,
+      "timeout_s": 1800,
+      "aborted_timeout": true,
+      "n_solutions": 16850,
+      "elapsed_s": 1805.2308,
+      "dead_ends": 218057940,
+      "nodes_visited": 582000000,
+      "peak_memory_mb": 14.305,
+      "time_to_first_s": 28.707174,
+      "dead_ends_per_solution": 12941.124,
+      "nodes_per_solution": 34540.0593,
+      "solutions_per_second": 9.334,
+      "stopped_at_target": false,
+      "time_to_k_s": {
+        "1": 28.707169,
+        "10": 28.711133,
+        "100": 28.901126,
+        "1000": 39.877883,
+        "5000": 378.350647,
+        "10000": 1311.18003,
+        "19000": null
+      }
+    }
+  ]
+}

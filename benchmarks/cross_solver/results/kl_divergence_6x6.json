@@ -1,0 +1,55 @@
+{
+  "sources": [
+    "/home/math/Dev/knight_tour/benchmark/results/benchmark_z3_fresh.json",
+    "/home/math/Dev/knight_tour/benchmark/results/benchmark_z3_fresh_invariants.json"
+  ],
+  "min_k_filter": 1000,
+  "results": [
+    {
+      "n_z3_samples": 1000,
+      "n_z3_unique": 1000,
+      "n_gt_unique": 83646,
+      "in_support": 1000,
+      "out_support": 0,
+      "fraction_in_support": 1.0,
+      "kl_partial_nats": 4.426594,
+      "kl_partial_bits": 6.386225,
+      "coverage_gt": 0.011955,
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        0,
+        5
+      ],
+      "target_k": 1000,
+      "found_k": 1000,
+      "method": "z3_gf2",
+      "n_gt_paths": 83646
+    },
+    {
+      "n_z3_samples": 1000,
+      "n_z3_unique": 1000,
+      "n_gt_unique": 83646,
+      "in_support": 1000,
+      "out_support": 0,
+      "fraction_in_support": 1.0,
+      "kl_partial_nats": 4.426594,
+      "kl_partial_bits": 6.386225,
+      "coverage_gt": 0.011955,
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        0,
+        5
+      ],
+      "target_k": 1000,
+      "found_k": 1000,
+      "method": "z3_gf2_invariants",
+      "n_gt_paths": 83646
+    }
+  ]
+}
