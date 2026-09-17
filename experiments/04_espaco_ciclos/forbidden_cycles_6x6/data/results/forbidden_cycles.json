@@ -1,0 +1,79 @@
+{
+  "V": 36,
+  "E": 80,
+  "beta_1": 45,
+  "rank_T": 42,
+  "deficit": 3,
+  "forbidden": [
+    {
+      "index": 0,
+      "source_nontree_edge": 2,
+      "source_edge_label": "B6-D5",
+      "support_size": 6,
+      "edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        23,
+        27
+      ],
+      "edge_labels": [
+        "A6-C5",
+        "A6-B4",
+        "B6-D5",
+        "B6-A4",
+        "C5-A4",
+        "D5-B4"
+      ]
+    },
+    {
+      "index": 1,
+      "source_nontree_edge": 16,
+      "source_edge_label": "F6-D5",
+      "support_size": 6,
+      "edge_indices": [
+        0,
+        1,
+        16,
+        17,
+        24,
+        27
+      ],
+      "edge_labels": [
+        "A6-C5",
+        "A6-B4",
+        "F6-D5",
+        "F6-E4",
+        "C5-E4",
+        "D5-B4"
+      ]
+    },
+    {
+      "index": 2,
+      "source_nontree_edge": 69,
+      "source_edge_label": "E3-F1",
+      "support_size": 8,
+      "edge_indices": [
+        0,
+        1,
+        24,
+        27,
+        30,
+        50,
+        69,
+        77
+      ],
+      "edge_labels": [
+        "A6-C5",
+        "A6-B4",
+        "C5-E4",
+        "D5-B4",
+        "D5-E3",
+        "E4-D2",
+        "E3-F1",
+        "D2-F1"
+      ]
+    }
+  ]
+}

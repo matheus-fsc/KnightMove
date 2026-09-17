@@ -1,0 +1,254 @@
+{
+  "forbidden": [
+    {
+      "index": 0,
+      "support_size": 6,
+      "vertices_in_S": 6,
+      "degree_distribution": {
+        "2": 6
+      },
+      "n_components": 1,
+      "component_sizes": [
+        6
+      ],
+      "component_vertices": [
+        [
+          "A6",
+          "C5",
+          "A4",
+          "B6",
+          "D5",
+          "B4"
+        ]
+      ],
+      "rows_touched": [
+        6,
+        5,
+        4
+      ],
+      "cols_touched": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "horizontal_axis_crossings": 0,
+      "vertical_axis_crossings": 2,
+      "mandatory_in_S": [
+        "A6-C5",
+        "A6-B4"
+      ],
+      "minimal_pairs_in_S": 1,
+      "minimal_triples_in_S": 0,
+      "minimal_quads_in_S": 0,
+      "d4_coset_action": {
+        "r90": [
+          1,
+          1,
+          1
+        ],
+        "r180": [
+          1,
+          0,
+          1
+        ],
+        "r270": [
+          1,
+          1,
+          0
+        ],
+        "fx": [
+          1,
+          1,
+          1
+        ],
+        "fy": [
+          1,
+          1,
+          0
+        ],
+        "fd": [
+          1,
+          0,
+          0
+        ],
+        "fa": [
+          1,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "support_size": 6,
+      "vertices_in_S": 6,
+      "degree_distribution": {
+        "2": 6
+      },
+      "n_components": 1,
+      "component_sizes": [
+        6
+      ],
+      "component_vertices": [
+        [
+          "A6",
+          "C5",
+          "E4",
+          "F6",
+          "D5",
+          "B4"
+        ]
+      ],
+      "rows_touched": [
+        6,
+        5,
+        4
+      ],
+      "cols_touched": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "horizontal_axis_crossings": 0,
+      "vertical_axis_crossings": 2,
+      "mandatory_in_S": [
+        "A6-C5",
+        "A6-B4",
+        "F6-D5",
+        "F6-E4"
+      ],
+      "minimal_pairs_in_S": 1,
+      "minimal_triples_in_S": 0,
+      "minimal_quads_in_S": 0,
+      "d4_coset_action": {
+        "r90": [
+          0,
+          1,
+          1
+        ],
+        "r180": [
+          0,
+          1,
+          0
+        ],
+        "r270": [
+          0,
+          1,
+          1
+        ],
+        "fx": [
+          0,
+          1,
+          0
+        ],
+        "fy": [
+          0,
+          1,
+          0
+        ],
+        "fd": [
+          0,
+          1,
+          1
+        ],
+        "fa": [
+          0,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "support_size": 8,
+      "vertices_in_S": 8,
+      "degree_distribution": {
+        "2": 8
+      },
+      "n_components": 1,
+      "component_sizes": [
+        8
+      ],
+      "component_vertices": [
+        [
+          "A6",
+          "C5",
+          "E4",
+          "D2",
+          "F1",
+          "E3",
+          "D5",
+          "B4"
+        ]
+      ],
+      "rows_touched": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "cols_touched": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "horizontal_axis_crossings": 2,
+      "vertical_axis_crossings": 2,
+      "mandatory_in_S": [
+        "A6-C5",
+        "A6-B4",
+        "E3-F1",
+        "D2-F1"
+      ],
+      "minimal_pairs_in_S": 4,
+      "minimal_triples_in_S": 0,
+      "minimal_quads_in_S": 0,
+      "d4_coset_action": {
+        "r90": [
+          0,
+          0,
+          1
+        ],
+        "r180": [
+          0,
+          0,
+          1
+        ],
+        "r270": [
+          0,
+          0,
+          1
+        ],
+        "fx": [
+          0,
+          0,
+          1
+        ],
+        "fy": [
+          0,
+          0,
+          1
+        ],
+        "fd": [
+          0,
+          0,
+          1
+        ],
+        "fa": [
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  ]
+}

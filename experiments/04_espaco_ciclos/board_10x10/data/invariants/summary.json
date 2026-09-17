@@ -1,0 +1,14 @@
+{
+  "n_samples": 5000,
+  "n_batches": 50,
+  "E": 288,
+  "beta_1_theoretical": 189,
+  "rank_sampled": 186,
+  "rank_coverage_pct": 98.41,
+  "n_invariants_nontrivial": 186,
+  "n_candidates_not_and": 0,
+  "n_edges_mandatory_candidate": 8,
+  "n_edges_impossible_candidate": 0,
+  "edge_freq_min": 0.0792,
+  "edge_freq_max": 1.0
+}

@@ -1,0 +1,58 @@
+{
+  "args": {
+    "target_k": 200,
+    "seed": 2026,
+    "max_pairs": 8
+  },
+  "results": [
+    {
+      "config": "A_puro",
+      "target_k": 200,
+      "n_valid": 200,
+      "n_attempts": 1178,
+      "n_rejected_subtours": 963,
+      "rejection_rate": 0.8175,
+      "elapsed_s": 17.344,
+      "time_to_first_s": 0.8587,
+      "mean_s_per_valid": 0.0867,
+      "attempts_per_valid": 5.89,
+      "solutions_per_second": 11.5316,
+      "mandatory_applied": 0,
+      "forbid_pairs_applied": 0
+    },
+    {
+      "config": "B_mandatory",
+      "target_k": 200,
+      "n_valid": 200,
+      "n_attempts": 1108,
+      "n_rejected_subtours": 894,
+      "rejection_rate": 0.8069,
+      "elapsed_s": 15.819,
+      "time_to_first_s": 0.0445,
+      "mean_s_per_valid": 0.0791,
+      "attempts_per_valid": 5.54,
+      "solutions_per_second": 12.6433,
+      "mandatory_applied": 8,
+      "forbid_pairs_applied": 0
+    },
+    {
+      "config": "C_full_invariants",
+      "target_k": 200,
+      "n_valid": 200,
+      "n_attempts": 1234,
+      "n_rejected_subtours": 998,
+      "rejection_rate": 0.8088,
+      "elapsed_s": 17.891,
+      "time_to_first_s": 0.0243,
+      "mean_s_per_valid": 0.0895,
+      "attempts_per_valid": 6.17,
+      "solutions_per_second": 11.179,
+      "mandatory_applied": 8,
+      "forbid_pairs_applied": 8
+    }
+  ],
+  "speedups_vs_A": {
+    "B_mandatory": 1.096,
+    "C_full_invariants": 0.969
+  }
+}

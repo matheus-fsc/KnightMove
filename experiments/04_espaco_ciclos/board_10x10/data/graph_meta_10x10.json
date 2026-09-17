@@ -1,0 +1,44 @@
+{
+  "board": 10,
+  "V": 100,
+  "E": 288,
+  "beta_1": 189,
+  "rank_boundary_gf2": 99,
+  "connected": true,
+  "degree_distribution": {
+    "2": 4,
+    "3": 8,
+    "4": 28,
+    "5": 0,
+    "6": 24,
+    "7": 0,
+    "8": 36
+  },
+  "degree_min": 2,
+  "degree_max": 8,
+  "degree_mean": 5.76,
+  "class_counts": {
+    "corner": 4,
+    "edge": 32,
+    "near_edge": 28,
+    "interior": 36
+  },
+  "class_degree_ranges": {
+    "corner": {
+      "min": 2,
+      "max": 2
+    },
+    "edge": {
+      "min": 3,
+      "max": 4
+    },
+    "near_edge": {
+      "min": 4,
+      "max": 6
+    },
+    "interior": {
+      "min": 8,
+      "max": 8
+    }
+  }
+}

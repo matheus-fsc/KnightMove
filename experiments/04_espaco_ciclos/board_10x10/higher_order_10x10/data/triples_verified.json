@@ -1,0 +1,4575 @@
+{
+  "args": {
+    "max_p_zero": 999999,
+    "sample_nonzero": 50,
+    "timeout_ms": 30000,
+    "max_iters": 100,
+    "seed": 2026
+  },
+  "totals": {
+    "proven": 118,
+    "false_pos": 46,
+    "unverified": 4
+  },
+  "elapsed_s": 24.26,
+  "results": [
+    {
+      "edges": [
+        5,
+        34,
+        35
+      ],
+      "edge_names": [
+        "C10-A9",
+        "A9-C8",
+        "A9-B7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.3044,
+        0.596,
+        0.0996
+      ],
+      "freq_individual": [
+        0.9004,
+        0.404,
+        0.6956
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        266,
+        271,
+        283
+      ],
+      "edge_names": [
+        "H3-I1",
+        "J3-I1",
+        "G2-I1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2948,
+        0.0984,
+        0.6068
+      ],
+      "freq_individual": [
+        0.3932,
+        0.9016,
+        0.7052
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        2,
+        3,
+        4
+      ],
+      "edge_names": [
+        "B10-D9",
+        "B10-A8",
+        "B10-C8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.5754,
+        0.106,
+        0.3186
+      ],
+      "freq_individual": [
+        0.6814,
+        0.894,
+        0.4246
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        207,
+        243,
+        272
+      ],
+      "edge_names": [
+        "B4-A2",
+        "C3-A2",
+        "A2-C1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1064,
+        0.6,
+        0.2936
+      ],
+      "freq_individual": [
+        0.7064,
+        0.4,
+        0.8936
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        26,
+        66,
+        67
+      ],
+      "edge_names": [
+        "H10-J9",
+        "J9-H8",
+        "J9-I7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.3524,
+        0.527,
+        0.1206
+      ],
+      "freq_individual": [
+        0.8794,
+        0.473,
+        0.6476
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        239,
+        245,
+        276
+      ],
+      "edge_names": [
+        "A3-B1",
+        "C3-B1",
+        "D2-B1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.3096,
+        0.571,
+        0.1194
+      ],
+      "freq_individual": [
+        0.8806,
+        0.429,
+        0.6904
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        29,
+        30,
+        31
+      ],
+      "edge_names": [
+        "I10-G9",
+        "I10-H8",
+        "I10-J8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1152,
+        0.6104,
+        0.2744
+      ],
+      "freq_individual": [
+        0.7256,
+        0.3896,
+        0.8848
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        235,
+        264,
+        287
+      ],
+      "edge_names": [
+        "I4-J2",
+        "H3-J2",
+        "J2-H1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1464,
+        0.5874,
+        0.2662
+      ],
+      "freq_individual": [
+        0.7338,
+        0.4126,
+        0.8536
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        173,
+        209,
+        238
+      ],
+      "edge_names": [
+        "B5-A3",
+        "C4-A3",
+        "A3-C2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0426,
+        0.0438,
+        0.033
+      ],
+      "freq_individual": [
+        0.5326,
+        0.3484,
+        0.2384
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        173,
+        209,
+        239
+      ],
+      "edge_names": [
+        "B5-A3",
+        "C4-A3",
+        "A3-B1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0426,
+        0.4462,
+        0.2728
+      ],
+      "freq_individual": [
+        0.5326,
+        0.3484,
+        0.8806
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        201,
+        230,
+        271
+      ],
+      "edge_names": [
+        "I5-J3",
+        "H4-J3",
+        "J3-I1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0396,
+        0.493,
+        0.2418
+      ],
+      "freq_individual": [
+        0.5718,
+        0.301,
+        0.9016
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        5,
+        6,
+        8
+      ],
+      "edge_names": [
+        "C10-A9",
+        "C10-E9",
+        "C10-D8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.4682,
+        0.2612,
+        0.041
+      ],
+      "freq_individual": [
+        0.9004,
+        0.5462,
+        0.3238
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        6,
+        7,
+        8
+      ],
+      "edge_names": [
+        "C10-E9",
+        "C10-B8",
+        "C10-D8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.037,
+        0.041,
+        0.0216
+      ],
+      "freq_individual": [
+        0.5462,
+        0.2296,
+        0.3238
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        25,
+        26,
+        27
+      ],
+      "edge_names": [
+        "H10-F9",
+        "H10-J9",
+        "H10-G8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.4794,
+        0.053,
+        0.24
+      ],
+      "freq_individual": [
+        0.5738,
+        0.8794,
+        0.3192
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        25,
+        27,
+        28
+      ],
+      "edge_names": [
+        "H10-F9",
+        "H10-G8",
+        "H10-I8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.053,
+        0.0414,
+        0.0262
+      ],
+      "freq_individual": [
+        0.5738,
+        0.3192,
+        0.2276
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        31,
+        100,
+        101
+      ],
+      "edge_names": [
+        "I10-J8",
+        "J8-H7",
+        "J8-I6"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2618,
+        0.457,
+        0.053
+      ],
+      "freq_individual": [
+        0.8848,
+        0.3366,
+        0.5504
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        60,
+        100,
+        101
+      ],
+      "edge_names": [
+        "H9-J8",
+        "J8-H7",
+        "J8-I6"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0218,
+        0.0404,
+        0.053
+      ],
+      "freq_individual": [
+        0.2282,
+        0.3366,
+        0.5504
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        242,
+        249,
+        278
+      ],
+      "edge_names": [
+        "B3-C1",
+        "D3-C1",
+        "E2-C1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.025,
+        0.0462,
+        0.0352
+      ],
+      "freq_individual": [
+        0.2722,
+        0.336,
+        0.4982
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        249,
+        272,
+        278
+      ],
+      "edge_names": [
+        "D3-C1",
+        "A2-C1",
+        "E2-C1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2758,
+        0.0352,
+        0.4168
+      ],
+      "freq_individual": [
+        0.336,
+        0.8936,
+        0.4982
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        3,
+        68,
+        69
+      ],
+      "edge_names": [
+        "B10-A8",
+        "A8-C7",
+        "A8-B6"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2778,
+        0.4334,
+        0.047
+      ],
+      "freq_individual": [
+        0.894,
+        0.3568,
+        0.5074
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        39,
+        68,
+        69
+      ],
+      "edge_names": [
+        "C9-A8",
+        "A8-C7",
+        "A8-B6"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.032,
+        0.027,
+        0.047
+      ],
+      "freq_individual": [
+        0.2418,
+        0.3568,
+        0.5074
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        9,
+        10,
+        12
+      ],
+      "edge_names": [
+        "D10-B9",
+        "D10-F9",
+        "D10-E8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.351,
+        0.2546,
+        0.1232
+      ],
+      "freq_individual": [
+        0.726,
+        0.5618,
+        0.441
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        10,
+        11,
+        12
+      ],
+      "edge_names": [
+        "D10-F9",
+        "D10-C8",
+        "D10-E8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0876,
+        0.1232,
+        0.0632
+      ],
+      "freq_individual": [
+        0.5618,
+        0.2712,
+        0.441
+      ],
+      "source": "pair_extension",
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        3,
+        39,
+        68
+      ],
+      "edge_names": [
+        "B10-A8",
+        "C9-A8",
+        "A8-C7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1828,
+        0.2778,
+        0.032
+      ],
+      "freq_individual": [
+        0.894,
+        0.2418,
+        0.3568
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A8",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        3,
+        39,
+        69
+      ],
+      "edge_names": [
+        "B10-A8",
+        "C9-A8",
+        "A8-B6"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1828,
+        0.4334,
+        0.027
+      ],
+      "freq_individual": [
+        0.894,
+        0.2418,
+        0.5074
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A8",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        5,
+        6,
+        7
+      ],
+      "edge_names": [
+        "C10-A9",
+        "C10-E9",
+        "C10-B8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.4682,
+        0.171,
+        0.037
+      ],
+      "freq_individual": [
+        0.9004,
+        0.5462,
+        0.2296
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "C10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        5,
+        7,
+        8
+      ],
+      "edge_names": [
+        "C10-A9",
+        "C10-B8",
+        "C10-D8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.171,
+        0.2612,
+        0.0216
+      ],
+      "freq_individual": [
+        0.9004,
+        0.2296,
+        0.3238
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "C10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        9,
+        10,
+        11
+      ],
+      "edge_names": [
+        "D10-B9",
+        "D10-F9",
+        "D10-C8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.351,
+        0.1204,
+        0.0876
+      ],
+      "freq_individual": [
+        0.726,
+        0.5618,
+        0.2712
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "D10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        9,
+        11,
+        12
+      ],
+      "edge_names": [
+        "D10-B9",
+        "D10-C8",
+        "D10-E8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1204,
+        0.2546,
+        0.0632
+      ],
+      "freq_individual": [
+        0.726,
+        0.2712,
+        0.441
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "D10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        9,
+        36,
+        37
+      ],
+      "edge_names": [
+        "D10-B9",
+        "B9-D8",
+        "B9-A7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1188,
+        0.4892,
+        0.1284
+      ],
+      "freq_individual": [
+        0.726,
+        0.2686,
+        0.7418
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "B9",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        9,
+        36,
+        38
+      ],
+      "edge_names": [
+        "D10-B9",
+        "B9-D8",
+        "B9-C7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1188,
+        0.118,
+        0.0214
+      ],
+      "freq_individual": [
+        0.726,
+        0.2686,
+        0.2636
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "B9",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        9,
+        37,
+        38
+      ],
+      "edge_names": [
+        "D10-B9",
+        "B9-A7",
+        "B9-C7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.4892,
+        0.118,
+        0.1242
+      ],
+      "freq_individual": [
+        0.726,
+        0.7418,
+        0.2636
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "B9",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        36,
+        37,
+        38
+      ],
+      "edge_names": [
+        "B9-D8",
+        "B9-A7",
+        "B9-C7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1284,
+        0.0214,
+        0.1242
+      ],
+      "freq_individual": [
+        0.2686,
+        0.7418,
+        0.2636
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "B9",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        13,
+        14,
+        15
+      ],
+      "edge_names": [
+        "E10-C9",
+        "E10-G9",
+        "E10-D8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.171,
+        0.144,
+        0.2186
+      ],
+      "freq_individual": [
+        0.4242,
+        0.588,
+        0.5214
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "E10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        13,
+        14,
+        16
+      ],
+      "edge_names": [
+        "E10-C9",
+        "E10-G9",
+        "E10-F8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.171,
+        0.1092,
+        0.1984
+      ],
+      "freq_individual": [
+        0.4242,
+        0.588,
+        0.4664
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "E10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        13,
+        15,
+        16
+      ],
+      "edge_names": [
+        "E10-C9",
+        "E10-D8",
+        "E10-F8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.144,
+        0.1092,
+        0.1588
+      ],
+      "freq_individual": [
+        0.4242,
+        0.5214,
+        0.4664
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "E10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        14,
+        15,
+        16
+      ],
+      "edge_names": [
+        "E10-G9",
+        "E10-D8",
+        "E10-F8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2186,
+        0.1984,
+        0.1588
+      ],
+      "freq_individual": [
+        0.588,
+        0.5214,
+        0.4664
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "E10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        17,
+        18,
+        19
+      ],
+      "edge_names": [
+        "F10-D9",
+        "F10-H9",
+        "F10-E8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1746,
+        0.2166,
+        0.0928
+      ],
+      "freq_individual": [
+        0.6202,
+        0.3914,
+        0.4724
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "F10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        17,
+        18,
+        20
+      ],
+      "edge_names": [
+        "F10-D9",
+        "F10-H9",
+        "F10-G8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1746,
+        0.229,
+        0.124
+      ],
+      "freq_individual": [
+        0.6202,
+        0.3914,
+        0.516
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "F10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        17,
+        19,
+        20
+      ],
+      "edge_names": [
+        "F10-D9",
+        "F10-E8",
+        "F10-G8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2166,
+        0.229,
+        0.163
+      ],
+      "freq_individual": [
+        0.6202,
+        0.4724,
+        0.516
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "F10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        18,
+        19,
+        20
+      ],
+      "edge_names": [
+        "F10-H9",
+        "F10-E8",
+        "F10-G8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0928,
+        0.124,
+        0.163
+      ],
+      "freq_individual": [
+        0.3914,
+        0.4724,
+        0.516
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "F10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        21,
+        22,
+        23
+      ],
+      "edge_names": [
+        "G10-E9",
+        "G10-I9",
+        "G10-F8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.3572,
+        0.1556,
+        0.2222
+      ],
+      "freq_individual": [
+        0.591,
+        0.7254,
+        0.4186
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "G10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        21,
+        22,
+        24
+      ],
+      "edge_names": [
+        "G10-E9",
+        "G10-I9",
+        "G10-H8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.3572,
+        0.0782,
+        0.146
+      ],
+      "freq_individual": [
+        0.591,
+        0.7254,
+        0.265
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "G10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        21,
+        23,
+        24
+      ],
+      "edge_names": [
+        "G10-E9",
+        "G10-F8",
+        "G10-H8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1556,
+        0.0782,
+        0.0408
+      ],
+      "freq_individual": [
+        0.591,
+        0.4186,
+        0.265
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "G10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        22,
+        23,
+        24
+      ],
+      "edge_names": [
+        "G10-I9",
+        "G10-F8",
+        "G10-H8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2222,
+        0.146,
+        0.0408
+      ],
+      "freq_individual": [
+        0.7254,
+        0.4186,
+        0.265
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "G10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        22,
+        63,
+        64
+      ],
+      "edge_names": [
+        "G10-I9",
+        "I9-G8",
+        "I9-H7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1382,
+        0.1156,
+        0.0244
+      ],
+      "freq_individual": [
+        0.7254,
+        0.2768,
+        0.276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "I9",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        22,
+        63,
+        65
+      ],
+      "edge_names": [
+        "G10-I9",
+        "I9-G8",
+        "I9-J7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1382,
+        0.4716,
+        0.1142
+      ],
+      "freq_individual": [
+        0.7254,
+        0.2768,
+        0.7218
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "I9",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        22,
+        64,
+        65
+      ],
+      "edge_names": [
+        "G10-I9",
+        "I9-H7",
+        "I9-J7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1156,
+        0.4716,
+        0.136
+      ],
+      "freq_individual": [
+        0.7254,
+        0.276,
+        0.7218
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "I9",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        63,
+        64,
+        65
+      ],
+      "edge_names": [
+        "I9-G8",
+        "I9-H7",
+        "I9-J7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0244,
+        0.1142,
+        0.136
+      ],
+      "freq_individual": [
+        0.2768,
+        0.276,
+        0.7218
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "I9",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        25,
+        26,
+        28
+      ],
+      "edge_names": [
+        "H10-F9",
+        "H10-J9",
+        "H10-I8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.4794,
+        0.0414,
+        0.16
+      ],
+      "freq_individual": [
+        0.5738,
+        0.8794,
+        0.2276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "H10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        26,
+        27,
+        28
+      ],
+      "edge_names": [
+        "H10-J9",
+        "H10-G8",
+        "H10-I8"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.24,
+        0.16,
+        0.0262
+      ],
+      "freq_individual": [
+        0.8794,
+        0.3192,
+        0.2276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "H10",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        31,
+        60,
+        100
+      ],
+      "edge_names": [
+        "I10-J8",
+        "H9-J8",
+        "J8-H7"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.166,
+        0.2618,
+        0.0218
+      ],
+      "freq_individual": [
+        0.8848,
+        0.2282,
+        0.3366
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J8",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        31,
+        60,
+        101
+      ],
+      "edge_names": [
+        "I10-J8",
+        "H9-J8",
+        "J8-I6"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.166,
+        0.457,
+        0.0404
+      ],
+      "freq_individual": [
+        0.8848,
+        0.2282,
+        0.5504
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J8",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        37,
+        73,
+        102
+      ],
+      "edge_names": [
+        "B9-A7",
+        "C8-A7",
+        "A7-C6"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1414,
+        0.2176,
+        0.0526
+      ],
+      "freq_individual": [
+        0.7418,
+        0.2894,
+        0.3804
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A7",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        37,
+        73,
+        103
+      ],
+      "edge_names": [
+        "B9-A7",
+        "C8-A7",
+        "A7-B5"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1414,
+        0.3828,
+        0.0954
+      ],
+      "freq_individual": [
+        0.7418,
+        0.2894,
+        0.5884
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A7",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        37,
+        102,
+        103
+      ],
+      "edge_names": [
+        "B9-A7",
+        "A7-C6",
+        "A7-B5"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2176,
+        0.3828,
+        0.1102
+      ],
+      "freq_individual": [
+        0.7418,
+        0.3804,
+        0.5884
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A7",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        73,
+        102,
+        103
+      ],
+      "edge_names": [
+        "C8-A7",
+        "A7-C6",
+        "A7-B5"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0526,
+        0.0954,
+        0.1102
+      ],
+      "freq_individual": [
+        0.2894,
+        0.3804,
+        0.5884
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A7",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        65,
+        94,
+        134
+      ],
+      "edge_names": [
+        "I9-J7",
+        "H8-J7",
+        "J7-H6"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.162,
+        0.2324,
+        0.0514
+      ],
+      "freq_individual": [
+        0.7218,
+        0.3098,
+        0.4142
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J7",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        65,
+        94,
+        135
+      ],
+      "edge_names": [
+        "I9-J7",
+        "H8-J7",
+        "J7-I5"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.162,
+        0.3274,
+        0.0964
+      ],
+      "freq_individual": [
+        0.7218,
+        0.3098,
+        0.5542
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J7",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        65,
+        134,
+        135
+      ],
+      "edge_names": [
+        "I9-J7",
+        "J7-H6",
+        "J7-I5"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2324,
+        0.3274,
+        0.1304
+      ],
+      "freq_individual": [
+        0.7218,
+        0.4142,
+        0.5542
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J7",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        94,
+        134,
+        135
+      ],
+      "edge_names": [
+        "H8-J7",
+        "J7-H6",
+        "J7-I5"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0514,
+        0.0964,
+        0.1304
+      ],
+      "freq_individual": [
+        0.3098,
+        0.4142,
+        0.5542
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J7",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        71,
+        107,
+        136
+      ],
+      "edge_names": [
+        "B8-A6",
+        "C7-A6",
+        "A6-C5"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.12,
+        0.135,
+        0.1838
+      ],
+      "freq_individual": [
+        0.3858,
+        0.5248,
+        0.5282
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A6",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        71,
+        107,
+        137
+      ],
+      "edge_names": [
+        "B8-A6",
+        "C7-A6",
+        "A6-B4"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.12,
+        0.1308,
+        0.221
+      ],
+      "freq_individual": [
+        0.3858,
+        0.5248,
+        0.5612
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A6",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        71,
+        136,
+        137
+      ],
+      "edge_names": [
+        "B8-A6",
+        "A6-C5",
+        "A6-B4"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.135,
+        0.1308,
+        0.2094
+      ],
+      "freq_individual": [
+        0.3858,
+        0.5282,
+        0.5612
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A6",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        107,
+        136,
+        137
+      ],
+      "edge_names": [
+        "C7-A6",
+        "A6-C5",
+        "A6-B4"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1838,
+        0.221,
+        0.2094
+      ],
+      "freq_individual": [
+        0.5248,
+        0.5282,
+        0.5612
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A6",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        99,
+        128,
+        168
+      ],
+      "edge_names": [
+        "I8-J6",
+        "H7-J6",
+        "J6-H5"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.126,
+        0.1176,
+        0.138
+      ],
+      "freq_individual": [
+        0.374,
+        0.5444,
+        0.4632
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J6",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        99,
+        128,
+        169
+      ],
+      "edge_names": [
+        "I8-J6",
+        "H7-J6",
+        "J6-I4"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.126,
+        0.1304,
+        0.2804
+      ],
+      "freq_individual": [
+        0.374,
+        0.5444,
+        0.6184
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J6",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        99,
+        168,
+        169
+      ],
+      "edge_names": [
+        "I8-J6",
+        "J6-H5",
+        "J6-I4"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1176,
+        0.1304,
+        0.2076
+      ],
+      "freq_individual": [
+        0.374,
+        0.4632,
+        0.6184
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J6",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        128,
+        168,
+        169
+      ],
+      "edge_names": [
+        "H7-J6",
+        "J6-H5",
+        "J6-I4"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.138,
+        0.2804,
+        0.2076
+      ],
+      "freq_individual": [
+        0.5444,
+        0.4632,
+        0.6184
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J6",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        105,
+        141,
+        170
+      ],
+      "edge_names": [
+        "B7-A5",
+        "C6-A5",
+        "A5-C4"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2556,
+        0.2502,
+        0.1202
+      ],
+      "freq_individual": [
+        0.6396,
+        0.511,
+        0.4754
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A5",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        105,
+        141,
+        171
+      ],
+      "edge_names": [
+        "B7-A5",
+        "C6-A5",
+        "A5-B3"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2556,
+        0.1338,
+        0.1352
+      ],
+      "freq_individual": [
+        0.6396,
+        0.511,
+        0.374
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A5",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        105,
+        170,
+        171
+      ],
+      "edge_names": [
+        "B7-A5",
+        "A5-C4",
+        "A5-B3"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2502,
+        0.1338,
+        0.105
+      ],
+      "freq_individual": [
+        0.6396,
+        0.4754,
+        0.374
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A5",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        141,
+        170,
+        171
+      ],
+      "edge_names": [
+        "C6-A5",
+        "A5-C4",
+        "A5-B3"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1202,
+        0.1352,
+        0.105
+      ],
+      "freq_individual": [
+        0.511,
+        0.4754,
+        0.374
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A5",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        133,
+        162,
+        202
+      ],
+      "edge_names": [
+        "I7-J5",
+        "H6-J5",
+        "J5-H4"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2748,
+        0.206,
+        0.151
+      ],
+      "freq_individual": [
+        0.6528,
+        0.5252,
+        0.4538
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J5",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        133,
+        162,
+        203
+      ],
+      "edge_names": [
+        "I7-J5",
+        "H6-J5",
+        "J5-I3"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2748,
+        0.172,
+        0.0994
+      ],
+      "freq_individual": [
+        0.6528,
+        0.5252,
+        0.3682
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J5",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        133,
+        202,
+        203
+      ],
+      "edge_names": [
+        "I7-J5",
+        "J5-H4",
+        "J5-I3"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.206,
+        0.172,
+        0.0968
+      ],
+      "freq_individual": [
+        0.6528,
+        0.4538,
+        0.3682
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J5",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        162,
+        202,
+        203
+      ],
+      "edge_names": [
+        "H6-J5",
+        "J5-H4",
+        "J5-I3"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.151,
+        0.0994,
+        0.0968
+      ],
+      "freq_individual": [
+        0.5252,
+        0.4538,
+        0.3682
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J5",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        139,
+        175,
+        204
+      ],
+      "edge_names": [
+        "B6-A4",
+        "C5-A4",
+        "A4-C3"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.104,
+        0.0912,
+        0.0484
+      ],
+      "freq_individual": [
+        0.5982,
+        0.3296,
+        0.3158
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A4",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        139,
+        175,
+        205
+      ],
+      "edge_names": [
+        "B6-A4",
+        "C5-A4",
+        "A4-B2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.104,
+        0.403,
+        0.1772
+      ],
+      "freq_individual": [
+        0.5982,
+        0.3296,
+        0.7564
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A4",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        139,
+        204,
+        205
+      ],
+      "edge_names": [
+        "B6-A4",
+        "A4-C3",
+        "A4-B2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0912,
+        0.403,
+        0.1762
+      ],
+      "freq_individual": [
+        0.5982,
+        0.3158,
+        0.7564
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A4",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        175,
+        204,
+        205
+      ],
+      "edge_names": [
+        "C5-A4",
+        "A4-C3",
+        "A4-B2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0484,
+        0.1772,
+        0.1762
+      ],
+      "freq_individual": [
+        0.3296,
+        0.3158,
+        0.7564
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A4",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        167,
+        196,
+        236
+      ],
+      "edge_names": [
+        "I6-J4",
+        "H5-J4",
+        "J4-H3"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1686,
+        0.1014,
+        0.0592
+      ],
+      "freq_individual": [
+        0.5856,
+        0.454,
+        0.2896
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J4",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        167,
+        196,
+        237
+      ],
+      "edge_names": [
+        "I6-J4",
+        "H5-J4",
+        "J4-I2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1686,
+        0.3156,
+        0.2262
+      ],
+      "freq_individual": [
+        0.5856,
+        0.454,
+        0.6708
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J4",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        167,
+        236,
+        237
+      ],
+      "edge_names": [
+        "I6-J4",
+        "J4-H3",
+        "J4-I2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1014,
+        0.3156,
+        0.129
+      ],
+      "freq_individual": [
+        0.5856,
+        0.2896,
+        0.6708
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J4",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        196,
+        236,
+        237
+      ],
+      "edge_names": [
+        "H5-J4",
+        "J4-H3",
+        "J4-I2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0592,
+        0.2262,
+        0.129
+      ],
+      "freq_individual": [
+        0.454,
+        0.2896,
+        0.6708
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J4",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        173,
+        238,
+        239
+      ],
+      "edge_names": [
+        "B5-A3",
+        "A3-C2",
+        "A3-B1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0438,
+        0.4462,
+        0.1616
+      ],
+      "freq_individual": [
+        0.5326,
+        0.2384,
+        0.8806
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A3",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        209,
+        238,
+        239
+      ],
+      "edge_names": [
+        "C4-A3",
+        "A3-C2",
+        "A3-B1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.033,
+        0.2728,
+        0.1616
+      ],
+      "freq_individual": [
+        0.3484,
+        0.2384,
+        0.8806
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "A3",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        201,
+        270,
+        271
+      ],
+      "edge_names": [
+        "I5-J3",
+        "J3-H2",
+        "J3-I1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0392,
+        0.493,
+        0.1668
+      ],
+      "freq_individual": [
+        0.5718,
+        0.2256,
+        0.9016
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "J3",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        205,
+        211,
+        247
+      ],
+      "edge_names": [
+        "A4-B2",
+        "C4-B2",
+        "D3-B2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.145,
+        0.1418,
+        0.046
+      ],
+      "freq_individual": [
+        0.7564,
+        0.269,
+        0.3074
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "B2",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        205,
+        211,
+        273
+      ],
+      "edge_names": [
+        "A4-B2",
+        "C4-B2",
+        "B2-D1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.145,
+        0.4696,
+        0.078
+      ],
+      "freq_individual": [
+        0.7564,
+        0.269,
+        0.6672
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "B2",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        205,
+        247,
+        273
+      ],
+      "edge_names": [
+        "A4-B2",
+        "D3-B2",
+        "B2-D1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1418,
+        0.4696,
+        0.1196
+      ],
+      "freq_individual": [
+        0.7564,
+        0.3074,
+        0.6672
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "B2",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        211,
+        247,
+        273
+      ],
+      "edge_names": [
+        "C4-B2",
+        "D3-B2",
+        "B2-D1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.046,
+        0.078,
+        0.1196
+      ],
+      "freq_individual": [
+        0.269,
+        0.3074,
+        0.6672
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "B2",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        232,
+        237,
+        260
+      ],
+      "edge_names": [
+        "H4-I2",
+        "J4-I2",
+        "G3-I2"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1378,
+        0.0396,
+        0.095
+      ],
+      "freq_individual": [
+        0.342,
+        0.6708,
+        0.2596
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "I2",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        232,
+        237,
+        286
+      ],
+      "edge_names": [
+        "H4-I2",
+        "J4-I2",
+        "I2-G1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1378,
+        0.1646,
+        0.438
+      ],
+      "freq_individual": [
+        0.342,
+        0.6708,
+        0.7276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "I2",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        232,
+        260,
+        286
+      ],
+      "edge_names": [
+        "H4-I2",
+        "G3-I2",
+        "I2-G1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0396,
+        0.1646,
+        0.125
+      ],
+      "freq_individual": [
+        0.342,
+        0.2596,
+        0.7276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "I2",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        237,
+        260,
+        286
+      ],
+      "edge_names": [
+        "J4-I2",
+        "G3-I2",
+        "I2-G1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.095,
+        0.438,
+        0.125
+      ],
+      "freq_individual": [
+        0.6708,
+        0.2596,
+        0.7276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "I2",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        242,
+        249,
+        272
+      ],
+      "edge_names": [
+        "B3-C1",
+        "D3-C1",
+        "A2-C1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.025,
+        0.201,
+        0.2758
+      ],
+      "freq_individual": [
+        0.2722,
+        0.336,
+        0.8936
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "C1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        242,
+        272,
+        278
+      ],
+      "edge_names": [
+        "B3-C1",
+        "A2-C1",
+        "E2-C1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.201,
+        0.0462,
+        0.4168
+      ],
+      "freq_individual": [
+        0.2722,
+        0.8936,
+        0.4982
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "C1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        246,
+        253,
+        273
+      ],
+      "edge_names": [
+        "C3-D1",
+        "E3-D1",
+        "B2-D1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.087,
+        0.1522,
+        0.212
+      ],
+      "freq_individual": [
+        0.3376,
+        0.4464,
+        0.6672
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "D1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        246,
+        253,
+        280
+      ],
+      "edge_names": [
+        "C3-D1",
+        "E3-D1",
+        "F2-D1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.087,
+        0.0984,
+        0.1474
+      ],
+      "freq_individual": [
+        0.3376,
+        0.4464,
+        0.5488
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "D1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        246,
+        273,
+        280
+      ],
+      "edge_names": [
+        "C3-D1",
+        "B2-D1",
+        "F2-D1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1522,
+        0.0984,
+        0.303
+      ],
+      "freq_individual": [
+        0.3376,
+        0.6672,
+        0.5488
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "D1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        253,
+        273,
+        280
+      ],
+      "edge_names": [
+        "E3-D1",
+        "B2-D1",
+        "F2-D1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.212,
+        0.1474,
+        0.303
+      ],
+      "freq_individual": [
+        0.4464,
+        0.6672,
+        0.5488
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "D1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        250,
+        257,
+        275
+      ],
+      "edge_names": [
+        "D3-E1",
+        "F3-E1",
+        "C2-E1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.14,
+        0.1354,
+        0.1252
+      ],
+      "freq_individual": [
+        0.5018,
+        0.4982,
+        0.4006
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "E1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        250,
+        257,
+        282
+      ],
+      "edge_names": [
+        "D3-E1",
+        "F3-E1",
+        "G2-E1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.14,
+        0.2264,
+        0.233
+      ],
+      "freq_individual": [
+        0.5018,
+        0.4982,
+        0.5994
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "E1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        250,
+        275,
+        282
+      ],
+      "edge_names": [
+        "D3-E1",
+        "C2-E1",
+        "G2-E1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1354,
+        0.2264,
+        0.14
+      ],
+      "freq_individual": [
+        0.5018,
+        0.4006,
+        0.5994
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "E1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        257,
+        275,
+        282
+      ],
+      "edge_names": [
+        "F3-E1",
+        "C2-E1",
+        "G2-E1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1252,
+        0.233,
+        0.14
+      ],
+      "freq_individual": [
+        0.4982,
+        0.4006,
+        0.5994
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "E1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        254,
+        261,
+        277
+      ],
+      "edge_names": [
+        "E3-F1",
+        "G3-F1",
+        "D2-F1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.171,
+        0.2008,
+        0.1922
+      ],
+      "freq_individual": [
+        0.4884,
+        0.5122,
+        0.5634
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "F1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        254,
+        261,
+        284
+      ],
+      "edge_names": [
+        "E3-F1",
+        "G3-F1",
+        "H2-F1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.171,
+        0.1166,
+        0.149
+      ],
+      "freq_individual": [
+        0.4884,
+        0.5122,
+        0.436
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "F1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        254,
+        277,
+        284
+      ],
+      "edge_names": [
+        "E3-F1",
+        "D2-F1",
+        "H2-F1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.2008,
+        0.1166,
+        0.1704
+      ],
+      "freq_individual": [
+        0.4884,
+        0.5634,
+        0.436
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "F1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        261,
+        277,
+        284
+      ],
+      "edge_names": [
+        "G3-F1",
+        "D2-F1",
+        "H2-F1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1922,
+        0.149,
+        0.1704
+      ],
+      "freq_individual": [
+        0.5122,
+        0.5634,
+        0.436
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "F1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        258,
+        265,
+        279
+      ],
+      "edge_names": [
+        "F3-G1",
+        "H3-G1",
+        "E2-G1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0702,
+        0.1354,
+        0.0668
+      ],
+      "freq_individual": [
+        0.4406,
+        0.2932,
+        0.5386
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "G1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        258,
+        265,
+        286
+      ],
+      "edge_names": [
+        "F3-G1",
+        "H3-G1",
+        "I2-G1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0702,
+        0.235,
+        0.1562
+      ],
+      "freq_individual": [
+        0.4406,
+        0.2932,
+        0.7276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "G1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        258,
+        279,
+        286
+      ],
+      "edge_names": [
+        "F3-G1",
+        "E2-G1",
+        "I2-G1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.1354,
+        0.235,
+        0.3364
+      ],
+      "freq_individual": [
+        0.4406,
+        0.5386,
+        0.7276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "G1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        265,
+        279,
+        286
+      ],
+      "edge_names": [
+        "H3-G1",
+        "E2-G1",
+        "I2-G1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0668,
+        0.1562,
+        0.3364
+      ],
+      "freq_individual": [
+        0.2932,
+        0.5386,
+        0.7276
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "G1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        262,
+        268,
+        281
+      ],
+      "edge_names": [
+        "G3-H1",
+        "I3-H1",
+        "F2-H1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0434,
+        0.055,
+        0.048
+      ],
+      "freq_individual": [
+        0.3478,
+        0.3158,
+        0.4828
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "H1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        262,
+        268,
+        287
+      ],
+      "edge_names": [
+        "G3-H1",
+        "I3-H1",
+        "J2-H1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.0434,
+        0.2494,
+        0.2244
+      ],
+      "freq_individual": [
+        0.3478,
+        0.3158,
+        0.8536
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "H1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        262,
+        281,
+        287
+      ],
+      "edge_names": [
+        "G3-H1",
+        "F2-H1",
+        "J2-H1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.055,
+        0.2494,
+        0.3798
+      ],
+      "freq_individual": [
+        0.3478,
+        0.4828,
+        0.8536
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "H1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        268,
+        281,
+        287
+      ],
+      "edge_names": [
+        "I3-H1",
+        "F2-H1",
+        "J2-H1"
+      ],
+      "P_triple": 0.0,
+      "P_pairs": [
+        0.048,
+        0.2244,
+        0.3798
+      ],
+      "freq_individual": [
+        0.3158,
+        0.4828,
+        0.8536
+      ],
+      "source": "low_degree_vertex",
+      "vertex": "H1",
+      "vertex_degree": 4,
+      "z3_status": "proven",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        97,
+        173,
+        209
+      ],
+      "edge_names": [
+        "I8-G7",
+        "B5-A3",
+        "C4-A3"
+      ],
+      "P_triple": 0.0072,
+      "P_pairs": [
+        0.1096,
+        0.0606,
+        0.0426
+      ],
+      "freq_individual": [
+        0.1966,
+        0.5326,
+        0.3484
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 94
+    },
+    {
+      "edges": [
+        173,
+        209,
+        225
+      ],
+      "edge_names": [
+        "B5-A3",
+        "C4-A3",
+        "G4-E3"
+      ],
+      "P_triple": 0.013,
+      "P_pairs": [
+        0.0426,
+        0.1302,
+        0.0912
+      ],
+      "freq_individual": [
+        0.5326,
+        0.3484,
+        0.2386
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 31
+    },
+    {
+      "edges": [
+        109,
+        207,
+        243
+      ],
+      "edge_names": [
+        "C7-B5",
+        "B4-A2",
+        "C3-A2"
+      ],
+      "P_triple": 0.0194,
+      "P_pairs": [
+        0.1286,
+        0.0776,
+        0.1064
+      ],
+      "freq_individual": [
+        0.1868,
+        0.7064,
+        0.4
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 9
+    },
+    {
+      "edges": [
+        66,
+        67,
+        178
+      ],
+      "edge_names": [
+        "J9-H8",
+        "J9-I7",
+        "C5-D3"
+      ],
+      "P_triple": 0.0198,
+      "P_pairs": [
+        0.1206,
+        0.0644,
+        0.1034
+      ],
+      "freq_individual": [
+        0.473,
+        0.6476,
+        0.148
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 34
+    },
+    {
+      "edges": [
+        173,
+        209,
+        229
+      ],
+      "edge_names": [
+        "B5-A3",
+        "C4-A3",
+        "H4-F3"
+      ],
+      "P_triple": 0.0066,
+      "P_pairs": [
+        0.0426,
+        0.0786,
+        0.0472
+      ],
+      "freq_individual": [
+        0.5326,
+        0.3484,
+        0.1482
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 2
+    },
+    {
+      "edges": [
+        201,
+        230,
+        246
+      ],
+      "edge_names": [
+        "I5-J3",
+        "H4-J3",
+        "C3-D1"
+      ],
+      "P_triple": 0.0102,
+      "P_pairs": [
+        0.0396,
+        0.1802,
+        0.1056
+      ],
+      "freq_individual": [
+        0.5718,
+        0.301,
+        0.3376
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 23
+    },
+    {
+      "edges": [
+        107,
+        201,
+        230
+      ],
+      "edge_names": [
+        "C7-A6",
+        "I5-J3",
+        "H4-J3"
+      ],
+      "P_triple": 0.0164,
+      "P_pairs": [
+        0.2868,
+        0.1636,
+        0.0396
+      ],
+      "freq_individual": [
+        0.5248,
+        0.5718,
+        0.301
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 76
+    },
+    {
+      "edges": [
+        66,
+        67,
+        194
+      ],
+      "edge_names": [
+        "J9-H8",
+        "J9-I7",
+        "G5-H3"
+      ],
+      "P_triple": 0.019,
+      "P_pairs": [
+        0.1206,
+        0.0722,
+        0.107
+      ],
+      "freq_individual": [
+        0.473,
+        0.6476,
+        0.1602
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 53
+    },
+    {
+      "edges": [
+        163,
+        207,
+        243
+      ],
+      "edge_names": [
+        "H6-G4",
+        "B4-A2",
+        "C3-A2"
+      ],
+      "P_triple": 0.0172,
+      "P_pairs": [
+        0.1608,
+        0.0862,
+        0.1064
+      ],
+      "freq_individual": [
+        0.2298,
+        0.7064,
+        0.4
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 7
+    },
+    {
+      "edges": [
+        34,
+        35,
+        56
+      ],
+      "edge_names": [
+        "A9-C8",
+        "A9-B7",
+        "G9-I8"
+      ],
+      "P_triple": 0.0108,
+      "P_pairs": [
+        0.0996,
+        0.0476,
+        0.0694
+      ],
+      "freq_individual": [
+        0.404,
+        0.6956,
+        0.1062
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 33
+    },
+    {
+      "edges": [
+        25,
+        27,
+        48
+      ],
+      "edge_names": [
+        "H10-F9",
+        "H10-G8",
+        "E9-G8"
+      ],
+      "P_triple": 0.0012,
+      "P_pairs": [
+        0.053,
+        0.1146,
+        0.0306
+      ],
+      "freq_individual": [
+        0.5738,
+        0.3192,
+        0.1802
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 22
+    },
+    {
+      "edges": [
+        6,
+        8,
+        129
+      ],
+      "edge_names": [
+        "C10-E9",
+        "C10-D8",
+        "H7-G5"
+      ],
+      "P_triple": 0.0058,
+      "P_pairs": [
+        0.041,
+        0.1308,
+        0.0668
+      ],
+      "freq_individual": [
+        0.5462,
+        0.3238,
+        0.2264
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 92
+    },
+    {
+      "edges": [
+        110,
+        201,
+        230
+      ],
+      "edge_names": [
+        "C7-D5",
+        "I5-J3",
+        "H4-J3"
+      ],
+      "P_triple": 0.0068,
+      "P_pairs": [
+        0.1278,
+        0.0454,
+        0.0396
+      ],
+      "freq_individual": [
+        0.2054,
+        0.5718,
+        0.301
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 49
+    },
+    {
+      "edges": [
+        100,
+        101,
+        224
+      ],
+      "edge_names": [
+        "J8-H7",
+        "J8-I6",
+        "F4-G2"
+      ],
+      "P_triple": 0.012,
+      "P_pairs": [
+        0.053,
+        0.0846,
+        0.1494
+      ],
+      "freq_individual": [
+        0.3366,
+        0.5504,
+        0.2584
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 21
+    },
+    {
+      "edges": [
+        6,
+        8,
+        166
+      ],
+      "edge_names": [
+        "C10-E9",
+        "C10-D8",
+        "I6-H4"
+      ],
+      "P_triple": 0.0064,
+      "P_pairs": [
+        0.041,
+        0.1014,
+        0.056
+      ],
+      "freq_individual": [
+        0.5462,
+        0.3238,
+        0.184
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 79
+    },
+    {
+      "edges": [
+        192,
+        235,
+        264
+      ],
+      "edge_names": [
+        "G5-I4",
+        "I4-J2",
+        "H3-J2"
+      ],
+      "P_triple": 0.0174,
+      "P_pairs": [
+        0.1018,
+        0.1172,
+        0.1464
+      ],
+      "freq_individual": [
+        0.2016,
+        0.7338,
+        0.4126
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 42
+    },
+    {
+      "edges": [
+        173,
+        209,
+        244
+      ],
+      "edge_names": [
+        "B5-A3",
+        "C4-A3",
+        "C3-E2"
+      ],
+      "P_triple": 0.0026,
+      "P_pairs": [
+        0.0426,
+        0.068,
+        0.0536
+      ],
+      "freq_individual": [
+        0.5326,
+        0.3484,
+        0.1496
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 74
+    },
+    {
+      "edges": [
+        2,
+        4,
+        183
+      ],
+      "edge_names": [
+        "B10-D9",
+        "B10-C8",
+        "E5-C4"
+      ],
+      "P_triple": 0.019,
+      "P_pairs": [
+        0.106,
+        0.1404,
+        0.0768
+      ],
+      "freq_individual": [
+        0.6814,
+        0.4246,
+        0.1982
+      ],
+      "source": "pair_extension",
+      "z3_status": "unverified",
+      "z3_iters": 100
+    },
+    {
+      "edges": [
+        27,
+        68,
+        69
+      ],
+      "edge_names": [
+        "H10-G8",
+        "A8-C7",
+        "A8-B6"
+      ],
+      "P_triple": 0.0128,
+      "P_pairs": [
+        0.1076,
+        0.1576,
+        0.047
+      ],
+      "freq_individual": [
+        0.3192,
+        0.3568,
+        0.5074
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 62
+    },
+    {
+      "edges": [
+        55,
+        207,
+        243
+      ],
+      "edge_names": [
+        "G9-E8",
+        "B4-A2",
+        "C3-A2"
+      ],
+      "P_triple": 0.0098,
+      "P_pairs": [
+        0.1062,
+        0.0668,
+        0.1064
+      ],
+      "freq_individual": [
+        0.1632,
+        0.7064,
+        0.4
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 42
+    },
+    {
+      "edges": [
+        66,
+        67,
+        215
+      ],
+      "edge_names": [
+        "J9-H8",
+        "J9-I7",
+        "D4-C2"
+      ],
+      "P_triple": 0.0156,
+      "P_pairs": [
+        0.1206,
+        0.0638,
+        0.092
+      ],
+      "freq_individual": [
+        0.473,
+        0.6476,
+        0.1402
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 1
+    },
+    {
+      "edges": [
+        13,
+        249,
+        278
+      ],
+      "edge_names": [
+        "E10-C9",
+        "D3-C1",
+        "E2-C1"
+      ],
+      "P_triple": 0.011,
+      "P_pairs": [
+        0.1446,
+        0.1932,
+        0.0352
+      ],
+      "freq_individual": [
+        0.4242,
+        0.336,
+        0.4982
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 38
+    },
+    {
+      "edges": [
+        6,
+        8,
+        264
+      ],
+      "edge_names": [
+        "C10-E9",
+        "C10-D8",
+        "H3-J2"
+      ],
+      "P_triple": 0.0138,
+      "P_pairs": [
+        0.041,
+        0.2258,
+        0.1332
+      ],
+      "freq_individual": [
+        0.5462,
+        0.3238,
+        0.4126
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 27
+    },
+    {
+      "edges": [
+        140,
+        245,
+        276
+      ],
+      "edge_names": [
+        "B6-C4",
+        "C3-B1",
+        "D2-B1"
+      ],
+      "P_triple": 0.0142,
+      "P_pairs": [
+        0.064,
+        0.1494,
+        0.1194
+      ],
+      "freq_individual": [
+        0.1992,
+        0.429,
+        0.6904
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 26
+    },
+    {
+      "edges": [
+        100,
+        101,
+        172
+      ],
+      "edge_names": [
+        "J8-H7",
+        "J8-I6",
+        "B5-D4"
+      ],
+      "P_triple": 0.0148,
+      "P_pairs": [
+        0.053,
+        0.0986,
+        0.19
+      ],
+      "freq_individual": [
+        0.3366,
+        0.5504,
+        0.3256
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 46
+    },
+    {
+      "edges": [
+        6,
+        8,
+        279
+      ],
+      "edge_names": [
+        "C10-E9",
+        "C10-D8",
+        "E2-G1"
+      ],
+      "P_triple": 0.0198,
+      "P_pairs": [
+        0.041,
+        0.288,
+        0.191
+      ],
+      "freq_individual": [
+        0.5462,
+        0.3238,
+        0.5386
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 82
+    },
+    {
+      "edges": [
+        60,
+        249,
+        278
+      ],
+      "edge_names": [
+        "H9-J8",
+        "D3-C1",
+        "E2-C1"
+      ],
+      "P_triple": 0.0056,
+      "P_pairs": [
+        0.0736,
+        0.1096,
+        0.0352
+      ],
+      "freq_individual": [
+        0.2282,
+        0.336,
+        0.4982
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 30
+    },
+    {
+      "edges": [
+        170,
+        173,
+        209
+      ],
+      "edge_names": [
+        "A5-C4",
+        "B5-A3",
+        "C4-A3"
+      ],
+      "P_triple": 0.0136,
+      "P_pairs": [
+        0.2898,
+        0.1236,
+        0.0426
+      ],
+      "freq_individual": [
+        0.4754,
+        0.5326,
+        0.3484
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 46
+    },
+    {
+      "edges": [
+        89,
+        173,
+        209
+      ],
+      "edge_names": [
+        "G8-E7",
+        "B5-A3",
+        "C4-A3"
+      ],
+      "P_triple": 0.0062,
+      "P_pairs": [
+        0.0914,
+        0.0714,
+        0.0426
+      ],
+      "freq_individual": [
+        0.1978,
+        0.5326,
+        0.3484
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 48
+    },
+    {
+      "edges": [
+        123,
+        201,
+        230
+      ],
+      "edge_names": [
+        "G7-E6",
+        "I5-J3",
+        "H4-J3"
+      ],
+      "P_triple": 0.0122,
+      "P_pairs": [
+        0.1736,
+        0.0734,
+        0.0396
+      ],
+      "freq_individual": [
+        0.2772,
+        0.5718,
+        0.301
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 19
+    },
+    {
+      "edges": [
+        124,
+        249,
+        278
+      ],
+      "edge_names": [
+        "G7-I6",
+        "D3-C1",
+        "E2-C1"
+      ],
+      "P_triple": 0.012,
+      "P_pairs": [
+        0.0796,
+        0.1476,
+        0.0352
+      ],
+      "freq_individual": [
+        0.27,
+        0.336,
+        0.4982
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 61
+    },
+    {
+      "edges": [
+        130,
+        266,
+        283
+      ],
+      "edge_names": [
+        "H7-I5",
+        "H3-I1",
+        "G2-I1"
+      ],
+      "P_triple": 0.0178,
+      "P_pairs": [
+        0.071,
+        0.108,
+        0.0984
+      ],
+      "freq_individual": [
+        0.1612,
+        0.3932,
+        0.7052
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 41
+    },
+    {
+      "edges": [
+        190,
+        201,
+        230
+      ],
+      "edge_names": [
+        "F5-G3",
+        "I5-J3",
+        "H4-J3"
+      ],
+      "P_triple": 0.0078,
+      "P_pairs": [
+        0.1102,
+        0.0622,
+        0.0396
+      ],
+      "freq_individual": [
+        0.1864,
+        0.5718,
+        0.301
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 44
+    },
+    {
+      "edges": [
+        34,
+        35,
+        93
+      ],
+      "edge_names": [
+        "A9-C8",
+        "A9-B7",
+        "H8-F7"
+      ],
+      "P_triple": 0.0128,
+      "P_pairs": [
+        0.0996,
+        0.0582,
+        0.0954
+      ],
+      "freq_individual": [
+        0.404,
+        0.6956,
+        0.1408
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 65
+    },
+    {
+      "edges": [
+        173,
+        209,
+        222
+      ],
+      "edge_names": [
+        "B5-A3",
+        "C4-A3",
+        "F4-H3"
+      ],
+      "P_triple": 0.0036,
+      "P_pairs": [
+        0.0426,
+        0.0946,
+        0.0368
+      ],
+      "freq_individual": [
+        0.5326,
+        0.3484,
+        0.1562
+      ],
+      "source": "pair_extension",
+      "z3_status": "unverified",
+      "z3_iters": 100
+    },
+    {
+      "edges": [
+        100,
+        101,
+        114
+      ],
+      "edge_names": [
+        "J8-H7",
+        "J8-I6",
+        "D7-E5"
+      ],
+      "P_triple": 0.0146,
+      "P_pairs": [
+        0.053,
+        0.1034,
+        0.1474
+      ],
+      "freq_individual": [
+        0.3366,
+        0.5504,
+        0.2822
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 28
+    },
+    {
+      "edges": [
+        25,
+        27,
+        265
+      ],
+      "edge_names": [
+        "H10-F9",
+        "H10-G8",
+        "H3-G1"
+      ],
+      "P_triple": 0.0144,
+      "P_pairs": [
+        0.053,
+        0.1712,
+        0.095
+      ],
+      "freq_individual": [
+        0.5738,
+        0.3192,
+        0.2932
+      ],
+      "source": "pair_extension",
+      "z3_status": "unverified",
+      "z3_iters": 100
+    },
+    {
+      "edges": [
+        202,
+        249,
+        278
+      ],
+      "edge_names": [
+        "J5-H4",
+        "D3-C1",
+        "E2-C1"
+      ],
+      "P_triple": 0.0178,
+      "P_pairs": [
+        0.1442,
+        0.24,
+        0.0352
+      ],
+      "freq_individual": [
+        0.4538,
+        0.336,
+        0.4982
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 14
+    },
+    {
+      "edges": [
+        25,
+        27,
+        232
+      ],
+      "edge_names": [
+        "H10-F9",
+        "H10-G8",
+        "H4-I2"
+      ],
+      "P_triple": 0.0164,
+      "P_pairs": [
+        0.053,
+        0.21,
+        0.0904
+      ],
+      "freq_individual": [
+        0.5738,
+        0.3192,
+        0.342
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 36
+    },
+    {
+      "edges": [
+        181,
+        201,
+        230
+      ],
+      "edge_names": [
+        "D5-C3",
+        "I5-J3",
+        "H4-J3"
+      ],
+      "P_triple": 0.0062,
+      "P_pairs": [
+        0.0678,
+        0.048,
+        0.0396
+      ],
+      "freq_individual": [
+        0.1448,
+        0.5718,
+        0.301
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 46
+    },
+    {
+      "edges": [
+        6,
+        8,
+        258
+      ],
+      "edge_names": [
+        "C10-E9",
+        "C10-D8",
+        "F3-G1"
+      ],
+      "P_triple": 0.0156,
+      "P_pairs": [
+        0.041,
+        0.2456,
+        0.124
+      ],
+      "freq_individual": [
+        0.5462,
+        0.3238,
+        0.4406
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 36
+    },
+    {
+      "edges": [
+        58,
+        235,
+        264
+      ],
+      "edge_names": [
+        "G9-H7",
+        "I4-J2",
+        "H3-J2"
+      ],
+      "P_triple": 0.0192,
+      "P_pairs": [
+        0.1174,
+        0.0648,
+        0.1464
+      ],
+      "freq_individual": [
+        0.163,
+        0.7338,
+        0.4126
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 52
+    },
+    {
+      "edges": [
+        78,
+        249,
+        278
+      ],
+      "edge_names": [
+        "D8-F7",
+        "D3-C1",
+        "E2-C1"
+      ],
+      "P_triple": 0.007,
+      "P_pairs": [
+        0.0726,
+        0.122,
+        0.0352
+      ],
+      "freq_individual": [
+        0.2478,
+        0.336,
+        0.4982
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 57
+    },
+    {
+      "edges": [
+        159,
+        201,
+        230
+      ],
+      "edge_names": [
+        "G6-F4",
+        "I5-J3",
+        "H4-J3"
+      ],
+      "P_triple": 0.0166,
+      "P_pairs": [
+        0.1892,
+        0.082,
+        0.0396
+      ],
+      "freq_individual": [
+        0.3,
+        0.5718,
+        0.301
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 55
+    },
+    {
+      "edges": [
+        68,
+        69,
+        245
+      ],
+      "edge_names": [
+        "A8-C7",
+        "A8-B6",
+        "C3-B1"
+      ],
+      "P_triple": 0.0194,
+      "P_pairs": [
+        0.047,
+        0.1294,
+        0.2314
+      ],
+      "freq_individual": [
+        0.3568,
+        0.5074,
+        0.429
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 48
+    },
+    {
+      "edges": [
+        58,
+        245,
+        276
+      ],
+      "edge_names": [
+        "G9-H7",
+        "C3-B1",
+        "D2-B1"
+      ],
+      "P_triple": 0.019,
+      "P_pairs": [
+        0.0726,
+        0.1094,
+        0.1194
+      ],
+      "freq_individual": [
+        0.163,
+        0.429,
+        0.6904
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 49
+    },
+    {
+      "edges": [
+        29,
+        30,
+        142
+      ],
+      "edge_names": [
+        "I10-G9",
+        "I10-H8",
+        "C6-E5"
+      ],
+      "P_triple": 0.0156,
+      "P_pairs": [
+        0.1152,
+        0.163,
+        0.0788
+      ],
+      "freq_individual": [
+        0.7256,
+        0.3896,
+        0.2262
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 66
+    },
+    {
+      "edges": [
+        72,
+        207,
+        243
+      ],
+      "edge_names": [
+        "B8-C6",
+        "B4-A2",
+        "C3-A2"
+      ],
+      "P_triple": 0.0114,
+      "P_pairs": [
+        0.0808,
+        0.0496,
+        0.1064
+      ],
+      "freq_individual": [
+        0.119,
+        0.7064,
+        0.4
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 48
+    },
+    {
+      "edges": [
+        99,
+        173,
+        209
+      ],
+      "edge_names": [
+        "I8-J6",
+        "B5-A3",
+        "C4-A3"
+      ],
+      "P_triple": 0.0164,
+      "P_pairs": [
+        0.1974,
+        0.1336,
+        0.0426
+      ],
+      "freq_individual": [
+        0.374,
+        0.5326,
+        0.3484
+      ],
+      "source": "pair_extension",
+      "z3_status": "unverified",
+      "z3_iters": 100
+    },
+    {
+      "edges": [
+        34,
+        35,
+        157
+      ],
+      "edge_names": [
+        "A9-C8",
+        "A9-B7",
+        "G6-E5"
+      ],
+      "P_triple": 0.0186,
+      "P_pairs": [
+        0.0996,
+        0.0964,
+        0.1854
+      ],
+      "freq_individual": [
+        0.404,
+        0.6956,
+        0.2632
+      ],
+      "source": "pair_extension",
+      "z3_status": "false_pos",
+      "z3_iters": 77
+    }
+  ]
+}

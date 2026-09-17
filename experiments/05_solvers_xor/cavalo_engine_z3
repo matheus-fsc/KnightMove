@@ -1,0 +1,251 @@
+#!/usr/bin/env python3
+"""cavalo_engine.py — lógica pura do passeio do cavalo 8x8.
+
+Gera cavalo_data.json com a topologia do grafo.
+Agora integra o Z3 Theorem Prover para fundir a Base de Ciclos
+Fundamentais (GF(2)) em um Ciclo Hamiltoniano Perfeito.
+"""
+import json
+from collections import deque
+
+BOARD = 6
+KNIGHT_DELTAS = [(1, 2), (2, 1), (-1, 2), (-2, 1),
+                 (1, -2), (2, -1), (-1, -2), (-2, -1)]
+
+
+def neighbors(x, y):
+    out = []
+    for dx, dy in KNIGHT_DELTAS:
+        nx, ny = x + dx, y + dy
+        if 0 <= nx < BOARD and 0 <= ny < BOARD:
+            out.append((nx, ny))
+    return out
+
+
+def build_graph():
+    nodes = [(x, y) for x in range(BOARD) for y in range(BOARD)]
+    adj = {n: neighbors(*n) for n in nodes}
+    edges = set()
+    for n, nbrs in adj.items():
+        for m in nbrs:
+            edges.add(tuple(sorted([n, m])))
+    return nodes, adj, edges
+
+
+def reconstruct_path(target, parent):
+    path = []
+    while target is not None:
+        path.append(target)
+        target = parent[target]
+    return list(reversed(path))
+
+
+def compute_bfs(adj, start=(0, 0)):
+    parent = {start: None}
+    level = {start: 0}
+    order = [start]
+    queue = deque([start])
+    tree_edges = set()
+    while queue:
+        u = queue.popleft()
+        for v in adj[u]:
+            if v not in parent:
+                parent[v] = u
+                level[v] = level[u] + 1
+                order.append(v)
+                queue.append(v)
+                tree_edges.add(tuple(sorted([u, v])))
+    return parent, level, order, tree_edges
+
+
+def loops_from_bfs(parent, tree_edges, edges, limit=None):
+    loops = []
+    for e in sorted(edges):
+        if e in tree_edges:
+            continue
+        u, v = e
+        path_u = reconstruct_path(u, parent)
+        path_v = reconstruct_path(v, parent)
+        loops.append({
+            "caminho1": [list(p) for p in path_u],
+            "caminho2": [list(p) for p in path_v],
+            "colisao": [list(u), list(v)],
+            "tamanho_ciclo": len(path_u) + len(path_v),
+        })
+        if limit is not None and len(loops) >= limit:
+            break
+    return loops
+
+
+def tree_data(parent, level, order, tree_edges, edges, start):
+    nos = [{
+        "casa": list(n),
+        "pai": list(parent[n]) if parent[n] is not None else None,
+        "nivel": level[n],
+        "ordem": i,
+    } for i, n in enumerate(order)]
+    arestas_arvore = [[list(u), list(v)] for u, v in sorted(tree_edges)]
+    arestas_fora = [[list(u), list(v)] for u, v in sorted(edges)
+                    if (u, v) not in tree_edges]
+    return {
+        "raiz": list(start),
+        "nos": nos,
+        "arestas_arvore": arestas_arvore,
+        "arestas_fora": arestas_fora,
+        "num_niveis": max(level.values()) + 1,
+    }
+
+# --- INÍCIO DA LÓGICA ALGÉBRICA Z3 ---
+def solve_hamiltonian_z3(nodes, edges, loops):
+    print("\n--- Iniciando Z3 Solver (Álgebra de Ciclos GF(2)) ---")
+    try:
+        from z3 import Solver, Bool, Sum, If, sat, is_true
+    except ImportError:
+        print("Erro: z3-solver não instalado. Rode 'sudo pacman -S python-z3'")
+        return None
+
+    solver = Solver()
+    
+    # 1. Variáveis Booleanas (105 interruptores para os loops)
+    loop_vars = [Bool(f"L_{i}") for i in range(len(loops))]
+    
+    # Extrair arestas de um loop aplicando XOR nas sobreposições até a raiz
+    def get_loop_edges(loop):
+        loop_edges = set()
+        def toggle_edge(u, v):
+            e = tuple(sorted([u, v]))
+            if e in loop_edges: loop_edges.remove(e) # XOR: 1^1 = 0 (Cancela a parede)
+            else: loop_edges.add(e)                  # XOR: 1^0 = 1 (Mantém a parede)
+            
+        c1 = [tuple(x) for x in loop['caminho1']]
+        c2 = [tuple(x) for x in loop['caminho2']]
+        u, v = tuple(loop['colisao'][0]), tuple(loop['colisao'][1])
+        
+        for i in range(len(c1)-1): toggle_edge(c1[i], c1[i+1])
+        for i in range(len(c2)-1): toggle_edge(c2[i], c2[i+1])
+        toggle_edge(u, v)
+        return loop_edges
+
+    # Mapear quais loops tocam cada aresta do tabuleiro
+    edge_to_loops = {e: [] for e in edges}
+    for i, loop in enumerate(loops):
+        for e in get_loop_edges(loop):
+            edge_to_loops[e].append(i)
+            
+    # 2. Regra da Paridade XOR: Aresta está viva se for tocada por nº ímpar de loops ativos
+    edge_active = {}
+    for e in edges:
+        if not edge_to_loops[e]:
+            edge_active[e] = False
+        else:
+            # (Soma dos interruptores % 2 == 1)
+            edge_active[e] = (Sum([If(loop_vars[i], 1, 0) for i in edge_to_loops[e]]) % 2 == 1)
+
+    # 3. Regra do 2-Fator: O cavalo entra e sai (exatamente 2 arestas ativas por casa)
+    for n in nodes:
+        incident_edges = [e for e in edges if n in e]
+        solver.add(Sum([If(edge_active[e], 1, 0) for e in incident_edges]) == 2)
+
+    # 4. Eliminação de Sub-rotas (DFJ Subtour Elimination)
+    iteracao = 1
+    while True:
+        print(f"Resolvendo iteração {iteracao}...", end=" ", flush=True)
+        if solver.check() == sat:
+            m = solver.model()
+            
+            # Pega as arestas que sobreviveram ao XOR na solução atual
+            active_edges = [e for e in edges if edge_to_loops[e] and is_true(m.evaluate(edge_active[e]))]
+            
+            # Mapeia as ilhas (componentes conexas)
+            adj_res = {n: [] for n in nodes}
+            for u, v in active_edges:
+                adj_res[u].append(v)
+                adj_res[v].append(u)
+                
+            visited = set()
+            components = []
+            for n in nodes:
+                if n not in visited:
+                    comp = []
+                    q = [n]
+                    visited.add(n)
+                    while q:
+                        curr = q.pop(0)
+                        comp.append(curr)
+                        for nbr in adj_res[curr]:
+                            if nbr not in visited:
+                                visited.add(nbr)
+                                q.append(nbr)
+                    components.append(comp)
+                    
+            if len(components) == 1:
+                print(f"\n>> SUCESSO! Passeio Perfeito encontrado com {len(active_edges)} lances!")
+                return active_edges
+            else:
+                print(f"-> Z3 achou {len(components)} ilhas. Adicionando bomba lógica para explodir essas ilhas...")
+                # Poda a árvore de busca proibindo o solver de fechar esses ciclos isolados novamente
+                for comp in components:
+                    comp_set = set(comp)
+                    edges_in_comp = [e for e in edges if e[0] in comp_set and e[1] in comp_set]
+                    # Obriga o Z3 a romper a ilha: nº arestas ativas dentro dela tem q ser <= que os nós - 1
+                    solver.add(Sum([If(edge_active[e], 1, 0) for e in edges_in_comp]) <= len(comp) - 1)
+            iteracao += 1
+        else:
+            print("\n>> INVIÁVEL. Sem solução possível com os loops fornecidos.")
+            return None
+
+
+def main():
+    nodes, adj, edges = build_graph()
+    V = len(nodes)
+    E = len(edges)
+    H1 = E - V + 1
+
+    start = (0, 0)
+    parent, level, order, tree_edges = compute_bfs(adj, start)
+    loops = loops_from_bfs(parent, tree_edges, edges, limit=H1)
+
+    # Motor matemático
+    active_edges = solve_hamiltonian_z3(nodes, edges, loops)
+
+    if active_edges:
+        # Converter as arestas não-direcionadas do Z3 em um caminho sequencial
+        adj_z3 = {n: [] for n in nodes}
+        for u, v in active_edges:
+            adj_z3[u].append(v)
+            adj_z3[v].append(u)
+
+        caminho_ordenado = [start]
+        visited = {start}
+        curr = start
+        while len(caminho_ordenado) < V:
+            next_nodes = [n for n in adj_z3[curr] if n not in visited]
+            if not next_nodes:
+                break
+            curr = next_nodes[0]
+            visited.add(curr)
+            caminho_ordenado.append(curr)
+
+        # Dados básicos para o visualizador não quebrar
+        graus = [[len(adj[(x, y)]) for y in range(BOARD)] for x in range(BOARD)]
+        paridade = [[(x + y) % 2 for y in range(BOARD)] for x in range(BOARD)]
+        arvore = tree_data(parent, level, order, tree_edges, edges, start)
+
+        # Simulando os 'passos' do Warnsdorff para o visualizador animar o caminho do Z3
+        passos_z3 = [{"passo": i, "casa": list(c), "grau_futuro": 0, "alternativas": []}
+                     for i, c in enumerate(caminho_ordenado)]
+
+        data = {
+            "descricao": {"V": V, "E": E, "H1": H1, "graus": graus, "paridade": paridade, "inicio": list(start)},
+            "arestas": [[list(u), list(v)] for u, v in sorted(edges)],
+            "arvore": arvore,
+            "loops": loops,
+            "solucao": {"caminho": [list(c) for c in caminho_ordenado], "passos": passos_z3, "completo": True}
+        }
+
+        with open("cavalo_data.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print("-> cavalo_data.json exportado com sucesso para visualização!")
+
+if __name__ == "__main__":
+    main()

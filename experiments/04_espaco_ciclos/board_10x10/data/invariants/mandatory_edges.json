@@ -1,0 +1,93 @@
+{
+  "n_samples": 5000,
+  "E": 288,
+  "high_freq_threshold": 0.99,
+  "mandatory": [
+    {
+      "idx": 0,
+      "label": "A10-C9",
+      "freq": 1.0
+    },
+    {
+      "idx": 1,
+      "label": "A10-B8",
+      "freq": 1.0
+    },
+    {
+      "idx": 32,
+      "label": "J10-H9",
+      "freq": 1.0
+    },
+    {
+      "idx": 33,
+      "label": "J10-I8",
+      "freq": 1.0
+    },
+    {
+      "idx": 241,
+      "label": "B3-A1",
+      "freq": 1.0
+    },
+    {
+      "idx": 269,
+      "label": "I3-J1",
+      "freq": 1.0
+    },
+    {
+      "idx": 274,
+      "label": "C2-A1",
+      "freq": 1.0
+    },
+    {
+      "idx": 285,
+      "label": "H2-J1",
+      "freq": 1.0
+    }
+  ],
+  "near_mandatory": {
+    "0.99": [],
+    "0.95": []
+  },
+  "z3_proofs": {
+    "0": {
+      "verdict": "mandatory",
+      "iters": 1,
+      "edge_label": "A10-C9"
+    },
+    "1": {
+      "verdict": "mandatory",
+      "iters": 1,
+      "edge_label": "A10-B8"
+    },
+    "32": {
+      "verdict": "mandatory",
+      "iters": 1,
+      "edge_label": "J10-H9"
+    },
+    "33": {
+      "verdict": "mandatory",
+      "iters": 1,
+      "edge_label": "J10-I8"
+    },
+    "241": {
+      "verdict": "mandatory",
+      "iters": 1,
+      "edge_label": "B3-A1"
+    },
+    "269": {
+      "verdict": "mandatory",
+      "iters": 1,
+      "edge_label": "I3-J1"
+    },
+    "274": {
+      "verdict": "mandatory",
+      "iters": 1,
+      "edge_label": "C2-A1"
+    },
+    "285": {
+      "verdict": "mandatory",
+      "iters": 1,
+      "edge_label": "H2-J1"
+    }
+  }
+}

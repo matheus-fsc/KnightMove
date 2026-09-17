@@ -1,0 +1,18 @@
+{
+  "n_proven": 118,
+  "n_false_pos": 46,
+  "n_structural": 118,
+  "n_genuine": 0,
+  "structural_by_pivot_degree": {
+    "3": 8,
+    "4": 110
+  },
+  "expected_structural_total": 2616,
+  "missed_structural": 2498,
+  "scale": {
+    "C_288_3": 3939936,
+    "proven_pct": 0.002995,
+    "comparison_6x6_pct": 2.162
+  },
+  "conclusion": "NOT(A\u2227B\u2227C) N\u00c3O acelera 10\u00d710. As 118 triplas proven s\u00e3o todas estruturais (3 arestas em mesmo v\u00e9rtice), j\u00e1 bloqueadas pelo grau-2 constraint. Adicionar explicitamente apenas sobrecarrega o solver com restri\u00e7\u00f5es redundantes. Triplas GENU\u00cdNAS (sem v\u00e9rtice comum) n\u00e3o foram detectadas \u2014 provavelmente requer muito mais amostras OU enumera\u00e7\u00e3o diferente."
+}

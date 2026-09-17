@@ -1,0 +1,158 @@
+{
+  "n_pairs_minimal": 88,
+  "n_triples_minimal": 1776,
+  "n_quads_minimal": 17004,
+  "total_ideal_generators_to_order_4": 18868,
+  "consistency_checks": {
+    "triples_with_subpair_excluded": 0,
+    "quads_with_subpair_excluded": 0,
+    "quads_with_subtriple_excluded": 0
+  },
+  "vertex_coverage_by_class": {
+    "corner": {
+      "n_vertices": 4,
+      "min": 0,
+      "max": 0,
+      "avg": 0.0
+    },
+    "edge": {
+      "n_vertices": 16,
+      "min": 879,
+      "max": 3407,
+      "avg": 2143.0
+    },
+    "near_edge": {
+      "n_vertices": 12,
+      "min": 3198,
+      "max": 6030,
+      "avg": 5086.0
+    },
+    "interior": {
+      "n_vertices": 4,
+      "min": 9731,
+      "max": 9731,
+      "avg": 9731.0
+    }
+  },
+  "top_vertices": [
+    {
+      "label": "C3",
+      "v": 20,
+      "degree": 8,
+      "class": "interior",
+      "total": 9731,
+      "pairs": 9,
+      "triples": 632,
+      "quads": 9090
+    },
+    {
+      "label": "D3",
+      "v": 21,
+      "degree": 8,
+      "class": "interior",
+      "total": 9731,
+      "pairs": 9,
+      "triples": 632,
+      "quads": 9090
+    },
+    {
+      "label": "D4",
+      "v": 15,
+      "degree": 8,
+      "class": "interior",
+      "total": 9731,
+      "pairs": 9,
+      "triples": 632,
+      "quads": 9090
+    },
+    {
+      "label": "C4",
+      "v": 14,
+      "degree": 8,
+      "class": "interior",
+      "total": 9731,
+      "pairs": 9,
+      "triples": 632,
+      "quads": 9090
+    },
+    {
+      "label": "B4",
+      "v": 13,
+      "degree": 6,
+      "class": "near_edge",
+      "total": 6030,
+      "pairs": 21,
+      "triples": 441,
+      "quads": 5568
+    },
+    {
+      "label": "D5",
+      "v": 9,
+      "degree": 6,
+      "class": "near_edge",
+      "total": 6030,
+      "pairs": 21,
+      "triples": 441,
+      "quads": 5568
+    },
+    {
+      "label": "E3",
+      "v": 22,
+      "degree": 6,
+      "class": "near_edge",
+      "total": 6030,
+      "pairs": 21,
+      "triples": 441,
+      "quads": 5568
+    },
+    {
+      "label": "C2",
+      "v": 26,
+      "degree": 6,
+      "class": "near_edge",
+      "total": 6030,
+      "pairs": 21,
+      "triples": 441,
+      "quads": 5568
+    },
+    {
+      "label": "E4",
+      "v": 16,
+      "degree": 6,
+      "class": "near_edge",
+      "total": 6030,
+      "pairs": 21,
+      "triples": 441,
+      "quads": 5568
+    },
+    {
+      "label": "C5",
+      "v": 8,
+      "degree": 6,
+      "class": "near_edge",
+      "total": 6030,
+      "pairs": 21,
+      "triples": 441,
+      "quads": 5568
+    }
+  ],
+  "h1_weight": {
+    "rank_sampled": 42,
+    "beta1_theoretical": 45,
+    "pairs": {
+      "min": 2,
+      "max": 22,
+      "avg": 6.375
+    },
+    "triples": {
+      "min": 0,
+      "max": 25,
+      "avg": 8.57
+    },
+    "quads": {
+      "min": 3,
+      "max": 30,
+      "avg": 11.565
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "board": 10,
+  "V": 100,
+  "E": 288,
+  "beta_1": 189,
+  "rank_T_sampled": 186,
+  "rank_boundary": 99,
+  "n_samples": 5000,
+  "n_mandatory": 8,
+  "mandatory_idx": [
+    0,
+    1,
+    32,
+    33,
+    241,
+    269,
+    274,
+    285
+  ],
+  "mandatory_labels": {
+    "0": "A10-C9",
+    "1": "A10-B8",
+    "32": "J10-H9",
+    "33": "J10-I8",
+    "241": "B3-A1",
+    "269": "I3-J1",
+    "274": "C2-A1",
+    "285": "H2-J1"
+  },
+  "n_pair_xors": 28,
+  "n_pair_xors_empirically_valid": 28,
+  "span_xor_dim": 7,
+  "rs_plus_xor_dim": 102,
+  "quotient_dim": 3,
+  "chosen_pairs": [
+    [
+      0,
+      32
+    ],
+    [
+      0,
+      241
+    ],
+    [
+      0,
+      269
+    ]
+  ],
+  "chosen_labels": [
+    [
+      "A10-C9",
+      "J10-H9"
+    ],
+    [
+      "A10-C9",
+      "B3-A1"
+    ],
+    [
+      "A10-C9",
+      "I3-J1"
+    ]
+  ],
+  "z3_verification": []
+}

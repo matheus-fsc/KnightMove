@@ -1,0 +1,197 @@
+{
+  "H1": {
+    "status": "REFUTADA",
+    "details": {
+      "note": "Cavalo eh bipartido pela cor xadrez -> arestas 'mesma cor' = 0 (coloracao chess). Teste so e nao-trivial para 2-coloracoes diferentes da bipartite natural.",
+      "tests": [
+        {
+          "coloring": "chess",
+          "F_parity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coloring": "row_parity",
+          "F_parity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coloring": "col_parity",
+          "F_parity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coloring": "top_half",
+          "F_parity": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coloring": "left_half",
+          "F_parity": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "genuine_colorings": []
+  },
+  "H2": {
+    "status": "INCONCLUSIVA (testes limitados)",
+    "details": {
+      "cuts_blocked_by_Ham": 7825,
+      "cuts_blocking_some_fi": 0,
+      "examples": [],
+      "tests_run": 7825,
+      "bad_cuts_per_fi": [
+        0,
+        0,
+        0
+      ],
+      "sample_bad_cuts_f0": [],
+      "sample_bad_cuts_f1": [],
+      "sample_bad_cuts_f2": []
+    }
+  },
+  "H3": {
+    "status": "CONFIRMADA (todos f_i deixam vertices nao-cobertos)",
+    "details": {
+      "per_fi": [
+        {
+          "f_i": 0,
+          "n_vertices_covered": 6,
+          "covers_all_36": false,
+          "missing_vertices": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        },
+        {
+          "f_i": 1,
+          "n_vertices_covered": 6,
+          "covers_all_36": false,
+          "missing_vertices": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            10,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        },
+        {
+          "f_i": 2,
+          "n_vertices_covered": 8,
+          "covers_all_36": false,
+          "missing_vertices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            25,
+            26,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ]
+        }
+      ]
+    },
+    "note": "tecnicamente trivial: qualquer vetor F_2 nao-tour deixa vertices descobertos. nao distingue proibidos de outros."
+  },
+  "H4": {
+    "status": "REFUTADA",
+    "details": {
+      "n_2_factors_enumerated": 36236,
+      "rank_2_factors": 42,
+      "rank_T_union_2f": 42,
+      "rank_T": 42,
+      "forbidden_in_2f_span": 0,
+      "interpretation": "se rank_2_factors == 45 e forbidden_in_2f_span == 3 -> H4 CONFIRMADA"
+    }
+  },
+  "dual_detectors_summary": "3 funcionais lineares phi_i in F_2^E salvos em dual_detectors.npy (phi_i(t)=0 forall tour, phi_i(f_j)=delta_ij)"
+}

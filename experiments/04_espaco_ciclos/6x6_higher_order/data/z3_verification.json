@@ -1,0 +1,2779 @@
+{
+  "args": {
+    "n_sample_pairs": null,
+    "n_sample_triples": 50,
+    "n_sample_quads": 50,
+    "seed": 2026,
+    "timeout_ms": 30000,
+    "full": false
+  },
+  "totals": {
+    "pairs": {
+      "unsat": 80,
+      "sat": 0,
+      "inconclusive": 8
+    },
+    "triples": {
+      "unsat": 47,
+      "sat": 0,
+      "inconclusive": 3
+    },
+    "quads": {
+      "unsat": 50,
+      "sat": 0,
+      "inconclusive": 0
+    }
+  },
+  "results": {
+    "pairs": [
+      {
+        "index": 0,
+        "edges": [
+          2,
+          27
+        ],
+        "names": [
+          "B6-D5",
+          "D5-B4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1,
+        "edges": [
+          2,
+          28
+        ],
+        "names": [
+          "B6-D5",
+          "D5-F4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 2,
+        "edges": [
+          2,
+          29
+        ],
+        "names": [
+          "B6-D5",
+          "D5-C3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 3,
+        "edges": [
+          2,
+          30
+        ],
+        "names": [
+          "B6-D5",
+          "D5-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 4,
+        "edges": [
+          7,
+          27
+        ],
+        "names": [
+          "C6-B4",
+          "D5-B4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 5,
+        "edges": [
+          7,
+          38
+        ],
+        "names": [
+          "C6-B4",
+          "B4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 6,
+        "edges": [
+          7,
+          39
+        ],
+        "names": [
+          "C6-B4",
+          "B4-A2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 7,
+        "edges": [
+          7,
+          40
+        ],
+        "names": [
+          "C6-B4",
+          "B4-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 8,
+        "edges": [
+          12,
+          24
+        ],
+        "names": [
+          "D6-E4",
+          "C5-E4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 9,
+        "edges": [
+          12,
+          49
+        ],
+        "names": [
+          "D6-E4",
+          "E4-C3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 10,
+        "edges": [
+          12,
+          50
+        ],
+        "names": [
+          "D6-E4",
+          "E4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 11,
+        "edges": [
+          12,
+          51
+        ],
+        "names": [
+          "D6-E4",
+          "E4-F2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 12,
+        "edges": [
+          13,
+          23
+        ],
+        "names": [
+          "E6-C5",
+          "C5-A4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 13,
+        "edges": [
+          13,
+          24
+        ],
+        "names": [
+          "E6-C5",
+          "C5-E4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 14,
+        "edges": [
+          13,
+          25
+        ],
+        "names": [
+          "E6-C5",
+          "C5-B3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 15,
+        "edges": [
+          13,
+          26
+        ],
+        "names": [
+          "E6-C5",
+          "C5-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 16,
+        "edges": [
+          19,
+          25
+        ],
+        "names": [
+          "A5-B3",
+          "C5-B3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 17,
+        "edges": [
+          19,
+          45
+        ],
+        "names": [
+          "A5-B3",
+          "D4-B3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 18,
+        "edges": [
+          19,
+          56
+        ],
+        "names": [
+          "A5-B3",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 19,
+        "edges": [
+          19,
+          58
+        ],
+        "names": [
+          "A5-B3",
+          "B3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 20,
+        "edges": [
+          23,
+          24
+        ],
+        "names": [
+          "C5-A4",
+          "C5-E4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 21,
+        "edges": [
+          23,
+          25
+        ],
+        "names": [
+          "C5-A4",
+          "C5-B3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 22,
+        "edges": [
+          23,
+          26
+        ],
+        "names": [
+          "C5-A4",
+          "C5-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 23,
+        "edges": [
+          24,
+          25
+        ],
+        "names": [
+          "C5-E4",
+          "C5-B3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 24,
+        "edges": [
+          24,
+          26
+        ],
+        "names": [
+          "C5-E4",
+          "C5-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 25,
+        "edges": [
+          24,
+          27
+        ],
+        "names": [
+          "C5-E4",
+          "D5-B4"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 26,
+        "edges": [
+          24,
+          49
+        ],
+        "names": [
+          "C5-E4",
+          "E4-C3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 27,
+        "edges": [
+          24,
+          50
+        ],
+        "names": [
+          "C5-E4",
+          "E4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 28,
+        "edges": [
+          24,
+          51
+        ],
+        "names": [
+          "C5-E4",
+          "E4-F2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 29,
+        "edges": [
+          25,
+          26
+        ],
+        "names": [
+          "C5-B3",
+          "C5-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 30,
+        "edges": [
+          25,
+          40
+        ],
+        "names": [
+          "C5-B3",
+          "B4-C2"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 31,
+        "edges": [
+          25,
+          45
+        ],
+        "names": [
+          "C5-B3",
+          "D4-B3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 32,
+        "edges": [
+          25,
+          56
+        ],
+        "names": [
+          "C5-B3",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 33,
+        "edges": [
+          25,
+          58
+        ],
+        "names": [
+          "C5-B3",
+          "B3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 34,
+        "edges": [
+          26,
+          38
+        ],
+        "names": [
+          "C5-D3",
+          "B4-D3"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 35,
+        "edges": [
+          27,
+          28
+        ],
+        "names": [
+          "D5-B4",
+          "D5-F4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 36,
+        "edges": [
+          27,
+          29
+        ],
+        "names": [
+          "D5-B4",
+          "D5-C3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 37,
+        "edges": [
+          27,
+          30
+        ],
+        "names": [
+          "D5-B4",
+          "D5-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 38,
+        "edges": [
+          27,
+          38
+        ],
+        "names": [
+          "D5-B4",
+          "B4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 39,
+        "edges": [
+          27,
+          39
+        ],
+        "names": [
+          "D5-B4",
+          "B4-A2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 40,
+        "edges": [
+          27,
+          40
+        ],
+        "names": [
+          "D5-B4",
+          "B4-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 41,
+        "edges": [
+          28,
+          29
+        ],
+        "names": [
+          "D5-F4",
+          "D5-C3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 42,
+        "edges": [
+          28,
+          30
+        ],
+        "names": [
+          "D5-F4",
+          "D5-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 43,
+        "edges": [
+          29,
+          30
+        ],
+        "names": [
+          "D5-C3",
+          "D5-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 44,
+        "edges": [
+          29,
+          49
+        ],
+        "names": [
+          "D5-C3",
+          "E4-C3"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 45,
+        "edges": [
+          30,
+          35
+        ],
+        "names": [
+          "D5-E3",
+          "F5-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 46,
+        "edges": [
+          30,
+          42
+        ],
+        "names": [
+          "D5-E3",
+          "C4-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 47,
+        "edges": [
+          30,
+          50
+        ],
+        "names": [
+          "D5-E3",
+          "E4-D2"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 48,
+        "edges": [
+          30,
+          67
+        ],
+        "names": [
+          "D5-E3",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 49,
+        "edges": [
+          30,
+          68
+        ],
+        "names": [
+          "D5-E3",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 50,
+        "edges": [
+          35,
+          42
+        ],
+        "names": [
+          "F5-E3",
+          "C4-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 51,
+        "edges": [
+          35,
+          67
+        ],
+        "names": [
+          "F5-E3",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 52,
+        "edges": [
+          35,
+          68
+        ],
+        "names": [
+          "F5-E3",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 53,
+        "edges": [
+          38,
+          39
+        ],
+        "names": [
+          "B4-D3",
+          "B4-A2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 54,
+        "edges": [
+          38,
+          40
+        ],
+        "names": [
+          "B4-D3",
+          "B4-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 55,
+        "edges": [
+          39,
+          40
+        ],
+        "names": [
+          "B4-A2",
+          "B4-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 56,
+        "edges": [
+          40,
+          47
+        ],
+        "names": [
+          "B4-C2",
+          "D4-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 57,
+        "edges": [
+          40,
+          54
+        ],
+        "names": [
+          "B4-C2",
+          "A3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 58,
+        "edges": [
+          40,
+          67
+        ],
+        "names": [
+          "B4-C2",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 59,
+        "edges": [
+          40,
+          75
+        ],
+        "names": [
+          "B4-C2",
+          "C2-E1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 60,
+        "edges": [
+          42,
+          44
+        ],
+        "names": [
+          "C4-E3",
+          "C4-D2"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 61,
+        "edges": [
+          42,
+          67
+        ],
+        "names": [
+          "C4-E3",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 62,
+        "edges": [
+          42,
+          68
+        ],
+        "names": [
+          "C4-E3",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 63,
+        "edges": [
+          44,
+          50
+        ],
+        "names": [
+          "C4-D2",
+          "E4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 64,
+        "edges": [
+          44,
+          56
+        ],
+        "names": [
+          "C4-D2",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 65,
+        "edges": [
+          44,
+          70
+        ],
+        "names": [
+          "C4-D2",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 66,
+        "edges": [
+          44,
+          76
+        ],
+        "names": [
+          "C4-D2",
+          "D2-B1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 67,
+        "edges": [
+          45,
+          47
+        ],
+        "names": [
+          "D4-B3",
+          "D4-C2"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 68,
+        "edges": [
+          45,
+          56
+        ],
+        "names": [
+          "D4-B3",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 69,
+        "edges": [
+          45,
+          58
+        ],
+        "names": [
+          "D4-B3",
+          "B3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 70,
+        "edges": [
+          47,
+          54
+        ],
+        "names": [
+          "D4-C2",
+          "A3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 71,
+        "edges": [
+          47,
+          67
+        ],
+        "names": [
+          "D4-C2",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 72,
+        "edges": [
+          47,
+          75
+        ],
+        "names": [
+          "D4-C2",
+          "C2-E1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 73,
+        "edges": [
+          49,
+          50
+        ],
+        "names": [
+          "E4-C3",
+          "E4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 74,
+        "edges": [
+          49,
+          51
+        ],
+        "names": [
+          "E4-C3",
+          "E4-F2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 75,
+        "edges": [
+          50,
+          51
+        ],
+        "names": [
+          "E4-D2",
+          "E4-F2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 76,
+        "edges": [
+          50,
+          56
+        ],
+        "names": [
+          "E4-D2",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 77,
+        "edges": [
+          50,
+          70
+        ],
+        "names": [
+          "E4-D2",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 78,
+        "edges": [
+          50,
+          76
+        ],
+        "names": [
+          "E4-D2",
+          "D2-B1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 79,
+        "edges": [
+          54,
+          67
+        ],
+        "names": [
+          "A3-C2",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 80,
+        "edges": [
+          54,
+          75
+        ],
+        "names": [
+          "A3-C2",
+          "C2-E1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 81,
+        "edges": [
+          56,
+          58
+        ],
+        "names": [
+          "B3-D2",
+          "B3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 82,
+        "edges": [
+          56,
+          67
+        ],
+        "names": [
+          "B3-D2",
+          "E3-C2"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 83,
+        "edges": [
+          56,
+          70
+        ],
+        "names": [
+          "B3-D2",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 84,
+        "edges": [
+          56,
+          76
+        ],
+        "names": [
+          "B3-D2",
+          "D2-B1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 85,
+        "edges": [
+          67,
+          68
+        ],
+        "names": [
+          "E3-C2",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 86,
+        "edges": [
+          67,
+          75
+        ],
+        "names": [
+          "E3-C2",
+          "C2-E1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 87,
+        "edges": [
+          70,
+          76
+        ],
+        "names": [
+          "F3-D2",
+          "D2-B1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      }
+    ],
+    "triples": [
+      {
+        "index": 5,
+        "edges": [
+          4,
+          11,
+          18
+        ],
+        "names": [
+          "B6-C4",
+          "D6-C4",
+          "A5-C4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 23,
+        "edges": [
+          4,
+          25,
+          43
+        ],
+        "names": [
+          "B6-C4",
+          "C5-B3",
+          "C4-B2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 156,
+        "edges": [
+          8,
+          23,
+          30
+        ],
+        "names": [
+          "C6-D4",
+          "C5-A4",
+          "D5-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 165,
+        "edges": [
+          8,
+          24,
+          30
+        ],
+        "names": [
+          "C6-D4",
+          "C5-E4",
+          "D5-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 200,
+        "edges": [
+          8,
+          29,
+          50
+        ],
+        "names": [
+          "C6-D4",
+          "D5-C3",
+          "E4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 32
+      },
+      {
+        "index": 210,
+        "edges": [
+          8,
+          34,
+          48
+        ],
+        "names": [
+          "C6-D4",
+          "F5-D4",
+          "D4-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 226,
+        "edges": [
+          8,
+          41,
+          47
+        ],
+        "names": [
+          "C6-D4",
+          "C4-A3",
+          "D4-C2"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 243,
+        "edges": [
+          8,
+          45,
+          48
+        ],
+        "names": [
+          "C6-D4",
+          "D4-B3",
+          "D4-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 430,
+        "edges": [
+          11,
+          67,
+          70
+        ],
+        "names": [
+          "D6-C4",
+          "E3-C2",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 35
+      },
+      {
+        "index": 457,
+        "edges": [
+          12,
+          38,
+          65
+        ],
+        "names": [
+          "D6-E4",
+          "B4-D3",
+          "D3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 491,
+        "edges": [
+          14,
+          20,
+          67
+        ],
+        "names": [
+          "E6-D4",
+          "B5-D4",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 515,
+        "edges": [
+          14,
+          48,
+          67
+        ],
+        "names": [
+          "E6-D4",
+          "D4-E2",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 588,
+        "edges": [
+          20,
+          26,
+          68
+        ],
+        "names": [
+          "B5-D4",
+          "C5-D3",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 643,
+        "edges": [
+          22,
+          27,
+          56
+        ],
+        "names": [
+          "B5-C3",
+          "D5-B4",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 654,
+        "edges": [
+          22,
+          29,
+          59
+        ],
+        "names": [
+          "B5-C3",
+          "D5-C3",
+          "C3-A2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 712,
+        "edges": [
+          22,
+          59,
+          70
+        ],
+        "names": [
+          "B5-C3",
+          "C3-A2",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 730,
+        "edges": [
+          23,
+          30,
+          46
+        ],
+        "names": [
+          "C5-A4",
+          "D5-E3",
+          "D4-F3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 770,
+        "edges": [
+          24,
+          30,
+          48
+        ],
+        "names": [
+          "C5-E4",
+          "D5-E3",
+          "D4-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 813,
+        "edges": [
+          24,
+          46,
+          68
+        ],
+        "names": [
+          "C5-E4",
+          "D4-F3",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 861,
+        "edges": [
+          25,
+          30,
+          43
+        ],
+        "names": [
+          "C5-B3",
+          "D5-E3",
+          "C4-B2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 903,
+        "edges": [
+          25,
+          48,
+          67
+        ],
+        "names": [
+          "C5-B3",
+          "D4-E2",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 920,
+        "edges": [
+          26,
+          30,
+          45
+        ],
+        "names": [
+          "C5-D3",
+          "D5-E3",
+          "D4-B3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1004,
+        "edges": [
+          26,
+          50,
+          65
+        ],
+        "names": [
+          "C5-D3",
+          "E4-D2",
+          "D3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1005,
+        "edges": [
+          26,
+          50,
+          66
+        ],
+        "names": [
+          "C5-D3",
+          "E4-D2",
+          "D3-E1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1029,
+        "edges": [
+          27,
+          31,
+          42
+        ],
+        "names": [
+          "D5-B4",
+          "E5-C4",
+          "C4-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1048,
+        "edges": [
+          27,
+          41,
+          43
+        ],
+        "names": [
+          "D5-B4",
+          "C4-A3",
+          "C4-B2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1051,
+        "edges": [
+          27,
+          41,
+          49
+        ],
+        "names": [
+          "D5-B4",
+          "C4-A3",
+          "E4-C3"
+        ],
+        "verdict": "unsat",
+        "iters": 12
+      },
+      {
+        "index": 1121,
+        "edges": [
+          28,
+          49,
+          52
+        ],
+        "names": [
+          "D5-F4",
+          "E4-C3",
+          "F4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 22
+      },
+      {
+        "index": 1139,
+        "edges": [
+          29,
+          36,
+          38
+        ],
+        "names": [
+          "D5-C3",
+          "A4-C3",
+          "B4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1172,
+        "edges": [
+          29,
+          40,
+          70
+        ],
+        "names": [
+          "D5-C3",
+          "B4-C2",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1201,
+        "edges": [
+          29,
+          45,
+          67
+        ],
+        "names": [
+          "D5-C3",
+          "D4-B3",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 13
+      },
+      {
+        "index": 1230,
+        "edges": [
+          30,
+          31,
+          45
+        ],
+        "names": [
+          "D5-E3",
+          "E5-C4",
+          "D4-B3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1257,
+        "edges": [
+          30,
+          44,
+          60
+        ],
+        "names": [
+          "D5-E3",
+          "C4-D2",
+          "C3-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 21
+      },
+      {
+        "index": 1272,
+        "edges": [
+          31,
+          41,
+          44
+        ],
+        "names": [
+          "E5-C4",
+          "C4-A3",
+          "C4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1306,
+        "edges": [
+          32,
+          40,
+          60
+        ],
+        "names": [
+          "E5-D3",
+          "B4-C2",
+          "C3-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 40
+      },
+      {
+        "index": 1325,
+        "edges": [
+          32,
+          50,
+          52
+        ],
+        "names": [
+          "E5-D3",
+          "E4-D2",
+          "F4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1391,
+        "edges": [
+          36,
+          42,
+          56
+        ],
+        "names": [
+          "A4-C3",
+          "C4-E3",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 12
+      },
+      {
+        "index": 1403,
+        "edges": [
+          36,
+          46,
+          62
+        ],
+        "names": [
+          "A4-C3",
+          "D4-F3",
+          "C3-D1"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 1496,
+        "edges": [
+          38,
+          60,
+          70
+        ],
+        "names": [
+          "B4-D3",
+          "C3-E2",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1527,
+        "edges": [
+          40,
+          49,
+          70
+        ],
+        "names": [
+          "B4-C2",
+          "E4-C3",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1538,
+        "edges": [
+          40,
+          58,
+          65
+        ],
+        "names": [
+          "B4-C2",
+          "B3-C1",
+          "D3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1573,
+        "edges": [
+          41,
+          44,
+          54
+        ],
+        "names": [
+          "C4-A3",
+          "C4-D2",
+          "A3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1583,
+        "edges": [
+          41,
+          49,
+          62
+        ],
+        "names": [
+          "C4-A3",
+          "E4-C3",
+          "C3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 23
+      },
+      {
+        "index": 1590,
+        "edges": [
+          41,
+          62,
+          68
+        ],
+        "names": [
+          "C4-A3",
+          "C3-D1",
+          "E3-D1"
+        ],
+        "verdict": "inconclusive",
+        "iters": 50
+      },
+      {
+        "index": 1604,
+        "edges": [
+          42,
+          48,
+          56
+        ],
+        "names": [
+          "C4-E3",
+          "D4-E2",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 21
+      },
+      {
+        "index": 1648,
+        "edges": [
+          46,
+          47,
+          49
+        ],
+        "names": [
+          "D4-F3",
+          "D4-C2",
+          "E4-C3"
+        ],
+        "verdict": "unsat",
+        "iters": 15
+      },
+      {
+        "index": 1668,
+        "edges": [
+          47,
+          49,
+          65
+        ],
+        "names": [
+          "D4-C2",
+          "E4-C3",
+          "D3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1672,
+        "edges": [
+          47,
+          52,
+          63
+        ],
+        "names": [
+          "D4-C2",
+          "F4-D3",
+          "D3-B2"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1725,
+        "edges": [
+          50,
+          63,
+          66
+        ],
+        "names": [
+          "E4-D2",
+          "D3-B2",
+          "D3-E1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 1761,
+        "edges": [
+          60,
+          61,
+          62
+        ],
+        "names": [
+          "C3-E2",
+          "C3-B1",
+          "C3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      }
+    ],
+    "quads": [
+      {
+        "index": 303,
+        "edges": [
+          4,
+          7,
+          46,
+          52
+        ],
+        "names": [
+          "B6-C4",
+          "C6-B4",
+          "D4-F3",
+          "F4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 29
+      },
+      {
+        "index": 810,
+        "edges": [
+          4,
+          47,
+          50,
+          68
+        ],
+        "names": [
+          "B6-C4",
+          "D4-C2",
+          "E4-D2",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 831,
+        "edges": [
+          5,
+          8,
+          12,
+          67
+        ],
+        "names": [
+          "C6-A5",
+          "C6-D4",
+          "D6-E4",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 12
+      },
+      {
+        "index": 1084,
+        "edges": [
+          7,
+          8,
+          29,
+          35
+        ],
+        "names": [
+          "C6-B4",
+          "C6-D4",
+          "D5-C3",
+          "F5-E3"
+        ],
+        "verdict": "unsat",
+        "iters": 12
+      },
+      {
+        "index": 1601,
+        "edges": [
+          7,
+          24,
+          30,
+          44
+        ],
+        "names": [
+          "C6-B4",
+          "C5-E4",
+          "D5-E3",
+          "C4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 2
+      },
+      {
+        "index": 2938,
+        "edges": [
+          8,
+          23,
+          29,
+          59
+        ],
+        "names": [
+          "C6-D4",
+          "C5-A4",
+          "D5-C3",
+          "C3-A2"
+        ],
+        "verdict": "unsat",
+        "iters": 12
+      },
+      {
+        "index": 2971,
+        "edges": [
+          8,
+          24,
+          28,
+          40
+        ],
+        "names": [
+          "C6-D4",
+          "C5-E4",
+          "D5-F4",
+          "B4-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 3
+      },
+      {
+        "index": 3361,
+        "edges": [
+          8,
+          29,
+          58,
+          67
+        ],
+        "names": [
+          "C6-D4",
+          "D5-C3",
+          "B3-C1",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 3
+      },
+      {
+        "index": 3815,
+        "edges": [
+          8,
+          54,
+          65,
+          70
+        ],
+        "names": [
+          "C6-D4",
+          "A3-C2",
+          "D3-C1",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 4
+      },
+      {
+        "index": 3998,
+        "edges": [
+          11,
+          12,
+          14,
+          20
+        ],
+        "names": [
+          "D6-C4",
+          "D6-E4",
+          "E6-D4",
+          "B5-D4"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      },
+      {
+        "index": 4227,
+        "edges": [
+          11,
+          14,
+          47,
+          61
+        ],
+        "names": [
+          "D6-C4",
+          "E6-D4",
+          "D4-C2",
+          "C3-B1"
+        ],
+        "verdict": "unsat",
+        "iters": 25
+      },
+      {
+        "index": 4616,
+        "edges": [
+          11,
+          26,
+          27,
+          68
+        ],
+        "names": [
+          "D6-C4",
+          "C5-D3",
+          "D5-B4",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 3
+      },
+      {
+        "index": 4666,
+        "edges": [
+          11,
+          26,
+          43,
+          60
+        ],
+        "names": [
+          "D6-C4",
+          "C5-D3",
+          "C4-B2",
+          "C3-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 11
+      },
+      {
+        "index": 6636,
+        "edges": [
+          14,
+          27,
+          44,
+          48
+        ],
+        "names": [
+          "E6-D4",
+          "D5-B4",
+          "C4-D2",
+          "D4-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 8
+      },
+      {
+        "index": 7357,
+        "edges": [
+          18,
+          38,
+          41,
+          66
+        ],
+        "names": [
+          "A5-C4",
+          "B4-D3",
+          "C4-A3",
+          "D3-E1"
+        ],
+        "verdict": "unsat",
+        "iters": 39
+      },
+      {
+        "index": 7501,
+        "edges": [
+          19,
+          23,
+          36,
+          60
+        ],
+        "names": [
+          "A5-B3",
+          "C5-A4",
+          "A4-C3",
+          "C3-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 36
+      },
+      {
+        "index": 8224,
+        "edges": [
+          20,
+          30,
+          41,
+          65
+        ],
+        "names": [
+          "B5-D4",
+          "D5-E3",
+          "C4-A3",
+          "D3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 25
+      },
+      {
+        "index": 8475,
+        "edges": [
+          20,
+          38,
+          46,
+          56
+        ],
+        "names": [
+          "B5-D4",
+          "B4-D3",
+          "D4-F3",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 7
+      },
+      {
+        "index": 8815,
+        "edges": [
+          20,
+          62,
+          63,
+          68
+        ],
+        "names": [
+          "B5-D4",
+          "C3-D1",
+          "D3-B2",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 27
+      },
+      {
+        "index": 9424,
+        "edges": [
+          22,
+          31,
+          58,
+          67
+        ],
+        "names": [
+          "B5-C3",
+          "E5-C4",
+          "B3-C1",
+          "E3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 7
+      },
+      {
+        "index": 9572,
+        "edges": [
+          22,
+          40,
+          45,
+          65
+        ],
+        "names": [
+          "B5-C3",
+          "B4-C2",
+          "D4-B3",
+          "D3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 3
+      },
+      {
+        "index": 9646,
+        "edges": [
+          22,
+          44,
+          46,
+          63
+        ],
+        "names": [
+          "B5-C3",
+          "C4-D2",
+          "D4-F3",
+          "D3-B2"
+        ],
+        "verdict": "unsat",
+        "iters": 13
+      },
+      {
+        "index": 10080,
+        "edges": [
+          23,
+          30,
+          32,
+          44
+        ],
+        "names": [
+          "C5-A4",
+          "D5-E3",
+          "E5-D3",
+          "C4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 2
+      },
+      {
+        "index": 10125,
+        "edges": [
+          23,
+          31,
+          34,
+          44
+        ],
+        "names": [
+          "C5-A4",
+          "E5-C4",
+          "F5-D4",
+          "C4-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 4
+      },
+      {
+        "index": 11154,
+        "edges": [
+          24,
+          42,
+          52,
+          61
+        ],
+        "names": [
+          "C5-E4",
+          "C4-E3",
+          "F4-D3",
+          "C3-B1"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 11912,
+        "edges": [
+          26,
+          27,
+          36,
+          48
+        ],
+        "names": [
+          "C5-D3",
+          "D5-B4",
+          "A4-C3",
+          "D4-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 4
+      },
+      {
+        "index": 12086,
+        "edges": [
+          26,
+          28,
+          65,
+          72
+        ],
+        "names": [
+          "C5-D3",
+          "D5-F4",
+          "D3-C1",
+          "A2-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 11
+      },
+      {
+        "index": 13046,
+        "edges": [
+          27,
+          54,
+          60,
+          64
+        ],
+        "names": [
+          "D5-B4",
+          "A3-C2",
+          "C3-E2",
+          "D3-F2"
+        ],
+        "verdict": "unsat",
+        "iters": 4
+      },
+      {
+        "index": 13067,
+        "edges": [
+          28,
+          31,
+          36,
+          38
+        ],
+        "names": [
+          "D5-F4",
+          "E5-C4",
+          "A4-C3",
+          "B4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 13171,
+        "edges": [
+          28,
+          36,
+          42,
+          52
+        ],
+        "names": [
+          "D5-F4",
+          "A4-C3",
+          "C4-E3",
+          "F4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 2
+      },
+      {
+        "index": 13175,
+        "edges": [
+          28,
+          36,
+          44,
+          47
+        ],
+        "names": [
+          "D5-F4",
+          "A4-C3",
+          "C4-D2",
+          "D4-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 3
+      },
+      {
+        "index": 13761,
+        "edges": [
+          29,
+          40,
+          58,
+          79
+        ],
+        "names": [
+          "D5-C3",
+          "B4-C2",
+          "B3-C1",
+          "F2-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 10
+      },
+      {
+        "index": 13835,
+        "edges": [
+          29,
+          43,
+          48,
+          60
+        ],
+        "names": [
+          "D5-C3",
+          "C4-B2",
+          "D4-E2",
+          "C3-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 3
+      },
+      {
+        "index": 13940,
+        "edges": [
+          29,
+          47,
+          60,
+          63
+        ],
+        "names": [
+          "D5-C3",
+          "D4-C2",
+          "C3-E2",
+          "D3-B2"
+        ],
+        "verdict": "unsat",
+        "iters": 3
+      },
+      {
+        "index": 14070,
+        "edges": [
+          30,
+          36,
+          45,
+          64
+        ],
+        "names": [
+          "D5-E3",
+          "A4-C3",
+          "D4-B3",
+          "D3-F2"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 14190,
+        "edges": [
+          30,
+          43,
+          46,
+          54
+        ],
+        "names": [
+          "D5-E3",
+          "C4-B2",
+          "D4-F3",
+          "A3-C2"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 14968,
+        "edges": [
+          32,
+          36,
+          44,
+          52
+        ],
+        "names": [
+          "E5-D3",
+          "A4-C3",
+          "C4-D2",
+          "F4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 9
+      },
+      {
+        "index": 14989,
+        "edges": [
+          32,
+          36,
+          58,
+          65
+        ],
+        "names": [
+          "E5-D3",
+          "A4-C3",
+          "B3-C1",
+          "D3-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 15108,
+        "edges": [
+          32,
+          44,
+          45,
+          52
+        ],
+        "names": [
+          "E5-D3",
+          "C4-D2",
+          "D4-B3",
+          "F4-D3"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 15381,
+        "edges": [
+          34,
+          47,
+          49,
+          61
+        ],
+        "names": [
+          "F5-D4",
+          "D4-C2",
+          "E4-C3",
+          "C3-B1"
+        ],
+        "verdict": "unsat",
+        "iters": 17
+      },
+      {
+        "index": 15402,
+        "edges": [
+          34,
+          54,
+          58,
+          70
+        ],
+        "names": [
+          "F5-D4",
+          "A3-C2",
+          "B3-C1",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 22
+      },
+      {
+        "index": 15692,
+        "edges": [
+          38,
+          41,
+          43,
+          60
+        ],
+        "names": [
+          "B4-D3",
+          "C4-A3",
+          "C4-B2",
+          "C3-E2"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 15702,
+        "edges": [
+          38,
+          41,
+          46,
+          56
+        ],
+        "names": [
+          "B4-D3",
+          "C4-A3",
+          "D4-F3",
+          "B3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 3
+      },
+      {
+        "index": 15797,
+        "edges": [
+          38,
+          43,
+          67,
+          70
+        ],
+        "names": [
+          "B4-D3",
+          "C4-B2",
+          "E3-C2",
+          "F3-D2"
+        ],
+        "verdict": "unsat",
+        "iters": 2
+      },
+      {
+        "index": 16090,
+        "edges": [
+          41,
+          42,
+          59,
+          63
+        ],
+        "names": [
+          "C4-A3",
+          "C4-E3",
+          "C3-A2",
+          "D3-B2"
+        ],
+        "verdict": "unsat",
+        "iters": 17
+      },
+      {
+        "index": 16333,
+        "edges": [
+          42,
+          45,
+          60,
+          62
+        ],
+        "names": [
+          "C4-E3",
+          "D4-B3",
+          "C3-E2",
+          "C3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 16446,
+        "edges": [
+          43,
+          44,
+          47,
+          68
+        ],
+        "names": [
+          "C4-B2",
+          "C4-D2",
+          "D4-C2",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 11
+      },
+      {
+        "index": 16592,
+        "edges": [
+          44,
+          52,
+          66,
+          68
+        ],
+        "names": [
+          "C4-D2",
+          "F4-D3",
+          "D3-E1",
+          "E3-D1"
+        ],
+        "verdict": "unsat",
+        "iters": 8
+      },
+      {
+        "index": 16808,
+        "edges": [
+          47,
+          48,
+          60,
+          64
+        ],
+        "names": [
+          "D4-C2",
+          "D4-E2",
+          "C3-E2",
+          "D3-F2"
+        ],
+        "verdict": "unsat",
+        "iters": 5
+      },
+      {
+        "index": 16973,
+        "edges": [
+          58,
+          62,
+          70,
+          78
+        ],
+        "names": [
+          "B3-C1",
+          "C3-D1",
+          "F3-D2",
+          "E2-C1"
+        ],
+        "verdict": "unsat",
+        "iters": 1
+      }
+    ]
+  }
+}
