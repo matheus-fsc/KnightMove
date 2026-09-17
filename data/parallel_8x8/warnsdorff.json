@@ -1,0 +1,13 @@
+{
+  "tempo_s": 7200.000007518,
+  "n_tours": 360460,
+  "n_nos": null,
+  "nos_por_tour": null,
+  "method": "warnsdorff",
+  "label": "Warnsdorff BT cl\u00e1ssico",
+  "core": 5,
+  "status": "done",
+  "timeout_s": 7200.0,
+  "wall_s": 7200.117535992,
+  "tours_por_s": 50.06388883661385
+}

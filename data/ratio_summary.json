@@ -1,0 +1,40 @@
+{
+  "definicao_A": {
+    "6": {
+      "mode": "exact",
+      "ratio": 0.27216028259189756,
+      "ratio_std": 0.0
+    },
+    "8": {
+      "mode": "restart",
+      "ratio": 0.25023999999999996,
+      "ratio_std": 0.006911902777094017
+    },
+    "10": {
+      "mode": "restart",
+      "ratio": 0.16588,
+      "ratio_std": 0.004215400336860066
+    },
+    "12": {
+      "mode": "restart",
+      "ratio": 0.101,
+      "ratio_std": 0.006356099432828281
+    }
+  },
+  "definicao_B_n6": {
+    "tempo_s": 53.39344523000182,
+    "nos_explorados": 29189,
+    "folhas": 13422,
+    "n_2fatores": 13422,
+    "n_tours_conexos": 9862
+  },
+  "fit": {
+    "slope_n": -0.1692483886193039,
+    "intercept_n": -0.17072058727004805,
+    "slope_n2": -0.009562670161769059,
+    "intercept_n2": -0.8715664509316435,
+    "mean_log": -1.6939560848437831,
+    "rss_const": 0.6183050356383455,
+    "rss_linear": 0.045404694633727316
+  }
+}

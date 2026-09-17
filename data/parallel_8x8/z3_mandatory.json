@@ -1,0 +1,14 @@
+{
+  "tempo_s": 7201.236468626001,
+  "n_tours": 3171,
+  "tentativas": 8319,
+  "n_nos": null,
+  "nos_por_tour": null,
+  "method": "z3_mandatory",
+  "label": "Z3 + cantos obrigat\u00f3rios",
+  "core": 7,
+  "status": "done",
+  "timeout_s": 7200.0,
+  "wall_s": 7201.354573123,
+  "tours_por_s": 0.44034104612662833
+}

@@ -1,0 +1,13 @@
+{
+  "tempo_s": 7200.062248936,
+  "n_tours": 74229,
+  "n_nos": 1173438464,
+  "nos_por_tour": 15808.35608724353,
+  "method": "naive",
+  "label": "backtracking ing\u00eanuo (sem otimiza\u00e7\u00e3o)",
+  "core": 4,
+  "status": "done",
+  "timeout_s": 7200.0,
+  "wall_s": 7200.122032092,
+  "tours_por_s": 10.309494200688237
+}

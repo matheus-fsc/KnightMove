@@ -1,0 +1,13 @@
+{
+  "tempo_s": 7201.411012275,
+  "n_tours": 26903753,
+  "n_nos": 54738944,
+  "nos_por_tour": 2.0346211177303033,
+  "method": "flagship",
+  "label": "knight_tours flagship (cycle-space+UF)",
+  "core": 0,
+  "status": "done",
+  "timeout_s": 7200.0,
+  "wall_s": 7201.475611682001,
+  "tours_por_s": 3735.9002220734
+}

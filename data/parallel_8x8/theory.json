@@ -1,0 +1,13 @@
+{
+  "tempo_s": 7218.107493319,
+  "n_tours": 1204627,
+  "n_nos": 5242880,
+  "nos_por_tour": 4.352284981160143,
+  "method": "theory",
+  "label": "theory f\u221e por n\u00edvel",
+  "core": 2,
+  "status": "done",
+  "timeout_s": 7200.0,
+  "wall_s": 7218.166948714,
+  "tours_por_s": 166.8895899811674
+}

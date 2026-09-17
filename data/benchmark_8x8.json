@@ -1,0 +1,100 @@
+{
+  "knight_tours": {
+    "K1": {
+      "K": 1,
+      "time": 0.03906657700008509,
+      "ms_per_tour": 39.06657700008509,
+      "nodes_explored": 80,
+      "nodes_per_tour": 80.0
+    },
+    "K10": {
+      "K": 10,
+      "time": 0.018646570999862888,
+      "ms_per_tour": 1.8646570999862888,
+      "nodes_explored": 91,
+      "nodes_per_tour": 9.1
+    },
+    "K100": {
+      "K": 100,
+      "time": 0.06643779500018354,
+      "ms_per_tour": 0.6643779500018354,
+      "nodes_explored": 264,
+      "nodes_per_tour": 2.64
+    },
+    "K1000": {
+      "K": 1000,
+      "time": 0.8850391720002335,
+      "ms_per_tour": 0.8850391720002335,
+      "nodes_explored": 2786,
+      "nodes_per_tour": 2.786
+    },
+    "nodes_per_tour": 2.786,
+    "ratio_2fat_tours": 1.0
+  },
+  "warnsdorff_bt": {
+    "K_found": 1000,
+    "time_s": 2.892557173000114,
+    "time_per_tour_ms": 2.892557173000114,
+    "timeout_hit": false
+  },
+  "speedup": {
+    "kt_time_K1000": 0.8850391720002335,
+    "kt_rate_per_s": 1129.893491312875,
+    "wd_time": 2.892557173000114,
+    "wd_K_found": 1000,
+    "wd_rate_per_s": 345.71486065487727,
+    "speedup": 3.2682815230231985
+  },
+  "knuth_estimate": {
+    "estimate": 7429716583644.501,
+    "log10": 12.87097224733973,
+    "ci_boot_low": 1003121838159.6228,
+    "ci_boot_high": 18015293670541.664,
+    "ci_boot_log10": [
+      12.001353685190768,
+      13.255641346028735
+    ],
+    "cv": 116.15814293485086,
+    "frac_zeros": 0.47383333333333333,
+    "M": 30000,
+    "literature_in_ci": true,
+    "elapsed_s": 231.85199618339539
+  },
+  "scaling_table": {
+    "6": {
+      "V": 36,
+      "E": 80,
+      "nodes_per_tour": 5.35,
+      "ratio": 1.0,
+      "t_500": 0.76
+    },
+    "8": {
+      "V": 64,
+      "E": 168,
+      "nodes_per_tour": 2.52,
+      "ratio": 1.0,
+      "t_500": 0.4
+    },
+    "10": {
+      "V": 100,
+      "E": 288,
+      "nodes_per_tour": 3.85,
+      "ratio": 1.0,
+      "t_500": 1.65
+    },
+    "12": {
+      "V": 144,
+      "E": 440,
+      "nodes_per_tour": 4.25,
+      "ratio": 1.0,
+      "t_500": 2.79
+    },
+    "14": {
+      "V": 196,
+      "E": 624,
+      "nodes_per_tour": 4.07,
+      "ratio": 1.0,
+      "t_500": 3.34
+    }
+  }
+}

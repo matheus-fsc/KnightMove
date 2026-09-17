@@ -1,0 +1,14 @@
+{
+  "tempo_s": 7200.724516229,
+  "n_tours": 3170,
+  "tentativas": 8316,
+  "n_nos": null,
+  "nos_por_tour": null,
+  "method": "z3_puro",
+  "label": "Z3 puro (grau-2 + corte sub-ciclo)",
+  "core": 6,
+  "status": "done",
+  "timeout_s": 7200.0,
+  "wall_s": 7200.846596011,
+  "tours_por_s": 0.44023347829172615
+}

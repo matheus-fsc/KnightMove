@@ -1,0 +1,13 @@
+{
+  "tempo_s": 7209.276359267,
+  "n_tours": 1416191,
+  "n_nos": 5701632,
+  "nos_por_tour": 4.026033211621879,
+  "method": "uniforme",
+  "label": "theory uniforme f=0.25",
+  "core": 3,
+  "status": "done",
+  "timeout_s": 7200.0,
+  "wall_s": 7209.335458240999,
+  "tours_por_s": 196.44010430805437
+}

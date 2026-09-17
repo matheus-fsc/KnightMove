@@ -1,0 +1,147 @@
+{
+  "n": 8,
+  "timeout_s": 7200.0,
+  "wall_s": 7218.166852527999,
+  "results": {
+    "flagship": {
+      "tempo_s": 7201.411012275,
+      "n_tours": 26903753,
+      "n_nos": 54738944,
+      "nos_por_tour": 2.0346211177303033,
+      "method": "flagship",
+      "label": "knight_tours flagship (cycle-space+UF)",
+      "core": 0,
+      "status": "done",
+      "timeout_s": 7200.0,
+      "wall_s": 7201.475611682001,
+      "tours_por_s": 3735.9002220734
+    },
+    "minimal_v2": {
+      "tempo_s": 7210.099038452,
+      "n_tours": 1309981,
+      "n_nos": 5439488,
+      "nos_por_tour": 4.1523411408257065,
+      "method": "minimal_v2",
+      "label": "incremental_subtour MinimalV2 (press\u00e3o+UF)",
+      "core": 1,
+      "status": "done",
+      "timeout_s": 7200.0,
+      "wall_s": 7210.158441044,
+      "tours_por_s": 181.6869633847986
+    },
+    "theory": {
+      "tempo_s": 7218.107493319,
+      "n_tours": 1204627,
+      "n_nos": 5242880,
+      "nos_por_tour": 4.352284981160143,
+      "method": "theory",
+      "label": "theory f\u221e por n\u00edvel",
+      "core": 2,
+      "status": "done",
+      "timeout_s": 7200.0,
+      "wall_s": 7218.166948714,
+      "tours_por_s": 166.8895899811674
+    },
+    "uniforme": {
+      "tempo_s": 7209.276359267,
+      "n_tours": 1416191,
+      "n_nos": 5701632,
+      "nos_por_tour": 4.026033211621879,
+      "method": "uniforme",
+      "label": "theory uniforme f=0.25",
+      "core": 3,
+      "status": "done",
+      "timeout_s": 7200.0,
+      "wall_s": 7209.335458240999,
+      "tours_por_s": 196.44010430805437
+    },
+    "naive": {
+      "tempo_s": 7200.062248936,
+      "n_tours": 74229,
+      "n_nos": 1173438464,
+      "nos_por_tour": 15808.35608724353,
+      "method": "naive",
+      "label": "backtracking ing\u00eanuo (sem otimiza\u00e7\u00e3o)",
+      "core": 4,
+      "status": "done",
+      "timeout_s": 7200.0,
+      "wall_s": 7200.122032092,
+      "tours_por_s": 10.309494200688237
+    },
+    "warnsdorff": {
+      "tempo_s": 7200.000007518,
+      "n_tours": 360460,
+      "n_nos": null,
+      "nos_por_tour": null,
+      "method": "warnsdorff",
+      "label": "Warnsdorff BT cl\u00e1ssico",
+      "core": 5,
+      "status": "done",
+      "timeout_s": 7200.0,
+      "wall_s": 7200.117535992,
+      "tours_por_s": 50.06388883661385
+    },
+    "z3_puro": {
+      "tempo_s": 7200.724516229,
+      "n_tours": 3170,
+      "tentativas": 8316,
+      "n_nos": null,
+      "nos_por_tour": null,
+      "method": "z3_puro",
+      "label": "Z3 puro (grau-2 + corte sub-ciclo)",
+      "core": 6,
+      "status": "done",
+      "timeout_s": 7200.0,
+      "wall_s": 7200.846596011,
+      "tours_por_s": 0.44023347829172615
+    },
+    "z3_mandatory": {
+      "tempo_s": 7201.236468626001,
+      "n_tours": 3171,
+      "tentativas": 8319,
+      "n_nos": null,
+      "nos_por_tour": null,
+      "method": "z3_mandatory",
+      "label": "Z3 + cantos obrigat\u00f3rios",
+      "core": 7,
+      "status": "done",
+      "timeout_s": 7200.0,
+      "wall_s": 7201.354573123,
+      "tours_por_s": 0.44034104612662833
+    }
+  },
+  "ranking_tours_por_s": [
+    [
+      "flagship",
+      3735.9002220734
+    ],
+    [
+      "uniforme",
+      196.44010430805437
+    ],
+    [
+      "minimal_v2",
+      181.6869633847986
+    ],
+    [
+      "theory",
+      166.8895899811674
+    ],
+    [
+      "warnsdorff",
+      50.06388883661385
+    ],
+    [
+      "naive",
+      10.309494200688237
+    ],
+    [
+      "z3_mandatory",
+      0.44034104612662833
+    ],
+    [
+      "z3_puro",
+      0.44023347829172615
+    ]
+  ]
+}

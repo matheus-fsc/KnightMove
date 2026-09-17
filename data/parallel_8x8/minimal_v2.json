@@ -1,0 +1,13 @@
+{
+  "tempo_s": 7210.099038452,
+  "n_tours": 1309981,
+  "n_nos": 5439488,
+  "nos_por_tour": 4.1523411408257065,
+  "method": "minimal_v2",
+  "label": "incremental_subtour MinimalV2 (press\u00e3o+UF)",
+  "core": 1,
+  "status": "done",
+  "timeout_s": 7200.0,
+  "wall_s": 7210.158441044,
+  "tours_por_s": 181.6869633847986
+}
