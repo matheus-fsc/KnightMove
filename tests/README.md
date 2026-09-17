@@ -1,4 +1,4 @@
-# tests — regressão
+# tests: regressão
 
 ```bash
 for t in tests/*.py; do ./venv/bin/python "$t"; done

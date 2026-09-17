@@ -1,7 +1,7 @@
 # Topologia: como Q muda com a superfície
 
 Se o deficit `Q = 3` vem dos cantos do tabuleiro (ver [[Invariante-Q]]), então
-mudar a topologia deve mudar `Q`. Muda — e é isso que dá conteúdo geométrico ao
+mudar a topologia deve mudar `Q`. Muda, e é isso que dá conteúdo geométrico ao
 invariante.
 
 ## A hierarquia
@@ -13,12 +13,12 @@ invariante.
 | **toro** | ambas modulares | **0** |
 | **Klein** | uma com inversão | **1** se `n+m` par, **0** se ímpar |
 
-Interpretação: `Q` mede a obstrução introduzida pela **borda**. Numa superfície
-sem borda, ela desaparece.
+Interpretação: `Q` mede a obstrução introduzida pela **borda**. Numa
+superfície sem borda, ela desaparece.
 
 ## Por que o toro tem deficit zero
 
-A explicação não é a topologia — é a **simetria**.
+A explicação não é a topologia: é a **simetria**.
 
 O grafo do cavalo toroidal é um **grafo de Cayley** sobre `Z_n × Z_n`. Para
 grafos de Cayley, deficit nulo é corolário de um teorema de **Alspach, Locke e
@@ -36,23 +36,23 @@ Isso reposiciona a hierarquia abaixo: ela não é uma lista de medições soltas
 
 ## Cilindro
 
-`beta_1 = 1`. Grafo 6×6: `V=36`, `E=108`, sem vértices de grau 2.
-A ancoragem usa `C_m` em `x = 0`.
+`beta_1 = 1`. Grafo 6×6: `V=36`, `E=108`, sem vértices de grau 2. A ancoragem
+usa `C_m` em `x = 0`.
 
 `Q_cilindro = 0`: a paridade do winding number se distribui 50/50 em 18k tours
 únicos. Custo ~5 nós por tour.
 
 ## Toro
 
-`beta_1 = 2`. Grau uniforme 8 em todo vértice — não há canto, não há borda.
+`beta_1 = 2`. Grau uniforme 8 em todo vértice: não há canto, não há borda.
 
 `Q_toro = 0` confirmado: as 4 classes `(paridade_y, paridade_x)` aparecem com
-~25% cada em 20k tours no 6×6. O rank é **cheio** (`rank = beta_1`) em
-`n ∈ {4, 6, 8, 10}`.
+~25% cada em 20k tours no 6×6. O rank é **cheio** (`rank = beta_1`) em `n ∈
+{4, 6, 8, 10}`.
 
-Isso refutou uma conjectura levantada durante o projeto — de que
-`rank = número de órbitas`. Nota metodológica: uma medição anterior deu
-`rank ≈ 21` por usar uma única semente; a medição correta exige muitas sementes.
+Isso refutou uma conjectura levantada durante o projeto, de que `rank = número
+de órbitas`. Nota metodológica: uma medição anterior deu `rank ≈ 21` por usar
+uma única semente; a medição correta exige muitas sementes.
 
 ## Garrafa de Klein
 
@@ -70,9 +70,9 @@ testar se os resultados dependem da geometria específica ou só da topologia.
 
 ## Família híbrida toro→plano
 
-Interpolando entre toro e plano em 10 pontos, `rank = beta_1 - Q` vale em todos.
-Além disso, a geometria da identificação **não importa** — só o número `k` de
-cantos com grau 2. Configurações geometricamente distintas com o mesmo `k` dão
-o mesmo resultado.
+Interpolando entre toro e plano em 10 pontos, `rank = beta_1 - Q` vale em
+todos. Além disso, a geometria da identificação **não importa**, só o número
+`k` de cantos com grau 2. Configurações geometricamente distintas com o mesmo
+`k` dão o mesmo resultado.
 
 **Código:** `experiments/07_topologia/`, `core/knight_tours_{torus,cylinder,klein,sheared}.py`

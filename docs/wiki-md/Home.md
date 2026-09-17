@@ -1,4 +1,4 @@
-# KnightMove — Wiki
+# KnightMove: Wiki
 
 Documentação de pesquisa sobre o **passeio do cavalo**: da otimização de
 backtracking à reformulação no espaço de ciclos sobre GF(2), e daí aos
@@ -13,9 +13,9 @@ interativo em
 
 Se você chegou aqui sem contexto, leia nesta ordem:
 
-1. **[[Historia]]** — como as ideias apareceram, e por que o projeto mudou de rumo no meio.
-2. **[[Teoria-GF2]]** — o que são os "loops" e por que eles são o espaço de ciclos.
-3. **[[Invariante-Q]]** — o resultado central: `Q(n) = 3`.
+1. **[[Historia]]**: como as ideias apareceram, e por que o projeto mudou de rumo no meio.
+2. **[[Teoria-GF2]]**: o que são os "loops" e por que eles são o espaço de ciclos.
+3. **[[Invariante-Q]]**: o resultado central: `Q(n) = 3`.
 
 ## Índice
 
@@ -37,5 +37,5 @@ Se você chegou aqui sem contexto, leia nesta ordem:
 ## Estado
 
 Fase de revisão. Código e resultados estáveis. O que está em aberto é a
-posição da contribuição em relação à literatura — comentários e referências
-são bem-vindos via issues.
+posição da contribuição em relação à literatura, comentários e referências são
+bem-vindos via issues.

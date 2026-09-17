@@ -1,4 +1,4 @@
-# core — engines de enumeração
+# core: engines de enumeração
 
 Módulos importáveis por todo o resto do repositório. Cada um é autocontido:
 constrói o grafo do cavalo sobre uma superfície, extrai o espaço de ciclos e
@@ -16,5 +16,5 @@ enumera tours fechados.
 | `knight_tours_patch.py` | `knight_tours.py` + LUT de deformação GF(2). Resultado negativo: taxa de resgate 0%. |
 | `knight_tours_deformation_gf2.py` | deformação de tours por XOR de ciclos de face. |
 
-Scripts fora de `core/` importam estes módulos pelo nome curto
-(`import knight_tours`) graças ao bootstrap inserido no topo de cada um.
+Scripts fora de `core/` importam estes módulos pelo nome curto (`import
+knight_tours`) graças ao bootstrap inserido no topo de cada um.

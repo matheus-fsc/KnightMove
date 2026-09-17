@@ -68,8 +68,8 @@ regenerável por `experiments/01_backtracking/cavalo_loop_destruicao_6x6.py`.
 
 ## O que não está aqui
 
-Os artigos em LaTeX e os PDFs ficam fora do repositório, por decisão explícita:
-são rascunhos em revisão.
+Os artigos em LaTeX e os PDFs ficam fora do repositório, por decisão
+explícita: são rascunhos em revisão.
 
 O frontend interativo está em
 [knight-tour-visualizer](https://github.com/matheus-fsc/knight-tour-visualizer).

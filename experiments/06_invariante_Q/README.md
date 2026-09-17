@@ -1,4 +1,4 @@
-# 06 — O invariante de deficit Q
+# 06. O invariante de deficit Q
 
 A pergunta que organizou o resto do projeto: **por que o rank do espaço gerado
 pelos tours fica exatamente 3 abaixo de `beta_1`?**

@@ -1,4 +1,4 @@
-# 07 — Topologias alternativas
+# 07. Topologias alternativas
 
 Se o deficit `Q = 3` vem dos cantos, então mudar a topologia do tabuleiro deve
 mudar `Q`. Foi assim que o invariante deixou de ser uma curiosidade numérica e

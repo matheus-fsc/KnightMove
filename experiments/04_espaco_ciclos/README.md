@@ -1,4 +1,4 @@
-# 04 — Espaço de ciclos sobre GF(2)
+# 04. Espaço de ciclos sobre GF(2)
 
 A virada conceitual. Contando os "loops" da árvore de recursão, o número bateu
 com a dimensão do espaço de ciclos de um grafo:
@@ -23,5 +23,4 @@ espaço de ciclos. Cada ciclo fundamental é um grau de liberdade.
 **Descoberta central:** o rank do espaço gerado pelos tours fica sistematicamente
 3 abaixo de `beta_1`. Esse deficit é o assunto de `06_invariante_Q/`.
 
-**Limite descoberto:** a obstrução `rank < beta_1` **não** é hamiltonicidade —
-o rank dos 2-fatores é o mesmo 42 no 6×6. O que falta é conectividade.
+**Limite descoberto:** a obstrução `rank < beta_1` **não** é hamiltonicidade: o rank dos 2-fatores é o mesmo 42 no 6×6. O que falta é conectividade.

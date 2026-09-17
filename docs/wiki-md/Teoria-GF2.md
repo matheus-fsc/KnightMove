@@ -1,7 +1,7 @@
 # Teoria: GF(2) e o espaço de ciclos
 
-De onde sai o corpo `F_2` neste projeto. A história começa com **loops** —
-caminhos que saem de uma casa e voltam a ela — e termina com tours sendo
+De onde sai o corpo `F_2` neste projeto. A história começa com **loops**,
+caminhos que saem de uma casa e voltam a ela, e termina com tours sendo
 vetores binários.
 
 ## 1. O que é um loop
@@ -10,21 +10,22 @@ No grafo do cavalo, um **loop** é um caminho fechado: sai de uma casa, segue
 uma sequência de movimentos válidos, e retorna à casa inicial sem repetir
 aresta. Visualmente, um círculo no grafo.
 
-Os loops não foram procurados na teoria — foram notados desenhando a árvore de
-recursão do backtracking à mão e percebendo que ramos diferentes chegam à mesma
-configuração. Ver [[Historia]].
+Os loops não foram procurados na teoria: foram notados desenhando a árvore de
+recursão do backtracking à mão e percebendo que ramos diferentes chegam à
+mesma configuração. Ver [[Historia]].
 
 O modo "Loops" do
 [visualizador](https://github.com/matheus-fsc/knight-tour-visualizer) anima
-cada ciclo fundamental do 8×8 — são **105** no total.
+cada ciclo fundamental do 8×8. São **105** no total.
 
 ## 2. Como o algoritmo acha os loops
 
-O tabuleiro `n×n` tem `beta_1(n) = |E| - |V| + 1` loops independentes. Achá-los
-é clássico: construir uma **árvore geradora por BFS** a partir de uma casa raiz.
+O tabuleiro `n×n` tem `beta_1(n) = |E| - |V| + 1` loops independentes.
+Achá-los é clássico: construir uma **árvore geradora por BFS** a partir de uma
+casa raiz.
 
 > Cada aresta **fora** da árvore geradora fecha **exatamente um** ciclo
-> fundamental — e esses ciclos são todas as `beta_1` dimensões do espaço.
+> fundamental, e esses ciclos são todas as `beta_1` dimensões do espaço.
 
 ```python
 def compute_bfs(adj, start=(0, 0)):
@@ -43,13 +44,13 @@ def compute_bfs(adj, start=(0, 0)):
     return parent, level, order, tree_edges
 ```
 
-A BFS visita os `V` vértices e seleciona `V-1` arestas. Sobram
-`|E| - (V-1) = beta_1` arestas extras; cada uma, combinada com o caminho de
-árvore entre seus extremos, fecha um ciclo. Esses `beta_1` ciclos formam uma
+A BFS visita os `V` vértices e seleciona `V-1` arestas. Sobram `|E| - (V-1) =
+beta_1` arestas extras; cada uma, combinada com o caminho de árvore entre seus
+extremos, fecha um ciclo. Esses `beta_1` ciclos formam uma
 **base** do espaço de ciclos.
 
-Cada loop aparece no visualizador em dois pedaços — um caminho laranja e um
-azul — que se encontram na aresta amarela que fecha o ciclo. Essa forma em dois
+Cada loop aparece no visualizador em dois pedaços, um caminho laranja e um
+azul, que se encontram na aresta amarela que fecha o ciclo. Essa forma em dois
 caminhos é exatamente a estrutura "caminho de árvore + aresta extra".
 
 ## 3. Números concretos
@@ -67,7 +68,7 @@ a aresta está presente, 0 se não. Então:
 
 - a **soma** de dois subconjuntos é o XOR, que é a diferença simétrica;
 - o conjunto dos subconjuntos em que **todo vértice tem grau par** é um
-  subespaço vetorial — o **espaço de ciclos** `Z_1 = H_1(G; F_2)`;
+  subespaço vetorial, o **espaço de ciclos** `Z_1 = H_1(G; F_2)`;
 - sua dimensão é exatamente `beta_1`.
 
 Um tour fechado é um subconjunto de arestas em que todo vértice tem grau

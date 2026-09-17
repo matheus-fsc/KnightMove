@@ -1,19 +1,19 @@
 # O algoritmo
 
-O solver mais rápido do projeto: **backtracking + espaço de ciclos + union-find
-incremental**.
+O solver mais rápido do projeto: **backtracking + espaço de ciclos +
+union-find incremental**.
 
 ## O caminho até ele
 
-1. **Backtracking puro** — dead ends dominam o custo. Inviável acima do 6×6.
-2. **Z3 com cláusulas XOR** — elimina dead ends por construção, mas speedup
+1. **Backtracking puro**: dead ends dominam o custo. Inviável acima do 6×6.
+2. **Z3 com cláusulas XOR**: elimina dead ends por construção, mas speedup
    ≈ 1,00x. DPLL(XOR) já é padrão nos solvers; não havia ganho a extrair.
-3. **Backtracking sobre o espaço de ciclos com union-find** — o que funcionou.
+3. **Backtracking sobre o espaço de ciclos com union-find**: o que funcionou.
 
 ## A ideia
 
 Ao construir um tour incrementalmente, o erro caro não é escolher a aresta
-errada — é descobrir tarde demais que as escolhas fecharam um **sub-ciclo**
+errada: é descobrir tarde demais que as escolhas fecharam um **sub-ciclo**
 antes de cobrir todos os vértices. Um 2-fator com dois ciclos disjuntos é um
 beco sem saída que o backtracking ingênuo só detecta no final.
 
@@ -44,7 +44,7 @@ A razão 1,00x é o ponto importante: o solver praticamente não gera mais
 | paridade de cor | descarta caminhos abertos entre casas de mesma cor |
 
 Nota honesta: a heurística de fase local `f∞`, que parecia promissora, **não**
-contribui — ver [[Resultados-Negativos]]. O ganho atribuído a ela vinha da
+contribui, ver [[Resultados-Negativos]]. O ganho atribuído a ela vinha da
 pressão de vértice.
 
 ## Divide-and-conquer
@@ -60,8 +60,8 @@ entradas) e compor tabuleiros grandes por compatibilidade nas bordas.
 
 ## Matriz de transferência
 
-DP de perfil quebrado. `n=6` validado (9862 tours em 0,5s, `lambda_1 = 70,48`).
-`n=8` explode em número de estados (>187M) e estoura a memória em Python puro.
-Viável em C/numba, não implementado.
+DP de perfil quebrado. `n=6` validado (9862 tours em 0,5s, `lambda_1 =
+70,48`). `n=8` explode em número de estados (>187M) e estoura a memória em
+Python puro. Viável em C/numba, não implementado.
 
 **Código:** `solvers/`, `experiments/08_heuristicas/dnc_*.py`

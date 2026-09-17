@@ -1,7 +1,7 @@
 # experiments
 
-Organizados na ordem cronológica em que as ideias apareceram, não por tema.
-A numeração é a mesma do fluxograma no README raiz.
+Organizados na ordem cronológica em que as ideias apareceram, não por tema. A
+numeração é a mesma do fluxograma no README raiz.
 
 | # | diretório | pergunta que motivou |
 |---|---|---|

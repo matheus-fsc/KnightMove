@@ -6,8 +6,8 @@ evento que mudou o rumo do projeto, e escondê-la tornaria o repositório
 enganoso.
 
 A auditoria completa, com citações e trechos dos originais, está em
-`docs/notas-pesquisa/citation_audit.md` (agosto de 2026) e nos dois índices
-de bibliografia em `docs/notas-pesquisa/bibliografia-{teoria,algoritmos}.md`.
+`docs/notas-pesquisa/citation_audit.md` (agosto de 2026) e nos dois índices de
+bibliografia em `docs/notas-pesquisa/bibliografia-{teoria,algoritmos}.md`.
 
 ---
 
@@ -24,17 +24,18 @@ propagação de grau 2 + union-find incremental de sub-ciclos) é o
 | `_process_queue` até esvaziar | a *chain reaction* até consistência |
 | union-find de segmentos | **Kocay (1992)** |
 
-Referências: Rubin (1974), Christofides (1975), Kocay (1992), Chalaturnyk (2008).
+Referências: Rubin (1974), Christofides (1975), Kocay (1992), Chalaturnyk
+(2008).
 
 ## 2. O XOR de ciclos: prior art, e o resultado negativo também
 
 A ideia de combinar ciclos fundamentais por XOR é o **circuit vector space
-method**, de Welch (1966) e Mateti–Deo (1976).
+method**, de Welch (1966) e Mateti-Deo (1976).
 
 Mais duro: **o resultado negativo já era teorema em 1976.** Mateti e Deo
 provaram que a razão tours / 2-fatores tende a zero e que enumerar por uniões
-de circuitos é desperdício assintótico. A medição independente feita aqui
-(`r ≈ 0.84 · e^(-0.17n)`) confirma um teorema de 49 anos atrás.
+de circuitos é desperdício assintótico. A medição independente feita aqui (`r
+≈ 0.84 · e^(-0.17n)`) confirma um teorema de 49 anos atrás.
 
 E ambos os métodos **já foram aplicados ao grafo do cavalo especificamente**.
 O 6×6 com 9862 tours é linha de tabela publicada.
@@ -42,7 +43,7 @@ O 6×6 com 9862 tours é linha de tabela publicada.
 Outros itens da mesma categoria:
 
 - flips por face sobre tours = *Z-transformation*, **Sheffield (2000)**;
-- cláusulas XOR em solvers = **DPLL(XOR)**, técnica padrão — o speedup medido
+- cláusulas XOR em solvers = **DPLL(XOR)**, técnica padrão, o speedup medido
   de 1,00x era previsível.
 
 ## 3. O enquadramento tem nome próprio: Hamilton space
@@ -66,7 +67,7 @@ grafo com `C_n(G) = C(G)` é dito **Hamilton-generated**. É uma área ativa:
 
 Heinig observou que `delta(G) >= 3` é **necessário** para Hamilton-generation.
 O argumento é elementar: se `deg(v) = 2` com arestas `e_1, e_2`, todo ciclo
-hamiltoniano contém ambas, logo todo tour satisfaz `x_{e1} = x_{e2}` — um
+hamiltoniano contém ambas, logo todo tour satisfaz `x_{e1} = x_{e2}`, um
 hiperplano próprio contendo `C_n(G)`.
 
 O grafo do cavalo tem `delta = 2` nos quatro cantos. Portanto **a existência
@@ -99,7 +100,7 @@ Com as ressalvas acima já descontadas:
 1. **O valor exato `deficit = 3`**, não apenas `> 0`. O colapso `4 -> 3`
    (quatro cantos, três dimensões, via o núcleo do funcional soma) é onde
    está a matemática.
-2. **A constância em `n`** — o deficit não cresce com o tabuleiro.
+2. **A constância em `n`**: o deficit não cresce com o tabuleiro.
 3. **A localidade**: `Q(G_T \ S) = 3 <=> W_corners ⊆ S`, e
    `Q = max(0, k_deg2 - 1)`.
 4. **A conexidade do bulk** (`n >= 6`, indução `n -> n+2`), ingrediente
@@ -108,7 +109,7 @@ Com as ressalvas acima já descontadas:
 6. **Tightness** (`rank(Ham) = beta_1 - 3` exatamente), provada por construção
    em `n ∈ {8,10,12}`.
 7. **Equidistribuição** por classe de homologia nas superfícies (§4).
-8. **Os resultados negativos documentados** — em especial o diagnóstico de que
+8. **Os resultados negativos documentados**: em especial o diagnóstico de que
    conectividade não é uma condição linear sobre `F_2^E`, testado e confirmado
    em cinco domínios.
 
@@ -121,7 +122,7 @@ máximo 8, grau mínimo 2.
 
 Lido assim, o resultado deixa de ser "um invariante ad hoc" e passa a ser
 **o primeiro exemplo estruturado de deficit positivo, exato e constante numa
-família esparsa natural, determinado por geometria local** — complementar à
+família esparsa natural, determinado por geometria local**, complementar à
 literatura existente, não concorrente com ela.
 
 ## 6. Estado das pendências da auditoria
@@ -131,32 +132,32 @@ A auditoria é de 06/08/2026. O paper corrente (`knight_tour_tightness`, v5,
 
 | pendência | estado |
 |---|---|
-| citar a literatura de Hamilton space | **resolvido** — Heinig 2013/2014, CNP2026, Hou–Yin, Hefetz–Krivelevich a/b, HamGen2026 na bibliografia (31 itens) |
-| dizer que `deficit > 0` é prior art | **resolvido** — os cantos passam a dar explicitamente só a *cota superior* |
-| adotar parity-switchers | **resolvido** — e com um ganho: provada a **dicotomia canto/bulk** (um parity-switcher ancorado em canto é impossível em `G_n`, porque o canto teria grau 2 e seus dois vizinhos são removidos no passo S3) |
-| ler Hartman (1983) | **resolvido** — citado |
-| superfícies: Watkins, Forrest–Teehan | **resolvido**, com distinção explícita: o `Q` deste trabalho é o **invariante algébrico** de vértices de grau 2; o `Q` topológico da literatura é por classes de winding. Coincidem no plano e divergem alhures |
+| citar a literatura de Hamilton space | **resolvido**. Heinig 2013/2014, CNP2026, Hou-Yin, Hefetz-Krivelevich a/b, HamGen2026 na bibliografia (31 itens) |
+| dizer que `deficit > 0` é prior art | **resolvido**. os cantos passam a dar explicitamente só a *cota superior* |
+| adotar parity-switchers | **resolvido**. e com um ganho: provada a **dicotomia canto/bulk** (um parity-switcher ancorado em canto é impossível em `G_n`, porque o canto teria grau 2 e seus dois vizinhos são removidos no passo S3) |
+| ler Hartman (1983) | **resolvido**. citado |
+| superfícies: Watkins, Forrest-Teehan | **resolvido**, com distinção explícita: o `Q` deste trabalho é o **invariante algébrico** de vértices de grau 2; o `Q` topológico da literatura é por classes de winding. Coincidem no plano e divergem alhures |
 | lei `N(n) ~ 1,82^(n²)` | **retirada** do texto, com registro no changelog |
 
 ### Um item que a auditoria não previu
 
 A auditoria não pedia, mas o paper encontrou: o deficit nulo no toro **não é
-acidente da superfície**. O grafo do cavalo toroidal é um grafo de Cayley sobre
-`Z_n × Z_n`, e deficit zero é corolário de um teorema de **Alspach, Locke e
-Witte (1990)**. O que elimina o deficit é a **transitividade por vértices** —
-toda aresta equivalente a toda outra — e não a topologia. No plano, a fronteira
-quebra a transitividade e cria exatamente os vértices de grau 2 que geram
-`Q = 3`.
+acidente da superfície**. O grafo do cavalo toroidal é um grafo de Cayley
+sobre `Z_n × Z_n`, e deficit zero é corolário de um teorema de **Alspach,
+Locke e Witte (1990)**. O que elimina o deficit é a **transitividade por
+vértices**, toda aresta equivalente a toda outra, e não a topologia. No plano,
+a fronteira quebra a transitividade e cria exatamente os vértices de grau 2
+que geram `Q = 3`.
 
 Plano versus toro é, em essência, **com fronteira versus sem fronteira**.
 
 ### E um erro da minha leitura anterior deste repositório
 
 Uma versão anterior deste documento afirmava que a hierarquia de `Q` por
-superfície era contribuição própria. Não é, na forma em que estava escrita —
-e o paper corrente já a reposiciona corretamente. O que sobrevive ali é a
-distinção algébrico/topológico e a medição de **distribuição** (equidistribuição
-por classe) onde a literatura estabelece **existência**.
+superfície era contribuição própria. Não é, na forma em que estava escrita, e
+o paper corrente já a reposiciona corretamente. O que sobrevive ali é a
+distinção algébrico/topológico e a medição de **distribuição**
+(equidistribuição por classe) onde a literatura estabelece **existência**.
 
 ## Referências
 
@@ -164,7 +165,7 @@ por classe) onde a literatura estabelece **existência**.
 - Christofides, N. (1975). *Graph Theory: An Algorithmic Approach*.
 - Welch, J. T. (1966). Circuit vector space method.
 - Mateti, P., Deo, N. (1976). *On algorithms for enumerating all circuits of a graph*.
-- Hartman, I. B.-A. (1983). *Long cycles generate the cycle space of a graph*. European J. Combin. 4, 237–246.
+- Hartman, I. B.-A. (1983). *Long cycles generate the cycle space of a graph*. European J. Combin. 4, 237-246.
 - Kocay, W. (1992). *An algorithm for finding Hamiltonian cycles*.
 - Sheffield, S. (2000). Z-transformation.
 - Watkins, J. J. (2004). *Across the Board: The Mathematics of Chessboard Problems*. Princeton UP.

@@ -3,9 +3,9 @@
 ## Aviso de metodologia
 
 Iterações anteriores deste projeto reportaram speedups que vinham de
-comparações com baselines fracos. Os números abaixo usam `core/knight_tours.py`
-como baseline, e o teste de regressão canônico (9862 tours no 6×6) roda antes
-de qualquer medição.
+comparações com baselines fracos. Os números abaixo usam
+`core/knight_tours.py` como baseline, e o teste de regressão canônico (9862
+tours no 6×6) roda antes de qualquer medição.
 
 ```bash
 ./venv/bin/python benchmarks/benchmark_exhaustive_6x6.py   # deve dar 9862
@@ -39,19 +39,19 @@ de qualquer medição.
 | `n` | nós por tour | tempo total |
 |---|---|---|
 | 6 | 3,85 | 0,76s |
-| 8 | ~4,3 | — |
-| 10 | ~4,9 | — |
-| 12 | ~5,1 | — |
+| 8 | ~4,3 | n/d |
+| 10 | ~4,9 | n/d |
+| 12 | ~5,1 | n/d |
 | 14 | 5,35 | 3,34s |
 
-Custo por tour praticamente constante — o crescimento vem do número de tours,
+Custo por tour praticamente constante: o crescimento vem do número de tours,
 não da dificuldade de achar cada um.
 
 ## Limite teórico
 
 Análise de martingale: `H_MART` forte (custo i.i.d. constante por nó) é
 **refutada** (spread 28%, chi-quadrado rejeita homogeneidade). A versão fraca
-se sustenta, com `mu_min >= 0.173` (Wilson 95%), logo
-`E[nós por tour] <= 5.79` — consistente com a tabela acima.
+se sustenta, com `mu_min >= 0.173` (Wilson 95%), logo `E[nós por tour] <=
+5.79`, consistente com a tabela acima.
 
 **Código:** `benchmarks/`, `experiments/08_heuristicas/martingale_analysis/`

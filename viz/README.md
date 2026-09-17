@@ -1,4 +1,4 @@
-# viz — geração de figuras
+# viz: geração de figuras
 
 Scripts que produzem as figuras usadas nos relatórios e na wiki.
 

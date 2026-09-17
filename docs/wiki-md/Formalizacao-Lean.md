@@ -30,9 +30,9 @@ Z_bulk(n) <= H  ∧  tau ∈ H  ∧  dim H <= beta_1 - 3   ==>   dim H = beta_1 
 e a hipótese `Z_bulk(n) <= H` **é o problema inteiro**. O valor está em isolar
 e verificar a implicação, não em descarregar a premissa.
 
-A ponte com o objeto combinatório — definir `Ham(n)` como o span dos
+A ponte com o objeto combinatório, definir `Ham(n)` como o span dos
 indicadores de ciclos hamiltonianos de `G_n` e descarregar as hipóteses da
-redução — permanece como comentário documentado, **não** como declaração.
+redução, permanece como comentário documentado, **não** como declaração.
 
 ### Uma escolha deliberada
 
@@ -57,8 +57,8 @@ daquele teorema.
 
 ## O que falta
 
-A conexidade do bulk (`n >= 6`, indução `n -> n+2`) tem prova de papel completa
-e verificação computacional até `n = 30`, mas ainda não foi formalizada. É a
-próxima etapa natural.
+A conexidade do bulk (`n >= 6`, indução `n -> n+2`) tem prova de papel
+completa e verificação computacional até `n = 30`, mas ainda não foi
+formalizada. É a próxima etapa natural.
 
 **Código:** `formalization/lean/`

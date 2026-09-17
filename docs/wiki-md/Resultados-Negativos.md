@@ -26,14 +26,14 @@ acerto desaba.
 | propagação de restrições resolve o 6×6 | **parcial** | R1..R6 fixa 0 variáveis livres (os cantos já estão isolados). O backtracking acha os 9862 tours em 53s, mas revela 3560 2-fatores multi-ciclo válidos localmente |
 | `H_MART` forte (custo i.i.d. por nó) | **refutada** | spread 28%, chi-quadrado rejeita homogeneidade. A versão fraca se sustenta |
 | conjectura `rank = número de órbitas` (toro) | **refutada** | o toro tem rank cheio universalmente |
-| XOR de ciclos enumera caminhos `s -> t` | **refutada** | cobre 0,0086% (4 de 46666 no 6×6); satura em ~10 no 8×8. Falha dominante: 73–84% dos ciclos não alternam |
+| XOR de ciclos enumera caminhos `s -> t` | **refutada** | cobre 0,0086% (4 de 46666 no 6×6); satura em ~10 no 8×8. Falha dominante: 73-84% dos ciclos não alternam |
 
 ## Fora do passeio do cavalo
 
 | domínio | veredito |
 |---|---|
 | **TSP** | XOR de ciclos fundamentais da MST fica ~15% pior que 2-opt |
-| **Pathfinding em grades** | compatibilidade ~18% (contra 3% no TSP), cai com `n`. Falha dominante: **desconexão, 90,8%** — não grau |
+| **Pathfinding em grades** | compatibilidade ~18% (contra 3% no TSP), cai com `n`. Falha dominante: **desconexão, 90,8%**, não grau |
 | **Sítios ativos de proteínas (GASS)** | **inviável**. As soluções são k-cliques transversais sob limiar métrico, não subgrafos pares. 0 de 17.367 XORs válidos. O "~5" da literatura é o número médio de resíduos por sítio (4,62 no M-CSA), não um limite algorítmico |
 
 ## Erros metodológicos cometidos e corrigidos
@@ -54,7 +54,7 @@ Registrados porque custaram tempo:
 
 Um repositório que só mostra o que funcionou não permite avaliar o método. O
 diagnóstico "conectividade é a obstrução global, e GF(2) não a vê" só é
-defensável porque foi testado em cinco domínios independentes e falhou do mesmo
-jeito nos cinco.
+defensável porque foi testado em cinco domínios independentes e falhou do
+mesmo jeito nos cinco.
 
 **Código:** `experiments/09_cross_domain/`, `experiments/08_heuristicas/`

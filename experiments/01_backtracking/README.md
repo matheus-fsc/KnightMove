@@ -1,4 +1,4 @@
-# 01 — Backtracking e primeiras engines
+# 01. Backtracking e primeiras engines
 
 O ponto de partida: backtracking com podas, poda inversa e Warnsdorff, mais a
 primeira observação estrutural útil (paridade das cores do tabuleiro, que
@@ -14,5 +14,5 @@ descarta de imediato caminhos abertos entre casas de mesma cor).
 
 **Veredito:** otimizações locais de backtracking não mudam a classe de
 complexidade. O 8×8 continuou fora de alcance por enumeração exaustiva. O que
-sobrou de valioso foi o hábito de desenhar a árvore de recursão — que levou
+sobrou de valioso foi o hábito de desenhar a árvore de recursão, que levou
 diretamente à descoberta dos loops (etapa 5).

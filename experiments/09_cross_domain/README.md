@@ -1,8 +1,8 @@
-# 09 — Transferência para outros domínios
+# 09. Transferência para outros domínios
 
-Se o espaço de ciclos GF(2) organiza o passeio do cavalo, ele deveria ajudar em
-outros problemas de enumeração de estruturas conexas. Testamos quatro. Todos
-negativos, e todos pelo mesmo motivo.
+Se o espaço de ciclos GF(2) organiza o passeio do cavalo, ele deveria ajudar
+em outros problemas de enumeração de estruturas conexas. Testamos quatro.
+Todos negativos, e todos pelo mesmo motivo.
 
 | diretório | domínio | veredito |
 |---|---|---|
@@ -14,5 +14,6 @@ negativos, e todos pelo mesmo motivo.
 
 **O padrão:** GF(2) captura perfeitamente a condição de grau par. Não captura
 conectividade. Em todo domínio onde a solução precisa ser conexa, o XOR gera
-candidatos que satisfazem grau mas se quebram em componentes — e a taxa de
-acerto desaba. Essa é a mesma obstrução que limita o método no passeio do cavalo.
+candidatos que satisfazem grau mas se quebram em componentes, e por isso a taxa de
+acerto desaba. Essa é a mesma obstrução que limita o método no passeio do
+cavalo.

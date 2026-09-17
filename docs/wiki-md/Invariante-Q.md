@@ -21,19 +21,19 @@ Sempre 3. Esse deficit é o invariante `Q`.
 
 ## Ressalva de prior art (leia antes)
 
-Que o grafo do cavalo **não** seja *Hamilton-generated* — isto é, que
-`deficit > 0` — **é conhecido**. Heinig (2013) observou que `delta(G) >= 3` é
-necessário para os ciclos hamiltonianos gerarem o espaço de ciclos, e o cavalo
-tem quatro cantos de grau 2. O argumento é elementar: se `deg(v) = 2` com
-arestas `e_1, e_2`, todo tour contém ambas, logo todo tour satisfaz
-`x_{e1} = x_{e2}` — um hiperplano próprio.
+Que o grafo do cavalo **não** seja *Hamilton-generated*, isto é, que `deficit
+> 0`, **é conhecido**. Heinig (2013) observou que `delta(G) >= 3` é necessário
+para os ciclos hamiltonianos gerarem o espaço de ciclos, e o cavalo tem quatro
+cantos de grau 2. O argumento é elementar: se `deg(v) = 2` com arestas `e_1,
+e_2`, todo tour contém ambas, logo todo tour satisfaz `x_{e1} = x_{e2}`, um
+hiperplano próprio.
 
 O conteúdo desta página não é a *existência* da obstrução. É:
 
 1. o **valor exato** 3, via o colapso `4 -> 3` pelo núcleo do funcional soma;
 2. a **constância em `n`**;
 3. a **localidade** nos cantos;
-4. a **tightness** — que não há outras obstruções.
+4. a **tightness**: não há outras obstruções.
 
 O enquadramento geral tem nome na literatura: **Hamilton space**. Ver
 [[Prior-Art]].
@@ -41,17 +41,17 @@ O enquadramento geral tem nome na literatura: **Hamilton space**. Ver
 ## Q(n) = 3
 
 Provado estruturalmente para `n >= 6`, via 4 representantes independentes mais
-o kernel da soma, e verificado computacionalmente em `n = 8` (rank 102) e
-`n = 12` (rank 294).
+o kernel da soma, e verificado computacionalmente em `n = 8` (rank 102) e `n =
+12` (rank 294).
 
 A prova geral depende da **conexidade do bulk** (o tabuleiro menos os cantos),
-demonstrada por indução `n -> n+2` com bases em `n = 6` e `n = 7`, e verificada
-computacionalmente até `n = 30`.
+demonstrada por indução `n -> n+2` com bases em `n = 6` e `n = 7`, e
+verificada computacionalmente até `n = 30`.
 
 ## Q é local, e mora nos cantos
 
-O resultado mais informativo não é o valor 3 — é *onde* os 3 graus de liberdade
-se perdem.
+O resultado mais informativo não é o valor 3: é *onde* os 3 graus de
+liberdade se perdem.
 
 > **Teorema de localidade.** Para um conjunto `S` de vértices removidos,
 > `Q(G_T \ S) = 3` se e somente se `W_corners ⊆ S`.
@@ -64,7 +64,7 @@ Verificado em `n ∈ {6, 8, 10}`. Existem 24 configurações de canto fixas para
 Em palavras: os 4 cantos do tabuleiro têm grau 2 no grafo do cavalo, e
 **arestas incidentes a vértices de grau 2 são obrigatórias** em qualquer tour.
 Cada canto assim força uma restrição; quatro cantos forçam quatro, mas uma
-delas é dependente das outras — daí `4 - 1 = 3`.
+delas é dependente das outras, daí `4 - 1 = 3`.
 
 ## Identidade fechada
 
@@ -88,30 +88,31 @@ nada: `rank(Ham) = beta_1 - Q`.
   certificado auditado individualmente (grau 2 em todo vértice, existência de
   cada aresta, componente única) e **sem amostragem**.
 - Rank cheio com folga: 101/101 em `n=8`, 185/185 em `n=10`, 293/293 em `n=12`.
-  Os 1,7–13,2% de hexágonos sem certificado não são necessários.
+  Os 1,7-13,2% de hexágonos sem certificado não são necessários.
 - Duas rotas independentes (certificação dirigida e flips hexagonais)
   concordam, e erram de formas diferentes.
 - O caso `6×8` é o mais forte: 48 casas, enumeração inviável, e a tightness foi
-  estabelecida **sem conhecer o conjunto de tours** — bastou certificar
+  estabelecida **sem conhecer o conjunto de tours**, bastou certificar
   hexágonos até o rank atingir `dim Z_bulk = 65`.
 - Verificada em todos os 10 pontos da família híbrida toro→plano.
 
-Cuidado metodológico registrado: a verificação empírica da tightness precisa de
-`K >= 250k` amostras. Com 20k aparecem falsos contraexemplos.
+Cuidado metodológico registrado: a verificação empírica da tightness precisa
+de `K >= 250k` amostras. Com 20k aparecem falsos contraexemplos.
 
 ## Os cantos dão só a cota superior
 
 Este é o ponto que separa o que está entendido do que não está.
 
-Os tabuleiros **5×6** e **5×8** têm exatamente a mesma estrutura de cantos —
-quatro vértices de grau 2, bulk conexo, `Q = 3` — e deficit **27** e **9**.
+Os tabuleiros **5×6** e **5×8** têm exatamente a mesma estrutura de cantos,
+quatro vértices de grau 2, bulk conexo, `Q = 3`, e deficit **27** e **9**.
 
 Portanto bulk conexo e `Q = 3` **não implicam** tightness. Os cantos
-determinam a cota **superior** (`dim Ham <= beta_1 - 3`); o que separa os casos
+determinam a cota **superior** (`dim Ham <= beta_1 - 3`); o que separa os
+casos
 *tight* é a cota **inferior**, `Z_bulk ⊆ Ham`.
 
 Qual parâmetro governa essa cota permanece **em aberto**. As duas hipóteses
-naturais — bounding box e comportamento de borda — foram ambas refutadas: as
+naturais (bounding box e comportamento de borda) foram ambas refutadas: as
 mesmas formas se realizam em 5×10, na mesma posição. A obstrução do `5×8`
 **desaparece ao alongar o tabuleiro**, o que é incompatível com qualquer
 explicação por gadget local.
@@ -119,8 +120,8 @@ explicação por gadget local.
 ## O que Q não é
 
 A obstrução `rank < beta_1` **não é hamiltonicidade**. O rank do espaço gerado
-pelos 2-fatores do 6×6 é o mesmo 42. O que falta aos 2-fatores para serem tours
-é conectividade, e conectividade é invisível para o rank.
+pelos 2-fatores do 6×6 é o mesmo 42. O que falta aos 2-fatores para serem
+tours é conectividade, e conectividade é invisível para o rank.
 
 Ver também [[Topologia]], onde `Q` muda quando a borda desaparece, e
 [[Formalizacao-Lean]].
