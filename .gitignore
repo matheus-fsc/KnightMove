@@ -44,3 +44,6 @@ cavalo_10x10/data_parallel/
 
 # ---- saidas geradas por testes na raiz ----
 /assinaturas_6x6.json
+
+# ---- config local do Claude Code (pessoal, nao versionar) ----
+.claude/settings.local.json
