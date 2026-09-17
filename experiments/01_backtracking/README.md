@@ -11,6 +11,7 @@ descarta de imediato caminhos abertos entre casas de mesma cor).
 | `analise_6x6.py` | análise das assinaturas e correlações do 6×6 |
 | `bishop_queen_6x6.py` | controle: a mesma análise para bispo e dama, para separar o que é do cavalo do que é do tabuleiro |
 | `resultados_8x8*.json`, `summary*` | saídas das execuções |
+| `assinaturas_6x6/` | linha das assinaturas booleanas e dos "unicórnios", encerrada. Arquivada aqui quando saiu do visualizador |
 
 **Veredito:** otimizações locais de backtracking não mudam a classe de
 complexidade. O 8×8 continuou fora de alcance por enumeração exaustiva. O que
