@@ -1,0 +1,66 @@
+tabuleiro 6x6: V=36 E=80
+propagação R2 inicial: 8 arestas fixadas (status OK)
+nós na árvore: 56
+folhas/ramos por status: {'OK': 41, 'SUBTOUR': 11, 'TOUR': 4}
+tours encontrados: 4  (todos válidos: True)
+
+raiz (após propagação R2 inicial)
+└── [0] c3-d5=0  livres=71 ★
+    └── [1] c2-b4=0  livres=70 ★
+        └── [2] d2-e4=0  livres=69 ★
+            └── [3] b3-c5=0  livres=68 ★
+                └── [4] c2-e3=0  livres=67 ★
+                    └── [5] c3-e4=0  livres=66 ★
+                        └── [6] d3-c5=0  livres=65 ★
+                            └── [7] e3-d5=0  livres=64 ★
+                                └── [8] d2-b3=0  livres=63 ★
+                                    └── [9] d3-b4=0  livres=62 ★
+                                        └── [10] c2-d4=0  livres=61 ★
+                                            └── [11] e3-c4=0  livres=60 ★
+                                                └── [12] b3-d4=0  livres=59 ★
+                                                    └── [13] b4-d5=0  livres=58 ★
+                                                        └── [14] e4-c5=0  livres=57 ★
+                                                            └── [15] d2-c4=0  livres=56 ★
+                                                                └── [16] e1-c2=1  livres=54 ★
+                                                                    └── [17] d1-e3=1  livres=50 ★
+                                                                        └── [18] e2-d4=0  livres=49 ★
+                                                                            └── [19] d4-b5=0  livres=48 ★
+                                                                                └── [20] c4-d6=1  livres=42 ★
+                                                                                    └── [21] e2-c3=0  livres=39 ★
+                                                                                        └── [22] b2-c4=0  livres=38 ★
+                                                                                            └── [23] c4-e5=0  livres=37 ★
+                                                                                                ├── [24] b1-c3=1  livres=27
+                                                                                                │   ├── [25] a3-c4=1  livres=17
+                                                                                                │   │   ├── [26] f3-d4=1  livres=13  ✘ subciclo
+                                                                                                │   │   └── [27] f3-d4=0  livres=13
+                                                                                                │   │       ├── [28] d4-c6=1  livres=7  ✘ subciclo
+                                                                                                │   │       └── [29] d4-c6=0  livres=11  ✘ subciclo
+                                                                                                │   └── [30] a3-c4=0  livres=25  ✘ subciclo
+                                                                                                └── [31] b1-c3=0  livres=32 ★
+                                                                                                    ├── [32] d3-f4=1  livres=20 ★
+                                                                                                    │   ├── [33] b2-d3=0  livres=11 ★
+                                                                                                    │   │   ├── [34] a2-c3=1  livres=6 ★
+                                                                                                    │   │   │   ├── [35] c1-b3=1  livres=1  ✔ TOUR
+                                                                                                    │   │   │   └── [36] c1-b3=0  livres=2  ✘ subciclo
+                                                                                                    │   │   └── [37] a2-c3=0  livres=9  ✘ subciclo
+                                                                                                    │   └── [38] b2-d3=1  livres=11 ★
+                                                                                                    │       ├── [39] a2-c3=1  livres=6 ★
+                                                                                                    │       │   ├── [40] b3-a5=1  livres=3  ✘ subciclo
+                                                                                                    │       │   └── [41] b3-a5=0  livres=0  ✔ TOUR
+                                                                                                    │       └── [42] a2-c3=0  livres=2  ✘ subciclo
+                                                                                                    └── [43] d3-f4=0  livres=31 ★
+                                                                                                        └── [44] d1-b2=1  livres=27 ★
+                                                                                                            └── [45] b2-d3=0  livres=25 ★
+                                                                                                                └── [46] f3-d4=1  livres=17 ★
+                                                                                                                    ├── [47] c1-a2=1  livres=13 ★
+                                                                                                                    │   ├── [48] e1-f3=1  livres=8
+                                                                                                                    │   │   ├── [49] c4-a5=1  livres=7  ✘ subciclo
+                                                                                                                    │   │   └── [50] c4-a5=0  livres=4  ✘ subciclo
+                                                                                                                    │   └── [51] e1-f3=0  livres=8 ★
+                                                                                                                    │       ├── [52] c4-a5=1  livres=1  ✔ TOUR
+                                                                                                                    │       └── [53] c4-a5=0  livres=4  ✘ subciclo
+                                                                                                                    └── [54] c1-a2=0  livres=4 ★
+                                                                                                                        └── [55] e1-f3=1  livres=1  ✔ TOUR
+
+[dot] backtrack_tree_example/arvore_6x6_seed7.dot  (render: dot -Tpng backtrack_tree_example/arvore_6x6_seed7.dot -o arvore.png)
+[json] backtrack_tree_example/arvore_6x6_seed7.json
