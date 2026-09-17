@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2. GF(2) e Espaço de Ciclos — Knight Tour Wiki</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath:  [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: { renderActions: { addMenu: [] } }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" defer></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
+  <script>document.addEventListener('DOMContentLoaded', () => window.hljs && hljs.highlightAll());</script>
+</head>
+<body>
+  <button class="w-hamburger" id="w-hamburger" aria-label="Menu">☰</button>
+  <div class="w-layout">
+    <nav class="w-sidebar" id="w-sidebar"></nav>
+    <main class="w-content">
+      <header class="w-page-header">
+        <a href="../index.html" class="w-back-link">← Visualizador</a>
+        <span class="w-breadcrumb">Wiki / 2. GF(2) e Espaço de Ciclos</span>
+      </header>
+
+      <h1>2. GF(2) e Espaço de Ciclos</h1>
+      <p class="w-subtitle">
+        De onde sai o espaço $\mathbb{F}_2$ neste projeto: a história começa
+        com <em>loops</em> — caminhos que saem de uma casa e voltam a ela —
+        e termina com tours sendo vetores binários.
+      </p>
+
+      <h2>1. A motivação: o que é um loop?</h2>
+
+      <p>
+        No grafo do cavalo, um <strong>loop</strong> é um caminho fechado:
+        sai de uma casa, segue uma sequência de movimentos de cavalo, e
+        retorna à casa inicial sem repetir nenhuma aresta. Visualmente, é
+        um círculo no grafo.
+      </p>
+
+      <p>
+        Antes de qualquer formalismo, vale ver os loops em ação. O modo
+        <em>“Loops”</em> do visualizador anima cada ciclo fundamental do
+        tabuleiro 8×8 — são <strong>105</strong> no total:
+      </p>
+
+      <div class="w-iframe-frame">
+        <div class="w-iframe-caption">
+          <span>Visualizador (selecione o modo <b>Loops</b> no menu superior)</span>
+          <a href="../cavalo_viz.html" target="_blank" rel="noopener">
+            abrir em janela cheia ↗
+          </a>
+        </div>
+        <iframe src="../cavalo_viz.html" loading="lazy"
+                title="Visualizador de loops do passeio do cavalo"></iframe>
+      </div>
+
+      <p>
+        Cada loop aparece em dois pedaços: um caminho
+        <span style="color:#ff8a6b">laranja</span> e um caminho
+        <span style="color:#66c8ff">azul</span>, que se encontram numa
+        aresta <span style="color:#ffd66b">amarela</span> — a “colisão”
+        que fecha o ciclo. A próxima seção explica por que essa estrutura
+        em dois caminhos é exatamente a forma natural de descrever uma
+        base de loops.
+      </p>
+
+      <h2>2. Como o algoritmo encontra os loops</h2>
+
+      <p>
+        A pergunta é prática: o tabuleiro $n \times n$ tem
+        $\beta_1(n) = |E| - |V| + 1$ loops independentes
+        (ver a tabela na Seção 6). Como o código <em>descobre</em>
+        exatamente esses loops?
+      </p>
+
+      <p>
+        A técnica é clássica e usa uma <strong>árvore geradora por BFS</strong>
+        a partir de uma casa raiz (no projeto, a casa <code>(0,0)</code>).
+        O fato central é:
+      </p>
+
+      <blockquote>
+        Cada aresta <strong>fora</strong> da árvore geradora fecha
+        exatamente <strong>um</strong> ciclo fundamental — e essas são
+        todas as $\beta_1$ dimensões do espaço de ciclos.
+      </blockquote>
+
+      <h3>2.1 O procedimento, passo a passo</h3>
+
+<pre><code class="language-python">def compute_bfs(adj, start=(0, 0)):
+    """BFS a partir de start; devolve a árvore geradora."""
+    parent      = {start: None}
+    level       = {start: 0}
+    order       = [start]
+    queue       = deque([start])
+    tree_edges  = set()
+    while queue:
+        u = queue.popleft()
+        for v in adj[u]:
+            if v not in parent:           # aresta de árvore
+                parent[v] = u
+                level[v]  = level[u] + 1
+                order.append(v)
+                queue.append(v)
+                tree_edges.add(tuple(sorted([u, v])))
+    return parent, level, order, tree_edges</code></pre>
+
+      <p>
+        A BFS visita todos os $V$ vértices e seleciona exatamente
+        $V-1$ arestas para a árvore. Sobram $|E| - (V-1) = \beta_1$
+        arestas “extras”. Cada uma delas, quando combinada com o caminho
+        de árvore entre seus dois endpoints, forma um ciclo. Esse conjunto
+        de $\beta_1$ ciclos é uma <strong>base do espaço de ciclos</strong>
+        — qualquer outro loop é uma combinação (em GF(2)) deles.
+      </p>
+
+      <h3>2.2 Contas concretas no 8×8</h3>
+
+      <table>
+        <thead><tr><th>quantidade</th><th>valor</th></tr></thead>
+        <tbody>
+          <tr><td>Vértices $V$</td><td>64</td></tr>
+          <tr><td>Arestas $E$</td><td>168</td></tr>
+          <tr><td>Arestas na árvore BFS</td><td>$V-1$ = 63</td></tr>
+          <tr><td>Arestas fora da árvore</td><td>$E - (V-1)$ = <b>105</b></td></tr>
+          <tr><td>$\beta_1$ = loops independentes</td><td><b>105</b></td></tr>
+        </tbody>
+      </table>
+
+      <p>
+        Os 105 loops são exatamente os que aparecem no visualizador acima.
+      </p>
+
+      <h2>3. Como cada loop é armazenado</h2>
+
+      <p>
+        Uma vez encontrada uma aresta não-árvore $e = \{u, v\}$, o ciclo é
+        gerado por três peças:
+      </p>
+
+      <ol>
+        <li><code>caminho1</code>: trajeto na árvore da raiz até $u$;</li>
+        <li><code>caminho2</code>: trajeto na árvore da raiz até $v$;</li>
+        <li><code>colisao</code>: a própria aresta $e = \{u, v\}$.</li>
+      </ol>
+
+      <p>Implementação literal no projeto:</p>
+
+<pre><code class="language-python">def loops_from_bfs(parent, tree_edges, edges):
+    loops = []
+    for e in sorted(edges):
+        if e in tree_edges:
+            continue
+        u, v = e
+        loops.append({
+            "caminho1":      reconstruct_path(u, parent),
+            "caminho2":      reconstruct_path(v, parent),
+            "colisao":       [u, v],
+            "tamanho_ciclo": len(...) + len(...),
+        })
+    return loops</code></pre>
+
+      <h3>3.1 Por que dois caminhos e não um ciclo direto?</h3>
+
+      <p>
+        Os dois caminhos compartilham um prefixo: tudo desde a raiz até o
+        <em>menor ancestral comum</em> (LCA) de $u$ e $v$. Esse prefixo
+        aparece duas vezes — uma em <code>caminho1</code>, outra em
+        <code>caminho2</code>. Se simplesmente concatenássemos as arestas,
+        cada aresta do prefixo seria contada duas vezes.
+      </p>
+
+      <p>
+        A solução é elegante: combinar as arestas com a operação
+        <strong>XOR</strong>. Uma aresta presente duas vezes
+        ($1 \oplus 1 = 0$) <em>se cancela</em>, e sobram apenas as arestas
+        que pertencem genuinamente ao ciclo. Função correspondente no
+        front-end:
+      </p>
+
+<pre><code class="language-javascript">// js/core.js — extrai as arestas do ciclo via XOR
+export function getLoopEdges(loop) {
+  const edges = new Set();
+  const toggle = (u, v) =&gt; {
+    const k = edgeKey(u, v);
+    if (edges.has(k)) edges.delete(k);   // 1 ⊕ 1 = 0
+    else              edges.add(k);      // 0 ⊕ 1 = 1
+  };
+  const c1 = loop.caminho1, c2 = loop.caminho2;
+  for (let i = 0; i &lt; c1.length - 1; i++) toggle(c1[i], c1[i + 1]);
+  for (let i = 0; i &lt; c2.length - 1; i++) toggle(c2[i], c2[i + 1]);
+  toggle(loop.colisao[0], loop.colisao[1]);
+  return edges;
+}</code></pre>
+
+      <p>
+        A função <code>toggle</code> é literalmente uma operação XOR
+        sobre o conjunto de arestas. O prefixo comum cancela
+        automaticamente — é o primeiro lugar onde GF(2) aparece de
+        forma <em>operacional</em> no projeto.
+      </p>
+
+      <h2>4. De loops a vetores: GF(2) entra em cena</h2>
+
+      <p>
+        Numere as arestas de $1$ a $|E|$. A cada loop $\ell$ associe um
+        vetor $\mathbf{1}_\ell \in \{0,1\}^{|E|}$:
+      </p>
+
+      <p>
+        \[
+          \mathbf{1}_\ell[e] \;=\; \begin{cases}
+            1 & \text{se a aresta $e$ pertence ao loop} \\
+            0 & \text{caso contrário}
+          \end{cases}
+        \]
+      </p>
+
+      <p>
+        A operação natural — “loop A combinado com loop B,
+        cancelando as arestas comuns” — é exatamente a soma
+        coordenada-a-coordenada com $1+1=0$:
+      </p>
+
+      <p>
+        \[
+          (\mathbf{1}_A \oplus \mathbf{1}_B)[e]
+          \;=\; \mathbf{1}_A[e] + \mathbf{1}_B[e] \pmod{2}
+        \]
+      </p>
+
+      <h3>4.1 O corpo $\mathbb{F}_2$</h3>
+
+      <p>
+        $\mathbb{F}_2$ (também escrito $\text{GF}(2)$) é o corpo com dois
+        elementos $\{0, 1\}$ e a aritmética:
+      </p>
+
+      <table>
+        <thead><tr><th>+</th><th>0</th><th>1</th></tr></thead>
+        <tbody>
+          <tr><td><b>0</b></td><td>0</td><td>1</td></tr>
+          <tr><td><b>1</b></td><td>1</td><td>0</td></tr>
+        </tbody>
+      </table>
+
+      <p>
+        É a aritmética do <strong>XOR</strong> dos programadores. Tudo
+        o que segue é álgebra linear comum, mas com escalares neste corpo.
+      </p>
+
+      <h2>5. Tours também são vetores</h2>
+
+      <p>
+        Exatamente a mesma codificação serve para um tour fechado $t$:
+        $\mathbf{1}_t[e] = 1$ se a aresta $e$ é usada por $t$, $0$ caso
+        contrário. Como um tour visita cada vértice exatamente uma vez
+        com dois movimentos (entra e sai), em cada vértice $v$ usa
+        <strong>exatamente 2 arestas incidentes</strong>.
+      </p>
+
+      <p>
+        Essa restrição se escreve em GF(2) usando a matriz de incidência
+        $\partial_1 \in \mathbb{F}_2^{V \times E}$ (linha $v$, coluna $e$,
+        vale $1$ se $v \in e$):
+      </p>
+
+      <p>
+        \[
+          \partial_1 \cdot \mathbf{1}_t \;=\; \mathbf{0} \pmod{2}
+        \]
+      </p>
+
+      <p>
+        Isso diz que cada vértice tem grau <strong>par</strong> em
+        $\mathbf{1}_t$. Como o tour não passa duas vezes por nenhum
+        vértice e cada vértice é visitado, o grau é exatamente $2$.
+        Logo todo tour é um elemento do <strong>espaço de ciclos</strong>:
+      </p>
+
+      <p>
+        \[
+          Z_1(G; \mathbb{F}_2) \;:=\; \ker(\partial_1)
+          \;\subseteq\; \mathbb{F}_2^{|E|}
+        \]
+      </p>
+
+      <h2>6. O número de Betti $\beta_1$</h2>
+
+      <p>
+        A dimensão de $Z_1(G; \mathbb{F}_2)$ é o
+        <strong>primeiro número de Betti</strong> do grafo:
+      </p>
+
+      <p>
+        \[
+          \beta_1(n) \;=\; |E_n| - |V_n| + 1
+        \]
+      </p>
+
+      <p>
+        É exatamente a contagem de “arestas fora da árvore BFS” que a
+        Seção 2 deu. Para o grafo do cavalo $n \times n$:
+      </p>
+
+      <table>
+        <thead>
+          <tr><th>$n$</th><th>$|V|$</th><th>$|E|$</th><th>$\beta_1$</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>6</td>  <td>36</td>  <td>80</td>  <td><b>45</b></td></tr>
+          <tr><td>8</td>  <td>64</td>  <td>168</td> <td><b>105</b></td></tr>
+          <tr><td>10</td> <td>100</td> <td>288</td> <td><b>189</b></td></tr>
+          <tr><td>12</td> <td>144</td> <td>440</td> <td><b>297</b></td></tr>
+          <tr><td>14</td> <td>196</td> <td>624</td> <td><b>429</b></td></tr>
+        </tbody>
+      </table>
+
+      <p>
+        Para o tabuleiro 8×8 mostrado no visualizador,
+        $\beta_1 = 168 - 64 + 1 = 105$ — exatamente o número de loops
+        animados acima.
+      </p>
+
+      <h2>7. Onde os tours vivem dentro de $Z_1$</h2>
+
+      <p>
+        Seja $\text{Ham}(n) \subseteq Z_1(G_n; \mathbb{F}_2)$ o subespaço
+        gerado pelos vetores indicadores de todos os tours hamiltonianos
+        fechados. Como todo tour satisfaz $\partial_1 \cdot \mathbf{1}_t = 0$,
+        temos a inclusão:
+      </p>
+
+      <div class="w-ascii">$\mathbb{F}_2^{|E|}$   ⊃   $Z_1$ = ker($\partial_1$)   ⊃   Span(Ham)
+                ↑                       ↑
+        $\beta_1$ dimensões        $\beta_1 - ?$ dimensões</div>
+
+      <p>
+        A pergunta natural é: <em>quantas dimensões $\beta_1 - \text{rank}(\text{Ham})$
+        “faltam”?</em> Esse número se chama <strong>deficit</strong>:
+      </p>
+
+      <p>
+        \[
+          \text{deficit}(n) \;:=\; \beta_1(n) - \text{rank}_{\mathbb{F}_2}(\text{Ham}(n))
+        \]
+      </p>
+
+      <h3>7.1 Os números do deficit</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>$n$</th><th>$\beta_1$</th>
+            <th>$\text{rank}(\text{Ham})$</th><th>deficit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>6</td>  <td>45</td>  <td>42</td>  <td><b>3</b></td></tr>
+          <tr><td>8</td>  <td>105</td> <td>102</td> <td><b>3</b></td></tr>
+          <tr><td>10</td> <td>189</td> <td>186</td> <td><b>3</b></td></tr>
+          <tr><td>12</td> <td>297</td> <td>294</td> <td><b>3</b></td></tr>
+        </tbody>
+      </table>
+
+      <p>
+        Em todo tabuleiro par testado, o deficit é exatamente
+        <strong>3</strong>. Não 4, não 2, sempre 3. <em>Por quê?</em>
+        Quais são essas 3 dimensões que nenhum tour realiza?
+      </p>
+
+      <p>
+        A resposta é o assunto da próxima página:
+        <a href="03-teorema-q3.html">o Teorema $Q(n) = 3$</a>.
+      </p>
+
+      <footer class="w-nav-footer" id="w-nav-footer"></footer>
+    </main>
+  </div>
+  <script src="nav.js"></script>
+</body>
+</html>
