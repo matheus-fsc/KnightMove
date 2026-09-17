@@ -1,0 +1,66 @@
+{
+  "n_subtours": 413,
+  "tamanho_subciclo": {
+    "n": 413,
+    "min": 4,
+    "max": 96,
+    "mean": 32.35351089588378,
+    "median": 18.0,
+    "p25": 12.0,
+    "p75": 52.0,
+    "p95": 84.0
+  },
+  "profundidade_disparo_n_fixed": {
+    "n": 413,
+    "min": 246,
+    "max": 288,
+    "mean": 282.7869249394673,
+    "median": 288.0,
+    "p25": 281.0,
+    "p75": 288.0,
+    "p95": 288.0
+  },
+  "no_busca_quando_disparou": {
+    "n": 413,
+    "min": 156,
+    "max": 1384,
+    "mean": 760.6634382566587,
+    "median": 762.0,
+    "p25": 457.0,
+    "p75": 1056.0,
+    "p95": 1313.8
+  },
+  "histograma_tamanho": {
+    "0-5": 14,
+    "5-10": 85,
+    "10-20": 115,
+    "20-40": 71,
+    "40-60": 41,
+    "60-80": 31,
+    "80-100": 56
+  },
+  "histograma_profundidade_n_fixed": {
+    "0-50": 0,
+    "50-100": 0,
+    "100-150": 0,
+    "150-200": 0,
+    "200-250": 4,
+    "250-288": 409
+  },
+  "fracao_arvore_evitada": {
+    "frac_evitada_media": 0.018100955071294056,
+    "frac_evitada_min": 0.0,
+    "frac_evitada_max": 0.14583333333333337
+  },
+  "cobertura": {
+    "n_subtour_early": 413,
+    "n_subtour_leaf": 0,
+    "razao_early_leaf": 413.0,
+    "razao_residual_pos_v2": 1.0
+  },
+  "interpretacao": [
+    "Sub-ciclos de tamanho m\u00e9dio (32.4 v\u00e9rtices).",
+    "Profundidade m\u00e9dia 98% \u2014 detec\u00e7\u00e3o acontece tarde mas ainda assim antes da folha (288).",
+    "COBERTURA 100%: zero 2-fatores desconexos chegando \u00e0 folha. Raz\u00e3o residual = 1.0 (vs 17.4 em v1)."
+  ]
+}

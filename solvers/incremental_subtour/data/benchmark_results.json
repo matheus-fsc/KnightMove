@@ -1,0 +1,77 @@
+{
+  "alvo": 200,
+  "timeout": 600.0,
+  "A_z3_puro": {
+    "alvo": 200,
+    "tours": 200,
+    "t_first": 0.5794463080001151,
+    "t_total": 33.10796643100002,
+    "tentativas": 622,
+    "com_mandatory": false
+  },
+  "B_z3_mandatory": {
+    "alvo": 200,
+    "tours": 200,
+    "t_first": 0.22046094400002403,
+    "t_total": 54.41545017499993,
+    "tentativas": 867,
+    "com_mandatory": true
+  },
+  "C_v1": {
+    "tours": 200,
+    "t_first": 0.1246820060000573,
+    "t_total": 7.180805540000165,
+    "nos": 7441,
+    "nos_por_tour": 37.205,
+    "podas": {
+      "R2": 23,
+      "R3": 0,
+      "R6": 0,
+      "outras": 0
+    },
+    "n_2fatores": 3623
+  },
+  "D_v2_copy": {
+    "tours": 200,
+    "t_first": 0.05329045299959034,
+    "t_total": 1.3115956499996173,
+    "nos": 1385,
+    "nos_por_tour": 6.925,
+    "podas": {
+      "R2": 5,
+      "R3": 0,
+      "R6": 0,
+      "SUBTOUR_EARLY": 413,
+      "CONTRADICTION_DET": 0,
+      "outras": 0
+    },
+    "n_2fatores": 200,
+    "n_subtour_leaf": 0,
+    "razao_residual_2fat_tour": 1.0
+  },
+  "E_v2_rollback": {
+    "tours": 200,
+    "t_first": 0.051299564999681024,
+    "t_total": 1.2786467129999437,
+    "nos": 1385,
+    "nos_por_tour": 6.925,
+    "podas": {
+      "R2": 5,
+      "R3": 0,
+      "R6": 0,
+      "SUBTOUR_EARLY": 413,
+      "CONTRADICTION_DET": 0,
+      "outras": 0
+    },
+    "n_2fatores": 200,
+    "n_subtour_leaf": 0,
+    "razao_residual_2fat_tour": 1.0
+  },
+  "speedups_vs_z3_puro": {
+    "B_mandatory": 0.6084295236835292,
+    "C_v1": 4.610620110316936,
+    "D_v2_copy": 25.242510091436856,
+    "E_v2_rollback": 25.892974262861518
+  },
+  "speedups_v1_vs_v2": 5.474862271769703
+}

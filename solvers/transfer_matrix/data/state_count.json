@@ -1,0 +1,31 @@
+[
+  {
+    "n": 4,
+    "K": 342,
+    "K_ext": 342,
+    "nnz_bulk": 2165,
+    "nnz_nocp2": 72,
+    "count_dp": 1,
+    "count_matrix": 1
+  },
+  {
+    "n": 5,
+    "K": 7322,
+    "K_ext": 7322,
+    "nnz_bulk": 153524,
+    "nnz_nocp2": 1117,
+    "count_dp": 0,
+    "count_matrix": 0
+  },
+  {
+    "n": 6,
+    "K": 33346,
+    "K_ext": 33346,
+    "nnz_bulk": 1966428,
+    "nnz_nocp2": 5574,
+    "count_dp": null,
+    "count_matrix": 36236,
+    "time_build_s": 10.325658082962036,
+    "time_nocp2_s": 0.10099172592163086
+  }
+]

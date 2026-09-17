@@ -1,0 +1,99 @@
+{
+  "tempo_s": 0.06326347799995347,
+  "alvo_tours": 5,
+  "n_tours": 5,
+  "n_2fatores": 5,
+  "n_subtour_leaf": 0,
+  "n_folhas": 5,
+  "n_nos": 186,
+  "nos_por_tour": 37.2,
+  "nos_por_2fator": 37.2,
+  "razao_residual_2fat_tour": 1.0,
+  "podas": {
+    "R2": 0,
+    "R3": 0,
+    "R6": 0,
+    "SUBTOUR_EARLY": 10,
+    "CONTRADICTION_DET": 0,
+    "outras": 0
+  },
+  "log_progresso": [
+    [
+      0.05235828800005038,
+      175,
+      1,
+      1
+    ],
+    [
+      0.06278476699981184,
+      186,
+      5,
+      5
+    ]
+  ],
+  "n_subtours_logados": 10,
+  "subtour_log_amostra": [
+    {
+      "no": 156,
+      "depth": 272,
+      "edge_idx": 283,
+      "subcycle_size": 16
+    },
+    {
+      "no": 157,
+      "depth": 272,
+      "edge_idx": 116,
+      "subcycle_size": 6
+    },
+    {
+      "no": 158,
+      "depth": 288,
+      "edge_idx": 116,
+      "subcycle_size": 6
+    },
+    {
+      "no": 159,
+      "depth": 279,
+      "edge_idx": 116,
+      "subcycle_size": 6
+    },
+    {
+      "no": 160,
+      "depth": 265,
+      "edge_idx": 150,
+      "subcycle_size": 12
+    },
+    {
+      "no": 161,
+      "depth": 284,
+      "edge_idx": 116,
+      "subcycle_size": 6
+    },
+    {
+      "no": 162,
+      "depth": 270,
+      "edge_idx": 116,
+      "subcycle_size": 6
+    },
+    {
+      "no": 169,
+      "depth": 277,
+      "edge_idx": 283,
+      "subcycle_size": 16
+    },
+    {
+      "no": 174,
+      "depth": 288,
+      "edge_idx": 264,
+      "subcycle_size": 60
+    },
+    {
+      "no": 183,
+      "depth": 288,
+      "edge_idx": 264,
+      "subcycle_size": 60
+    }
+  ],
+  "parou_por_alvo": true,
+  "parou_por_timeout": false
+}

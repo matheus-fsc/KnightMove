@@ -1,0 +1,112 @@
+[
+  {
+    "n": 6,
+    "V": 36,
+    "E": 80,
+    "beta1": 45,
+    "n_mand": 8,
+    "n_free_inicial": 72,
+    "alvo": 100,
+    "tempo_s": 0.10767619299986109,
+    "n_nos": 392,
+    "n_tours": 100,
+    "n_2fatores": 100,
+    "n_folhas": 100,
+    "nos_por_tour": 3.92,
+    "razao_2fat_tour": 1.0,
+    "podas": {
+      "R2": 5,
+      "SUBTOUR_EARLY": 88,
+      "CONTRADICTION_DET": 0
+    },
+    "parou_por_timeout": false
+  },
+  {
+    "n": 8,
+    "V": 64,
+    "E": 168,
+    "beta1": 105,
+    "n_mand": 8,
+    "n_free_inicial": 160,
+    "alvo": 100,
+    "tempo_s": 0.2902649150000798,
+    "n_nos": 533,
+    "n_tours": 100,
+    "n_2fatores": 100,
+    "n_folhas": 100,
+    "nos_por_tour": 5.33,
+    "razao_2fat_tour": 1.0,
+    "podas": {
+      "R2": 15,
+      "SUBTOUR_EARLY": 144,
+      "CONTRADICTION_DET": 0
+    },
+    "parou_por_timeout": false
+  },
+  {
+    "n": 10,
+    "V": 100,
+    "E": 288,
+    "beta1": 189,
+    "n_mand": 8,
+    "n_free_inicial": 280,
+    "alvo": 100,
+    "tempo_s": 0.3266978960000415,
+    "n_nos": 420,
+    "n_tours": 100,
+    "n_2fatores": 100,
+    "n_folhas": 100,
+    "nos_por_tour": 4.2,
+    "razao_2fat_tour": 1.0,
+    "podas": {
+      "R2": 0,
+      "SUBTOUR_EARLY": 92,
+      "CONTRADICTION_DET": 0
+    },
+    "parou_por_timeout": false
+  },
+  {
+    "n": 12,
+    "V": 144,
+    "E": 440,
+    "beta1": 297,
+    "n_mand": 8,
+    "n_free_inicial": 432,
+    "alvo": 100,
+    "tempo_s": 0.57239559700065,
+    "n_nos": 497,
+    "n_tours": 100,
+    "n_2fatores": 100,
+    "n_folhas": 100,
+    "nos_por_tour": 4.97,
+    "razao_2fat_tour": 1.0,
+    "podas": {
+      "R2": 6,
+      "SUBTOUR_EARLY": 113,
+      "CONTRADICTION_DET": 0
+    },
+    "parou_por_timeout": false
+  },
+  {
+    "n": 14,
+    "V": 196,
+    "E": 624,
+    "beta1": 429,
+    "n_mand": 8,
+    "n_free_inicial": 616,
+    "alvo": 100,
+    "tempo_s": 0.832631470000706,
+    "n_nos": 556,
+    "n_tours": 100,
+    "n_2fatores": 100,
+    "n_folhas": 100,
+    "nos_por_tour": 5.56,
+    "razao_2fat_tour": 1.0,
+    "podas": {
+      "R2": 10,
+      "SUBTOUR_EARLY": 119,
+      "CONTRADICTION_DET": 0
+    },
+    "parou_por_timeout": false
+  }
+]

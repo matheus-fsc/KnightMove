@@ -1,0 +1,1085 @@
+{
+  "n": 6,
+  "lambda_1": [
+    70.47661391819253,
+    0.0
+  ],
+  "edges": [
+    {
+      "src": [
+        0,
+        0
+      ],
+      "dst": [
+        2,
+        1
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281868896,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        0,
+        0
+      ],
+      "dst": [
+        1,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271813514,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        0
+      ],
+      "dst": [
+        3,
+        1
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.21256755689248694,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        0
+      ],
+      "dst": [
+        0,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271812937,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        0
+      ],
+      "dst": [
+        2,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.20849261592617985,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        0
+      ],
+      "dst": [
+        0,
+        1
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186971,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        0
+      ],
+      "dst": [
+        4,
+        1
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.2125675568924998,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        0
+      ],
+      "dst": [
+        1,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.20849261592617177,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        0
+      ],
+      "dst": [
+        3,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.1578796543626326,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        0
+      ],
+      "dst": [
+        1,
+        1
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.2125675568924974,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        0
+      ],
+      "dst": [
+        5,
+        1
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186862,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        0
+      ],
+      "dst": [
+        2,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.1578796543626327,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        0
+      ],
+      "dst": [
+        4,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.20849261592617097,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        0
+      ],
+      "dst": [
+        2,
+        1
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.2125675568924849,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        0
+      ],
+      "dst": [
+        3,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.20849261592617715,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        0
+      ],
+      "dst": [
+        5,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271812929,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        5,
+        0
+      ],
+      "dst": [
+        3,
+        1
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281869135,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        5,
+        0
+      ],
+      "dst": [
+        4,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271813445,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        0,
+        1
+      ],
+      "dst": [
+        2,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281868896,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        0,
+        1
+      ],
+      "dst": [
+        1,
+        3
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271813514,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        1
+      ],
+      "dst": [
+        3,
+        2
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.21256755689248694,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        1
+      ],
+      "dst": [
+        0,
+        3
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271812937,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        1
+      ],
+      "dst": [
+        2,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.20849261592617985,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        1
+      ],
+      "dst": [
+        0,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186971,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        1
+      ],
+      "dst": [
+        4,
+        2
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924998,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        1
+      ],
+      "dst": [
+        1,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.20849261592617177,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        1
+      ],
+      "dst": [
+        3,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.1578796543626326,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        1
+      ],
+      "dst": [
+        1,
+        2
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924974,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        1
+      ],
+      "dst": [
+        5,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186862,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        1
+      ],
+      "dst": [
+        2,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.1578796543626327,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        1
+      ],
+      "dst": [
+        4,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.20849261592617097,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        1
+      ],
+      "dst": [
+        2,
+        2
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924849,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        1
+      ],
+      "dst": [
+        3,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.20849261592617715,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        1
+      ],
+      "dst": [
+        5,
+        3
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271812929,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        5,
+        1
+      ],
+      "dst": [
+        3,
+        2
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281869135,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        5,
+        1
+      ],
+      "dst": [
+        4,
+        3
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271813445,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        0,
+        2
+      ],
+      "dst": [
+        2,
+        3
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281868896,
+      "bulk_column": true
+    },
+    {
+      "src": [
+        0,
+        2
+      ],
+      "dst": [
+        1,
+        4
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271813514,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        2
+      ],
+      "dst": [
+        3,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.21256755689248694,
+      "bulk_column": true
+    },
+    {
+      "src": [
+        1,
+        2
+      ],
+      "dst": [
+        0,
+        4
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271812937,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        2
+      ],
+      "dst": [
+        2,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.20849261592617985,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        2
+      ],
+      "dst": [
+        0,
+        3
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186971,
+      "bulk_column": true
+    },
+    {
+      "src": [
+        2,
+        2
+      ],
+      "dst": [
+        4,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924998,
+      "bulk_column": true
+    },
+    {
+      "src": [
+        2,
+        2
+      ],
+      "dst": [
+        1,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.20849261592617177,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        2
+      ],
+      "dst": [
+        3,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.1578796543626326,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        2
+      ],
+      "dst": [
+        1,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924974,
+      "bulk_column": true
+    },
+    {
+      "src": [
+        3,
+        2
+      ],
+      "dst": [
+        5,
+        3
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186862,
+      "bulk_column": true
+    },
+    {
+      "src": [
+        3,
+        2
+      ],
+      "dst": [
+        2,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.1578796543626327,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        2
+      ],
+      "dst": [
+        4,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.20849261592617097,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        2
+      ],
+      "dst": [
+        2,
+        3
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924849,
+      "bulk_column": true
+    },
+    {
+      "src": [
+        4,
+        2
+      ],
+      "dst": [
+        3,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.20849261592617715,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        2
+      ],
+      "dst": [
+        5,
+        4
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271812929,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        5,
+        2
+      ],
+      "dst": [
+        3,
+        3
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281869135,
+      "bulk_column": true
+    },
+    {
+      "src": [
+        5,
+        2
+      ],
+      "dst": [
+        4,
+        4
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271813445,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        0,
+        3
+      ],
+      "dst": [
+        2,
+        4
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281868896,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        0,
+        3
+      ],
+      "dst": [
+        1,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271813514,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        3
+      ],
+      "dst": [
+        3,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.21256755689248694,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        3
+      ],
+      "dst": [
+        0,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271812937,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        3
+      ],
+      "dst": [
+        2,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.20849261592617985,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        3
+      ],
+      "dst": [
+        0,
+        4
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186971,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        3
+      ],
+      "dst": [
+        4,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924998,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        3
+      ],
+      "dst": [
+        1,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.20849261592617177,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        3
+      ],
+      "dst": [
+        3,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.1578796543626326,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        3
+      ],
+      "dst": [
+        1,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924974,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        3
+      ],
+      "dst": [
+        5,
+        4
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186862,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        3
+      ],
+      "dst": [
+        2,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.1578796543626327,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        3
+      ],
+      "dst": [
+        4,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.20849261592617097,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        3
+      ],
+      "dst": [
+        2,
+        4
+      ],
+      "level_L": 1,
+      "marginal_eigenvector": 0.2125675568924849,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        3
+      ],
+      "dst": [
+        3,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.20849261592617715,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        3
+      ],
+      "dst": [
+        5,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271812929,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        5,
+        3
+      ],
+      "dst": [
+        3,
+        4
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281869135,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        5,
+        3
+      ],
+      "dst": [
+        4,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.5789398271813445,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        0,
+        4
+      ],
+      "dst": [
+        2,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281868896,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        1,
+        4
+      ],
+      "dst": [
+        3,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.21256755689248694,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        4
+      ],
+      "dst": [
+        0,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186971,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        2,
+        4
+      ],
+      "dst": [
+        4,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.2125675568924998,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        4
+      ],
+      "dst": [
+        1,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.2125675568924974,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        3,
+        4
+      ],
+      "dst": [
+        5,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.4210601728186862,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        4,
+        4
+      ],
+      "dst": [
+        2,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.2125675568924849,
+      "bulk_column": false
+    },
+    {
+      "src": [
+        5,
+        4
+      ],
+      "dst": [
+        3,
+        5
+      ],
+      "level_L": 0,
+      "marginal_eigenvector": 0.42106017281869135,
+      "bulk_column": false
+    }
+  ],
+  "by_level_all": [
+    {
+      "L": 0,
+      "n_edges": 56,
+      "eig_mean": 0.3872185837727646,
+      "eig_std": 0.1535863313605997,
+      "finf_empirical": 0.5844821428571428,
+      "rel_err": 0.3375014301037299
+    },
+    {
+      "L": 1,
+      "n_edges": 24,
+      "eig_mean": 0.20209459281540987,
+      "eig_std": 0.019857320696719635,
+      "finf_empirical": 0.13620833333333335,
+      "rel_err": 0.483716802560366
+    }
+  ],
+  "by_level_bulk": [
+    {
+      "L": 0,
+      "n_edges": 4,
+      "eig_mean": 0.4210601728186909,
+      "eig_std": 4.027715619003229e-15,
+      "finf_empirical": 0.5844821428571428,
+      "rel_err": 0.27960130525047533
+    },
+    {
+      "L": 1,
+      "n_edges": 4,
+      "eig_mean": 0.21256755689249224,
+      "eig_std": 6.431228009227861e-15,
+      "finf_empirical": 0.13620833333333335,
+      "rel_err": 0.5606061075007076
+    }
+  ]
+}

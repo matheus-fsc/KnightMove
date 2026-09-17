@@ -1,0 +1,27 @@
+{
+  "degeneracies": [],
+  "conjugate_pairs": 24,
+  "parity_diag_commutator_norm": 8.0,
+  "parity_diag_commutes": false,
+  "Rv_commutes": true,
+  "Rv_commutator_norm": 0.0,
+  "Rv_fixed_states": 468,
+  "Rv_block_sym": 16907,
+  "Rv_block_anti": 16439,
+  "Rv_reduction_factor": 1.9723191577453125,
+  "perron_Rv_invariant": true,
+  "perron_Rv_error": 1.3954662473539657e-15,
+  "D4_sweep_preserving": [
+    "identity",
+    "R_v (row reflection)"
+  ],
+  "fidelity": {
+    "lam1": 70.47661391819253,
+    "lam2": -39.08672941745455,
+    "gap": 31.389884500737978,
+    "ratio": 0.5546056662544179,
+    "two_factors": 36236
+  },
+  "K": 33346,
+  "nnz": 1966428
+}
